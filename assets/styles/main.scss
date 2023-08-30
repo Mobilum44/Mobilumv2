@@ -1,0 +1,217 @@
+*::-webkit-scrollbar {
+	width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #fefcf3;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #1A949D;
+	border-radius: 10px;
+	border: 3px solid #fefcf3;
+}
+
+
+body {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	font-weight: 50;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	background-color: #fefcf3;
+}
+
+ul,
+li {
+	list-style-type: none;
+}
+
+.contenu {
+	padding: 0;
+	margin: 0;
+}
+
+.layout {
+	padding-top: 7.8rem;
+}
+
+.slot_image {
+	width: 100%;
+	/*height : 80vh;*/
+	height: 80vh;
+	background-color: #1A949D;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+a:visited {
+	color: #1A949D;
+	font-weight: bold;
+}
+
+.VueCarousel-dot {
+	margin-top: 0 !important;
+}
+
+b {
+	color: red;
+}
+
+h1 {
+	width: 60%;
+	/*padding : 2rem 2rem 0.5rem 1rem;*/
+	color: white;
+	font-family: "Montserrat";
+	font-weight: 300;
+	font-size: 3rem;
+	text-align: center;
+	letter-spacing: -0.25px;
+	text-transform: uppercase;
+	/*border: white double 4px;*/
+}
+
+.slot_image h1 {
+	font-weight: 500;
+	text-shadow: BLACK 1px 0 10px;
+}
+
+h2,
+h3 {
+	text-align: left;
+	font-family: "Bebas Neue";
+	font-weight: 100;
+	font-size: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 0rem;
+}
+
+p {
+	color: black;
+}
+
+strong {
+	font-family: "Montserrat";
+	font-weight: 400;
+	font-size: 1.5rem;
+}
+
+em {
+	color: #1a949d;
+}
+
+sup {
+	color: #1A949D;
+}
+
+.shadow {
+	box-shadow: rgba(50, 50, 93, 0.8) 0px 2px 5px -1px, rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
+
+	/*box-shadow:rgb(0,0,0) 5px 5px 0px -3px*/
+}
+
+::selection {
+	color: #fefcf3;
+	background: #1a949d;
+}
+
+.chapeau {
+	color: black;
+	font-family: "Montserrat";
+	font-weight: 600;
+	line-height: 2rem;
+	margin-left: 3rem;
+	margin-bottom: 2rem;
+}
+
+/* Pour les textes de référencement */
+.referencement {
+	margin-left: 3rem;
+	width: 80%;
+	color: #1A949D;
+	font-style: italic;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------
+
+            Styles de sous-sections
+
+--------------------------------------------------------------------------------------------*/
+.sub__section {
+	width: 80%;
+	margin-bottom: 3rem;
+}
+
+.wide {
+	width: 100%;
+}
+
+.dark {
+	color: black;
+	background-color: #f5ebe0;
+}
+
+.dark p {
+	color: black;
+}
+
+.sub__section h1 {
+	padding-top: 0rem;
+	margin: 0;
+	color: black;
+	border: none;
+	border-bottom: black solid 1px;
+	width: 100%;
+}
+
+.sub__section h2 {
+	text-align: left;
+	padding-bottom: 1rem;
+	padding-left: 4rem;
+	margin: 1rem;
+	margin-top: 2rem;
+	border-bottom: solid 1px;
+}
+
+.sub__section__content {
+	display: flex;
+	flex-direction: row;
+}
+
+/* ------------------------------------------------------------------------------------------
+
+            RESPONSIVE TELEPHONES
+
+--------------------------------------------------------------------------------------------*/
+
+
+@media only screen and (max-width: 950px) {
+	h1 {
+		font-size: 1.5rem;
+		padding: 2rem 2rem 1rem 2rem;
+
+	}
+
+	.contenu {
+		margin-top: 3rem;
+		padding: 0.5rem;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+}
+
+.chapeau,
+.referencement {
+	margin-left: 1rem;
+}
+
+.sub__section h1 {
+	margin-top: 2.5rem;
+}
