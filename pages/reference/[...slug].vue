@@ -56,7 +56,7 @@
 	</Layout>
 </template>
 
-<page-query>
+<!-- <page-query>
 query Reference ($id: ID!) {
 	reference: reference (id: $id) {
 		title
@@ -69,7 +69,7 @@ query Reference ($id: ID!) {
 		description
 	}
 }
-</page-query>
+</page-query> -->
 
 <style scoped>
 /*.floating_title {

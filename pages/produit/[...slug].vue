@@ -18,6 +18,12 @@
 					<Caroussel :img="doc.caroussel" />
 				</div>
 			</section>
+			
+			<!-- Contenu conditionnel : https://vuejs.org/guide/essentials/conditional.html -->
+			<!-- <div v-if="doc.dureeDuProjet">
+				<h1>Durée du projet</h1>
+				<p>{{ doc.dureeDuProjet }}</p>
+			</div> -->
 
 			<section class="sub__section">
 				<h2>Caractéristiques</h2>

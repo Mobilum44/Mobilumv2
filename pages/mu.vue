@@ -41,14 +41,16 @@ query Collection ($id: ID!) {
 
 <script setup lang="ts">
 const { data: urbanFurnitures } = await useAsyncData("produit", () =>
-	queryContent("/produit").where({ collection: "Mobilier urbain" }).sort({ title: 1 }).find(),
+	// Requête pour récupérer les produits de la collection "Mobilier urbain"
+	// https://content.nuxtjs.org/api/composables/query-content
+	queryContent("/produit").where({ collection: "Mobilier urbain" }).sort({ sub_category: 1 }).find(),
 );
 </script>
 
 <style scoped>
 /*---------------------------------------------------------
     Paramètres de la galerie - généralités
-  ---------------------------------------------------------*/
+---------------------------------------------------------*/
 .collection_order {
 	display: flex;
 	flex-direction: row;
