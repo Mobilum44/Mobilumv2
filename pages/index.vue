@@ -1,7 +1,7 @@
 <template>
 	<NuxtLayout name="empty" class="Empty">
 		<div class="logo_bouton">
-			<NuxtImg alt="Logo mobilum" src="@/assets/img/logos/logo_transparent.png" />
+			<NuxtImg alt="Logo mobilum" src="\photospages\logos/logo_transparent.png" />
 			<Button theme="slide" to="/accueil"> Entrer </Button>
 		</div>
 	</NuxtLayout>

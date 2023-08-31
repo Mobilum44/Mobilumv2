@@ -1,7 +1,7 @@
 <template>
 	<div class="LogoFloat">
 		<NuxtLink to="/#/">
-			<NuxtImg class="logo_header" alt="Logo mobilum" src="@/assets/img/logos/Blue_logo.png" />
+			<NuxtImg class="logo_header" alt="Logo mobilum" src="\logos\Blue_logo.png" />
 		</NuxtLink>
 	</div>
 </template>

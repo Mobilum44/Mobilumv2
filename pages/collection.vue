@@ -26,21 +26,21 @@
 				<NuxtImg
 					class="items__img"
 					alt="Sablage pour signalétique MOBILUM"
-					src="@/assets/img/gaetan-sablage.jpg"
+					src="\photospages\gaetan-sablage.jpg"
 					v-if="i === 0"
 					center
 				/>
 				<NuxtImg
 					class="items__img"
 					alt="SNCF Gare Auxerre"
-					src="@/assets/img/hook-cover-image.JPG"
+					src="\photospages\hook-cover-image.JPG"
 					v-else-if="i === 1"
 					center
 				/>
 				<NuxtImg
 					class="items__img"
 					alt="banc Mobilum sur le tram d'Angers"
-					src="@/assets/img/angers_tram.jpg"
+					src="\photospages\angers_tram.jpg"
 					v-else
 					center
 				/>
@@ -49,21 +49,33 @@
 				</p>
 			</NuxtLink> -->
 
-			<NuxtLink class="items_styling shadow" to="/exceptionnels">
-				<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="@/assets/img/SNCF_auxerre.png" center />
-				<p>Dossiers d'exception</p>
-			</NuxtLink>
 		</div>
 
 		<div class="sub__section">
 			<div class="collection">
-				<NuxtLink to="/MU"> Mobilier urbain </NuxtLink>
 
-				<NuxtLink to="/exceptionnels"> Les sur-mesures </NuxtLink>
+				<NuxtLink class="items_styling shadow" to="/mu">
+					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="\photospages\SNCF_auxerre.png" center />
+					<p>Mobilier urbain</p>
+				</NuxtLink>
 
-				<NuxtLink to="/signaletique"> Signalétique </NuxtLink>
 
-				<NuxtLink to="/Hook"> HOOK </NuxtLink>
+				<NuxtLink class="items_styling shadow" to="/exceptionnels">
+					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="\photospages\SNCF_auxerre.png" center />
+					<p>Dossiers d'exception</p>
+				</NuxtLink>
+
+				<NuxtLink class="items_styling shadow" to="/signaletique">
+					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="\photospages\SNCF_auxerre.png" center />
+					<p>Signalétique</p>
+				</NuxtLink>
+
+				<NuxtLink class="items_styling shadow" to="/hook">
+					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="\photospages\SNCF_auxerre.png" center />
+					<p>HOOK</p>
+				</NuxtLink>
+
+
 			</div>
 
 			<div class="collection__descriptions">

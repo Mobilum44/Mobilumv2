@@ -51,21 +51,21 @@
 						<div class="real__model">
 							<NuxtImg
 								alt="Table cantine réelle"
-								src="@/assets/img/table-cantine-02-croquis.png"
+								src="\photospages\table-cantine-02-croquis.png"
 								center
 								width="200px"
 								fit="cover"
 							/>
 							<NuxtImg
 								alt="Table cantine réelle"
-								src="@/assets/img/table-cantine-01-croquis.png"
+								src="\photospages\table-cantine-01-croquis.png"
 								center
 								width="200px"
 								fit="cover"
 							/>
 							<NuxtImg
 								alt="Logo Janus de la cité 2016"
-								src="@/assets/img/janus-de-la-cite-logo.png"
+								src="\photospages\janus-de-la-cite-logo.png"
 								center
 								width="70px"
 								fit="cover"
@@ -183,7 +183,7 @@ Nos activités
     General
 -----------------------------------------------------------------------*/
 .slot_image {
-	background: url("../assets/img/fond-entreprise-eglise-resized.jpg") center center no-repeat;
+	background: url("\photospages\fond-entreprise-eglise-resized.jpg") center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
