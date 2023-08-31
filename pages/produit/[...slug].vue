@@ -56,7 +56,7 @@
 								<NuxtImg
 									class="color_square"
 									alt="couleur du BFUP Mobilum"
-									src="../assets/img/couleur-bfup-gris-fonce.jpg"
+									src="\photospages\couleur-bfup-gris-fonce.jpg"
 									center
 									width="200vw"
 									fit="cover"
@@ -67,7 +67,7 @@
 								<NuxtImg
 									class="color_square"
 									alt="couleur du BFUP Mobilum"
-									src="../assets/img/couleur-bfup-blanc.jpg"
+									src="\photospages\couleur-bfup-blanc.jpg"
 									center
 									width="200vw"
 									fit="cover"
@@ -84,7 +84,7 @@
 								<NuxtImg
 									class="color_square"
 									alt="couleur du BFUP Mobilum"
-									src="../assets/img/couleur-bfup-taupe.jpg"
+									src="\photospages\couleur-bfup-taupe.jpg"
 									center
 									width="200vw"
 									fit="cover"
@@ -95,7 +95,7 @@
 								<NuxtImg
 									class="color_square"
 									alt="couleur du BFUP Mobilum"
-									src="../assets/img/couleur-bfup-rose.jpg"
+									src="\photospages\couleur-bfup-rose.jpg"
 									center
 									width="200vw"
 									fit="cover"
@@ -106,7 +106,7 @@
 								<NuxtImg
 									class="color_square"
 									alt="couleur du BFUP Mobilum"
-									src="../assets/img/couleur-bfup-bleu.jpg"
+									src="\photospages\couleur-bfup-bleu.jpg"
 									center
 									width="200vw"
 									fit="cover"

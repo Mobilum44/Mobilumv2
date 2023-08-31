@@ -54,7 +54,7 @@
 
 <style scoped>
 .slot_image {
-	background: url("../assets/img/sav-crous.jpg") center center no-repeat;
+	background: url("\photospages\sav-crous.jpg") center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }

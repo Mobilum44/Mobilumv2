@@ -14,7 +14,7 @@ caroussel:
 
 
 localisation : "Campus Malesherbes, Sorbonne Université"
-moe : "nom/société"
+moe : "La Sorbonne / Folius"
 moa : "nom/société"
 fabricant : "Mobilum"
 date_realisation : "?"
@@ -22,5 +22,4 @@ date_realisation : "?"
 ---
 
 ## Description
-
-Coucou
+ "Amphithéatre extérieur afin d'acquérir du savoir en plein air "

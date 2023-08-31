@@ -13,7 +13,7 @@ caroussel:
 
 
 localisation : "Parc de la Sèvre, Vertou"
-moe : "nom/société"
+moe : "Ville de Vertou / Phytolab / Tugec"
 moa : "nom/société"
 fabricant : "Mobilum"
 date_realisation : "?"
@@ -21,5 +21,5 @@ date_realisation : "?"
 ---
 
 ## Description
-
-Coucou
+ "Le buffet d'Astérix et Obelix a de la concurrence sur Vertou "
+---

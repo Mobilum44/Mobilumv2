@@ -60,7 +60,7 @@
 
 <style scoped>
 .slot_image {
-	background: url("../assets/img/fond_entreprise.jpg") center center no-repeat;
+	background: url("\photospages\fond_entreprise.jpg") center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }

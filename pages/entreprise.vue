@@ -22,7 +22,7 @@
 					<!--
 		<NuxtImg
 		alt="Table cantine réelle"
-		src="../../src/assets/img/croquis-sovann-kim-pour-mobilum.png"
+		src="/croquis-sovann-kim-pour-mobilum.png"
 		center
 		width="600"
 		fit="cover"
@@ -107,7 +107,7 @@ Notre savoir-faire
 						<!--
 				<NuxtImg
 				alt="mains mobilum"
-				src="../../src/assets/img/savoir-faire.jpg"
+				src="/savoir-faire.jpg"
 				center
 				width="1000px"
 				fit="cover"
@@ -127,7 +127,7 @@ Notre savoir-faire
 					<!--
 			<NuxtImg
 			alt="Angers tram"
-			src="../assets/img/angers_tram.jpg"
+			src="\photospages\angers_tram.jpg"
 			center
 			width="1000px"
 			fit="cover"
@@ -283,25 +283,25 @@ article {
             Gestion des images
 --------------------------------------------------------------------------------------------*/
 .illustration {
-	width: 170vw;
+	width: 50%;
 	object-fit: contain;
 	background-position-y: center;
 }
 
 .croquis {
 	background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #fefcf3),
-		url("../../src/assets/img/croquis-sovann-kim-pour-mobilum.png");
+		url("/croquis-sovann-kim-pour-mobilum.png");
 	/* border-radius: 5px;
    border : solid black 1px; */
 }
 .savoir-faire {
 	background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #f5ebe0),
-		url("../../src/assets/img/savoir-faire.jpg");
+		url("/savoir-faire.jpg");
 	background-size: cover;
 }
 .RSE {
 	background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #fefcf3),
-		url("../assets/img/mobilum-valeurs-rse-avenirv2.png");
+		url("\photospages\mobilum-valeurs-rse-avenirv2.png");
 	background-size: cover;
 }
 
@@ -351,7 +351,7 @@ article {
 	}
 	.illustration img {
 		object-fit: cover;
-		width: 95vw;
+		width: 50%;
 		height: 50vh;
 		background-position-y: bottom;
 	}
@@ -365,29 +365,29 @@ article {
 	}
 
 	.croquis {
-		width: 95vw;
+		width: 50%;
 		height: 50vh;
 		background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)),
-			url("../../src/assets/img/croquis-sovann-kim-pour-mobilum.png");
+			url("/croquis-sovann-kim-pour-mobilum.png");
 		background-size: cover;
 		box-shadow: rgba(50, 50, 93, 0.8) 0px 2px 5px -1px, rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
 	}
 
 	.savoir-faire {
-		width: 95vw;
+		width: 50%;
 		height: 50vh;
 		background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)),
-			url("../../src/assets/img/savoir-faire.jpg");
+			url("/savoir-faire.jpg");
 		background-size: cover;
 		box-shadow: rgba(50, 50, 93, 0.8) 0px 2px 5px -1px, rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
 	}
 
 	.RSE {
-		width: 95vw;
+		width: 50%;
 		height: 50vh;
 		padding-bottom: 2rem;
 		background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)),
-			url("../assets/img/angers_tram.jpg");
+			url("\photospages\angers_tram.jpg");
 		background-size: cover;
 		box-shadow: rgba(50, 50, 93, 0.8) 0px 2px 5px -1px, rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
 	}

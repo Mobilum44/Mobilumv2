@@ -1,6 +1,7 @@
 ---
 type : Les grands comptes
 title: SNCF
+sub_title : Mobilier en gare
 published: TRUE
 
 gamme: YOON 
@@ -15,13 +16,12 @@ caroussel:
 - "../../images/references/caroussel/gare-lyon-part-dieu.JPG"
 
 localisation : "Toutes les gares de France"
-moe : "SNCF"
-moa : "Synthèse"
-fabricant : "Mobilum"
-date_realisation : "Depuis 2019"
+moe : "SNCF / AREP"
+moa : 
+fabricant : "Synthèse / Mobilum"
+date_realisation : "Démarrage du projet : Depuis 2019"
 
 ---
 
 ## Description
-
-Coucou
+ "Juste un diapo photo ici (au moins 6) "

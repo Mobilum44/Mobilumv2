@@ -1,6 +1,7 @@
 ---
-type : Les conceptuels
-title: Carnon
+type : Les remarquables
+title: Tramway d'Angers
+sub_title : Tramway d'Angers, bancs en stations
 published: TRUE
 
 gamme: "?" 
@@ -12,13 +13,13 @@ caroussel:
 - "../../images/references/caroussel/page-entree.jpg"
 - "../../images/references/caroussel/page-entree.jpg"
 
-localisation : "Port de Plaisance, Carnon"
-moe : "VIlle de Carnon / Gauthier-Conquet / Egis"
+localisation : "Ligne 2 Angers"
+moe : "Angers métropole"
 moa : "nom/société"
-fabricant : "Mobilum / Colas"
+fabricant : "Mobilum / Ingénia"
 date_realisation : "?"
 
 ---
 
 ## Description
- "Une place assise pour toute la famille"
+ " "

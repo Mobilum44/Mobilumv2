@@ -1,6 +1,7 @@
 ---
-type : Les conceptuels
-title: Roquefere
+type : Recompenses
+
+title: Biennale du design de St Etienne
 published: TRUE
 
 gamme: "?" 
@@ -13,8 +14,8 @@ caroussel:
 - "../../images/references/caroussel/banc-feuille-roquefert-mobilum.png"
 
 
-localisation : "Chemin Roquefere"
-moe : "Ville de Roquefere / Avril en Mai"
+localisation : ""
+moe : ""
 moa : "nom/société"
 fabricant : "Mobilum"
 date_realisation : "?"
@@ -23,3 +24,4 @@ date_realisation : "?"
 
 ## Description
  "Utiliser les végétaux du lieu d'origine en les intégrant dans nos mobilier ... Trop beau !"
+---

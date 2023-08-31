@@ -1,6 +1,7 @@
 ---
 type : Les conceptuels
-title: Villa Gallo-romaine
+title: Campus de Saclay
+sub_title : Villa Gallo-Romaine
 published: TRUE
 
 gamme: "?" 
@@ -13,14 +14,13 @@ caroussel:
 - "../../images/references/caroussel/villa-gallo-romaine.jpg"
 - "../../images/references/caroussel/villa-gallo-romaine-nuit.jpg"
 
-localisation : "Campus Malesherbes, Sorbonne Université"
-moe : "nom/société"
+localisation : "Plateau de Saclay"
+moe : "Saclay Université / Alexandre Moronnoz"
 moa : "nom/société"
-fabricant : "Mobilum"
+fabricant : "Tolerie Foreizienne / Mobilum"
 date_realisation : "?"
 
 ---
 
 ## Description
-
-Coucou
+ "De l'intelligence embarquée pour nos étudiants cablés "

@@ -1,6 +1,7 @@
 ---
-type : Les conceptuels
-title: Roquefere
+type : Recompenses
+title: St Cyr sur Loire
+sub_title : Parc
 published: TRUE
 
 gamme: "?" 
@@ -13,13 +14,13 @@ caroussel:
 - "../../images/references/caroussel/banc-feuille-roquefert-mobilum.png"
 
 
-localisation : "Chemin Roquefere"
-moe : "Ville de Roquefere / Avril en Mai"
-moa : "nom/société"
+localisation : ""
+moe : ""
+moa : ""
 fabricant : "Mobilum"
 date_realisation : "?"
 
 ---
 
 ## Description
- "Utiliser les végétaux du lieu d'origine en les intégrant dans nos mobilier ... Trop beau !"
+ "Intégrer nom de la récompense"

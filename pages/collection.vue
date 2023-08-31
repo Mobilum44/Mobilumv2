@@ -103,7 +103,7 @@ query Collections {allCollection{edges{node{title, path}}}}
 
 <style scoped>
 .slot_image {
-	background: url("../assets/img/fond-plage-collection.jpg") center center no-repeat;
+	background: url("\photospages\fond-plage-collection.jpg	") center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }

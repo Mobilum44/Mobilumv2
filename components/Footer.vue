@@ -36,28 +36,28 @@
 					<NuxtLink to="/contact">
 						<li class="icon mail">
 							<span class="tooltip">Mail</span>
-							<NuxtImg src="../../src/assets/img/logos/mail.png" width="40" />
+							<NuxtImg src="/logos/mail.png" width="40" />
 						</li>
 					</NuxtLink>
 
 					<NuxtLink to="https://www.facebook.com/people/MOBILUM/100063454155980/">
 						<li class="icon facebook">
 							<span class="tooltip">Facebook</span>
-							<NuxtImg src="../../src/assets/img/logos/facebook.png" width="40" />
+							<NuxtImg src="/logos/facebook.png" width="40" />
 						</li>
 					</NuxtLink>
 
 					<NuxtLink to="https://www.linkedin.com/company/mobilum-france/">
 						<li class="icon linkedin">
 							<span class="tooltip">Linkedin</span>
-							<NuxtImg src="../../src/assets/img/logos/linkedin.png" width="40" />
+							<NuxtImg src="/logos/linkedin.png" width="40" />
 						</li>
 					</NuxtLink>
 
 					<NuxtLink to="https://www.instagram.com/mobilum_france/?hl=fr">
 						<li class="icon instagram">
 							<span class="tooltip">Instagram</span>
-							<NuxtImg src="../../src/assets/img/logos/instagram.png" width="40" />
+							<NuxtImg src="/logos/instagram.png" width="40" />
 						</li>
 					</NuxtLink>
 				</ul>

@@ -1,6 +1,7 @@
 ---
 type : Les remarquables
-title: Piano Rezzo
+title: ENS Paris Saclay
+sub_title : 
 published: TRUE
 
 gamme: "?" 
@@ -13,7 +14,7 @@ caroussel:
 - "../../images/references/caroussel/Piano-Rezzo-Paris-Saclay.jpg"
 
 localisation : "ENS, Paris Saclay"
-moe : "nom/société"
+moe : "Renzo Piano / Chercher nom installateur"
 moa : "nom/société"
 fabricant : "Mobilum"
 date_realisation : "?"
@@ -21,5 +22,4 @@ date_realisation : "?"
 ---
 
 ## Description
-
-Coucou
+ "Un patio naturel et épuré"

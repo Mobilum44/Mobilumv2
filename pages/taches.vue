@@ -22,7 +22,7 @@
 			<template #img__marche>
 				<NuxtImg
 					alt="mains mobilum"
-					src="../../src/assets/img/savoir-faire.jpg"
+					src="/savoir-faire.jpg"
 					center
 					width="1000px"
 					fit="cover"

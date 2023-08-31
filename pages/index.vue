@@ -13,7 +13,7 @@ img {
 }
 
 .Empty {
-	background: url("../assets/img/fond-accueil.jpg") center center no-repeat;
+	background: url("\photospages\fond-accueil.jpg") center center no-repeat;
 	background-size: cover;
 	height: 100vh;
 	display: flex;

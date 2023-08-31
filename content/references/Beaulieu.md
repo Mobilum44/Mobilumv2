@@ -1,6 +1,7 @@
 ---
-type : Les conceptuels
-title: Carnon
+type : Les remarquables
+title: Puilboreau
+sub_title : Une gamme complète
 published: TRUE
 
 gamme: "?" 
@@ -12,13 +13,13 @@ caroussel:
 - "../../images/references/caroussel/page-entree.jpg"
 - "../../images/references/caroussel/page-entree.jpg"
 
-localisation : "Port de Plaisance, Carnon"
-moe : "VIlle de Carnon / Gauthier-Conquet / Egis"
+localisation : "Centre commercial Beaulieu"
+moe : "La Rochelle Agglomération / Forma6"
 moa : "nom/société"
-fabricant : "Mobilum / Colas"
+fabricant : "Mobilum / IDVerdé"
 date_realisation : "?"
 
 ---
 
 ## Description
- "Une place assise pour toute la famille"
+ " "

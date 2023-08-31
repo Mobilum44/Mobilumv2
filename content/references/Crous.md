@@ -1,6 +1,6 @@
 ---
 type : Les conceptuels
-title: Roquefere
+title: Crous de Nantes
 published: TRUE
 
 gamme: "?" 
@@ -13,8 +13,8 @@ caroussel:
 - "../../images/references/caroussel/banc-feuille-roquefert-mobilum.png"
 
 
-localisation : "Chemin Roquefere"
-moe : "Ville de Roquefere / Avril en Mai"
+localisation : "Campus Tertre, Nantes"
+moe : "Crous de Nantes"
 moa : "nom/société"
 fabricant : "Mobilum"
 date_realisation : "?"
@@ -22,4 +22,4 @@ date_realisation : "?"
 ---
 
 ## Description
- "Utiliser les végétaux du lieu d'origine en les intégrant dans nos mobilier ... Trop beau !"
+ "Mobilum en intérieur"
