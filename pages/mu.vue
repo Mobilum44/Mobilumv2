@@ -1,11 +1,11 @@
 <template>
-	<Layout>
+	<NuxtLayout name="contenu_no_margin">
 		<div class="sub__section">
-			<Button theme="arrow" to="/collection"> ⇦ </Button>
+			<!--<Button theme="arrow" to="/collection"> ⇦ </Button>-->
 			<h1>Mobilier Urbain</h1>
 		</div>
 
-		<div class="chapeau"></div>
+		<div class="chapeau">Ya un ul de 40px, mais impossible de l'enlever.. .</div>
 
 		<div class="sub__section">
 			<ul class="collection_order">
@@ -19,7 +19,7 @@
 				</li>
 			</ul>
 		</div>
-	</Layout>
+	</NuxtLayout>
 </template>
 
 <script setup lang="ts">
@@ -40,6 +40,10 @@ const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 	justify-content: center;
 	flex-wrap: wrap;
 	gap: 1rem;
+}
+
+.collection_order ul {
+	padding-inline-start: 0px;
 }
 
 /*---------------------------------------------------------

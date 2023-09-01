@@ -5,7 +5,7 @@ published: TRUE
 
 gamme: "?" 
 
-cover_image: "../../images/references/cover_image/assises-societe-du-grand-paris.png"
+cover_image: "/references/cover_image/assises-societe-du-grand-paris.png"
 cover_text: "Mobilier pour le siège de Chanel"
 
 caroussel: 

@@ -1,5 +1,5 @@
 <template>
-	<Layout>
+	<NuxtLayout>
 		<ContentDoc v-slot="{ doc }">
 			<Button class="return" theme="bordered" onclick="/collection/"> Retour à la collection </Button>
 			<section class="page_top">
@@ -12,9 +12,11 @@
 			</section>
 			<section class="sub__section">
 				<div class="gallery">
+
+					<!----
 					<div v-for="(img, i) in doc.caroussel" :key="i">
 						<NuxtImg :src="img" />
-					</div>
+					</div> --->
 					<Caroussel :img="doc.caroussel" />
 				</div>
 			</section>
@@ -56,7 +58,7 @@
 								<NuxtImg
 									class="color_square"
 									alt="couleur du BFUP Mobilum"
-									src="\photospages\couleur-bfup-gris-fonce.jpg"
+									src="/photospages/couleur-bfup-gris-fonce.jpg"
 									center
 									width="200vw"
 									fit="cover"
@@ -67,7 +69,7 @@
 								<NuxtImg
 									class="color_square"
 									alt="couleur du BFUP Mobilum"
-									src="\photospages\couleur-bfup-blanc.jpg"
+									src="/photospages/couleur-bfup-blanc.jpg"
 									center
 									width="200vw"
 									fit="cover"
@@ -84,7 +86,7 @@
 								<NuxtImg
 									class="color_square"
 									alt="couleur du BFUP Mobilum"
-									src="\photospages\couleur-bfup-taupe.jpg"
+									src="/photospages/couleur-bfup-taupe.jpg"
 									center
 									width="200vw"
 									fit="cover"
@@ -95,7 +97,7 @@
 								<NuxtImg
 									class="color_square"
 									alt="couleur du BFUP Mobilum"
-									src="\photospages\couleur-bfup-rose.jpg"
+									src="/photospages/couleur-bfup-rose.jpg"
 									center
 									width="200vw"
 									fit="cover"
@@ -106,7 +108,7 @@
 								<NuxtImg
 									class="color_square"
 									alt="couleur du BFUP Mobilum"
-									src="\photospages\couleur-bfup-bleu.jpg"
+									src="/photospages/couleur-bfup-bleu.jpg"
 									center
 									width="200vw"
 									fit="cover"
@@ -128,7 +130,7 @@
 				<b>Mettre les autres produits de la gamme ici</b>
 			</section>
 		</ContentDoc>
-	</Layout>
+	</NuxtLayout>
 </template>
 
 <!-- <page-query>
@@ -217,16 +219,7 @@ h1 {
 
 /*-----------------------------------------------------------------
 		Zone galerie
-	---------------------------------------------------------------*/
-.gallery {
-	margin: 2rem 0;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(2, 1fr);
-	grid-column-gap: 0.5rem;
-	grid-row-gap: 0.5rem;
-}
-
+	---------------------------------------------------------------*
 /*-----------------------------------------------------------------
 		Sections générales
 	---------------------------------------------------------------*/

@@ -2,7 +2,7 @@
 	<div class="Banner">
 		<div class="banniere">
 			<Button class="banner__button" theme="bordered" to="/contact"> Nous contacter </Button>
-			<img class="banner__image" src="\photospages\frise-isa.png" alt="Mobiliers Mobilum filaires" />
+			<img class="banner__image" src="/photospages/frise-isa.png" alt="Mobiliers Mobilum filaires" />
 		</div>
 	</div>
 </template>

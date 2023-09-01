@@ -6,7 +6,7 @@ published: TRUE
 
 gamme: YOON 
 
-cover_image: "../../images/references/cover_image/gare-sncf-grenoble.jpg"
+cover_image: "/references/cover_image/gare-sncf-grenoble.jpg"
 cover_text: "On a refait l'intérieur des gares"
 
 caroussel: 

@@ -1,5 +1,5 @@
 <template>
-	<Layout>
+	<NuxtLayout>
 		<template #slot_image>
 			<div class="slot_image" :style="{ backgroundImage: `url(${image})`}">
 				<h1>Mobilum</h1>
@@ -10,7 +10,9 @@
 			<div class="title"></div>
 		</section>
 
-		<div class="section_top"></div>
+		<div class="section_top">
+			<b> Remettre les images en fixed</b>
+		</div>
 
 <!-------------------------------------------------------------------
     La griffe Mobilum
@@ -42,21 +44,21 @@
 						<div class="real__model">
 							<NuxtImg
 								alt="Table cantine réelle"
-								src="\photospages\table-cantine-02-croquis.png"
+								src="/photospages/table-cantine-02-croquis.png"
 								center
 								width="200px"
 								fit="cover"
 							/>
 							<NuxtImg
 								alt="Table cantine réelle"
-								src="\photospages\table-cantine-01-croquis.png"
+								src="/photospages/table-cantine-01-croquis.png"
 								center
 								width="200px"
 								fit="cover"
 							/>
 							<NuxtImg
 								alt="Logo Janus de la cité 2016"
-								src="\photospages\janus-de-la-cite-logo.png"
+								src="/photospages/janus-de-la-cite-logo.png"
 								center
 								width="70px"
 								fit="cover"
@@ -118,7 +120,7 @@ Notre savoir-faire
 					<!--
 			<NuxtImg
 			alt="Angers tram"
-			src="\photospages\angers_tram.jpg"
+			src="/photospages/angers_tram.jpg"
 			center
 			width="1000px"
 			fit="cover"
@@ -165,7 +167,7 @@ Nos activités
 				</div>
 			</div>
 		</div>
-	</Layout>
+	</NuxtLayout>
 </template>
 
 <script>
@@ -182,6 +184,18 @@ export default {
 
 
 <style scoped>
+.slot_image {
+	background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0) 65%, #fefcf3),
+		url("/photospages/accueil-test-fond2.jpg");
+	opacity: 90%;
+	background-size: cover;
+	height: 100vh;
+	padding-bottom: 15vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
 /*-------------------------------------------------------------------------
     General
 -----------------------------------------------------------------------*/
@@ -240,7 +254,7 @@ article {
 	flex-direction: column;
 	justify-content: center;
 	/* border-radius: 5px; */
-	height : 100vh;
+	height : 120vh;
 }
 .design {
 	margin: 0;

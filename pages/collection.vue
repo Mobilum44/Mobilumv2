@@ -1,71 +1,37 @@
 <template>
 	<!--mobilier urbain, Ammenagement(hook + signaletique), grands comptes, Nos réalisations sur mesure
 	Supprimer sav -->
-	<Layout>
+	<NuxtLayout>
 		<template #slot_image>
-			<section class="slot_image">
+			<div class="slot_image" :style="{ backgroundImage: `url(${image})`}">
 				<h1>Nos collections</h1>
-			</section>
+			</div>
 		</template>
 
-		<b> Faire la mise en page + Rendre ca responsive</b>
-
-		<div class="old__collection">
-			<!-- <NuxtLink
-				class="items_styling shadow"
-				:to="edge.node.path"
-				v-for="(edge, i) in $page.allCollection.edges"
-				:key="edge.node.id"
-			>
-				<NuxtImg
-					class="items__img"
-					alt="Sablage pour signalétique MOBILUM"
-					src="\photospages\gaetan-sablage.jpg"
-					v-if="i === 0"
-					center
-				/>
-				<NuxtImg
-					class="items__img"
-					alt="SNCF Gare Auxerre"
-					src="\photospages\hook-cover-image.JPG"
-					v-else-if="i === 1"
-					center
-				/>
-				<NuxtImg
-					class="items__img"
-					alt="banc Mobilum sur le tram d'Angers"
-					src="\photospages\angers_tram.jpg"
-					v-else
-					center
-				/>
-				<p>
-					{{ edge.node.title }}
-				</p>
-			</NuxtLink> -->
-
-		</div>
+		<b> Faire la mise en page + Rendre ca responsive <br />
+		Pourquoi on a autant de perte de qualité sur la photo ?</b>
 
 		<div class="sub__section">
 			<div class="collection">
 
 				<NuxtLink class="items_styling shadow" to="/mu">
-					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="\photospages\angers_tram.jpg" center />
+					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="/photospages/angers_tram.jpg" center />
 					<p>Mobilier urbain</p>
 				</NuxtLink>
 
 
 				<NuxtLink class="items_styling shadow" to="/exceptionnels">
-					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="\photospages\SNCF_auxerre.png" center />
+					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="/photospages/SNCF_auxerre.png" center />
 					<p>Dossiers d'exception</p>
 				</NuxtLink>
 
 				<NuxtLink class="items_styling shadow" to="/signaletique">
-					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="\photospages\gaetan-sablage.jpg" center />
+					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="/photospages/gaetan-sablage.jpg" center />
 					<p>Signalétique</p>
 				</NuxtLink>
 
 				<NuxtLink class="items_styling shadow" to="/hook">
-					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="\photospages\hook-cover-image.JPG" center />
+					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="/photospages/hook-cover-image.JPG" center />
 					<p>HOOK</p>
 				</NuxtLink>
 
@@ -89,19 +55,23 @@
     <Defilant />
 --->
 
-	</Layout>
+	</NuxtLayout>
 </template>
-<!-- 
-<page-query>
-query Collections {allCollection{edges{node{title, path}}}}
-</page-query> -->
+
+<script>
+import BackColl from "/backgroundpages/fond-plage-collection.jpg";
+
+export default {
+  data() {
+    return {
+      image: BackColl,
+    };
+  }
+};
+</script>
+
 
 <style scoped>
-.slot_image {
-	background: url("\photospages\fond-plage-collection.jpg	") center center no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
 
 .sub__section {
 	display: flex;
@@ -109,12 +79,6 @@ query Collections {allCollection{edges{node{title, path}}}}
 	justify-content: center;
 	gap: 4rem;
 	margin-top: 3rem;
-}
-
-.old__collection {
-	display: flex;
-	flex-direction: row;
-	gap: 2rem;
 }
 
 /*------------------------------------------------------------------------------------------
@@ -136,7 +100,6 @@ query Collections {allCollection{edges{node{title, path}}}}
   background-color: rgba(250, 250, 250, 0.25); */
 	background-color: #1a949d;
 }
-
 .items_styling > .items__img {
 	border-radius: 4px;
 	width: 100%;

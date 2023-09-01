@@ -1,5 +1,5 @@
 <template>
-	<Layout>
+	<NuxtLayout>
 		<div class="sub__section wide">
 			<Button theme="arrow" to="/exceptionnels"> ⇦ </Button>
 			<div class="sub__section__content text">
@@ -53,7 +53,7 @@
 				{{ $page.reference.description }}
 			</p> -->
 		</div>
-	</Layout>
+	</NuxtLayout>
 </template>
 
 <!-- <page-query>

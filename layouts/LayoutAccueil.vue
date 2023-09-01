@@ -1,5 +1,6 @@
 <template>
-	<div class="layout">
+	<div class="accueil">
+		<Header />
 		<slot name="slot_image" />
 
 		<section class="contenu">
@@ -8,6 +9,8 @@
 
 		<slot name="slot_bandeau" />
 		<slot name="slot_contact" />
+		<Banner />
+		<Footer />
 	</div>
 </template>
 

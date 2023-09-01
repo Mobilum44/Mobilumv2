@@ -6,7 +6,7 @@ published: TRUE
 
 gamme: "?" 
 
-cover_image: "../../images/references/cover_image/paris-saclay-tolerie-foreiziennev2.jpg"
+cover_image: "/references/cover_image/paris-saclay-tolerie-foreiziennev2.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
 caroussel: 

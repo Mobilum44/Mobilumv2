@@ -1,7 +1,7 @@
 <template>
-	<Layout>
+	<NuxtLayout name="contenu_no_margin">
 		<div class="sub__section">
-			<Button theme="arrow" to="/collection"> ⇦ </Button>
+			<!--<Button theme="arrow" to="/collection"> ⇦ </Button>-->
 			<h1>Nos dossiers d'exception</h1>
 		</div>
 		<section class="sub__section">
@@ -64,7 +64,7 @@ réalisations exceptionnelles qui inspirent et marquent les esprits. <br /><br /
 			demain, en créant des projets de mobiliers urbains en BFUP qui captivent les regards et améliorent la vie
 			quotidienne des citadins.
 		</p>
-	</Layout>
+	</NuxtLayout>
 </template>
 <!-- 
 <page-query>

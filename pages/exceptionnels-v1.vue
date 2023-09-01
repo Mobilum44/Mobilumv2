@@ -1,5 +1,5 @@
 <template>
-	<Layout>
+	<NuxtLayout>
 		<div class="sub__section">
 			<Button theme="bordered" to="/collection"> Retour à l'offre </Button>
 
@@ -19,7 +19,7 @@
 					<template #img__marche>
 						<NuxtImg
 							alt="mains mobilum"
-							src="../../images/references/cover_image/gare-sncf-grenoble.jpg"
+							src="/references/cover_image/gare-sncf-grenoble.jpg"
 							center
 							width="1000px"
 							fit="cover"
@@ -40,7 +40,7 @@
 					<template #img__marche>
 						<NuxtImg
 							alt="mains mobilum"
-							src="../../images/references/cover_image/assises-societe-du-grand-paris.png"
+							src="/references/cover_image/assises-societe-du-grand-paris.png"
 							center
 							width="1000px"
 							fit="cover"
@@ -66,7 +66,7 @@
 					<template #img__marche>
 						<NuxtImg
 							alt="mains mobilum"
-							src="../../images/references/cover_image/jardinieres-trocadero-paris.jpg"
+							src="/references/cover_image/jardinieres-trocadero-paris.jpg"
 							center
 							width="1000px"
 							fit="cover"
@@ -86,7 +86,7 @@
 					<template #img__marche>
 						<NuxtImg
 							alt="mains mobilum"
-							src="../../images/references/cover_image/crous-nantes.png"
+							src="/references/cover_image/crous-nantes.png"
 							center
 							width="1000px"
 							fit="cover"
@@ -106,7 +106,7 @@
 					<template #img__marche>
 						<NuxtImg
 							alt="mains mobilum"
-							src="../../images/references/cover_image/mobilum-piano-rezzo-ecole-normale-superieure-ens.jpg"
+							src="/references/cover_image/mobilum-piano-rezzo-ecole-normale-superieure-ens.jpg"
 							center
 							width="1000px"
 							fit="cover"
@@ -132,7 +132,7 @@
 					<template #img__marche>
 						<NuxtImg
 							alt="mains mobilum"
-							src="../../images/references/cover_image/sorbonne-universite-amphi-stoop-cube.jpg"
+							src="/references/cover_image/sorbonne-universite-amphi-stoop-cube.jpg"
 							center
 							width="1000px"
 							fit="cover"
@@ -152,7 +152,7 @@
 					<template #img__marche>
 						<NuxtImg
 							alt="table infinie vertou"
-							src="../../images/references/cover_image/projet-vertable-tables-vertou.jpg"
+							src="/references/cover_image/projet-vertable-tables-vertou.jpg"
 							center
 							width="1000px"
 							fit="cover"
@@ -172,7 +172,7 @@
 					<template #img__marche>
 						<NuxtImg
 							alt="mains mobilum"
-							src="../../images/references/cover_image/carnon-transats-mila2.jpg"
+							src="/references/cover_image/carnon-transats-mila2.jpg"
 							center
 							width="1000px"
 							fit="cover"
@@ -193,7 +193,7 @@
 					<template #img__marche>
 						<NuxtImg
 							alt="mains mobilum"
-							src="../../images/references/cover_image/paris-saclay-tolerie-foreizienne-exceptionnel.jpg"
+							src="/references/cover_image/paris-saclay-tolerie-foreizienne-exceptionnel.jpg"
 							center
 							width="1000px"
 							fit="cover"
@@ -213,7 +213,7 @@
 					<template #img__marche>
 						<NuxtImg
 							alt="mains mobilum"
-							src="../../images/references/cover_image/feuille-roquefere.jpg"
+							src="/references/cover_image/feuille-roquefere.jpg"
 							center
 							width="1000px"
 							fit="cover"
@@ -243,7 +243,7 @@ réalisations exceptionnelles qui inspirent et marquent les esprits. <br /><br /
 			demain, en créant des projets de mobiliers urbains en BFUP qui captivent les regards et améliorent la vie
 			quotidienne des citadins.
 		</p>
-	</Layout>
+	</NuxtLayout>
 </template>
 
 <style scoped>

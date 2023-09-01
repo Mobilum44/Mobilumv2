@@ -6,7 +6,7 @@ published: TRUE
 
 gamme: YOON 
 
-cover_image: "../../images/references/cover_image/jardinieres-trocadero-paris.jpg"
+cover_image: "/references/cover_image/jardinieres-trocadero-paris.jpg"
 cover_text: "Les jardinières du Troca"
 
 caroussel: 

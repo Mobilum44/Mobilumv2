@@ -6,7 +6,7 @@ published: TRUE
 
 gamme: "?" 
 
-cover_image: "../../images/references/cover_image/mobilum-piano-rezzo-ecole-normale-superieure-ens.jpg"
+cover_image: "/references/cover_image/mobilum-piano-rezzo-ecole-normale-superieure-ens.jpg"
 cover_text: "Mobilier extérieur pour les étudiants dans un cadre prestigieux"
 
 caroussel: 

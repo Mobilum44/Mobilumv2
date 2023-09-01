@@ -1,5 +1,5 @@
 <template>
-	<Layout>
+	<NuxtLayout>
 		<template #slot_image>
 			<section class="slot_image">
 				<h1>Politiques de confidentialité</h1>
@@ -11,5 +11,5 @@
 			voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit
 			maxime! Iusto.
 		</p>
-	</Layout>
+	</NuxtLayout>
 </template>

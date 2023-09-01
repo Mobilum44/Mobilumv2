@@ -15,8 +15,7 @@
 
 <style>
 .image_title {
-	height: 20vh;
-	margin-top: 4rem;
+	height: 20vh;;
 }
 
 .contenu {

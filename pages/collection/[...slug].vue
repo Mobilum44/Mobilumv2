@@ -1,7 +1,7 @@
 <template>
-	<Layout>
+	<NuxtLayout>
 		<div class="sub__section">
-			<Button theme="arrow" to="/collection"> ⇦ </Button>
+			<!--<Button theme="arrow" to="/collection"> ⇦ </Button>-->
 			<!-- <h1>
 				{{ $page.collection.title }}
 			</h1> -->
@@ -22,7 +22,7 @@
 				</NuxtLink> -->
 			</div>
 		</div>
-	</Layout>
+	</NuxtLayout>
 </template>
 
 <!-- <page-query>

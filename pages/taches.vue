@@ -1,5 +1,5 @@
 <template>
-	<Layout>
+	<NuxtLayout>
 		<h3>Inspirations</h3>
 		<p>https://www.sanleonardo.it/</p>
 		<h3>A faire</h3>
@@ -39,5 +39,5 @@
 		</CarteMarches>
 
 		<NuxtLink to="/test"> Page test caroussel </NuxtLink>
-	</Layout>
+	</NuxtLayout>
 </template>

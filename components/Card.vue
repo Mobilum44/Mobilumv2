@@ -3,8 +3,8 @@
 		<div class="card-container">
 			<div class="card shadow">
 				<figure class="card__thumb">
-					<img
-						src="\photospages\Galets.jpg"
+					<NuxtImg
+						src="/cards/Galets.jpg"
 						alt="Galets rouen bfup Mobilum"
 						class="card__image"
 						fit="cover"
@@ -19,8 +19,8 @@
 
 			<div class="card shadow">
 				<figure class="card__thumb">
-					<img
-						src="\photospages\olivier.jpg"
+					<NuxtImg
+						src="/cards/olivier.jpg"
 						alt="photo parc du loroux-botereau mobilum"
 						class="card__image"
 						fit="cover"
@@ -35,8 +35,8 @@
 
 			<div class="card shadow">
 				<figure class="card__thumb">
-					<img
-						src="\photospages\obrac-la-rochelle-port-neuf.png"
+					<NuxtImg
+						src="/cards/obrac-la-rochelle-port-neuf.png"
 						alt="Bord de mer à cucq transat Camah de Mobilum"
 						class="card__image"
 						fit="cover"
@@ -51,8 +51,8 @@
 
 			<div class="card shadow">
 				<figure class="card__thumb">
-					<img
-						src="\photospages\gare-est-paris-mobilum.jpg"
+					<NuxtImg
+						src="/cards/gare-est-paris-mobilum.jpg"
 						alt="Photo gare paris mobilum"
 						class="card__image"
 						fit="cover"
@@ -67,8 +67,8 @@
 
 			<div class="card shadow">
 				<figure class="card__thumb">
-					<img
-						src="\photospages\tram-angers-banc-mobilum.jpg"
+					<NuxtImg
+						src="/cards/tram-angers-banc-mobilum.jpg"
 						alt="Banc Vasco de Gamma Angers Mobilum"
 						class="card__image"
 						fit="cover"
@@ -84,8 +84,8 @@
 			<div class="card shadow">
 				<figure class="card__thumb">
 					<!-- Parcs, Bords de mer, Gare, Lycée, ...-->
-					<img
-						src="\photospages\zone-commerciale-puilboreau-mobilum-origami.jpeg"
+					<NuxtImg
+						src="/cards/zone-commerciale-puilboreau-mobilum-origami.jpeg"
 						alt="Banc et totem origami par mobilum zone commerciale la rochelle"
 						class="card__image"
 						fit="cover"
@@ -100,8 +100,8 @@
 
 			<div class="card shadow">
 				<figure class="card__thumb">
-					<img
-						src="\photospages\lycée-nord-sur-erdre-mobilum.jpg"
+					<NuxtImg
+						src="/cards/lycée-nord-sur-erdre-mobilum.jpg"
 						alt="Vue du ciel Lycée Nord sur Erdre à Nantes Mobilum"
 						class="card__image"
 						fit="cover"
@@ -116,8 +116,8 @@
 
 			<div class="card shadow">
 				<figure class="card__thumb">
-					<img
-						src="\photospages\totem-tertiaire-mobilum.jpg"
+					<NuxtImg
+						src="/cards/totem-tertiaire-mobilum.jpg"
 						alt="totem en BFUP pour l'entreprise Luneau Papin par Mobilum"
 						class="card__image"
 						fit="cover"
@@ -133,8 +133,8 @@
 			<div class="card shadow">
 				<figure class="card__thumb">
 					<!-- Parcs, Bords de mer, Gare, Lycée, ...-->
-					<img
-						src="\photospages\lotissement-hook-mobilum.png"
+					<NuxtImg
+						src="/cards/lotissement-hook-mobilum.png"
 						alt="Lotissement coffret technique hook mobilum"
 						class="card__image"
 						fit="cover"

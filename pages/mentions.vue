@@ -1,5 +1,5 @@
 <template>
-	<Layout>
+	<NuxtLayout>
 		<template #slot_image>
 			<section class="slot_image">
 				<h1>Mentions légales</h1>
@@ -132,12 +132,12 @@
 				</p>
 			</section>
 		</div>
-	</Layout>
+	</NuxtLayout>
 </template>
 
 <style scoped>
 .slot_image {
-	background: url("\photospages\fond_entreprise.jpg") center center no-repeat;
+	background: url("/photospages/fond_entreprise.jpg") center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }

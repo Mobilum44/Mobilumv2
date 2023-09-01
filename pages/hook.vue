@@ -1,7 +1,7 @@
 <template>
-	<Layout>
+	<NuxtLayout name="contenu_no_margin">
 		<div class="sub__section">
-			<Button theme="arrow" to="/collection"> ⇦ </Button>
+			<!--<Button theme="arrow" to="/collection"> ⇦ </Button>-->
 
 			<h1>Hook</h1>
 		</div>
@@ -26,7 +26,7 @@
 				</li>
 			</ul>
 		</div>
-	</Layout>
+	</NuxtLayout>
 </template>
 
 <script setup lang="ts">
@@ -47,6 +47,12 @@ Paramètres de la galerie - généralités
 	justify-content: center;
 	flex-wrap: wrap;
 	gap: 1rem;
+	padding: 0;
+}
+
+.collection_order ul {
+
+	padding: 0;
 }
 
 /*---------------------------------------------------------

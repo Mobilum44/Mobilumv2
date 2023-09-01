@@ -1,5 +1,5 @@
 <template>
-	<Layout>
+	<NuxtLayout>
 		<h1>Le SAV</h1>
-	</Layout>
+	</NuxtLayout>
 </template>

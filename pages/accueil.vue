@@ -110,7 +110,7 @@ p {
 /* Section 1 : Logo /Image */
 .bandeau {
 	background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0) 65%, #fefcf3),
-		url("/accueil-test-fond2.jpg");
+		url("/photospages/accueil-test-fond2.jpg");
 	opacity: 90%;
 	background-size: cover;
 	height: 100vh;

@@ -1,5 +1,5 @@
 <template>
-	<Layout>
+	<NuxtLayout>
 		<template #slot_image>
 			<div class="slot_image">
 				<h1>Contact</h1>
@@ -46,15 +46,16 @@
 				</div>
 			</div>
 		</div>
-		<div class="sub__section">
+		<div class="sub__section maps">
+			<p> Où est la maps ?</p>
 			<Itinary />
 		</div>
-	</Layout>
+	</NuxtLayout>
 </template>
 
 <style scoped>
 .slot_image {
-	background: url("\photospages\sav-crous.jpg") center center no-repeat;
+	background: url("/photospages/sav-crous.jpg") center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -118,8 +119,14 @@ p {
 
 .sub__section {
 	height: 100%;
+	width :100%;
 }
 
+
+.maps {
+	border : solid black;
+	height : 40vh;
+}
 /* ------------------------------------------------------------------------------------------
 
             RESPONSIVE TELEPHONES

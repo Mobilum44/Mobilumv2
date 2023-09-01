@@ -1,5 +1,5 @@
 <template>
-	<Layout>
+	<NuxtLayout>
 		<template #slot_image>
 			<section class="slot_image">
 				<h1>Plan du site</h1>
@@ -11,12 +11,12 @@
 			voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit
 			maxime! Iusto.
 		</p>
-	</Layout>
+	</NuxtLayout>
 </template>
 
 <style scoped>
 .slot_image {
-	background: url("\photospages\fond_entreprise.jpg") center center no-repeat;
+	background: url("/photospages/fond_entreprise.jpg") center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
