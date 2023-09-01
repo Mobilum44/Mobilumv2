@@ -7,7 +7,7 @@ category: Assise
 sub_category: 05 Banquette
 gamme: VERTABLE
 finitions: 
-cover_image: "../../images/produits/cover_image/banquette-vertable.jpg"
+cover_image: "/produits/cover_image/banquette-vertable.jpg"
 caroussel: 
 - "../../images/produits/banquette-elium-parc.jpg"
 - "../../images/produits/attente-showroom.jpg"

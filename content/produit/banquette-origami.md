@@ -7,7 +7,7 @@ category: Assise
 sub_category: 05 Banquette
 gamme: ORIGAMI
 finitions: 
-cover_image: "../../images/produits/cover_image/banquette-origami.jpg"
+cover_image: "/produits/cover_image/banquette-origami.jpg"
 caroussel: 
 - "../../images/produits/banquette-origami.jpg"
 filaire: 

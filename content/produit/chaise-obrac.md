@@ -7,7 +7,7 @@ category: Assise
 sub_category: 02 Chaise
 gamme: OBRAC 
 finitions: 
-cover_image: "../../images/produits/cover_image/chaise-obrac.jpg"
+cover_image: "/produits/cover_image/chaise-obrac.jpg"
 caroussel: 
 - "../../images/produits/chaises-obrac-la-rochelle.jpg"
 - "../../images/produits/obrac-chaises-la-rochelle-velo.jpg"

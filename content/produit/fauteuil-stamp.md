@@ -7,7 +7,7 @@ category: Assise
 sub_category: 03 Fauteuil
 gamme: STAMP
 finitions: window
-cover_image: "../../images/produits/cover_image/fauteuil-stamp-window.jpg"
+cover_image: "/produits/cover_image/fauteuil-stamp-window.jpg"
 caroussel: 
 - "../../images/produits/fauteuils-stamp-lisse-vire.jpg"
 filaire: 

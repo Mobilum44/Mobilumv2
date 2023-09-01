@@ -7,7 +7,7 @@ category: Assise
 sub_category: 06 Banc
 gamme: ORIGAMI
 finitions: 
-cover_image: "../../images/produits/cover_image/banc-origami.jpg"
+cover_image: "/produits/cover_image/banc-origami.jpg"
 caroussel: 
 - "../../images/produits/bancs-origami.jpeg"
 - "../../images/produits/rangee-banc-origami.jpeg"

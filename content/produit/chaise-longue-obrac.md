@@ -7,7 +7,7 @@ category: Assise
 sub_category: 08 Chaise Longue
 gamme: OBRAC 
 finitions: 
-cover_image: "../../images/produits/cover_image/chaise-longue-obrac.jpg"
+cover_image: "/produits/cover_image/chaise-longue-obrac.jpg"
 caroussel:
 - "../../images/produits/attente-showroom.jpg"
 filaire: 

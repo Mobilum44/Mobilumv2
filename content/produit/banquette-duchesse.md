@@ -7,7 +7,7 @@ category: Assise
 sub_category: 05 Banquette
 gamme: DUCHESSE 
 finitions: 
-cover_image: "../../images/produits/cover_image/banquette-duchesse.jpg"
+cover_image: "/produits/cover_image/banquette-duchesse.jpg"
 caroussel: 
 - "../../images/produits/banquette-elium-parc.jpg"
 - "../../images/produits/attente-showroom.jpg"

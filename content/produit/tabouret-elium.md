@@ -7,7 +7,7 @@ category: Assise
 sub_category: 01 Tabouret
 gamme: ELIUM
 finitions: 
-cover_image: "../../images/produits/cover_image/tabouret-elium.jpg"
+cover_image: "/produits/cover_image/tabouret-elium.jpg"
 caroussel: 
 - "../../images/produits/tabouret-et-banquette-elium.jpg"
 filaire: 

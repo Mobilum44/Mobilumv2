@@ -7,7 +7,7 @@ category: Assise
 sub_category: 02 Module
 gamme: HOOK
 finitions: L765 bois
-cover_image: "../../images/produits/cover_image/hook-765-bois.jpg"
+cover_image: "/produits/cover_image/hook-765-bois.jpg"
 caroussel: 
 - "../../images/produits/attente-showroom.jpg"
 filaire: 

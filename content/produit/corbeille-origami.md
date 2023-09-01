@@ -7,7 +7,7 @@ category: Corbeille
 sub_category: 13 Corbeille
 gamme: ORIGAMI
 finitions: 
-cover_image: "../../images/produits/cover_image/corbeille-origami.jpg"
+cover_image: "/produits/cover_image/corbeille-origami.jpg"
 caroussel: 
 - "../../images/produits/corbeille-origami-chemin.jpeg"
 filaire: 

@@ -7,7 +7,7 @@ category: Assise
 sub_category: 06 Banc
 gamme: CARLITA
 finitions: 
-cover_image: "../../images/produits/cover_image/banc-carlita.jpg"
+cover_image: "/produits/cover_image/banc-carlita.jpg"
 caroussel: 
 - "../../images/produits/assemblage-carlita.png"
 - "../../images/produits/banquette-carlita-place.jpg"

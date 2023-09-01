@@ -7,7 +7,7 @@ category: Assise
 sub_category: 05 Banquette
 gamme: BEAM 
 finitions: double
-cover_image: "../../images/produits/cover_image/banquette-beam-double.jpg"
+cover_image: "/produits/cover_image/banquette-beam-double.jpg"
 caroussel: 
 - "../../images/produits/banquette-elium-parc.jpg"
 - "../../images/produits/attente-showroom.jpg"

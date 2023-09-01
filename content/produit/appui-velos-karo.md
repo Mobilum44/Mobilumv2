@@ -7,7 +7,7 @@ category: Appui-vélos
 sub_category: 18 Appui-vélos
 gamme: KARO
 finitions: 
-cover_image: "../../images/produits/cover_image/appuis-velo-karo.jpg"
+cover_image: "/produits/cover_image/appuis-velo-karo.jpg"
 caroussel: 
 - "../../images/produits/appui-velo-karo-vicat.jpg"
 - "../../images/produits/appui-velo-karo-le-trait.jpg"

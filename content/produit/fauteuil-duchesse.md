@@ -7,7 +7,7 @@ category: Assise
 sub_category: 03 Fauteuil
 gamme: DUCHESSE 
 finitions: 
-cover_image: "../../images/produits/cover_image/fauteuil-duchesse.jpg"
+cover_image: "/produits/cover_image/fauteuil-duchesse.jpg"
 caroussel: 
 - "../../images/produits/focus-chaise-duchesse.jpg"
 filaire: 

@@ -7,7 +7,7 @@ category: Assise
 sub_category: 05 Banquette
 gamme: BEAM 
 finitions: simple
-cover_image: "../../images/produits/cover_image/banquette-beam.jpg"
+cover_image: "/produits/cover_image/banquette-beam.jpg"
 caroussel: 
 - "../../images/produits/banquette-beam-plage.jpg"
 filaire: 

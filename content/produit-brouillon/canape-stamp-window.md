@@ -7,7 +7,7 @@ category: Assise
 sub_category: 07 Canapé
 gamme: STAMP
 finitions: window
-cover_image: "../../images/produits/cover_image/canape-stamp-window.jpg"
+cover_image: "/produits/cover_image/canape-stamp-window.jpg"
 caroussel: 
 - "../../images/produits/banquette-elium-parc.jpg"
 - "../../images/produits/attente-showroom.jpg"

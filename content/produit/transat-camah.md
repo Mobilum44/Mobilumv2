@@ -7,7 +7,7 @@ category: Transat
 sub_category: 09 Transat
 gamme: CAMAH 
 finitions: 
-cover_image: "../../images/produits/cover_image/transat-camah.jpg"
+cover_image: "/produits/cover_image/transat-camah.jpg"
 caroussel: 
 - "../../images/produits/transat-camah-cucq.JPG"
 - "../../images/produits/transat-camah-le-trait.jpg"

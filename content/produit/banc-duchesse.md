@@ -7,7 +7,7 @@ category: Assise
 sub_category: 06 Banc
 gamme: DUCHESSE 
 finitions: 
-cover_image: "../../images/produits/cover_image/banc-duchesse.jpg"
+cover_image: "/produits/cover_image/banc-duchesse.jpg"
 caroussel: 
 - "../../images/produits/banc-duchesse-bruz.JPG"
 - "../../images/produits/focus-banc-duchesse-bruz.jpg"

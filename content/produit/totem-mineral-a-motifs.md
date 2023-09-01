@@ -7,7 +7,7 @@ category: Totem
 sub_category: Totem
 gamme: MINERAL
 finitions: à motifs
-cover_image: "../../images/produits/cover_image/totem-mineral.jpg"
+cover_image: "/produits/cover_image/totem-mineral.jpg"
 caroussel: 
 - "../../images/produits/banquette-elium-parc.jpg"
 - "../../images/produits/attente-showroom.jpg"

@@ -7,7 +7,7 @@ category: Assise
 sub_category: 07 Canapé
 gamme: STAMP
 finitions: lisse
-cover_image: "../../images/produits/cover_image/canape-stamp-lisse.jpg"
+cover_image: "/produits/cover_image/canape-stamp-lisse.jpg"
 caroussel: 
 - "../../images/produits/banquette-elium-parc.jpg"
 - "../../images/produits/attente-showroom.jpg"

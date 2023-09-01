@@ -7,7 +7,7 @@ category: Assise
 sub_category: 05 Banquette
 gamme: CANTINE
 finitions: 
-cover_image: "../../images/produits/cover_image/banquette-cantine.jpg"
+cover_image: "/produits/cover_image/banquette-cantine.jpg"
 caroussel: 
 - "../../images/produits/banquette-cantine-parc-focus.jpg"
 - "../../images/produits/banquette-cantine-vert.jpg"

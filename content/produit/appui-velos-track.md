@@ -7,7 +7,7 @@ category: Appui-vélos
 sub_category: 18 Appui-vélos
 gamme: TRACK 
 finitions: 
-cover_image: "../../images/produits/cover_image/appui-velo-track.jpg"
+cover_image: "/produits/cover_image/appui-velo-track.jpg"
 caroussel: 
 - "../../images/produits/appuis-velo-track-st-cyr.jpg"
 - "../../images/produits/focus-appui-velo-track-saint-cyr.jpg"

@@ -7,7 +7,7 @@ category: Assise
 sub_category: 05 Banquette
 gamme: CANTINE
 finitions: PM
-cover_image: "../../images/produits/cover_image/banquette-cantine-pm.jpg"
+cover_image: "/produits/cover_image/banquette-cantine-pm.jpg"
 caroussel: 
 - "../../images/produits/banquette-elium-parc.jpg"
 - "../../images/produits/attente-showroom.jpg"

@@ -7,7 +7,7 @@ category: Cendrier
 sub_category: 13 Cendrier
 gamme: GOYA 
 finitions: 
-cover_image: "../../images/produits/cover_image/cendrier-goya.jpg"
+cover_image: "/produits/cover_image/cendrier-goya.jpg"
 caroussel: 
 - "../../images/produits/cendrier-goya-hotel-la-rochelle.jpg"
 filaire: 

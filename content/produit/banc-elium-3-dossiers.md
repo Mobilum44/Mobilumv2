@@ -7,7 +7,7 @@ category: Assise
 sub_category: 06 Banc
 gamme: ELIUM
 finitions: 3 dossiers
-cover_image: "../../images/produits/cover_image/banc-elium-3-dossiers.jpg"
+cover_image: "/produits/cover_image/banc-elium-3-dossiers.jpg"
 caroussel: 
 - "../../images/produits/attente-showroom.jpg"
 filaire: 

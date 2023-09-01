@@ -7,7 +7,7 @@ category: Autre
 sub_category: 90 Décoration
 gamme: STELAG
 finitions: 
-cover_image: "../../images/produits/cover_image/galet-stelag.jpg"
+cover_image: "/produits/cover_image/galet-stelag.jpg"
 caroussel: 
 - "../../images/produits/galet-simple-stelag-fecamp.JPG"
 filaire: 

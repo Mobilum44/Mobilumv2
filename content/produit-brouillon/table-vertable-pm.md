@@ -7,7 +7,7 @@ category: Table
 sub_category: 11 Table
 gamme: VERTABLE
 finitions: PM
-cover_image: "../../images/produits/cover_image/table-vertable-pm.jpg"
+cover_image: "/produits/cover_image/table-vertable-pm.jpg"
 caroussel: 
 - "../../images/produits/banquette-elium-parc.jpg"
 - "../../images/produits/attente-showroom.jpg"

@@ -7,7 +7,7 @@ category: Corbeille
 sub_category: 13 Corbeille
 gamme: ASTURIAS
 finitions: végétal
-cover_image: "../../images/produits/cover_image/corbeille-asturias-vegetal.jpg"
+cover_image: "/produits/cover_image/corbeille-asturias-vegetal.jpg"
 caroussel: 
 - "../../images/produits/attente-showroom.jpg"
 - "../../images/produits/attente-showroom.jpg"

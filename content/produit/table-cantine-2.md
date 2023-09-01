@@ -7,7 +7,7 @@ category: Table
 sub_category: 11 2 Table urbaine
 gamme: CANTINE
 finitions: 02
-cover_image: "../../images/produits/cover_image/table-urbaine-cantine-02.jpg"
+cover_image: "/produits/cover_image/table-urbaine-cantine-02.jpg"
 caroussel: 
 #- "../../images/produits/table-cantine-02-le-trait.jpg"
 - "../../images/produits/table-cantine-02-le-trait-v2.jpg"

@@ -7,7 +7,7 @@ category: Assise
 sub_category: 06 Banc
 gamme: STAMP
 finitions: lisse
-cover_image: "../../images/produits/cover_image/banc-stamp-lisse.jpg"
+cover_image: "/produits/cover_image/banc-stamp-lisse.jpg"
 caroussel: 
 - "../../images/produits/banquette-elium-parc.jpg"
 - "../../images/produits/attente-showroom.jpg"

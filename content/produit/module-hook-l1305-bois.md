@@ -7,7 +7,7 @@ category: Module
 sub_category: 04 Module
 gamme: HOOK
 finitions: L1305 bois
-cover_image: "../../images/produits/cover_image/hook-1125-double-alu-compo.jpg"
+cover_image: "/produits/cover_image/hook-1125-double-alu-compo.jpg"
 caroussel: 
 - "../../images/produits/banquette-elium-parc.jpg"
 - "../../images/produits/attente-showroom.jpg"

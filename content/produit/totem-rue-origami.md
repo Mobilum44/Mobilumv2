@@ -7,7 +7,7 @@ category: Totem
 sub_category: Totem rue
 gamme: ORIGAMI
 finitions: 
-cover_image: "../../images/produits/cover_image/totem-origami-rue.jpg"
+cover_image: "/produits/cover_image/totem-origami-rue.jpg"
 caroussel: 
 - "../../images/produits/totem-rue-origami.jpg"
 - "../../images/produits/totem-rue-origami-passage-pieton-flou.jpg"

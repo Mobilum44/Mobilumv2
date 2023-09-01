@@ -7,7 +7,7 @@ category: Assise
 sub_category: 04 Banc perron
 gamme: STOOP
 finitions: 
-cover_image: "../../images/produits/cover_image/banc-perron-stoop.jpg"
+cover_image: "/produits/cover_image/banc-perron-stoop.jpg"
 caroussel: 
 - "../../images/produits/banc-perron-stoop-ecouflant.jpg"
 - "../../images/produits/stoop-sorbonne.jpg"

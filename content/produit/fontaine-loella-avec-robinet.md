@@ -7,7 +7,7 @@ category: Fontaine
 sub_category: 16 Fontaine
 gamme: LOELLA
 finitions: 
-cover_image: "../../images/produits/cover_image/fontaine-loella-avec-robinet.jpg"
+cover_image: "/produits/cover_image/fontaine-loella-avec-robinet.jpg"
 caroussel: 
 - "../../images/produits/banquette-elium-parc.jpg"
 - "../../images/produits/attente-showroom.jpg"

@@ -7,7 +7,7 @@ category: Assise
 sub_category: 05 Banquette
 gamme: VASCO DE GAMA
 finitions: 
-cover_image: "../../images/produits/cover_image/banquette-vasco-de-gamma.jpg"
+cover_image: "/produits/cover_image/banquette-vasco-de-gamma.jpg"
 caroussel: 
 - "../../images/produits/banquette-vasco-de-gama-angers.jpg"
 filaire: 

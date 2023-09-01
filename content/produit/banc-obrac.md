@@ -7,7 +7,7 @@ category: Assise
 sub_category: 06 Banc
 gamme: OBRAC 
 finitions: 
-cover_image: "../../images/produits/cover_image/banc-obrac.jpg"
+cover_image: "/produits/cover_image/banc-obrac.jpg"
 caroussel: 
 - "../../images/produits/banc-obrac-la-rochelle.jpg"
 - "../../images/produits/banc-obrac-la-roche-sur-yon.jpg"

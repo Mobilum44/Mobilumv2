@@ -7,7 +7,7 @@ category: Assise
 sub_category: 05 Banquette
 gamme: ELIUM
 finitions: 
-cover_image: "../../images/produits/cover_image/banquette-elium.jpg"
+cover_image: "/produits/cover_image/banquette-elium.jpg"
 caroussel: 
 - "../../images/produits/banquette-elium-parc.jpg"
 - "../../images/produits/attente-showroom.jpg"

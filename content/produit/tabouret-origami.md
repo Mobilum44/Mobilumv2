@@ -7,7 +7,8 @@ category: Assise
 sub_category: 01 Tabouret
 gamme: ORIGAMI
 finitions: 
-cover_image: "../../images/produits/cover_image/tabouret-origami.jpg"
+cover_image: "/produits/cover_image/tabouret-origami.jpg"
+
 caroussel: 
 - "../../images/produits/chemin-tabouret-origami.jpeg"
 - "../../images/produits/tabourets-origami-proville.jpg"
