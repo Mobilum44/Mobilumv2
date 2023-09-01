@@ -9,11 +9,11 @@ gamme: ELIUM
 finitions: 
 cover_image: "/produits/cover_image/chaise-elium.jpg"
 caroussel: 
-- "../../images/produits/chaise-elium-trio-bretteville.jpg"
-- "../../images/produits/chaise-elium-banc-elium.jpg"
-- "../../images/produits/chaise-elium-trio.jpg"
+- "/produits/chaise-elium-trio-bretteville.jpg"
+- "/produits/chaise-elium-banc-elium.jpg"
+- "/produits/chaise-elium-trio.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-chaise-elium.png"
+ - "/produits/filaires/filaire-chaise-elium.png"
 reference: CHELIUM0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 109

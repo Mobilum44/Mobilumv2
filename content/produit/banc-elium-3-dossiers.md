@@ -9,9 +9,9 @@ gamme: ELIUM
 finitions: 3 dossiers
 cover_image: "/produits/cover_image/banc-elium-3-dossiers.jpg"
 caroussel: 
-- "../../images/produits/attente-showroom.jpg"
+- "/produits/attente-showroom.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "/produits/filaires/filaire-cantine-04.png"
 reference: BSELIUM0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 291

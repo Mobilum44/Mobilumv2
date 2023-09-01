@@ -9,10 +9,10 @@ gamme: STOOP
 finitions: 
 cover_image: "/produits/cover_image/banc-perron-stoop.jpg"
 caroussel: 
-- "../../images/produits/banc-perron-stoop-ecouflant.jpg"
-- "../../images/produits/stoop-sorbonne.jpg"
+- "/produits/banc-perron-stoop-ecouflant.jpg"
+- "/produits/stoop-sorbonne.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-banc-perron-stoop.png"
+ - "/produits/filaires/filaire-banc-perron-stoop.png"
 reference: BPSTOOP0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 192

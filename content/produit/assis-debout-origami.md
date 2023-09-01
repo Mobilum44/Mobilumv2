@@ -9,9 +9,9 @@ gamme: ORIGAMI
 finitions: 
 cover_image: "/produits/cover_image/assis-debout-origami.jpg"
 caroussel: 
-- "../../images/produits/rangee-assis-debout-origami.jpg"
+- "/produits/rangee-assis-debout-origami.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "/produits/filaires/filaire-cantine-04.png"
 reference: ADORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 75

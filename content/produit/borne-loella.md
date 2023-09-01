@@ -9,9 +9,9 @@ gamme: LOELLA
 finitions: 
 cover_image: "/produits/cover_image/borne-loella.jpg"
 caroussel: 
-- "../../images/produits/borne-fontaine-loella-rouen.jpg"
+- "/produits/borne-fontaine-loella-rouen.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "/produits/filaires/filaire-cantine-04.png"
 reference: FOLOELL0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 117

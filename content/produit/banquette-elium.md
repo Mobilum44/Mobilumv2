@@ -9,10 +9,10 @@ gamme: ELIUM
 finitions: 
 cover_image: "/produits/cover_image/banquette-elium.jpg"
 caroussel: 
-- "../../images/produits/banquette-elium-parc.jpg"
-- "../../images/produits/attente-showroom.jpg"
+- "/produits/banquette-elium-parc.jpg"
+- "/produits/attente-showroom.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-banquette-elium.png"
+ - "/produits/filaires/filaire-banquette-elium.png"
 reference: BAELIUM0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 201

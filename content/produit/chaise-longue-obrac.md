@@ -9,9 +9,9 @@ gamme: OBRAC
 finitions: 
 cover_image: "/produits/cover_image/chaise-longue-obrac.jpg"
 caroussel:
-- "../../images/produits/attente-showroom.jpg"
+- "/produits/attente-showroom.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-chaise-longue-obrac.png"
+ - "/produits/filaires/filaire-chaise-longue-obrac.png"
 reference: CLOBRAC0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 161

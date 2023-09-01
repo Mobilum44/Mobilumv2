@@ -9,9 +9,9 @@ gamme: HOOK
 finitions: L765 bois
 cover_image: "/produits/cover_image/hook-765-bois.jpg"
 caroussel: 
-- "../../images/produits/attente-showroom.jpg"
+- "/produits/attente-showroom.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "/produits/filaires/filaire-cantine-04.png"
 reference: 
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 86

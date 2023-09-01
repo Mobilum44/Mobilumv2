@@ -9,10 +9,10 @@ gamme: ORIGAMI
 finitions: 
 cover_image: "/produits/cover_image/totem-origami-rue.jpg"
 caroussel: 
-- "../../images/produits/totem-rue-origami.jpg"
-- "../../images/produits/totem-rue-origami-passage-pieton-flou.jpg"
+- "/produits/totem-rue-origami.jpg"
+- "/produits/totem-rue-origami-passage-pieton-flou.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "/produits/filaires/filaire-cantine-04.png"
 reference: TOORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 96

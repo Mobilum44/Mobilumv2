@@ -9,9 +9,9 @@ gamme: ORIGAMI
 finitions: 
 cover_image: "/produits/cover_image/banquette-origami.jpg"
 caroussel: 
-- "../../images/produits/banquette-origami.jpg"
+- "/produits/banquette-origami.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-banquette-origami.png"
+ - "/produits/filaires/filaire-banquette-origami.png"
 reference: BAORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 163

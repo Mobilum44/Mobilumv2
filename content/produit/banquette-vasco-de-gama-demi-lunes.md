@@ -9,10 +9,10 @@ gamme: VASCO DE GAMA
 finitions: demi-lunes
 cover_image: "/produits/cover_image/banquette-vasco-de-gama-demi-lunes.jpg"
 caroussel: 
-- "../../images/produits/banc-vasco-de-gama-a-angers.jpg"
-- "../../images/produits/vasco-de-gama-demi-lunes-bleus.jpg"
+- "/produits/banc-vasco-de-gama-a-angers.jpg"
+- "/produits/vasco-de-gama-demi-lunes-bleus.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "/produits/filaires/filaire-cantine-04.png"
 reference: BAVASCO0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 183

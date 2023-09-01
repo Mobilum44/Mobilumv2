@@ -9,10 +9,10 @@ gamme: CANTINE
 finitions: 04
 cover_image: "/produits/cover_image/table-cantine-champetre-04.jpg"
 caroussel: 
-- "../../images/produits/table-cantine-04-st-viaud.jpg"
+- "/produits/table-cantine-04-st-viaud.jpg"
 
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "/produits/filaires/filaire-cantine-04.png"
 reference: TCCANTI0104
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 901

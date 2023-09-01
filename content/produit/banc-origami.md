@@ -9,10 +9,10 @@ gamme: ORIGAMI
 finitions: 
 cover_image: "/produits/cover_image/banc-origami.jpg"
 caroussel: 
-- "../../images/produits/bancs-origami.jpeg"
-- "../../images/produits/rangee-banc-origami.jpeg"
+- "/produits/bancs-origami.jpeg"
+- "/produits/rangee-banc-origami.jpeg"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "/produits/filaires/filaire-cantine-04.png"
 reference: BSORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 223

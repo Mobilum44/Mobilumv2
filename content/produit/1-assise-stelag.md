@@ -9,9 +9,9 @@ gamme: STELAG
 finitions: 
 cover_image: "/produits/cover_image/galet-1-assise.jpg"
 caroussel: 
-- "../../images/produits/attente-showroom.jpg"
+- "/produits/attente-showroom.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "/produits/filaires/filaire-cantine-04.png"
 reference: AGSTELA0202
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 411

@@ -10,14 +10,12 @@
 		<div class="sub__section">
 			<ul class="collection_order">
 				<li v-for="urbanFurniture in urbanFurnitures" :key="urbanFurniture.title">
-					<article class="image_cover">
-						<NuxtImg
-							alt="photo mobilier urbain"
-							:src="urbanFurniture.cover_image"
-						/>
-
-						<NuxtLink :to="urbanFurniture._path">{{ urbanFurniture.title }}</NuxtLink>
-					</article>
+					<NuxtLink :to="urbanFurniture._path">
+						<article class="image_cover">
+							<NuxtImg alt="photo mobilier urbain mobilum" :src="urbanFurniture.cover_image" />
+							<p>{{ urbanFurniture.title }}</p>
+						</article>
+					</NuxtLink>
 				</li>
 			</ul>
 		</div>

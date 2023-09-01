@@ -9,10 +9,10 @@ gamme: LOELLA
 finitions: 1140
 cover_image: "/produits/cover_image/fontaine-loella.jpg"
 caroussel: 
-- "../../images/produits/fontaine-loella-1100.jpg"
-- "../../images/produits/focus-loella.jpg"
+- "/produits/fontaine-loella-1100.jpg"
+- "/produits/focus-loella.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "/produits/filaires/filaire-cantine-04.png"
 reference: FOLOELL0105
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 95

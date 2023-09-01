@@ -9,10 +9,10 @@ gamme: CANTINE
 finitions: PM
 cover_image: "/produits/cover_image/banquette-cantine-pm.jpg"
 caroussel: 
-- "../../images/produits/banquette-elium-parc.jpg"
-- "../../images/produits/attente-showroom.jpg"
+- "/produits/banquette-elium-parc.jpg"
+- "/produits/attente-showroom.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-banquette-cantine-pm.png"
+ - "/produits/filaires/filaire-banquette-cantine-pm.png"
 reference: BACANTI0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 156

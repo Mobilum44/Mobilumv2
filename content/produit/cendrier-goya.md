@@ -9,9 +9,9 @@ gamme: GOYA
 finitions: 
 cover_image: "/produits/cover_image/cendrier-goya.jpg"
 caroussel: 
-- "../../images/produits/cendrier-goya-hotel-la-rochelle.jpg"
+- "/produits/cendrier-goya-hotel-la-rochelle.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "/produits/filaires/filaire-cantine-04.png"
 reference: CEGOYA_0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 30

@@ -9,9 +9,9 @@ gamme: DUCHESSE
 finitions: 
 cover_image: "/produits/cover_image/fauteuil-duchesse.jpg"
 caroussel: 
-- "../../images/produits/focus-chaise-duchesse.jpg"
+- "/produits/focus-chaise-duchesse.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "/produits/filaires/filaire-cantine-04.png"
 reference: FADUCHE0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 108

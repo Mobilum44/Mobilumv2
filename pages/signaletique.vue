@@ -6,7 +6,6 @@
 			<h1>Signaletique</h1>
 		</div>
 
-		
 		<p>
 			\Distingué \résisistant \ ultra personalisable font de nos totems des pièces uniques dans ce domaine <br />
 			Dé"tails en plus sur chaque page de totem
@@ -15,9 +14,12 @@
 		<div class="sub__section">
 			<ul class="collection_order">
 				<li v-for="urbanFurniture in urbanFurnitures" :key="urbanFurniture.title">
-					<article class="image_cover">
-						<NuxtLink :to="urbanFurniture._path">{{ urbanFurniture.title }}</NuxtLink>
-					</article>
+					<NuxtLink :to="urbanFurniture._path">
+						<article class="image_cover">
+							<NuxtImg alt="photo collection signaletique mobilum" :src="urbanFurniture.cover_image" />
+							<p>{{ urbanFurniture.title }}</p>
+						</article>
+					</NuxtLink>
 				</li>
 			</ul>
 		</div>
@@ -97,6 +99,7 @@ const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 .image_cover:hover p {
 	opacity: 1;
 	transition: all 0.5s ease-in-out;
+	color: white;
 }
 
 .image_cover:hover > img {

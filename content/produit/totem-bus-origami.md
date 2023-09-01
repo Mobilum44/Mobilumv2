@@ -9,9 +9,9 @@ gamme: ORIGAMI
 finitions: 
 cover_image: "/produits/cover_image/totem-origami-bus.jpg"
 caroussel: 
-- "../../images/produits/totem-bus-origami.png"
+- "/produits/totem-bus-origami.png"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "/produits/filaires/filaire-cantine-04.png"
 reference: TOORIGA0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 393

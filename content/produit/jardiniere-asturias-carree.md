@@ -9,10 +9,10 @@ gamme: ASTURIAS
 finitions: lisse
 cover_image: "/produits/cover_image/jardiniere-asturias-carree-lisse.jpg"
 caroussel: 
-- "../../images/produits/jardiniere-asturias-carree-vegetale.png"
-- "../../images/produits/jardiniere-asturias-carree-vegetale-gros-plan.jpg"
+- "/produits/jardiniere-asturias-carree-vegetale.png"
+- "/produits/jardiniere-asturias-carree-vegetale-gros-plan.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "/produits/filaires/filaire-cantine-04.png"
 reference: JAASTUR0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 330

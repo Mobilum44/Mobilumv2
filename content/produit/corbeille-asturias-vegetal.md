@@ -9,10 +9,10 @@ gamme: ASTURIAS
 finitions: végétal
 cover_image: "/produits/cover_image/corbeille-asturias-vegetal.jpg"
 caroussel: 
-- "../../images/produits/attente-showroom.jpg"
-- "../../images/produits/attente-showroom.jpg"
+- "/produits/attente-showroom.jpg"
+- "/produits/attente-showroom.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "/produits/filaires/filaire-cantine-04.png"
 reference: COASTUR0402
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 98

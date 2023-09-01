@@ -9,9 +9,9 @@ gamme: STAMP
 finitions: lisse
 cover_image: "/produits/cover_image/chaise-stamp-lisse.jpg"
 caroussel: 
-- "../../images/produits/banquette-elium-parc.jpg"
+- "/produits/banquette-elium-parc.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "/produits/filaires/filaire-cantine-04.png"
 reference: CHSTAMP0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 132

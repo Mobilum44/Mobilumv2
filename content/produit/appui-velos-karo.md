@@ -9,10 +9,10 @@ gamme: KARO
 finitions: 
 cover_image: "/produits/cover_image/appuis-velo-karo.jpg"
 caroussel: 
-- "../../images/produits/appui-velo-karo-vicat.jpg"
-- "../../images/produits/appui-velo-karo-le-trait.jpg"
+- "/produits/appui-velo-karo-vicat.jpg"
+- "/produits/appui-velo-karo-le-trait.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-appui-velo-karo.png"
+ - "/produits/filaires/filaire-appui-velo-karo.png"
 reference: AVKARO_0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 33

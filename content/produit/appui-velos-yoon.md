@@ -9,9 +9,9 @@ gamme: YOON
 finitions: 
 cover_image: "/produits/cover_image/appui-velo-yoon.jpg"
 caroussel: 
-- "../../images/produits/appuis-velo-yoon.jpg"
+- "/produits/appuis-velo-yoon.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-appui-velo-yoon.png"
+ - "/produits/filaires/filaire-appui-velo-yoon.png"
 reference: AVYOON_0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 28

@@ -9,10 +9,10 @@ gamme: ELIUM
 finitions: 2 dossiers
 cover_image: "/produits/cover_image/banc-elium-2-dossiers.jpg"
 caroussel: 
-- "../../images/produits/banquette-elium-parc.jpg"
-- "../../images/produits/attente-showroom.jpg"
+- "/produits/banquette-elium-parc.jpg"
+- "/produits/attente-showroom.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-cantine-04.png"
+ - "/produits/filaires/filaire-cantine-04.png"
 reference: BSELIUM0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 264

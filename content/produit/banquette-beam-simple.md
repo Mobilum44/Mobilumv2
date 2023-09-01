@@ -9,9 +9,9 @@ gamme: BEAM
 finitions: simple
 cover_image: "/produits/cover_image/banquette-beam.jpg"
 caroussel: 
-- "../../images/produits/banquette-beam-plage.jpg"
+- "/produits/banquette-beam-plage.jpg"
 filaire: 
- - "../../images/produits/filaires/filaire-banquette-beam-simple.png"
+ - "/produits/filaires/filaire-banquette-beam-simple.png"
 reference: BABEAM_0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 260
