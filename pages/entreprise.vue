@@ -1,9 +1,9 @@
 <template>
 	<Layout>
 		<template #slot_image>
-			<section class="slot_image">
+			<div class="slot_image" :style="{ backgroundImage: `url(${image})`}">
 				<h1>Mobilum</h1>
-			</section>
+			</div>
 		</template>
 
 		<section class="page_top">
@@ -19,15 +19,6 @@
 		<div class="sub__section wide">
 			<div class="sub__section__content">
 				<div class="section__side illustration croquis">
-					<!--
-		<NuxtImg
-		alt="Table cantine réelle"
-		src="/croquis-sovann-kim-pour-mobilum.png"
-		center
-		width="600"
-		fit="cover"
-		/>
-				-->
 				</div>
 
 				<div class="section__side text design">
@@ -177,17 +168,23 @@ Nos activités
 	</Layout>
 </template>
 
+<script>
+import BackEntr from "/backgroundpages/fond-entreprise-eglise-resized.jpg";
+
+export default {
+  data() {
+    return {
+      image: BackEntr,
+    };
+  }
+};
+</script>
+
 
 <style scoped>
 /*-------------------------------------------------------------------------
     General
 -----------------------------------------------------------------------*/
-.slot_image {
-	background: url("\photospages\fond-entreprise-eglise-resized.jpg") center center no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
 h2 {
 	padding-bottom: 1rem;
 	margin: 1rem;
@@ -236,12 +233,14 @@ article {
 	flex-direction: column;
 	justify-content: center;
 	margin: 0;
+
 }
 .section__side {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	/* border-radius: 5px; */
+	height : 100vh;
 }
 .design {
 	margin: 0;
@@ -283,26 +282,26 @@ article {
             Gestion des images
 --------------------------------------------------------------------------------------------*/
 .illustration {
-	width: 50%;
+	width: 200%;
 	object-fit: contain;
 	background-position-y: center;
 }
 
 .croquis {
 	background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #fefcf3),
-		url("/croquis-sovann-kim-pour-mobilum.png");
-	/* border-radius: 5px;
-   border : solid black 1px; */
+	url("/photospages/croquis-sovann-kim-pour-mobilum.png");
+	background-size: cover;
 }
 .savoir-faire {
 	background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #f5ebe0),
-		url("/savoir-faire.jpg");
+		url("/photospages/savoir-faire.jpg");
 	background-size: cover;
 }
 .RSE {
 	background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #fefcf3),
-		url("\photospages\mobilum-valeurs-rse-avenirv2.png");
+		url("/photospages/mobilum-valeurs-rse-avenirv2.png");
 	background-size: cover;
+	width : 100%;
 }
 
 /* ------------------------------------------------------------------------------------------
@@ -349,12 +348,6 @@ article {
 	.section__text {
 		padding-bottom: 0;
 	}
-	.illustration img {
-		object-fit: cover;
-		width: 50%;
-		height: 50vh;
-		background-position-y: bottom;
-	}
 
 	.dark {
 		background-color: #fefcf3;
@@ -364,30 +357,35 @@ article {
 		color: black;
 	}
 
+	.illustration img {
+		object-fit: cover;
+		background-position-y: bottom;
+	}
+
 	.croquis {
-		width: 50%;
-		height: 50vh;
+		height : 50vh;
+		width : 90vw;
 		background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)),
-			url("/croquis-sovann-kim-pour-mobilum.png");
+			url("/photospages/croquis-sovann-kim-pour-mobilum.png");
 		background-size: cover;
 		box-shadow: rgba(50, 50, 93, 0.8) 0px 2px 5px -1px, rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
 	}
 
 	.savoir-faire {
-		width: 50%;
-		height: 50vh;
+		height : 30vh;
+		width : 90vw;
 		background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)),
-			url("/savoir-faire.jpg");
+			url("/photospages/savoir-faire.jpg");
 		background-size: cover;
 		box-shadow: rgba(50, 50, 93, 0.8) 0px 2px 5px -1px, rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
 	}
 
 	.RSE {
-		width: 50%;
-		height: 50vh;
+		height : 50vh;
+		width : 90vw;
 		padding-bottom: 2rem;
 		background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)),
-			url("\photospages\angers_tram.jpg");
+			url("/photospages/mobilum-valeurs-rse-avenirv2.png");
 		background-size: cover;
 		box-shadow: rgba(50, 50, 93, 0.8) 0px 2px 5px -1px, rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
 	}

@@ -1,11 +1,25 @@
 <template>
-	<NuxtLayout name="empty" class="Empty">
+	<NuxtLayout name="empty" class="Empty" :style="{ backgroundImage: `url(${image})`}">
+		<div >
 		<div class="logo_bouton">
-			<NuxtImg alt="Logo mobilum" src="\photospages\logos/logo_transparent.png" />
+			<NuxtImg alt="Logo mobilum" src="\logos\logo_transparent.png" />
 			<Button theme="slide" to="/accueil"> Entrer </Button>
+		</div>
 		</div>
 	</NuxtLayout>
 </template>
+
+<script>
+import BackgroundImg from "/backgroundpages/fond-accueil.jpg";
+export default {
+  data() {
+    return {
+      image: BackgroundImg,
+    };
+  }
+};
+</script>
+
 
 <style scoped>
 img {
@@ -13,9 +27,8 @@ img {
 }
 
 .Empty {
-	background: url("\photospages\fond-accueil.jpg") center center no-repeat;
-	background-size: cover;
-	height: 100vh;
+	height: 100%;
+	width : 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;

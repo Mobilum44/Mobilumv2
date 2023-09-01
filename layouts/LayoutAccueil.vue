@@ -1,13 +1,13 @@
 <template>
 	<div class="layout">
-		<slot name="slot_image" class="slot_image"> </slot>
+		<slot name="slot_image" />
 
 		<section class="contenu">
 			<slot />
 		</section>
 
-		<slot name="slot_bandeau"> </slot>
-		<slot name="slot_contact"> </slot>
+		<slot name="slot_bandeau" />
+		<slot name="slot_contact" />
 	</div>
 </template>
 

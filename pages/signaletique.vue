@@ -6,38 +6,31 @@
 			<h1>Signaletique</h1>
 		</div>
 
-		<div class="sub__section">
-			<div class="collection_order">
-				<div class="image_cover">Produit 1</div>
+		
+		<p>
+			\Distingué \résisistant \ ultra personalisable font de nos totems des pièces uniques dans ce domaine <br />
+			Dé"tails en plus sur chaque page de totem
+		</p>
 
-				<div class="image_cover">Produit 2</div>
-				<div class="image_cover">Produit 3</div>
-				<div class="image_cover">Produit 4</div>
-				<div class="image_cover">Produit 5</div>
-			</div>
+		<div class="sub__section">
+			<ul class="collection_order">
+				<li v-for="urbanFurniture in urbanFurnitures" :key="urbanFurniture.title">
+					<article class="image_cover">
+						<NuxtLink :to="urbanFurniture._path">{{ urbanFurniture.title }}</NuxtLink>
+					</article>
+				</li>
+			</ul>
 		</div>
 	</Layout>
 </template>
 
-<!-- <page-query>
-query Collection ($id: ID!) {
-  collection (id: $id) {
-    title
-    belongsTo(sortBy: "sub_category", order: ASC) {
-      edges {
-        node {
-          ...on Product {
-              title
-              gamme
-              cover_image
-              path
-          }
-        }
-      }
-    }
-  }
-}
-</page-query> -->
+<script setup lang="ts">
+const { data: urbanFurnitures } = await useAsyncData("produit", () =>
+	// Requête pour récupérer les produits de la collection "Mobilier urbain"
+	// https://content.nuxtjs.org/api/composables/query-content
+	queryContent("/produit").where({ collection: "Signalétique" }).sort({ sub_category: 1 }).find(),
+);
+</script>
 
 <style scoped>
 /*---------------------------------------------------------

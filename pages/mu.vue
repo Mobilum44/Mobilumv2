@@ -19,26 +19,6 @@
 	</Layout>
 </template>
 
-<!-- <page-query>
-query Collection ($id: ID!) {
-	collection (id: $id) {
-		title
-		belongsTo(sortBy: "sub_category", order: ASC) {
-			edges {
-				node {
-					...on Product {
-						title
-						gamme
-						cover_image
-						path
-					}
-				}
-			}
-		}
-	}
-}
-</page-query> -->
-
 <script setup lang="ts">
 const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 	// Requête pour récupérer les produits de la collection "Mobilier urbain"

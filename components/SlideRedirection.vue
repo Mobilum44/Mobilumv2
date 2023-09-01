@@ -19,7 +19,7 @@
 		</div>
 		<!-- </NuxtLink> -->
 		<NuxtLink class="box" to="/collection">
-			<NuxtImg src="\photospages\fond_entreprise.jpg" />
+			<NuxtImg src="\photospages\Galets.jpg" />
 			<p>
 				\ Une collection <br />
 				\ Du sur-mesure

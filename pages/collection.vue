@@ -8,13 +8,7 @@
 			</section>
 		</template>
 
-		<b> Le bordel pour rendre tout ca responsive </b>
-
-		<p>
-			Pour la signalétique <br />
-			\diSTINQU2 \résisistant \ ultra personalisable font de nos totems des pièces uniques dans ce domaine <br />
-			Dé"tails en plus sur chaque page de totem
-		</p>
+		<b> Faire la mise en page + Rendre ca responsive</b>
 
 		<div class="old__collection">
 			<!-- <NuxtLink
@@ -55,7 +49,7 @@
 			<div class="collection">
 
 				<NuxtLink class="items_styling shadow" to="/mu">
-					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="\photospages\SNCF_auxerre.png" center />
+					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="\photospages\angers_tram.jpg" center />
 					<p>Mobilier urbain</p>
 				</NuxtLink>
 
@@ -66,12 +60,12 @@
 				</NuxtLink>
 
 				<NuxtLink class="items_styling shadow" to="/signaletique">
-					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="\photospages\SNCF_auxerre.png" center />
+					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="\photospages\gaetan-sablage.jpg" center />
 					<p>Signalétique</p>
 				</NuxtLink>
 
 				<NuxtLink class="items_styling shadow" to="/hook">
-					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="\photospages\SNCF_auxerre.png" center />
+					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="\photospages\hook-cover-image.JPG" center />
 					<p>HOOK</p>
 				</NuxtLink>
 
@@ -94,6 +88,7 @@
 		<!--
     <Defilant />
 --->
+
 	</Layout>
 </template>
 <!-- 

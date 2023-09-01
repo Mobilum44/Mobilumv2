@@ -6,7 +6,7 @@
 				<NuxtImg
 					class="Logo_mobilum"
 					alt="Logo mobilum"
-					src="\photospages\logos/Mobilum_no_margin.png"
+					src="/logos/Mobilum_no_margin.png"
 					width="60"
 				/>
 				<div>

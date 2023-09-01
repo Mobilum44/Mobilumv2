@@ -23,7 +23,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 0;
+	justify-content: center;
 	padding: 0;
 }
 </style>
