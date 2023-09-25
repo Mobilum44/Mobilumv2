@@ -50,7 +50,6 @@
 	PARTIE A DEVELOPPER PLUS TARD
 	Mise en page : Cartes RS avec texte en dessous, 3 directement affichés
 	--------------------------------->
-		<p>INSPIRATION HEADER : https://codepen.io/BrandonMathura/pen/xwMRGQ</p>
 		<p class="accueil_text">
 			Après dix ans de recherches et de développements, Mobilum possède un savoir-faire unique dans la création et
 			la fabrication de mobiliers urbains en Béton Fibré à Ultra-haute Performance. <br /><br />
@@ -73,6 +72,22 @@
 		</template>
 	</NuxtLayout>
 </template>
+
+
+<script>
+
+definePageMeta({
+  layout: "LayoutAccueil",
+});
+
+export default {
+	metaInfo: {
+		title: "Grands comptes et sur-mesure",
+	},
+
+}
+</script>
+
 
 <style scoped>
 /* General */

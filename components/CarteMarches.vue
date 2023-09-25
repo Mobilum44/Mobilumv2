@@ -20,6 +20,12 @@ defineProps<{
 .CarteMarches {
 	display: flex;
 	width: fit-content;
+	overflow : hidden;
+	position : relative;
+	height : 500px;
+	margin-left : 1.5%;
+	margin-bottom : 1.5%;
+
 }
 
 /* ---------------------------------------------------------------------

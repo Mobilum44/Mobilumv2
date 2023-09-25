@@ -1,5 +1,5 @@
 <template>
-	<NuxtLayout>
+	<NuxtLayout name="default">
 		<template #slot_image>
 			<div class="slot_image">
 				<h1>Contact</h1>
@@ -52,6 +52,16 @@
 		</div>
 	</NuxtLayout>
 </template>
+
+
+<script>
+definePageMeta({
+  layout: "Default",
+});
+</script>
+
+
+
 
 <style scoped>
 .slot_image {

@@ -1,5 +1,5 @@
 <template>
-	<NuxtLayout>
+	<NuxtLayout name="default">
 		<template #slot_image>
 			<div class="slot_image" :style="{ backgroundImage: `url(${image})` }">
 				<h1>Mobilum</h1>
@@ -179,6 +179,10 @@ Nos activités
 </template>
 
 <script>
+definePageMeta({
+  layout: "Default",
+});
+
 import BackEntr from "/backgroundpages/fond-entreprise-eglise-resized.jpg";
 
 export default {
@@ -196,12 +200,7 @@ export default {
 		url("/photospages/accueil-test-fond2.jpg");
 	opacity: 90%;
 	background-size: cover;
-	height: 100vh;
-	padding-bottom: 15vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	background-attachment: fixed;
 }
 /*-------------------------------------------------------------------------
     General
