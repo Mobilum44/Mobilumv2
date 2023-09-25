@@ -1,5 +1,5 @@
 <template>
-	<NuxtLayout>
+	<NuxtLayout name="contenu_no_margin">
 		<div class="sub__section">
 			<Button theme="bordered" to="/collection"> Retour à l'offre </Button>
 
@@ -187,8 +187,7 @@
 						<p>Des transats infinis</p>
 					</template>
 				</CarteMarches>
-			</section>
-			<section class="sub__section__content">
+
 				<CarteMarches>
 					<template #img__marche>
 						<NuxtImg
@@ -246,6 +245,25 @@ réalisations exceptionnelles qui inspirent et marquent les esprits. <br /><br /
 	</NuxtLayout>
 </template>
 
+
+<script>
+import Layout from "@/layouts/LayoutAccueil.vue";
+import CarteMarches from "@/components/CarteMarches.vue";
+
+export default {
+	components: {
+		Layout,
+		CarteMarches,
+	},
+
+	metaInfo: {
+		title: "Grands comptes et sur-mesure",
+	},
+
+}
+</script>
+
+
 <style scoped>
 h2 {
 	border: 0;
@@ -253,6 +271,10 @@ h2 {
 
 .chapeau {
 	width: 70%;
+}
+
+.sub__section {
+	border : solid black;
 }
 .sub__section__content {
 	gap: 1rem;

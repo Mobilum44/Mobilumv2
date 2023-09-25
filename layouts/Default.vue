@@ -15,7 +15,7 @@
 
 <style>
 .image_title {
-	height: 20vh;;
+	height: 20vh;
 }
 
 .contenu {
