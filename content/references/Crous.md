@@ -5,7 +5,7 @@ published: TRUE
 
 gamme: "?" 
 
-cover_image: "/references/cover_image/feuille-roquefere.jpg"
+cover_image: "/references/cover_image/ensemble-interieur-crous.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
 caroussel: 

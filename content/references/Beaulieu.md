@@ -6,7 +6,7 @@ published: TRUE
 
 gamme: "?" 
 
-cover_image: "/references/cover_image/carnon-transats-mila2.jpg"
+cover_image: "/references/cover_image/puilboreau-centre-commercial-beaulieu.jpeg"
 cover_text: "Un bain de soleil infini"
 
 caroussel: 

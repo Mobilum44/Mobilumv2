@@ -6,7 +6,7 @@ published: TRUE
 
 gamme: "?" 
 
-cover_image: "/references/cover_image/carnon-transats-mila2.jpg"
+cover_image: "/references/cover_image/galets-mobilum-rouen.jpg"
 cover_text: "Blablabla"
 
 caroussel: 

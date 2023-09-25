@@ -23,7 +23,7 @@ defineProps<{
 	display: flex;
 	overflow : hidden;
 	position : relative;
-	height : 500px;
+	height : 480px;
 	width : 100%;
 	margin-left : 1.5%;
 	margin-bottom : 1.5%;
@@ -31,7 +31,7 @@ defineProps<{
 }
 .CarteMarches img {
 	object-fit: cover;
-	max-height : 100%;
+	max-height : 110%;
 }
 .CarteMarches h3 {
 	position: absolute;

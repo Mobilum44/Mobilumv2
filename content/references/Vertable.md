@@ -5,7 +5,7 @@ published: TRUE
 
 gamme: "?" 
 
-cover_image: "/references/cover_image/projet-vertable-tables-vertou.jpg"
+cover_image: "/references/cover_image/vertable-infinie.jpg"
 cover_text: "Une table infinie"
 
 caroussel: 
