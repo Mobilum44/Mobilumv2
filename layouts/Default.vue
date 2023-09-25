@@ -14,10 +14,15 @@
 </template>
 
 <style>
-.image_title {
-	height: 20vh;
-}
 
+.slot_image {
+	margin-top: 15vh;
+	height: 85vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
 .contenu {
 	display: flex;
 	flex-direction: column;

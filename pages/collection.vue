@@ -1,7 +1,7 @@
 <template>
 	<!--mobilier urbain, Ammenagement(hook + signaletique), grands comptes, Nos réalisations sur mesure
 	Supprimer sav -->
-	<NuxtLayout>
+	<NuxtLayout name="default">
 		<template #slot_image>
 			<div class="slot_image"> <!-- :style="{ backgroundImage: `url(${image})`}">-->
 				<h1>Nos collections</h1>
@@ -60,6 +60,13 @@
 	</NuxtLayout>
 </template>
 
+<script>
+definePageMeta({
+  layout: "Default",
+});
+
+</script>
+
 <!---
 <script>
 import BackColl from "/backgroundpages/fond-plage-collection.jpg";
@@ -82,7 +89,6 @@ export default {
 	background-size: cover;
 	background-attachment: fixed;
 }
-
 
 .collection {
 	margin-top : 5rem;
