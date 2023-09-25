@@ -8,7 +8,7 @@ sub_category: 06 Sofa
 gamme: STAMP
 finitions: window
 cover_image: "/produits/cover_image/sofa-stamp-window.jpg"
-caroussel: 
+carousel: 
 - "/produits/banquette-elium-parc.jpg"
 - "/produits/attente-showroom.jpg"
 filaire: 

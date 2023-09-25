@@ -8,7 +8,7 @@ sub_category: Totem bus
 gamme: ORIGAMI
 finitions: 
 cover_image: "/produits/cover_image/totem-origami-bus.jpg"
-caroussel: 
+carousel: 
 - "/produits/totem-bus-origami.png"
 filaire: 
  - "/produits/filaires/filaire-cantine-04.png"

@@ -8,7 +8,7 @@ sub_category: 93 Jardinière
 gamme: STELAG
 finitions: 
 cover_image: "/produits/cover_image/jardiniere-stelag.jpg"
-caroussel: 
+carousel: 
 - "/produits/galet-jardiniere-stelag-assise.JPG"
 - "/produits/galet-jardiniere-stelag-fecamp.JPG"
 filaire: 

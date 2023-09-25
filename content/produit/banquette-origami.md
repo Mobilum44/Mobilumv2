@@ -8,7 +8,7 @@ sub_category: 05 Banquette
 gamme: ORIGAMI
 finitions: 
 cover_image: "/produits/cover_image/banquette-origami.jpg"
-caroussel: 
+carousel: 
 - "/produits/banquette-origami.jpg"
 filaire: 
  - "/produits/filaires/filaire-banquette-origami.png"

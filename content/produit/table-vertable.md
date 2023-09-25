@@ -8,7 +8,7 @@ sub_category: 11 Table
 gamme: VERTABLE
 finitions: 
 cover_image: "/produits/cover_image/table-vertable.jpg"
-caroussel: 
+carousel: 
 - "/produits/table-vertable-loroux-jaune.jpg"
 - "/produits/table-vertable-loroux-orange.jpg"
 filaire: 

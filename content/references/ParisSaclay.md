@@ -9,10 +9,10 @@ gamme: "?"
 cover_image: "/references/cover_image/paris-saclay-tolerie-foreiziennev2.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
-caroussel: 
-- "../../images/references/caroussel/villa-gallo-romaine-long.jpg"
-- "../../images/references/caroussel/villa-gallo-romaine.jpg"
-- "../../images/references/caroussel/villa-gallo-romaine-nuit.jpg"
+carousel: 
+- "../../images/references/carousel/villa-gallo-romaine-long.jpg"
+- "../../images/references/carousel/villa-gallo-romaine.jpg"
+- "../../images/references/carousel/villa-gallo-romaine-nuit.jpg"
 
 localisation : "Plateau de Saclay"
 moe : "Saclay Université / Alexandre Moronnoz"

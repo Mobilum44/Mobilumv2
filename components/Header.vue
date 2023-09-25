@@ -27,16 +27,12 @@
 onMounted(async () => {
 	await nextTick();
 	window.addEventListener("scroll", () => {
-		let header = document.getElementsByClassName("header_content")[0];
+		const header = document.getElementsByClassName("header_content")[0];
 		if (!header) return;
-		let nav = document.getElementsByClassName("nav_header")[0];
-		if (!nav) return;
 		if (document.documentElement.scrollTop >= 25) {
 			header.classList.add("header_content--mini");
-			nav.classList.add("nav_header--mini");
 		} else {
 			header.classList.remove("header_content--mini");
-			nav.classList.remove("nav_header--mini");
 		}
 	});
 });
@@ -64,7 +60,7 @@ Header {
 }
 
 .header_content--mini {
-	padding-top: 1rem;
+	padding-top: 0.25rem;
 	transition: all 0.3s ease-in-out;
 	border-bottom: solid black 1px;
 }

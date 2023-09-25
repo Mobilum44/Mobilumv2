@@ -8,7 +8,7 @@ sub_category: 18 Appui-vélos
 gamme: YOON 
 finitions: 
 cover_image: "/produits/cover_image/appui-velo-yoon.jpg"
-caroussel: 
+carousel: 
 - "/produits/appuis-velo-yoon.jpg"
 filaire: 
  - "/produits/filaires/filaire-appui-velo-yoon.png"

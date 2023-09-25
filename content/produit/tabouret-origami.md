@@ -9,7 +9,7 @@ gamme: ORIGAMI
 finitions: 
 cover_image: "/produits/cover_image/tabouret-origami.jpg"
 
-caroussel: 
+carousel: 
 - "/produits/chemin-tabouret-origami.jpeg"
 - "/produits/tabourets-origami-proville.jpg"
 filaire: 

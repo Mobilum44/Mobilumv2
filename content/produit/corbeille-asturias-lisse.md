@@ -8,7 +8,7 @@ sub_category: 13 Corbeille
 gamme: ASTURIAS
 finitions: lisse
 cover_image: "/produits/cover_image/corbeille-asturias-lisse.jpg"
-caroussel: 
+carousel: 
 - "/produits/corbeille-asturias-lisse-chemille-en-anjou.jpg"
 - "/produits/corbeille-asturias-lisse-raismes.jpg"
 filaire: 

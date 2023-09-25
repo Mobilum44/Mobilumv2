@@ -8,7 +8,7 @@ sub_category: 14 Jardinière
 gamme: ASTURIAS
 finitions: lisse
 cover_image: "/produits/cover_image/jardiniere-asturias-carree-lisse.jpg"
-caroussel: 
+carousel: 
 - "/produits/jardiniere-asturias-carree-vegetale.png"
 - "/produits/jardiniere-asturias-carree-vegetale-gros-plan.jpg"
 filaire: 

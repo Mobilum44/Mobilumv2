@@ -1,4 +1,6 @@
-export interface Reference {
+import { ParsedContent } from "@nuxt/content/dist/runtime/types";
+
+export interface Reference extends ParsedContent {
 	type: string;
 	title: string;
 	sub_title: string;
@@ -6,7 +8,7 @@ export interface Reference {
 	gamme: string;
 	cover_image: string;
 	cover_text: string;
-	caroussel: string[];
+	carousel: string[];
 	localisation: string;
 	moe: string;
 	moa: string;

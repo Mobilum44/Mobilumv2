@@ -8,7 +8,7 @@ sub_category: 02 Chaise
 gamme: STAMP
 finitions: lisse
 cover_image: "/produits/cover_image/chaise-stamp-lisse.jpg"
-caroussel: 
+carousel: 
 - "/produits/banquette-elium-parc.jpg"
 filaire: 
  - "/produits/filaires/filaire-cantine-04.png"

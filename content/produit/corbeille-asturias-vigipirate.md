@@ -8,7 +8,7 @@ sub_category: 13 Corbeille
 gamme: ASTURIAS
 finitions: VIGIPIRATE
 cover_image: "/produits/cover_image/corbeille-asturias-vigipirate.jpg"
-caroussel: 
+carousel: 
 - "/produits/corbeille-asturias-vigipirate-joncherolles.jpg"
 - "/produits/attente-showroom.jpg"
 filaire: 

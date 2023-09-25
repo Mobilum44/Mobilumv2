@@ -9,9 +9,9 @@ gamme: "?"
 cover_image: "/references/cover_image/carnon-transats-mila2.jpg"
 cover_text: "Blablabla"
 
-caroussel: 
-- "../../images/references/caroussel/page-entree.jpg"
-- "../../images/references/caroussel/page-entree.jpg"
+carousel: 
+- "../../images/references/carousel/page-entree.jpg"
+- "../../images/references/carousel/page-entree.jpg"
 
 localisation : "Rouan"
 moe : "Ville de Rouan / Folius"

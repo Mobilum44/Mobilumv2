@@ -8,8 +8,8 @@ gamme: "?"
 cover_image: "/references/cover_image/assises-societe-du-grand-paris.png"
 cover_text: "Mobilier pour le siège de Chanel"
 
-caroussel: 
-- "../../images/references/caroussel/page-entree.jpg"
+carousel: 
+- "../../images/references/carousel/page-entree.jpg"
 
 localisation : "Siège de Chanel"
 moe : "Chanel"

@@ -8,7 +8,7 @@ sub_category: 06 Banc
 gamme: DUCHESSE 
 finitions: 
 cover_image: "/produits/cover_image/banc-duchesse.jpg"
-caroussel: 
+carousel: 
 - "/produits/banc-duchesse-bruz.JPG"
 - "/produits/focus-banc-duchesse-bruz.jpg"
 filaire: 

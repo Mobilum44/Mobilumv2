@@ -8,7 +8,7 @@ sub_category: 01 Tabouret
 gamme: ELIUM
 finitions: 
 cover_image: "/produits/cover_image/tabouret-elium.jpg"
-caroussel: 
+carousel: 
 - "/produits/tabouret-et-banquette-elium.jpg"
 filaire: 
  - "/produits/filaires/filaire-tabouret-elium.png"

@@ -8,7 +8,7 @@ sub_category: 91 Assise
 gamme: STELAG
 finitions: 
 cover_image: "/produits/cover_image/galet-1-assise.jpg"
-caroussel: 
+carousel: 
 - "/produits/attente-showroom.jpg"
 filaire: 
  - "/produits/filaires/filaire-cantine-04.png"

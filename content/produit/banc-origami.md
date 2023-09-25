@@ -8,7 +8,7 @@ sub_category: 06 Banc
 gamme: ORIGAMI
 finitions: 
 cover_image: "/produits/cover_image/banc-origami.jpg"
-caroussel: 
+carousel: 
 - "/produits/bancs-origami.jpeg"
 - "/produits/rangee-banc-origami.jpeg"
 filaire: 

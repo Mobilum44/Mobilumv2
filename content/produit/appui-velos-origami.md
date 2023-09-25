@@ -8,7 +8,7 @@ sub_category: 18 Appui-vélos
 gamme: ORIGAMI
 finitions: 
 cover_image: "/produits/cover_image/appui-velo-origami.jpg"
-caroussel: 
+carousel: 
 - "/produits/rangee-appui-velo-origami.jpg"
 filaire: 
  - "/produits/filaires/filaire-cantine-04.png"

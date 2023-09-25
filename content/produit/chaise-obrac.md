@@ -8,7 +8,7 @@ sub_category: 02 Chaise
 gamme: OBRAC 
 finitions: 
 cover_image: "/produits/cover_image/chaise-obrac.jpg"
-caroussel: 
+carousel: 
 - "/produits/chaises-obrac-la-rochelle.jpg"
 - "/produits/obrac-chaises-la-rochelle-velo.jpg"
 filaire: 

@@ -29,6 +29,7 @@
 									:path="reference._path"
 									:img="reference.cover_image"
 									:alt="reference.cover_text"
+									:cover_text="reference.cover_text"
 								/>
 						</li>
 					</ul>
@@ -54,11 +55,10 @@ réalisations exceptionnelles qui inspirent et marquent les esprits. <br /><br /
 
 <script lang="ts" setup>
 import { Reference } from "@/assets/types";
-import { ParsedContent } from "@nuxt/content/dist/runtime/types";
 
 const { data: references } = await useAsyncData(
 	"references",
-	() => queryContent("/references").find() as Promise<(ParsedContent & Reference)[]>,
+	() => queryContent("/references").find() as Promise<Reference[]>,
 );
 
 useSeoMeta({

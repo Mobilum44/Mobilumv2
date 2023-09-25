@@ -8,7 +8,7 @@ sub_category: 02 Chaise
 gamme: ELIUM
 finitions: 
 cover_image: "/produits/cover_image/chaise-elium.jpg"
-caroussel: 
+carousel: 
 - "/produits/chaise-elium-trio-bretteville.jpg"
 - "/produits/chaise-elium-banc-elium.jpg"
 - "/produits/chaise-elium-trio.jpg"

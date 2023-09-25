@@ -8,7 +8,7 @@ sub_category: 921 Assise
 gamme: STELAG
 finitions: 
 cover_image: "/produits/cover_image/galet-1-assise-L.jpg"
-caroussel: 
+carousel: 
 - "/produits/galet-haut-une-assise-stelag-rouen.JPG"
 - "/produits/galet-haut-stelag-une-assise.JPG"
 filaire: 

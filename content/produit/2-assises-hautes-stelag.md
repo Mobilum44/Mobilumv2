@@ -8,7 +8,7 @@ sub_category: 922 Assise
 gamme: STELAG
 finitions: 
 cover_image: "/produits/cover_image/galet-2-assises-L.jpg"
-caroussel: 
+carousel: 
 - "/produits/galet-stelag-haut-deux-assises-rouen.JPG"
 filaire: 
  - "/produits/filaires/filaire-cantine-04.png"

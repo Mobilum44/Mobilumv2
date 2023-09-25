@@ -8,7 +8,7 @@ sub_category: 05 Banquette
 gamme: BEAM 
 finitions: simple
 cover_image: "/produits/cover_image/banquette-beam.jpg"
-caroussel: 
+carousel: 
 - "/produits/banquette-beam-plage.jpg"
 filaire: 
  - "/produits/filaires/filaire-banquette-beam-simple.png"

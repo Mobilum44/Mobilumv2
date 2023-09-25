@@ -8,7 +8,7 @@ sub_category: 05 Banquette
 gamme: BEAM 
 finitions: double
 cover_image: "/produits/cover_image/banquette-beam-double.jpg"
-caroussel: 
+carousel: 
 - "/produits/banquette-elium-parc.jpg"
 - "/produits/attente-showroom.jpg"
 filaire: 

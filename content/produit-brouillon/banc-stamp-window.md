@@ -8,7 +8,7 @@ sub_category: 06 Banc
 gamme: STAMP
 finitions: window
 cover_image: "/produits/cover_image/banc-stamp-window.jpg"
-caroussel: 
+carousel: 
 - "/produits/banquette-elium-parc.jpg"
 - "/produits/attente-showroom.jpg"
 filaire: 

@@ -8,7 +8,7 @@ sub_category: 03 Fauteuil
 gamme: STAMP
 finitions: lisse
 cover_image: "/produits/cover_image/banc-obrac.jpg"
-caroussel: 
+carousel: 
 - "/produits/banquette-elium-parc.jpg"
 - "/produits/attente-showroom.jpg"
 filaire: 

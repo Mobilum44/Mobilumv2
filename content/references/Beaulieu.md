@@ -9,9 +9,9 @@ gamme: "?"
 cover_image: "/references/cover_image/carnon-transats-mila2.jpg"
 cover_text: "Un bain de soleil infini"
 
-caroussel: 
-- "../../images/references/caroussel/page-entree.jpg"
-- "../../images/references/caroussel/page-entree.jpg"
+carousel: 
+- "../../images/references/carousel/page-entree.jpg"
+- "../../images/references/carousel/page-entree.jpg"
 
 localisation : "Centre commercial Beaulieu"
 moe : "La Rochelle Agglomération / Forma6"

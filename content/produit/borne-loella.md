@@ -8,7 +8,7 @@ sub_category: 15 Borne
 gamme: LOELLA
 finitions: 
 cover_image: "/produits/cover_image/borne-loella.jpg"
-caroussel: 
+carousel: 
 - "/produits/borne-fontaine-loella-rouen.jpg"
 filaire: 
  - "/produits/filaires/filaire-cantine-04.png"

@@ -8,7 +8,7 @@ sub_category: 05 Banquette
 gamme: DUCHESSE 
 finitions: 
 cover_image: "/produits/cover_image/banquette-duchesse.jpg"
-caroussel: 
+carousel: 
 - "/produits/banquette-elium-parc.jpg"
 - "/produits/attente-showroom.jpg"
 filaire: 

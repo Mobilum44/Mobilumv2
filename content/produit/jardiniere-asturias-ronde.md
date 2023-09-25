@@ -8,7 +8,7 @@ sub_category: 14 Jardinière
 gamme: ASTURIAS
 finitions: végétal
 cover_image: "/produits/cover_image/jardiniere-asturias-ronde-vegetal.jpg"
-caroussel: 
+carousel: 
 - "/produits/jardiniere-ronde-lisse-asturias-grandville.jpg"
 - "/produits/jardiniere-asturias-ronde-vegetale.jpg"
 filaire: 

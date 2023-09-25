@@ -8,7 +8,7 @@ sub_category: 05 Banquette
 gamme: CANTINE
 finitions: 
 cover_image: "/produits/cover_image/banquette-cantine.jpg"
-caroussel: 
+carousel: 
 - "/produits/banquette-cantine-parc-focus.jpg"
 - "/produits/banquette-cantine-vert.jpg"
 filaire: 

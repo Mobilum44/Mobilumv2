@@ -8,7 +8,7 @@ sub_category: 06 Banc
 gamme: ELIUM
 finitions: 2 dossiers
 cover_image: "/produits/cover_image/banc-elium-2-dossiers.jpg"
-caroussel: 
+carousel: 
 - "/produits/banquette-elium-parc.jpg"
 - "/produits/attente-showroom.jpg"
 filaire: 
