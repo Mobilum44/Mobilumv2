@@ -32,7 +32,7 @@
 
 					<template #texte__marche>
 						<p>On refait l'intérieur des gares</p>
-						<Button theme="transparent" to="/project"> Découvrir </Button>
+						<Button theme="transparent"> Découvrir </Button>
 					</template>
 				</CarteMarches>
 
@@ -258,4 +258,75 @@ h2 {
 	gap: 1rem;
 	margin-bottom: 1rem;
 }
+
+
+
+/* -----------------------------------------------------------------------------------------
+			Style des cartes
+------------------------------------------------------------------------------------------*/
+
+.CarteMarches img {
+	object-fit : cover;
+	height : 100%; /* Ne marche pas */
+}
+.CarteMarches h3 {
+	position: absolute;
+	inset: auto auto 30px 30px;
+	margin: 0;
+	transition: inset 0.3s 0.3s ease-out;
+	font-family: "Bebas neue";
+	text-transform: uppercase;
+	color : white;
+}
+
+.CarteMarches p,
+.CarteMarches a {
+	position: absolute;
+	opacity: 0;
+	max-width: 80%;
+	transition: opacity 0.3s ease-out;
+	color: white;
+}
+.CarteMarches p {
+	inset: auto auto 80px 30px;
+}
+.CarteMarches a {
+	inset: auto auto 40px 30px;
+	color: inherit;
+	text-decoration: none;
+}
+.CarteMarches:hover h3 {
+	inset: auto auto 220px 30px;
+	transition: inset 0.3s;
+}
+.CarteMarches:hover p,
+.CarteMarches:hover a {
+	opacity: 1;
+	transition: opacity 0.3s 0.1s ease-in;
+}
+.CarteMarches:hover img {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%) blur(1px);
+	transition: all 0.5s ease;
+	opacity: 80%;
+}
+
+@media only screen and (max-width: 950px) {
+	ul {
+		display: flex;
+		justify-content: center;
+	}
+	.CarteMarches {
+		margin: 1rem;
+		width: 90%;
+		height: 60vh;
+		/* border-radius: 10px;*/
+		overflow: hidden;
+		position: relative;
+		color: white;
+	}
+}
+
+
 </style>

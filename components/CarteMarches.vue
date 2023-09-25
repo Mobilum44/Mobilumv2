@@ -9,20 +9,29 @@
 </template>
 
 <style scoped>
-/* main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 50px;
-  font-family: "Roboto", sans-serif;
-} */
+
+.CarteMarches {
+	overflow : hidden;
+	margin-right : 2rem;
+	position : relative;
+	width : 320px;
+	height : 400px;
+	margin-bottom : 2rem;
+
+}
+
+
+
+/* ---------------------------------------------------------------------
+			Style initial qui a été pété
+----------------------------------------------------------------------*/
+/*
 
 .CarteMarches {
 	margin: 1rem;
 	width: 20vw;
 	height: 60vh;
-	/* border-radius: 10px; */
+	/* border-radius: 10px;
 	overflow: hidden;
 	position: relative;
 	color: white;
@@ -88,10 +97,16 @@
 		margin: 1rem;
 		width: 90%;
 		height: 60vh;
-		/* border-radius: 10px; */
+		/* border-radius: 10px;
 		overflow: hidden;
 		position: relative;
 		color: white;
 	}
 }
+
+*/
+
+
+
+
 </style>

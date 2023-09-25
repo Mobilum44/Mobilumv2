@@ -5,7 +5,7 @@
 			<h1>Mobilier Urbain</h1>
 		</div>
 
-		<div class="chapeau">Ya un ul de 40px, mais impossible de l'enlever.. .</div>
+		<div class="chapeau">Qu'est ce qu'on a à dire ?</div>
 
 		<div class="sub__section">
 			<ul class="collection_order">
@@ -40,6 +40,7 @@ const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 	justify-content: center;
 	flex-wrap: wrap;
 	gap: 1rem;
+	padding : 0;
 }
 
 .collection_order ul {

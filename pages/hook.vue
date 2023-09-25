@@ -47,12 +47,10 @@ Paramètres de la galerie - généralités
 	justify-content: center;
 	flex-wrap: wrap;
 	gap: 1rem;
-	padding: 0;
 }
 
 .collection_order ul {
-
-	padding: 0;
+	padding-inline-start: 0px;
 }
 
 /*---------------------------------------------------------

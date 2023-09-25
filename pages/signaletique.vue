@@ -7,8 +7,8 @@
 		</div>
 
 		<p class="chapeau">
-			\Distingué \résisistant \ ultra personalisable font de nos totems des pièces uniques dans ce domaine <br />
-			Dé"tails en plus sur chaque page de totem
+			\Distingué \Résisistant \Ultra personalisable font de nos totems des pièces uniques dans ce domaine <br />
+			<b>Détails en plus sur chaque page de totem</b>
 		</p>
 
 		<div class="sub__section">
