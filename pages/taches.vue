@@ -50,11 +50,11 @@
 					</template>
 				</CarteMarches>
 			</NuxtLink>
-		</div>
+		</div> ----->
 	</NuxtLayout>
 </template>
 
-
+<!--
 <script setup lang="ts">
 import { CarteMarches } from '#components'
 </script>
