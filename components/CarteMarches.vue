@@ -12,11 +12,11 @@
 
 .CarteMarches {
 	overflow : hidden;
-	margin-right : 2rem;
 	position : relative;
-	width : 320px;
-	height : 400px;
-	margin-bottom : 2rem;
+	width : 30%;
+	height : 500px;
+	margin-left : 1.5%;
+	margin-bottom : 1.5%;
 
 }
 

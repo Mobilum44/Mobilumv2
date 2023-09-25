@@ -74,6 +74,23 @@
 	</NuxtLayout>
 </template>
 
+
+<script>
+import Layout from "@/layouts/LayoutAccueil.vue";
+
+export default {
+	components: {
+		Layout,
+	},
+
+	metaInfo: {
+		title: "Grands comptes et sur-mesure",
+	},
+
+}
+</script>
+
+
 <style scoped>
 /* General */
 h1 {

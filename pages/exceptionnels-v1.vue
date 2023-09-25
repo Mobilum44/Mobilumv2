@@ -247,7 +247,7 @@ réalisations exceptionnelles qui inspirent et marquent les esprits. <br /><br /
 
 
 <script>
-import Layout from "@/layouts/LayoutAccueil.vue";
+import Layout from "@/layouts/LayoutNoMargin.vue";
 import CarteMarches from "@/components/CarteMarches.vue";
 
 export default {
@@ -272,13 +272,12 @@ h2 {
 .chapeau {
 	width: 70%;
 }
-
-.sub__section {
-	border : solid black;
-}
 .sub__section__content {
 	gap: 1rem;
 	margin-bottom: 1rem;
+	display : flex;
+	flex-wrap : wrap;
+	justify-content: flex-start;
 }
 
 

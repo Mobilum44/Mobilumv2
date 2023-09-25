@@ -53,6 +53,9 @@
 	</NuxtLayout>
 </template>
 
+
+
+
 <style scoped>
 .slot_image {
 	background: url("/photospages/sav-crous.jpg") center center no-repeat;

@@ -3,13 +3,12 @@
 	Supprimer sav -->
 	<NuxtLayout>
 		<template #slot_image>
-			<div class="slot_image" :style="{ backgroundImage: `url(${image})`}">
+			<div class="slot_image"> <!-- :style="{ backgroundImage: `url(${image})`}">-->
 				<h1>Nos collections</h1>
 			</div>
 		</template>
 
-		<b> Rendre ca responsive <br />
-		Pourquoi on a autant de perte de qualité sur la photo ?</b>
+		<b> Rendre ca responsive</b>
 
 
 			<div class="collection">
@@ -61,6 +60,7 @@
 	</NuxtLayout>
 </template>
 
+<!---
 <script>
 import BackColl from "/backgroundpages/fond-plage-collection.jpg";
 
@@ -72,9 +72,17 @@ export default {
   }
 };
 </script>
+--->
 
 
 <style scoped>
+
+.slot_image {
+	background: url("/backgroundpages/fond-plage-collection.jpg") center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 
 .collection {
 	margin-top : 5rem;
