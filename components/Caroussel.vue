@@ -20,7 +20,16 @@
 					</button>
 
 					<div class="carousel__container">
-						<NuxtImg class="carousel__photo" fit="cover" height="80vh" :src="path" :id="`slide-${i}`" />
+						<NuxtImg
+							class="carousel__photo"
+							fit="cover"
+							height="80vh"
+							:src="path"
+							:id="`slide-${i}`"
+							format="avif,webp"
+							placeholder
+							loading="lazy"
+						/>
 					</div>
 
 					<button v-if="i + 1 < img.length" @click="scrollTo(i + 1)">

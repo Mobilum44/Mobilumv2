@@ -1,7 +1,14 @@
 <template>
-	<div class="LogoFloat">
-		<NuxtLink to="/#/">
-			<NuxtImg class="logo_header" alt="Logo mobilum" src="\logos\Blue_logo.png" />
+	<div>
+		<NuxtLink to="/">
+			<NuxtImg
+				class="logo_header"
+				alt="Logo mobilum"
+				src="\logos\Blue_logo.png"
+				format="avif,webp"
+				placeholder
+				loading="lazy"
+			/>
 		</NuxtLink>
 	</div>
 </template>
@@ -22,19 +29,29 @@ onMounted(async () => {
 
 <style scoped>
 .logo_header {
-	position: fixed;
-	margin-top: -2rem;
-	margin-left: 2.5rem;
-	z-index: 1;
 	width: 80px;
-	transform: translate(0%, 0) scaleX(1);
-	transition: transform 0.5s ease-in;
+	animation: scale-back 0.3s ease-in forwards;
 }
 
 .logo_header--mini {
-	margin-top: -1rem;
-	width: 60px;
-	transform: translate(0%, 0) scaleX(1);
-	transition: transform 0.5s ease-in;
+	animation: scale 0.3s ease-in forwards;
+}
+
+@keyframes scale-back {
+	0% {
+		transform: scale(0.8);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes scale {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(0.8);
+	}
 }
 </style>

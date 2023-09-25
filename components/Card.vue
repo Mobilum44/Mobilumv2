@@ -8,7 +8,10 @@
 						alt="Galets rouen bfup Mobilum"
 						class="card__image"
 						fit="cover"
-						height="220px"
+						height="220"
+						format="avif,webp"
+						placeholder
+						loading="lazy"
 					/>
 					<figcaption class="card__caption">
 						<h4>Centre ville</h4>
@@ -24,7 +27,10 @@
 						alt="photo parc du loroux-botereau mobilum"
 						class="card__image"
 						fit="cover"
-						height="350px"
+						height="350"
+						format="avif,webp"
+						placeholder
+						loading="lazy"
 					/>
 					<figcaption class="card__caption">
 						<h4>Parc</h4>
@@ -40,7 +46,10 @@
 						alt="Bord de mer à cucq transat Camah de Mobilum"
 						class="card__image"
 						fit="cover"
-						height="220px"
+						height="220"
+						format="avif,webp"
+						placeholder
+						loading="lazy"
 					/>
 					<figcaption class="card__caption">
 						<h4>Bord de mer</h4>
@@ -56,7 +65,10 @@
 						alt="Photo gare paris mobilum"
 						class="card__image"
 						fit="cover"
-						height="300px"
+						height="300"
+						format="avif,webp"
+						placeholder
+						loading="lazy"
 					/>
 					<figcaption class="card__caption">
 						<h4>Gare</h4>
@@ -72,7 +84,10 @@
 						alt="Banc Vasco de Gamma Angers Mobilum"
 						class="card__image"
 						fit="cover"
-						height="220px"
+						height="220"
+						format="avif,webp"
+						placeholder
+						loading="lazy"
 					/>
 					<figcaption class="card__caption">
 						<h4>Tram</h4>
@@ -89,7 +104,10 @@
 						alt="Banc et totem origami par mobilum zone commerciale la rochelle"
 						class="card__image"
 						fit="cover"
-						height="220px"
+						height="220"
+						format="avif,webp"
+						placeholder
+						loading="lazy"
 					/>
 					<figcaption class="card__caption">
 						<h4>Zone commerciale</h4>
@@ -105,7 +123,10 @@
 						alt="Vue du ciel Lycée Nord sur Erdre à Nantes Mobilum"
 						class="card__image"
 						fit="cover"
-						height="300px"
+						height="300"
+						format="avif,webp"
+						placeholder
+						loading="lazy"
 					/>
 					<figcaption class="card__caption">
 						<h4>Ecole</h4>
@@ -121,7 +142,10 @@
 						alt="totem en BFUP pour l'entreprise Luneau Papin par Mobilum"
 						class="card__image"
 						fit="cover"
-						height="300px"
+						height="300"
+						format="avif,webp"
+						placeholder
+						loading="lazy"
 					/>
 					<figcaption class="card__caption">
 						<h4>Tertiaire</h4>
@@ -138,7 +162,10 @@
 						alt="Lotissement coffret technique hook mobilum"
 						class="card__image"
 						fit="cover"
-						height="220px"
+						height="220"
+						format="avif,webp"
+						placeholder
+						loading="lazy"
 					/>
 					<figcaption class="card__caption">
 						<h4>Lotissement</h4>

@@ -1,5 +1,5 @@
 <template>
-	<NuxtLayout name="contenu_no_margin">
+	<NuxtLayout name="layout-no-margin">
 		<div class="sub__section">
 			<!--<Button theme="arrow" to="/collection"> ⇦ </Button>-->
 			<h1>Mobilier Urbain</h1>
@@ -12,7 +12,13 @@
 				<li v-for="urbanFurniture in urbanFurnitures" :key="urbanFurniture.title">
 					<NuxtLink :to="urbanFurniture._path">
 						<article class="image_cover">
-							<NuxtImg alt="photo mobilier urbain mobilum" :src="urbanFurniture.cover_image" />
+							<NuxtImg
+								alt="photo mobilier urbain mobilum"
+								:src="urbanFurniture.cover_image"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
 							<p>{{ urbanFurniture.title }}</p>
 						</article>
 					</NuxtLink>
@@ -40,7 +46,7 @@ const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 	justify-content: center;
 	flex-wrap: wrap;
 	gap: 1rem;
-	padding : 0;
+	padding: 0;
 }
 
 .collection_order ul {

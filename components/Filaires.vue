@@ -1,7 +1,7 @@
 <template>
 	<div class="Filaire">
 		<div class="filaire__container">
-			<!-- <NuxtImg v-if="edge.node.filaire" alt="photo mobilier urbain" :src="edge.node.filaire" /> -->
+			<!-- <NuxtImg v-if="edge.node.filaire" alt="photo mobilier urbain" :src="edge.node.filaire" format="avif,webp" placeholder loading="lazy" /> -->
 		</div>
 	</div>
 </template>

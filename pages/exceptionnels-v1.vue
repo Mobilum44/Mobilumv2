@@ -1,5 +1,5 @@
 <template>
-	<NuxtLayout name="contenu_no_margin">
+	<NuxtLayout name="layout-no-margin">
 		<div class="sub__section">
 			<Button theme="bordered" to="/collection"> Retour à l'offre </Button>
 
@@ -21,8 +21,11 @@
 							alt="mains mobilum"
 							src="/references/cover_image/gare-sncf-grenoble.jpg"
 							center
-							width="1000px"
+							width="1000"
 							fit="cover"
+							format="avif,webp"
+							placeholder
+							loading="lazy"
 						/>
 					</template>
 
@@ -42,8 +45,11 @@
 							alt="mains mobilum"
 							src="/references/cover_image/assises-societe-du-grand-paris.png"
 							center
-							width="1000px"
+							width="1000"
 							fit="cover"
+							format="avif,webp"
+							placeholder
+							loading="lazy"
 						/>
 					</template>
 
@@ -68,8 +74,11 @@
 							alt="mains mobilum"
 							src="/references/cover_image/jardinieres-trocadero-paris.jpg"
 							center
-							width="1000px"
+							width="1000"
 							fit="cover"
+							format="avif,webp"
+							placeholder
+							loading="lazy"
 						/>
 					</template>
 
@@ -88,8 +97,11 @@
 							alt="mains mobilum"
 							src="/references/cover_image/crous-nantes.png"
 							center
-							width="1000px"
+							width="1000"
 							fit="cover"
+							format="avif,webp"
+							placeholder
+							loading="lazy"
 						/>
 					</template>
 
@@ -108,8 +120,11 @@
 							alt="mains mobilum"
 							src="/references/cover_image/mobilum-piano-rezzo-ecole-normale-superieure-ens.jpg"
 							center
-							width="1000px"
+							width="1000"
 							fit="cover"
+							format="avif,webp"
+							placeholder
+							loading="lazy"
 						/>
 					</template>
 
@@ -134,8 +149,11 @@
 							alt="mains mobilum"
 							src="/references/cover_image/sorbonne-universite-amphi-stoop-cube.jpg"
 							center
-							width="1000px"
+							width="1000"
 							fit="cover"
+							format="avif,webp"
+							placeholder
+							loading="lazy"
 						/>
 					</template>
 
@@ -154,8 +172,11 @@
 							alt="table infinie vertou"
 							src="/references/cover_image/projet-vertable-tables-vertou.jpg"
 							center
-							width="1000px"
+							width="1000"
 							fit="cover"
+							format="avif,webp"
+							placeholder
+							loading="lazy"
 						/>
 					</template>
 
@@ -174,8 +195,11 @@
 							alt="mains mobilum"
 							src="/references/cover_image/carnon-transats-mila2.jpg"
 							center
-							width="1000px"
+							width="1000"
 							fit="cover"
+							format="avif,webp"
+							placeholder
+							loading="lazy"
 						/>
 					</template>
 
@@ -194,8 +218,11 @@
 							alt="mains mobilum"
 							src="/references/cover_image/paris-saclay-tolerie-foreizienne-exceptionnel.jpg"
 							center
-							width="1000px"
+							width="1000"
 							fit="cover"
+							format="avif,webp"
+							placeholder
+							loading="lazy"
 						/>
 					</template>
 
@@ -214,8 +241,11 @@
 							alt="mains mobilum"
 							src="/references/cover_image/feuille-roquefere.jpg"
 							center
-							width="1000px"
+							width="1000"
 							fit="cover"
+							format="avif,webp"
+							placeholder
+							loading="lazy"
 						/>
 					</template>
 
@@ -245,24 +275,15 @@ réalisations exceptionnelles qui inspirent et marquent les esprits. <br /><br /
 	</NuxtLayout>
 </template>
 
+<script lang="ts" setup>
+useSeoMeta({
+	title: "Grands comptes et sur-mesure",
+});
 
-<script>
-import Layout from "@/layouts/LayoutAccueil.vue";
-import CarteMarches from "@/components/CarteMarches.vue";
-
-export default {
-	components: {
-		Layout,
-		CarteMarches,
-	},
-
-	metaInfo: {
-		title: "Grands comptes et sur-mesure",
-	},
-
-}
+definePageMeta({
+	layout: false,
+});
 </script>
-
 
 <style scoped>
 h2 {
@@ -274,22 +295,20 @@ h2 {
 }
 
 .sub__section {
-	border : solid black;
+	border: solid black;
 }
 .sub__section__content {
 	gap: 1rem;
 	margin-bottom: 1rem;
 }
 
-
-
 /* -----------------------------------------------------------------------------------------
 			Style des cartes
 ------------------------------------------------------------------------------------------*/
 
 .CarteMarches img {
-	object-fit : cover;
-	height : 100%; /* Ne marche pas */
+	object-fit: cover;
+	height: 100%; /* Ne marche pas */
 }
 .CarteMarches h3 {
 	position: absolute;
@@ -298,7 +317,7 @@ h2 {
 	transition: inset 0.3s 0.3s ease-out;
 	font-family: "Bebas neue";
 	text-transform: uppercase;
-	color : white;
+	color: white;
 }
 
 .CarteMarches p,
@@ -349,6 +368,4 @@ h2 {
 		color: white;
 	}
 }
-
-
 </style>

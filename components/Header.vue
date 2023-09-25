@@ -56,9 +56,7 @@ Header {
 
 .header_content {
 	background-color: rgb(254, 252, 243, 0.7);
-	top: 0;
-	padding-top: 3rem;
-	padding-right: 3rem;
+	padding: 1rem 2rem 0rem 2rem;
 	padding-bottom: 0;
 	display: flex;
 	justify-content: center;
@@ -118,7 +116,6 @@ Header {
 /* menu */
 
 .header .menu {
-	clear: both;
 	max-height: 0;
 	transition: max-height 0.2s ease-out;
 }

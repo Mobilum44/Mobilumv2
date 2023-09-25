@@ -1,5 +1,5 @@
 <template>
-	<NuxtLayout name="contenu_no_margin">
+	<NuxtLayout name="layout-no-margin">
 		<div class="sub__section">
 			<!--<Button theme="arrow" to="/collection"> ⇦ </Button>-->
 			<h1>Nos dossiers d'exception</h1>
@@ -66,6 +66,17 @@ réalisations exceptionnelles qui inspirent et marquent les esprits. <br /><br /
 		</p>
 	</NuxtLayout>
 </template>
+
+<script lang="ts" setup>
+useSeoMeta({
+	title: "Grands comptes et sur-mesure",
+});
+
+definePageMeta({
+	layout: false,
+});
+</script>
+
 <!-- 
 <page-query>
 query {

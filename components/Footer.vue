@@ -8,6 +8,9 @@
 					alt="Logo mobilum"
 					src="/logos/Mobilum_no_margin.png"
 					width="60"
+					format="avif,webp"
+					placeholder
+					loading="lazy"
 				/>
 				<div>
 					<p class="coordonnées">
@@ -36,28 +39,46 @@
 					<NuxtLink to="/contact">
 						<li class="icon mail">
 							<span class="tooltip">Mail</span>
-							<NuxtImg src="/logos/mail.png" width="40" />
+							<NuxtImg src="/logos/mail.png" width="40" format="avif,webp" placeholder loading="lazy" />
 						</li>
 					</NuxtLink>
 
 					<NuxtLink to="https://www.facebook.com/people/MOBILUM/100063454155980/">
 						<li class="icon facebook">
 							<span class="tooltip">Facebook</span>
-							<NuxtImg src="/logos/facebook.png" width="40" />
+							<NuxtImg
+								src="/logos/facebook.png"
+								width="40"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
 						</li>
 					</NuxtLink>
 
 					<NuxtLink to="https://www.linkedin.com/company/mobilum-france/">
 						<li class="icon linkedin">
 							<span class="tooltip">Linkedin</span>
-							<NuxtImg src="/logos/linkedin.png" width="40" />
+							<NuxtImg
+								src="/logos/linkedin.png"
+								width="40"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
 						</li>
 					</NuxtLink>
 
 					<NuxtLink to="https://www.instagram.com/mobilum_france/?hl=fr">
 						<li class="icon instagram">
 							<span class="tooltip">Instagram</span>
-							<NuxtImg src="/logos/instagram.png" width="40" />
+							<NuxtImg
+								src="/logos/instagram.png"
+								width="40"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
 						</li>
 					</NuxtLink>
 				</ul>

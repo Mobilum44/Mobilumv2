@@ -15,8 +15,11 @@
 					alt="mains mobilum"
 					src="/references/cover_image/jardinieres-trocadero-paris.jpg"
 					center
-					width="1000px"
+					width="1000"
 					fit="cover"
+					format="avif,webp"
+					placeholder
+					loading="lazy"
 				/>
 			</template>
 
@@ -28,19 +31,14 @@
 				<p>Texte ici blablabla</p>
 			</template>
 		</CarteMarches>
-
 	</NuxtLayout>
 </template>
 
 <script setup lang="ts">
-import { CarteMarches } from '#components'
+import { CarteMarches } from "#components";
 </script>
 
-
-
 <style scoped>
-
-
 /*---------------------------------------------------------------------------------------------------
 		Le style ne marche pas quand il est directement sur le fichier du composant.
 		Il faut donc le copier / coller sur la page où l composant sera utilisé .........
@@ -48,7 +46,7 @@ import { CarteMarches } from '#components'
 ---------------------------------------------------------------------------------------------------*/
 
 .CarteMarches img {
-	object-fit : contain;
+	object-fit: contain;
 	max-width: 100%;
 }
 
@@ -59,7 +57,7 @@ import { CarteMarches } from '#components'
 	transition: inset 0.3s 0.3s ease-out;
 	font-family: "Bebas neue";
 	text-transform: uppercase;
-	color : white;
+	color: white;
 }
 
 .CarteMarches p,
@@ -110,5 +108,4 @@ import { CarteMarches } from '#components'
 		color: white;
 	}
 }
-
 </style>

@@ -1,33 +1,40 @@
 <template>
-	<NuxtLayout name="empty" class="Empty" :style="{ backgroundImage: `url(${image})`}">
+	<NuxtLayout name="empty" class="Empty" :style="backgroundStyles('/backgroundpages/fond-accueil.jpg')">
 		<div>
 			<div class="logo_bouton">
-				<NuxtImg alt="Logo mobilum" src="\logos\logo_transparent.png" />
+				<NuxtImg
+					alt="Logo mobilum"
+					width="200"
+					src="\logos\logo_transparent.png"
+					format="avif,webp"
+					placeholder
+					loading="lazy"
+				/>
 				<Button theme="slide" to="/accueil"> Entrer </Button>
 			</div>
 		</div>
 	</NuxtLayout>
 </template>
 
-<script>
+<script lang="ts" setup>
+const img = useImage();
+
 definePageMeta({
 	layout: "empty",
 });
 
-import BackgroundImg from "/backgroundpages/fond-accueil.jpg";
-export default {
-	data() {
-		return {
-			image: BackgroundImg,
-		};
-	},
-};
+function backgroundStyles(thumbnail: string): { backgroundImage: string } {
+	const imgUrl = img(thumbnail, {
+		width: 1920,
+		quality: 80,
+		placeholder: true,
+		format: "avif,webp",
+	});
+	return { backgroundImage: `url('${imgUrl}')` };
+}
 </script>
 
 <style scoped>
-img {
-	height : 40%;
-}
 .Empty {
 	background-size: cover;
 }
@@ -37,7 +44,7 @@ img {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height : 100vh;
+	height: 100vh;
 }
 
 .slide {

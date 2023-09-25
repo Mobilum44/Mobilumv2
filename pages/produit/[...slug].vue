@@ -1,5 +1,5 @@
 <template>
-	<NuxtLayout name="LayoutNoMargin">
+	<NuxtLayout name="layout-no-margin">
 		<!--- Mettre LayoutNoMargin-->
 		<ContentDoc v-slot="{ doc }">
 			<Button class="return" theme="bordered" onclick="/collection/"> Retour à la collection </Button>
@@ -13,7 +13,6 @@
 			</section>
 			<section class="sub__section">
 				<div class="gallery">
-
 					<!----
 					<div v-for="(img, i) in doc.caroussel" :key="i">
 						<NuxtImg :src="img" />
@@ -21,7 +20,7 @@
 					<Caroussel :img="doc.caroussel" />
 				</div>
 			</section>
-			
+
 			<!-- Contenu conditionnel : https://vuejs.org/guide/essentials/conditional.html -->
 			<!-- <div v-if="doc.dureeDuProjet">
 				<h1>Durée du projet</h1>
@@ -63,6 +62,9 @@
 									center
 									width="200vw"
 									fit="cover"
+									format="avif,webp"
+									placeholder
+									loading="lazy"
 								/>
 								<p>Gris foncé<br />(BCV Brut)</p>
 							</div>
@@ -74,6 +76,9 @@
 									center
 									width="200vw"
 									fit="cover"
+									format="avif,webp"
+									placeholder
+									loading="lazy"
 								/>
 								<p>Blanc</p>
 							</div>
@@ -91,6 +96,9 @@
 									center
 									width="200vw"
 									fit="cover"
+									format="avif,webp"
+									placeholder
+									loading="lazy"
 								/>
 								<p>Taupe</p>
 							</div>
@@ -102,6 +110,9 @@
 									center
 									width="200vw"
 									fit="cover"
+									format="avif,webp"
+									placeholder
+									loading="lazy"
 								/>
 								<p>Rose pastel</p>
 							</div>
@@ -113,6 +124,9 @@
 									center
 									width="200vw"
 									fit="cover"
+									format="avif,webp"
+									placeholder
+									loading="lazy"
 								/>
 								<p>Bleu pastel</p>
 							</div>
@@ -121,7 +135,9 @@
 
 					<div class="sub__finitions">
 						<p class="strong">Peinture polyuréthane</p>
-						<div class="type">Tous les RAL sont possibles. Consultez-nous pour discuter de votre projet.</div>
+						<div class="type">
+							Tous les RAL sont possibles. Consultez-nous pour discuter de votre projet.
+						</div>
 					</div>
 				</div>
 			</section>
@@ -222,7 +238,7 @@ h1 {
 		Zone galerie
 	---------------------------------------------------------------*/
 .gallery {
-	margin-top : 4rem;
+	margin-top: 4rem;
 }
 /*-----------------------------------------------------------------
 		Sections générales

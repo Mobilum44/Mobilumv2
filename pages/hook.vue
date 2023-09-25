@@ -1,5 +1,5 @@
 <template>
-	<NuxtLayout name="contenu_no_margin">
+	<NuxtLayout name="layout-no-margin">
 		<div class="sub__section">
 			<!--<Button theme="arrow" to="/collection"> ⇦ </Button>-->
 
@@ -19,7 +19,13 @@
 				<li v-for="urbanFurniture in urbanFurnitures" :key="urbanFurniture.title">
 					<NuxtLink :to="urbanFurniture._path">
 						<article class="image_cover">
-							<NuxtImg alt="photo collection HOOK mobilum" :src="urbanFurniture.cover_image" />
+							<NuxtImg
+								alt="photo collection HOOK mobilum"
+								:src="urbanFurniture.cover_image"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
 							<p>{{ urbanFurniture.title }}</p>
 						</article>
 					</NuxtLink>

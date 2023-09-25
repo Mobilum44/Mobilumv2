@@ -1,11 +1,11 @@
 <template>
 	<div class="SlideRedirection">
 		<NuxtLink class="box" to="/entreprise">
-			<NuxtImg src="/photospages/plaques-hook-coulage-usine.jpg" />
+			<NuxtImg src="/photospages/plaques-hook-coulage-usine.jpg" format="avif,webp" placeholder loading="lazy" />
 			<p to="/entreprise">Un atelier <em>responsable</em></p>
 		</NuxtLink>
 		<div class="box">
-			<NuxtImg src="/photospages/design-mobilum.jpg" />
+			<NuxtImg src="/photospages/design-mobilum.jpg" format="avif,webp" placeholder loading="lazy" />
 			<p>Du design <em>à la Française</em></p>
 		</div>
 		<!--
@@ -14,12 +14,12 @@
 		to="/materiau"
     > -->
 		<div class="box">
-			<NuxtImg src="/photospages/BFUP-seau.jpg" />
+			<NuxtImg src="/photospages/BFUP-seau.jpg" format="avif,webp" placeholder loading="lazy" />
 			<p><em>Un matériau :</em> Le Béton Fibré Ultra Performant</p>
 		</div>
 		<!-- </NuxtLink> -->
 		<NuxtLink class="box" to="/collection">
-			<NuxtImg src="/photospages/Galets.jpg" />
+			<NuxtImg src="/photospages/Galets.jpg" format="avif,webp" placeholder loading="lazy" />
 			<p>
 				\ Une collection <br />
 				\ Du sur-mesure

@@ -48,7 +48,7 @@
 		</div>
 		<div class="sub__section maps">
 			<p> Où est la maps ?</p>
-			<Itinary />
+			<MapsAdress />
 		</div>
 	</NuxtLayout>
 </template>

@@ -2,7 +2,7 @@
 	<Section class="AutoSlider">
 		<div class="slider-container">
 			<div class="slide" v-for="img in caroussel" :key="img.src">
-				<NuxtImg :src="img" />
+				<NuxtImg :src="img" format="avif,webp" placeholder loading="lazy" />
 			</div>
 		</div>
 	</Section>

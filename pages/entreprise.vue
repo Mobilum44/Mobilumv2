@@ -1,7 +1,7 @@
 <template>
 	<NuxtLayout>
 		<template #slot_image>
-			<div class="slot_image" :style="{ backgroundImage: `url(${image})`}">
+			<div class="slot_image" :style="{ backgroundImage: `url(${image})` }">
 				<h1>Mobilum</h1>
 			</div>
 		</template>
@@ -14,20 +14,19 @@
 			<b> Remettre les images en fixed</b>
 		</div>
 
-<!-------------------------------------------------------------------
+		<!-------------------------------------------------------------------
     La griffe Mobilum
 -------------------------------------------------------------------->
 
 		<div class="sub__section wide">
 			<div class="sub__section__content">
-				<div class="section__side illustration croquis">
-				</div>
+				<div class="section__side illustration croquis"></div>
 
 				<div class="section__side text design">
 					<h2>\ Le design selon Mobilum</h2>
 					<div class="section__text">
 						<p>
-			<!--
+							<!--
             La marque et le design : designers et distinctions
 			---->
 							<strong>"Le design, notre essence."</strong>
@@ -46,22 +45,31 @@
 								alt="Table cantine réelle"
 								src="/photospages/table-cantine-02-croquis.png"
 								center
-								width="200px"
+								width="200"
 								fit="cover"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
 							/>
 							<NuxtImg
 								alt="Table cantine réelle"
 								src="/photospages/table-cantine-01-croquis.png"
 								center
-								width="200px"
+								width="200"
 								fit="cover"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
 							/>
 							<NuxtImg
 								alt="Logo Janus de la cité 2016"
 								src="/photospages/janus-de-la-cite-logo.png"
 								center
-								width="70px"
+								width="70"
 								fit="cover"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
 							/>
 						</div>
 					</div>
@@ -69,7 +77,7 @@
 			</div>
 		</div>
 
-<!-------------------------------------------------------------------
+		<!-------------------------------------------------------------------
 Notre savoir-faire
 -------------------------------------------------------------------->
 		<div class="sub__section wide dark">
@@ -97,7 +105,7 @@ Notre savoir-faire
 					</div>
 				</div>
 				<div class="section__side illustration savoir-faire">
-						<!--
+					<!--
 				<NuxtImg
 				alt="mains mobilum"
 				src="/savoir-faire.jpg"
@@ -110,7 +118,7 @@ Notre savoir-faire
 			</div>
 		</div>
 
-	<!---------------------------------------------------
+		<!---------------------------------------------------
 	Nos engagements
 	--------------------------------------------------->
 
@@ -149,7 +157,7 @@ Notre savoir-faire
 			</div>
 		</div>
 
-<!---------------------------------------------------
+		<!---------------------------------------------------
 Nos activités
 --------------------------------------------------->
 		<div class="sub__section wide dark cards">
@@ -174,14 +182,13 @@ Nos activités
 import BackEntr from "/backgroundpages/fond-entreprise-eglise-resized.jpg";
 
 export default {
-  data() {
-    return {
-      image: BackEntr,
-    };
-  }
+	data() {
+		return {
+			image: BackEntr,
+		};
+	},
 };
 </script>
-
 
 <style scoped>
 .slot_image {
@@ -247,14 +254,13 @@ article {
 	flex-direction: column;
 	justify-content: center;
 	margin: 0;
-
 }
 .section__side {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	/* border-radius: 5px; */
-	height : 120vh;
+	height: 120vh;
 }
 .design {
 	margin: 0;
@@ -303,19 +309,18 @@ article {
 
 .croquis {
 	background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #fefcf3),
-	url("/photospages/croquis-sovann-kim-pour-mobilum.png");
+		url("/photospages/croquis-sovann-kim-pour-mobilum.png");
 	background-size: cover;
 }
 .savoir-faire {
-	background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #f5ebe0),
-		url("/photospages/savoir-faire.jpg");
+	background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #f5ebe0), url("/photospages/savoir-faire.jpg");
 	background-size: cover;
 }
 .RSE {
 	background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #fefcf3),
 		url("/photospages/mobilum-valeurs-rse-avenirv2.png");
 	background-size: cover;
-	width : 100%;
+	width: 100%;
 }
 
 /* ------------------------------------------------------------------------------------------
@@ -377,8 +382,8 @@ article {
 	}
 
 	.croquis {
-		height : 50vh;
-		width : 90vw;
+		height: 50vh;
+		width: 90vw;
 		background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)),
 			url("/photospages/croquis-sovann-kim-pour-mobilum.png");
 		background-size: cover;
@@ -386,8 +391,8 @@ article {
 	}
 
 	.savoir-faire {
-		height : 30vh;
-		width : 90vw;
+		height: 30vh;
+		width: 90vw;
 		background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)),
 			url("/photospages/savoir-faire.jpg");
 		background-size: cover;
@@ -395,8 +400,8 @@ article {
 	}
 
 	.RSE {
-		height : 50vh;
-		width : 90vw;
+		height: 50vh;
+		width: 90vw;
 		padding-bottom: 2rem;
 		background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)),
 			url("/photospages/mobilum-valeurs-rse-avenirv2.png");
