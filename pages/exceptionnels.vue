@@ -24,7 +24,7 @@
 				<li v-for="typ in ['Les grands comptes', 'Les remarquables', 'Les conceptuels']" :key="typ">
 					<ul>
 						<h2>{{ typ }}</h2>
-						<!-- <li v-for="project in sortedReferences[typ]" :key="project.id">
+						<!---<li v-for="project in sortedReferences[typ]" :key="project.id">
 							<div class="cards__order">
 								<NuxtLink :to="project.path">
 									<CarteMarches>
@@ -43,7 +43,7 @@
 									</CarteMarches>
 								</NuxtLink>
 							</div>
-						</li> -->
+						</li> --->
 					</ul>
 				</li>
 			</ul>
@@ -84,7 +84,9 @@ query {
 }
 </page-query> -->
 
-<!-- <script>
+<!----  
+
+<script>
 import Layout from "@/layouts/LayoutAccueil.vue";
 import CarteMarches from "@/components/CarteMarches.vue";
 import Button from "@/components/Button.vue";
@@ -129,7 +131,17 @@ export default {
 		},
 	},
 };
-</script> -->
+</script> --->
+
+
+<!---
+<script setup lang="ts">
+import { SomeComponent } from '#components'
+
+const MyButton = resolveComponent('MyButton')
+</script>
+
+-->
 
 <style scoped>
 .wide {
