@@ -1,23 +1,25 @@
 <template>
-	<div class="CarteMarches shadow">
-		<slot name="img__marche"> </slot>
-		<div class="CarteMarches-content">
-			<slot name="titre__marche"> </slot>
-			<slot name="texte__marche"> </slot>
-		</div>
-	</div>
+	<article class="CarteMarches shadow">
+		<NuxtLink :to="path">
+			<NuxtImg :src="img" :alt="alt" width="300" height="400" placeholder loading="lazy" format="avif,webp" />
+			<h3>{{ title }}</h3>
+		</NuxtLink>
+	</article>
 </template>
 
+<script lang="ts" setup>
+defineProps<{
+	title: string;
+	path?: string;
+	img: string;
+	alt: string;
+}>();
+</script>
+
 <style scoped>
-
 .CarteMarches {
-	overflow : hidden;
-	margin-right : 2rem;
-	position : relative;
-	width : 320px;
-	height : 400px;
-	margin-bottom : 2rem;
-
+	display: flex;
+	width: fit-content;
 }
 
 /* ---------------------------------------------------------------------
@@ -103,8 +105,4 @@
 }
 
 */
-
-
-
-
 </style>

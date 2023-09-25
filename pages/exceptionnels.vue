@@ -22,28 +22,18 @@
 		<section class="wide">
 			<ul>
 				<li v-for="typ in ['Les grands comptes', 'Les remarquables', 'Les conceptuels']" :key="typ">
-					<ul>
+					<ul class="references-list">
 						<h2>{{ typ }}</h2>
-						<!---<li v-for="project in sortedReferences[typ]" :key="project.id">
+						<li v-for="reference in references?.filter((r) => r.type === typ)" :key="reference._id">
 							<div class="cards__order">
-								<NuxtLink :to="project.path">
-									<CarteMarches>
-										<template #img__marche>
-											<NuxtImg :src="project.cover_image" />
-										</template>
-
-										<template #titre__marche>
-											<h3>{{ project.title }}</h3>
-										</template>
-										<template #texte__marche>
-											<p>
-												{{ project.cover_text }}
-											</p>
-										</template>
-									</CarteMarches>
-								</NuxtLink>
+								<CarteMarches
+									:title="reference.title"
+									:path="reference._path"
+									:img="reference.cover_image"
+									:alt="reference.cover_text"
+								/>
 							</div>
-						</li> --->
+						</li>
 					</ul>
 				</li>
 			</ul>
@@ -68,6 +58,14 @@ réalisations exceptionnelles qui inspirent et marquent les esprits. <br /><br /
 </template>
 
 <script lang="ts" setup>
+import { Reference } from "@/assets/types";
+import { ParsedContent } from "@nuxt/content/dist/runtime/types";
+
+const { data: references } = await useAsyncData(
+	"references",
+	() => queryContent("/references").find() as Promise<(ParsedContent & Reference)[]>,
+);
+
 useSeoMeta({
 	title: "Grands comptes et sur-mesure",
 });
@@ -144,7 +142,6 @@ export default {
 };
 </script> --->
 
-
 <!---
 <script setup lang="ts">
 import { SomeComponent } from '#components'
@@ -167,6 +164,12 @@ h2 {
 
 .chapeau {
 	width: 70%;
+}
+
+.references-list {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
 }
 
 /*
