@@ -6,7 +6,7 @@ published: TRUE
 
 gamme: "?" 
 
-cover_image: "/references/cover_image/carnon-transats-mila2.jpg"
+cover_image: "/references/cover_image/tramway_angers_portrait.JPG"
 cover_text: "Un bain de soleil infini"
 
 caroussel: 

@@ -1,8 +1,9 @@
 <template>
 	<article class="CarteMarches shadow">
 		<NuxtLink :to="path">
-			<NuxtImg :src="img" :alt="alt" width="300" height="400" placeholder loading="lazy" format="avif,webp" />
+			<NuxtImg :src="img" :alt="alt" placeholder loading="lazy" format="avif,webp" />
 			<h3>{{ title }}</h3>
+			<p>{{ cover_text }}</p>
 		</NuxtLink>
 	</article>
 </template>
@@ -12,6 +13,7 @@ defineProps<{
 	title: string;
 	path?: string;
 	img: string;
+	cover_text : string;
 	alt: string;
 }>();
 </script>
@@ -19,39 +21,17 @@ defineProps<{
 <style scoped>
 .CarteMarches {
 	display: flex;
-	width: fit-content;
 	overflow : hidden;
 	position : relative;
 	height : 500px;
+	width : 100%;
 	margin-left : 1.5%;
 	margin-bottom : 1.5%;
 
 }
-
-/* ---------------------------------------------------------------------
-			Style initial qui a été pété
-----------------------------------------------------------------------*/
-/*
-
-.CarteMarches {
-	margin: 1rem;
-	width: 20vw;
-	height: 60vh;
-	/* border-radius: 10px;
-	overflow: hidden;
-	position: relative;
-	color: white;
-	background-color: black;
-}
 .CarteMarches img {
-	position: absolute;
 	object-fit: cover;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	opacity: 1;
-	transition: opacity 0.2s ease-out;
+	max-height : 100%;
 }
 .CarteMarches h3 {
 	position: absolute;
@@ -60,23 +40,28 @@ defineProps<{
 	transition: inset 0.3s 0.3s ease-out;
 	font-family: "Bebas neue";
 	text-transform: uppercase;
+	color: white;
 }
+/*
 .CarteMarches p,
 .CarteMarches a {
 	position: absolute;
-	opacity: 0;
-	max-width: 80%;
+	opacity: 1;
 	transition: opacity 0.3s ease-out;
 	color: white;
 }
+
+/*
 .CarteMarches p {
 	inset: auto auto 80px 30px;
 }
+
 .CarteMarches a {
 	inset: auto auto 40px 30px;
 	color: inherit;
 	text-decoration: none;
 }
+*/
 .CarteMarches:hover h3 {
 	inset: auto auto 220px 30px;
 	transition: inset 0.3s;
@@ -103,12 +88,10 @@ defineProps<{
 		margin: 1rem;
 		width: 90%;
 		height: 60vh;
-		/* border-radius: 10px;
+		/* border-radius: 10px; */
 		overflow: hidden;
 		position: relative;
 		color: white;
 	}
 }
-
-*/
 </style>

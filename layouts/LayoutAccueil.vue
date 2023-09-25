@@ -13,6 +13,9 @@
 </template>
 
 <style scoped>
+.slot_image {
+	margin-top : 20vh;
+}
 .contenu {
 	gap: 0;
 }

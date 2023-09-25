@@ -80,7 +80,7 @@
 			<div class="card shadow">
 				<figure class="card__thumb">
 					<NuxtImg
-						src="/cards/tram-angers-banc-mobilum.jpg"
+						src="/cards/angers_tram.jpg"
 						alt="Banc Vasco de Gamma Angers Mobilum"
 						class="card__image"
 						fit="cover"

@@ -10,7 +10,13 @@
 </template>
 
 <style>
+
 .contenu-no-margin {
-	padding: 0rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	margin-top : 15vh;
 }
 </style>

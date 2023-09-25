@@ -11,35 +11,30 @@
 					son organisation industrielle, associées à un très fort savoir-faire technique.
 				</p>
 			</div>
-			<p>Faire différentce entre sgp mu et sgp signalétique</p>
-			<p>Remarquables : galets, (tramway) angers, puilboreau</p>
+		</section>
 			<p>
 				Niuvelle catégorie : les récompensés <br />
 				St cyr / Les ulis / Bienale
 			</p>
-		</section>
+
 
 		<section class="wide">
 			<ul>
-				<li v-for="typ in ['Les grands comptes', 'Les remarquables', 'Les conceptuels']" :key="typ">
+				<li class="type__style" v-for="typ in ['Les grands comptes', 'Les remarquables', 'Les conceptuels']" :key="typ">
+					<h2>{{ typ }}</h2>
 					<ul class="references-list">
-						<h2>{{ typ }}</h2>
 						<li v-for="reference in references?.filter((r) => r.type === typ)" :key="reference._id">
-							<div class="cards__order">
 								<CarteMarches
 									:title="reference.title"
 									:path="reference._path"
 									:img="reference.cover_image"
 									:alt="reference.cover_text"
 								/>
-							</div>
 						</li>
 					</ul>
 				</li>
 			</ul>
 		</section>
-
-		<Button theme="bordered" to="/exceptionnels-v1"> Page modèle </Button>
 
 		<p class="referencement">
 			Plongez dans notre portfolio de projets en BFUP d'exception, en termes de taille, de prestige et d'exigence
@@ -75,82 +70,6 @@ definePageMeta({
 });
 </script>
 
-<!-- 
-<page-query>
-query {
-  references: allReference {
-    edges {
-      node {
-        id
-        title
-        cover_image
-        cover_text
-        path
-        type
-      }
-    }
-  }
-}
-</page-query> -->
-
-<!----  
-
-<script>
-import Layout from "@/layouts/LayoutAccueil.vue";
-import CarteMarches from "@/components/CarteMarches.vue";
-import Button from "@/components/Button.vue";
-
-export default {
-	components: {
-		Layout,
-		CarteMarches,
-		Button,
-	},
-
-	metaInfo: {
-		title: "Grands comptes et sur-mesure",
-	},
-
-	data: () => {
-		return {};
-	},
-
-	computed: {
-		sortedReferences() {
-			/**
-			 * @type {Object.<string, Array<{ cover_image: Object, cover_text: string, id: string, path: string, title: string, type: string }>>}
-			 */
-			const sortedReferences = {};
-			/**
-			 * @type {Array<{ node: { cover_image: Object, cover_text: string, id: string, path: string, title: string, type: string } }>}
-			 */
-			const references = this.$page.references.edges;
-			/**
-			 * @type {Array<{ type: string, content: Array<{ cover_image: Object, cover_text: string, id: string, path: string, title: string, type: string }> }>}
-			 */
-			references.forEach((ref) => {
-				if (sortedReferences[ref.node.type]) {
-					sortedReferences[ref.node.type].push(ref.node);
-				} else {
-					sortedReferences[ref.node.type] = [];
-					sortedReferences[ref.node.type].push(ref.node);
-				}
-			});
-			return sortedReferences;
-		},
-	},
-};
-</script> --->
-
-<!---
-<script setup lang="ts">
-import { SomeComponent } from '#components'
-
-const MyButton = resolveComponent('MyButton')
-</script>
-
--->
-
 <style scoped>
 .wide {
 	width: 80%;
@@ -160,17 +79,31 @@ const MyButton = resolveComponent('MyButton')
 h2 {
 	border: 0;
 	padding-left: 2rem;
+	margin-bottom : 2rem;
 }
 
 .chapeau {
 	width: 70%;
 }
 
+.type__style {
+	margin-top : 2rem;
+	margin-bottom : 4rem;
+}
 .references-list {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	gap: 2rem;
+	margin-bottom: 1rem;
+	display : flex;
+	flex-wrap : wrap;
+	justify-content: flex-start;
 }
+
+.references-list li {
+	width : 30%;
+}
+
 
 /*
 

@@ -3,14 +3,13 @@
 		<!--mobilier urbain, Ammenagement(hook + signaletique), grands comptes, Nos réalisations sur mesure
 Supprimer sav -->
 		<template #slot_image>
-			<div class="slot_image" :style="backgroundStyles('/backgroundpages/fond-plage-collection.jpg')">
+			<div class="slot_image"> <!-- :style="{ backgroundImage: `url(${image})`}">-->
 				<h1>Nos collections</h1>
 			</div>
 		</template>
 
 		<b>
-			Rendre ca responsive <br />
-			Pourquoi on a autant de perte de qualité sur la photo ?
+			Rendre ca responsive
 		</b>
 
 		<div class="collection">
@@ -94,26 +93,21 @@ Supprimer sav -->
 	</NuxtLayout>
 </template>
 
-<script lang="ts" setup>
-const img = useImage();
-
+<script>
 definePageMeta({
-	layout: false,
+  layout: "Default",
 });
 
-function backgroundStyles(thumbnail: string): { backgroundImage: string } {
-	const imgUrl = img(thumbnail, {
-		width: 1920,
-		quality: 100,
-		placeholder: true,
-		format: "avif,webp",
-		loading: "lazy",
-	});
-	return { backgroundImage: `url('${imgUrl}')` };
-}
 </script>
 
 <style scoped>
+
+.slot_image {
+	background: url("/backgroundpages/fond-plage-collection.jpg") center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 .collection {
 	margin-top: 5rem;
 	display: flex;
