@@ -8,43 +8,46 @@
 			</div>
 		</template>
 
-		<b> Faire la mise en page + Rendre ca responsive <br />
+		<b> Rendre ca responsive <br />
 		Pourquoi on a autant de perte de qualité sur la photo ?</b>
 
-		<div class="sub__section">
+
 			<div class="collection">
 
-				<NuxtLink class="items_styling shadow" to="/mu">
-					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="/photospages/angers_tram.jpg" center />
-					<p>Mobilier urbain</p>
-				</NuxtLink>
+				<div class="sub__section">
+					<NuxtLink class="items_styling shadow" to="/mu">
+						<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="/photospages/angers_tram.jpg" center />
+						<p>Mobilier urbain</p>
+					</NuxtLink>
 
+					<p>Une gamme complète de MU à votre disposition</p>
+				</div>
 
-				<NuxtLink class="items_styling shadow" to="/exceptionnels">
-					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="/photospages/SNCF_auxerre.png" center />
-					<p>Dossiers d'exception</p>
-				</NuxtLink>
+				<div class="sub__section">
+					<NuxtLink class="items_styling shadow" to="/exceptionnels">
+						<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="/photospages/SNCF_auxerre.png" center />
+						<p>Dossiers d'exception</p>
+					</NuxtLink>
 
-				<NuxtLink class="items_styling shadow" to="/signaletique">
-					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="/photospages/gaetan-sablage.jpg" center />
-					<p>Signalétique</p>
-				</NuxtLink>
+					<p>Nous savons répondre présents</p>
+				</div>
 
-				<NuxtLink class="items_styling shadow" to="/hook">
-					<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="/photospages/hook-cover-image.JPG" center />
-					<p>HOOK</p>
-				</NuxtLink>
+				<div class="sub__section">
+					<NuxtLink class="items_styling shadow" to="/signaletique">
+						<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="/photospages/gaetan-sablage.jpg" center />
+						<p>Signalétique</p>
+					</NuxtLink>
+					<p>Démarquez vous</p>
+				</div>
 
-
+				<div class="sub__section">
+					<NuxtLink class="items_styling shadow" to="/hook">
+						<NuxtImg class="items__img" alt="SNCF Gare Auxerre" src="/photospages/hook-cover-image.JPG" center />
+						<p>HOOK</p>
+					</NuxtLink>
+					<p>Une valeur sure</p>
+				</div>
 			</div>
-
-			<div class="collection__descriptions">
-				<p>Une gamme complète de MU à votre disposition</p>
-				<p>Nous savons répondre présents</p>
-				<p>Démarquez vous</p>
-				<p>Une valeur sure</p>
-			</div>
-		</div>
 
 		<p class="referencement">
 			Découvrez notre nouvelle collection de mobilier urbain en BFUP, alliant esthétisme et durabilité. Des bancs,
@@ -73,22 +76,35 @@ export default {
 
 <style scoped>
 
-.sub__section {
+.collection {
+	margin-top : 5rem;
 	display: flex;
-	align-items: flex-start;
-	justify-content: center;
-	gap: 4rem;
-	margin-top: 3rem;
+	flex-direction: column;
+	align-items : center;
+	width : 90%;
+}
+
+.sub__section {
+	width : 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items : center;
+	gap : 4rem;
+}
+
+.sub__section p {
+	color: black;
+	font-family: "Montserrat";
+	font-weight: 400;
+	line-height: 2rem;
+	margin-left: 3rem;
+	margin-bottom: 2rem;
 }
 
 /*------------------------------------------------------------------------------------------
         Images des collections
 -------------------------------------------------------------------------------------------*/
-.collection {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-}
 
 .items_styling {
 	border-radius: 4px;
@@ -119,6 +135,7 @@ export default {
 	opacity: 0;
 
 	font-family: "Bebas Neue";
+	font-weight : 400;
 	font-size: 1.5rem;
 	text-decoration: none;
 	text-align: center;

@@ -6,7 +6,7 @@
 			<h1>Signaletique</h1>
 		</div>
 
-		<p>
+		<p class="chapeau">
 			\Distingué \résisistant \ ultra personalisable font de nos totems des pièces uniques dans ce domaine <br />
 			Dé"tails en plus sur chaque page de totem
 		</p>

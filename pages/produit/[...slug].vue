@@ -1,5 +1,6 @@
 <template>
-	<NuxtLayout>
+	<NuxtLayout name="LayoutNoMargin">
+		<!--- Mettre LayoutNoMargin-->
 		<ContentDoc v-slot="{ doc }">
 			<Button class="return" theme="bordered" onclick="/collection/"> Retour à la collection </Button>
 			<section class="page_top">
@@ -219,7 +220,10 @@ h1 {
 
 /*-----------------------------------------------------------------
 		Zone galerie
-	---------------------------------------------------------------*
+	---------------------------------------------------------------*/
+.gallery {
+	margin-top : 4rem;
+}
 /*-----------------------------------------------------------------
 		Sections générales
 	---------------------------------------------------------------*/
