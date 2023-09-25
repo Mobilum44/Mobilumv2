@@ -8,7 +8,7 @@ sub_category: 06 Banc
 gamme: STAMP
 finitions: lisse
 cover_image: "/produits/cover_image/banc-stamp-lisse.jpg"
-caroussel: 
+carousel: 
 - "/produits/banquette-elium-parc.jpg"
 - "/produits/attente-showroom.jpg"
 filaire: 

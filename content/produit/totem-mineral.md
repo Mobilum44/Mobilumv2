@@ -8,7 +8,7 @@ sub_category: Totem
 gamme: MINERAL
 finitions: 
 cover_image: "/produits/cover_image/totem-mineral-plein.jpg"
-caroussel: 
+carousel: 
 - "/produits/totem-ulis.jpg"
 - "/produits/attente-showroom.jpg"
 filaire: 

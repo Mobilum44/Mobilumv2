@@ -8,7 +8,7 @@ sub_category: 16 Fontaine
 gamme: LOELLA
 finitions: 900
 cover_image: "/produits/cover_image/banc-obrac.jpg"
-caroussel: 
+carousel: 
 - "/produits/banquette-elium-parc.jpg"
 - "/produits/attente-showroom.jpg"
 - "../../images/canape-stamp-lisse.jpg"

@@ -8,7 +8,7 @@ sub_category: 11 1 Table
 gamme: CANTINE
 finitions: 01
 cover_image: "/produits/cover_image/table-urbaine-cantine-01.jpg"
-caroussel: 
+carousel: 
 - "/produits/table-cantine-01-neuville-de-poitou.jpg"
 - "/produits/table-cantine-01-parc.jpg"
 filaire: 

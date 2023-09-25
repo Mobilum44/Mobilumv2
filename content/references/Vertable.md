@@ -8,8 +8,8 @@ gamme: "?"
 cover_image: "/references/cover_image/vertable-infinie.jpg"
 cover_text: "Une table infinie"
 
-caroussel: 
-- "../../images/references/caroussel/vertou-vertable.jpg"
+carousel: 
+- "../../images/references/carousel/vertou-vertable.jpg"
 
 
 localisation : "Parc de la Sèvre, Vertou"

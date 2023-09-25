@@ -9,8 +9,8 @@ gamme: "?"
 cover_image: "/references/cover_image/mante-religieuse.jpg"
 cover_text: "On a refait l'intérieur des gares"
 
-caroussel: 
-- "../../images/references/caroussel/gros-plan-SGP.jpg"
+carousel: 
+- "../../images/references/carousel/gros-plan-SGP.jpg"
 
 localisation : "Toutes les gares du Grand Paris"
 moe : SGP / Agence Patrick Jouin

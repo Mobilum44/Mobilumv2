@@ -8,7 +8,7 @@ sub_category: 03 Fauteuil
 gamme: STAMP
 finitions: window
 cover_image: "/produits/cover_image/fauteuil-stamp-window.jpg"
-caroussel: 
+carousel: 
 - "/produits/fauteuils-stamp-lisse-vire.jpg"
 filaire: 
  - "/produits/filaires/filaire-cantine-04.png"

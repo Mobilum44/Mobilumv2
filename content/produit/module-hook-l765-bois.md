@@ -8,7 +8,7 @@ sub_category: 02 Module
 gamme: HOOK
 finitions: L765 bois
 cover_image: "/produits/cover_image/hook-765-bois.jpg"
-caroussel: 
+carousel: 
 - "/produits/attente-showroom.jpg"
 filaire: 
  - "/produits/filaires/filaire-cantine-04.png"

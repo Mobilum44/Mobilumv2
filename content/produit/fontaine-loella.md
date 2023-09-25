@@ -8,7 +8,7 @@ sub_category: 16 Fontaine
 gamme: LOELLA
 finitions: 1140
 cover_image: "/produits/cover_image/fontaine-loella.jpg"
-caroussel: 
+carousel: 
 - "/produits/fontaine-loella-1100.jpg"
 - "/produits/focus-loella.jpg"
 filaire: 

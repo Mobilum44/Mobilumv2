@@ -8,7 +8,7 @@ sub_category: 04 Banc perron
 gamme: STOOP
 finitions: 
 cover_image: "/produits/cover_image/banc-perron-stoop.jpg"
-caroussel: 
+carousel: 
 - "/produits/banc-perron-stoop-ecouflant.jpg"
 - "/produits/stoop-sorbonne.jpg"
 filaire: 

@@ -8,7 +8,7 @@ sub_category: 05 Banquette
 gamme: VASCO DE GAMA
 finitions: 
 cover_image: "/produits/cover_image/banquette-vasco-de-gamma.jpg"
-caroussel: 
+carousel: 
 - "/produits/banquette-vasco-de-gama-angers.jpg"
 filaire: 
  - "/produits/filaires/filaire-cantine-04.png"

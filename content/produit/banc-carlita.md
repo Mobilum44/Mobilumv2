@@ -8,7 +8,7 @@ sub_category: 06 Banc
 gamme: CARLITA
 finitions: 
 cover_image: "/produits/cover_image/banc-carlita.jpg"
-caroussel: 
+carousel: 
 - "/produits/assemblage-carlita.png"
 - "/produits/banquette-carlita-place.jpg"
 - "/produits/banquette-carlita-face.jpg"

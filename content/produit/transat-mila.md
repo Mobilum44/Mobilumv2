@@ -8,7 +8,7 @@ sub_category: 09 Transat
 gamme: MILA 
 finitions: 
 cover_image: "/produits/cover_image/transat-mila.jpg"
-caroussel: 
+carousel: 
 - "/produits/attente-showroom.jpg"
 - "/produits/attente-showroom.jpg"
 filaire: 

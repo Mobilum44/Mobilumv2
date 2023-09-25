@@ -8,9 +8,9 @@ gamme: "?"
 cover_image: "/references/cover_image/ensemble-interieur-crous.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
-caroussel: 
-- "../../images/references/caroussel/page-entree.jpg"
-- "../../images/references/caroussel/banc-feuille-roquefert-mobilum.png"
+carousel: 
+- "../../images/references/carousel/page-entree.jpg"
+- "../../images/references/carousel/banc-feuille-roquefert-mobilum.png"
 
 
 localisation : "Campus Tertre, Nantes"

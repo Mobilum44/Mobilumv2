@@ -8,7 +8,7 @@ sub_category: 12 Mange debout
 gamme: CANTINE
 finitions: 02
 cover_image: "/produits/cover_image/mange-debout.jpg"
-caroussel: 
+carousel: 
 - "/produits/mange-debout-carnon.jpg"
 filaire: 
  - "/produits/filaires/filaire-cantine-04.png"

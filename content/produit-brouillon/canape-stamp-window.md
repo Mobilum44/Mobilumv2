@@ -8,7 +8,7 @@ sub_category: 07 Canapé
 gamme: STAMP
 finitions: window
 cover_image: "/produits/cover_image/canape-stamp-window.jpg"
-caroussel: 
+carousel: 
 - "/produits/banquette-elium-parc.jpg"
 - "/produits/attente-showroom.jpg"
 filaire: 

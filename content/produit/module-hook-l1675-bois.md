@@ -8,7 +8,7 @@ sub_category: 04 Module
 gamme: HOOK
 finitions: L1675 bois
 cover_image: "/produits/cover_image/hook-1125-double-alu-compo.jpg"
-caroussel: 
+carousel: 
 - "/produits/banquette-elium-parc.jpg"
 - "/produits/attente-showroom.jpg"
 filaire: 

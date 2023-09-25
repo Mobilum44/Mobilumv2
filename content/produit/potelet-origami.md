@@ -8,7 +8,7 @@ sub_category: 17 Potelet
 gamme: ORIGAMI
 finitions: 
 cover_image: "/produits/cover_image/potelet-fixe-origami.jpg"
-caroussel: 
+carousel: 
 - "/produits/passage-pieton-poteau-origami.jpeg"
 filaire: 
  - "/produits/filaires/filaire-cantine-04.png"

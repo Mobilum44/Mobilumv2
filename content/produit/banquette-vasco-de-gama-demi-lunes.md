@@ -8,7 +8,7 @@ sub_category: 05 Banquette
 gamme: VASCO DE GAMA
 finitions: demi-lunes
 cover_image: "/produits/cover_image/banquette-vasco-de-gama-demi-lunes.jpg"
-caroussel: 
+carousel: 
 - "/produits/banc-vasco-de-gama-a-angers.jpg"
 - "/produits/vasco-de-gama-demi-lunes-bleus.jpg"
 filaire: 

@@ -8,7 +8,7 @@ sub_category: 91 Assise
 gamme: STELAG
 finitions: 
 cover_image: "/produits/cover_image/galet-2-assises.jpg"
-caroussel: 
+carousel: 
 - "/produits/galet-double-assises-fecamp.JPG"
 filaire: 
  - "/produits/filaires/filaire-cantine-04.png"

@@ -14,10 +14,10 @@
 			<section class="sub__section">
 				<div class="gallery">
 					<!----
-					<div v-for="(img, i) in doc.caroussel" :key="i">
+					<div v-for="(img, i) in doc.carousel" :key="i">
 						<NuxtImg :src="img" />
 					</div> --->
-					<Caroussel :img="doc.caroussel" />
+					<carousel :img="doc.carousel" />
 				</div>
 			</section>
 
@@ -157,7 +157,7 @@ query Product ($id: ID!) {
 		gamme
 		designer
 		filaire
-		caroussel (width: 600, quality: 100)
+		carousel (width: 600, quality: 100)
 		materiau
 		poids
 		dimensions

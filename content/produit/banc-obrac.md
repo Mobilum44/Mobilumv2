@@ -8,7 +8,7 @@ sub_category: 06 Banc
 gamme: OBRAC 
 finitions: 
 cover_image: "/produits/cover_image/banc-obrac.jpg"
-caroussel: 
+carousel: 
 - "/produits/banc-obrac-la-rochelle.jpg"
 - "/produits/banc-obrac-la-roche-sur-yon.jpg"
 - "/produits/deux-banc-obrac-la-roche-sur-yon.jpg"

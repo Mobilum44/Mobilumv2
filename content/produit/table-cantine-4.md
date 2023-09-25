@@ -8,7 +8,7 @@ sub_category: 11 3 Table
 gamme: CANTINE
 finitions: 04
 cover_image: "/produits/cover_image/table-cantine-champetre-04.jpg"
-caroussel: 
+carousel: 
 - "/produits/table-cantine-04-st-viaud.jpg"
 
 filaire: 

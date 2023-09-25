@@ -8,7 +8,7 @@ sub_category: 10 Assis debout
 gamme: ORIGAMI
 finitions: 
 cover_image: "/produits/cover_image/assis-debout-origami.jpg"
-caroussel: 
+carousel: 
 - "/produits/rangee-assis-debout-origami.jpg"
 filaire: 
  - "/produits/filaires/filaire-cantine-04.png"

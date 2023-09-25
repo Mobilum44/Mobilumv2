@@ -1,7 +1,7 @@
 <template>
 	<Section class="AutoSlider">
 		<div class="slider-container">
-			<div class="slide" v-for="img in caroussel" :key="img.src">
+			<div class="slide" v-for="img in carousel" :key="img.src">
 				<NuxtImg :src="img" format="avif,webp" placeholder loading="lazy" />
 			</div>
 		</div>
@@ -10,7 +10,7 @@
 
 <script lang="ts" setup>
 defineProps<{
-	caroussel: any[],
+	carousel: any[],
 }>();
 </script>
 

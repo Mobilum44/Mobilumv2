@@ -8,9 +8,9 @@ gamme: "?"
 cover_image: "/references/cover_image/sorbonne-universite-amphi-stoop-cube.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
-caroussel: 
-- "../../images/references/caroussel/page-entree.jpg"
-- "../../images/references/caroussel/page-entree.jpg"
+carousel: 
+- "../../images/references/carousel/page-entree.jpg"
+- "../../images/references/carousel/page-entree.jpg"
 
 
 localisation : "Campus Malesherbes, Sorbonne Université"

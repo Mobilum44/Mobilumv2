@@ -8,7 +8,7 @@ sub_category: 01 Module
 gamme: HOOK
 finitions: L535 bois
 cover_image: "/produits/cover_image/hook-765-bois.jpg"
-caroussel: 
+carousel: 
 - "/produits/banquette-elium-parc.jpg"
 - "/produits/attente-showroom.jpg"
 filaire: 

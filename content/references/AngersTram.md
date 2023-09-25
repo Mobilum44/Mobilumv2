@@ -9,9 +9,9 @@ gamme: "?"
 cover_image: "/references/cover_image/tramway_angers_portrait.JPG"
 cover_text: "Un bain de soleil infini"
 
-caroussel: 
-- "../../images/references/caroussel/page-entree.jpg"
-- "../../images/references/caroussel/page-entree.jpg"
+carousel: 
+- "../../images/references/carousel/page-entree.jpg"
+- "../../images/references/carousel/page-entree.jpg"
 
 localisation : "Ligne 2 Angers"
 moe : "Angers métropole"
@@ -22,4 +22,3 @@ date_realisation : "?"
 ---
 
 ## Description
- " "

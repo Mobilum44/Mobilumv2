@@ -6,6 +6,7 @@
 				alt="Logo mobilum"
 				src="\logos\Blue_logo.png"
 				format="avif,webp"
+				width="80"
 				placeholder
 				loading="lazy"
 			/>
@@ -28,30 +29,17 @@ onMounted(async () => {
 </script>
 
 <style scoped>
+
 .logo_header {
-	width: 80px;
-	animation: scale-back 0.3s ease-in forwards;
+	transition: all 0.3s ease-in-out;
 }
 
 .logo_header--mini {
-	animation: scale 0.3s ease-in forwards;
+	width: 60px;
+	transition: all 0.3s ease-in-out;
 }
 
-@keyframes scale-back {
-	0% {
-		transform: scale(0.8);
-	}
-	100% {
-		transform: scale(1);
-	}
-}
-
-@keyframes scale {
-	0% {
-		transform: scale(1);
-	}
-	100% {
-		transform: scale(0.8);
-	}
+a {
+	display: flex;
 }
 </style>

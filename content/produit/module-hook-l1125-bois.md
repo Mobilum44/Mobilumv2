@@ -8,7 +8,7 @@ sub_category: 03 Module
 gamme: HOOK
 finitions: L1125 bois
 cover_image: "/produits/cover_image/hook-1125-double-alu-compo.jpg"
-caroussel: 
+carousel: 
 - "/produits/attente-showroom.jpg"
 filaire: 
  - "/produits/filaires/filaire-cantine-04.png"
