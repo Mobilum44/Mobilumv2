@@ -3,14 +3,13 @@
 		<!--mobilier urbain, Ammenagement(hook + signaletique), grands comptes, Nos réalisations sur mesure
 Supprimer sav -->
 		<template #slot_image>
-			<div class="slot_image"> <!-- :style="{ backgroundImage: `url(${image})`}">-->
+			<div class="slot_image">
+				<!-- :style="{ backgroundImage: `url(${image})`}">-->
 				<h1>Nos collections</h1>
 			</div>
 		</template>
 
-		<b>
-			Rendre ca responsive // essayer plusieurs formats pour remplir page
-		</b>
+		<b> Rendre ca responsive // essayer plusieurs formats pour remplir page </b>
 
 		<div class="collection">
 			<div class="sub__section">
@@ -18,9 +17,9 @@ Supprimer sav -->
 					<NuxtImg
 						class="items__img"
 						alt="SNCF Gare Auxerre"
-						src="/photospages/angers_tram.jpg"
-						width="300"
-						height="300"
+						src="/collectioncover/angers_tram.jpg"
+						width="800"
+						height="500"
 						format="avif,webp"
 						placeholder
 						loading="lazy"
@@ -28,19 +27,23 @@ Supprimer sav -->
 					<p>Mobilier urbain</p>
 				</NuxtLink>
 
-				<p>Une gamme de 70 (à vérifier) mobiliers urbains à votre disposition</p>
+				<div class="left">
+					<p>Une gamme de 70 (à vérifier) mobiliers urbains à votre disposition</p>
+				</div>
 			</div>
 
 			<div class="sub__section">
-				<p>Nous savons répondre présents</p>
+				<div class="right">
+					<p class="right-align">Nous savons répondre présents</p>
+				</div>
 
 				<NuxtLink class="items_styling shadow" to="/exceptionnels">
 					<NuxtImg
 						class="items__img"
 						alt="SNCF Gare Auxerre"
-						src="/photospages/SNCF_auxerre.png"
-						width="300"
-						height="300"
+						src="/collectioncover/SNCF_auxerre.png"
+						width="800"
+						height="500"
 						format="avif,webp"
 						placeholder
 						loading="lazy"
@@ -54,27 +57,31 @@ Supprimer sav -->
 					<NuxtImg
 						class="items__img"
 						alt="SNCF Gare Auxerre"
-						src="/photospages/gaetan-sablage.jpg"
-						width="300"
-						height="300"
+						src="/collectioncover/gaetan-sablage-totem.jpg"
+						width="800"
+						height="500"
 						format="avif,webp"
 						placeholder
 						loading="lazy"
 					/>
 					<p>Signalétique</p>
 				</NuxtLink>
-				<p>Démarquez vous</p>
+				<div class="left">
+					<p>Démarquez vous</p>
+				</div>
 			</div>
 
 			<div class="sub__section">
-				<p>Une valeur sure</p>
+				<div class="right">
+					<p class="right-align">Une valeur sure</p>
+				</div>
 				<NuxtLink class="items_styling shadow" to="/hook">
 					<NuxtImg
 						class="items__img"
 						alt="SNCF Gare Auxerre"
-						src="/photospages/hook-cover-image.JPG"
-						width="300"
-						height="300"
+						src="/collectioncover/hook-cover-image.JPG"
+						width="800"
+						height="500"
 						format="avif,webp"
 						placeholder
 						loading="lazy"
@@ -95,13 +102,11 @@ Supprimer sav -->
 
 <script>
 definePageMeta({
-  layout: "Default",
+	layout: "Default",
 });
-
 </script>
 
 <style scoped>
-
 .slot_image {
 	background: url("/backgroundpages/fond-plage-collection.jpg") center center no-repeat;
 	background-size: cover;
@@ -113,27 +118,38 @@ definePageMeta({
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 90%;
+	width: 100%;
 }
 
 .sub__section {
-	width: 60%;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
-	gap: 4rem;
+	justify-content: space-between;
+	align-items: flex-end;
+	gap: 1rem;
+	margin-bottom: 5rem;
 }
 
-.sub__section p {
+.left,
+.right {
+	width: 50%;
+}
+
+.left > p,
+.right p {
+	width: 80%;
 	color: black;
 	font-family: "Montserrat";
 	font-weight: 400;
-	line-height: 2rem;
-	margin-left: 3rem;
-	margin-bottom: 2rem;
+	font-size: 2rem;
+	letter-spacing: -1px;
+	margin-bottom: 1rem;
+	padding: 1rem;
 }
 
+.right-align {
+	text-align: right;
+}
 /*------------------------------------------------------------------------------------------
         Images des collections
 -------------------------------------------------------------------------------------------*/
@@ -142,16 +158,16 @@ definePageMeta({
 	border-radius: 4px;
 	justify-self: center;
 	position: relative;
-	height: 300px;
-	width: 300px;
+	height: 400px;
+	width: 640px;
 	/*
   background-color: rgba(250, 250, 250, 0.25); */
 	background-color: #1a949d;
 }
-.items_styling > .items__img {
+.items_styling > img {
 	border-radius: 4px;
-	width: 100%;
 	height: 100%;
+	max-width: 100%;
 	object-fit: cover;
 	opacity: 1;
 	transition: all 0.3s ease-in-out;
@@ -185,16 +201,6 @@ definePageMeta({
 .items_styling:hover > img {
 	opacity: 0.3;
 	transition: all 0.3s ease-in-out;
-}
-
-/*------------------------------------------------------------------------------------------
-        Description des collections
--------------------------------------------------------------------------------------------*/
-.collection__descriptions {
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
 }
 
 @media only screen and (max-width: 950px) {

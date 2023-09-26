@@ -7,14 +7,8 @@
 		<template #slot_image>
 			<section class="bandeau wide">
 				<div class="bandeau_content">
-					<!--------------------------------
-						Citation - Supprimée pour le moment.
-					--------------------------------->
 					<div class="section">
-						<p class="quote">
-							<!--"Un mobilier urbain durable et au design novateur qui
-				s’intègre dans tous les paysages urbains, telle est l’ambition de Mobilum."-->
-							
+						<p class="quote">							
 							<span>Mobilum&thinsp;</span><br />
 							<!--<span>façonne&thinsp;</span>--->
 							<span>Le&thinsp;</span>
@@ -23,21 +17,6 @@
 							<span>à&thinsp;</span>
 							<span>la&thinsp;</span>
 							<span>Française&thinsp;</span>
-							<!--
-				Mots clefs :
-				L'artisanat français est grand
-				« Nos méthodes artisanales sont grandes »
-				durabilité
-				design
-				Le concept/patte/artisanat/... MOBILUM
-				Mobilum est sans limite/s'inscrit dans tous les paysages
-				Avec/ mobilum soyez/voit grand
-				Mobilum et ses défis 
-				inspirant
-				ambitieux 
-				intégrez MOBILUM dans votre/au quotidien
-				?
-				-->
 						</p>
 					</div>
 				</div>
@@ -123,6 +102,7 @@ p {
 
 /* Section 1 : Logo /Image */
 .bandeau {
+	margin-top : 17vh;
 	background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0) 65%, #fefcf3),
 		url("/photospages/accueil-test-fond2.jpg");
 	opacity: 90%;

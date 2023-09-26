@@ -11,6 +11,7 @@
 					loading="lazy"
 				/>
 				<Button theme="slide" to="/accueil"> Entrer </Button>
+				<b>Remettre bien le fond</b>
 			</div>
 		</div>
 	</NuxtLayout>
@@ -37,7 +38,6 @@ function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 <style scoped>
 .Empty {
 	background-size: cover;
-	max-height : 100vh;
 }
 
 .logo_bouton {

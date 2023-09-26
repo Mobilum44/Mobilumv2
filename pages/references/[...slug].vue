@@ -129,7 +129,7 @@
 
 <style scoped>
 .reference {
-	margin-top : 20vh;
+	margin-top : 17vh;
 	width : 60%;
 	display : flex;
 	flex-direction: column;

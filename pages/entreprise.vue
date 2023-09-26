@@ -10,9 +10,7 @@
 			<div class="title"></div>
 		</section>
 
-		<div class="section_top">
-			<b>Mettre photo + urbaine </b>
-		</div>
+		<div class="section_top"></div>
 
 		<!-------------------------------------------------------------------
     La griffe Mobilum
@@ -86,9 +84,7 @@ Notre savoir-faire
 					<h2>\ Notre savoir-faire</h2>
 					<div class="section__text">
 						<p>
-							<strong
-								>"Chez Mobilum, nos mains sont essentielles."</strong
-							>
+							<strong>"Chez Mobilum, nos mains sont essentielles."</strong>
 							<br /><br />
 							Notre volonté est de produire un travail artisanal de qualité 100% français en privilégiant
 							le talent des partenaires locaux. Chaque mobilier a été étudié, conçu et réalisé dans notre
@@ -161,12 +157,15 @@ Nos activités
 		<div class="sub__section wide dark cards">
 			<div class="left">
 				<h3>Mobilum, une présence remarquée, un réseau national</h3>
-				<p> Faire présentation plus sobre : https://fribly.com/2015/11/12/pure-css-responsive-image-gallery/ <br/>
-				Avec texte et animation cf collection </p>
+				<p>
+					Faire présentation plus sobre : https://fribly.com/2015/11/12/pure-css-responsive-image-gallery/
+					<br />
+					Avec texte et animation cf collection
+				</p>
 			</div>
 			<div class="sub__section">
-				<Card />
-<!--
+				<CardPlaces />
+				<!--
 				<div class="sub__section wide">
 					<div class="left texte-commerce">
 					</div>
@@ -179,10 +178,10 @@ Nos activités
 
 <script>
 definePageMeta({
-  layout: "Default",
+	layout: false,
 });
 
-import BackEntr from "/backgroundpages/fond-entreprise-eglise-resized.jpg";
+import BackEntr from "/backgroundpages/fond-entreprise-loroux-bottereau.jpg";
 
 export default {
 	data() {
@@ -277,12 +276,6 @@ article {
 	align-items: center;
 	padding-bottom: 2rem;
 }
-
-.left {
-	width: 80%;
-	display: flex;
-	align-items: left;
-}
 /*--------------------------------------------
     Gestion des textes
 --------------------------------------------*/
@@ -297,8 +290,7 @@ article {
 }
 
 .texte-commerce {
-
-	margin-top : 2rem;
+	margin-top: 2rem;
 }
 /* ------------------------------------------------------------------------------------------
             Gestion des images
