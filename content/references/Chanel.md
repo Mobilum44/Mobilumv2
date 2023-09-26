@@ -9,13 +9,24 @@ cover_image: "/references/cover_image/mante-religieuse.jpg"
 cover_text: "Mobilier pour le siège de Chanel"
 
 carousel: 
-- "../../images/references/carousel/page-entree.jpg"
+- "/references/carousel/page-entree.jpg"
 
-localisation : "Siège de Chanel"
-moe : "Chanel"
-moa : "?"
+
+prem_loc : "Siège de Chanel"
+prem_moe : "Chanel"
+prem_moa :
+
+sec_loc :
+sec_moe :
+sec_moa :
+ 
 fabricant : "Mobilum"
+
 date_realisation : "2023"
+date_demarrage :
+duree_marche :
+
+recompense : 
 
 ---
 

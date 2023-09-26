@@ -12,12 +12,21 @@ cover_text: "On a refait l'intérieur des gares"
 carousel: 
 - "references/carousel/gros-plan-SGP.jpg"
 
-localisation : "Toutes les gares du Grand Paris"
-moe : SGP / Agence Patrick Jouin
-moa :
-fabricant : "Mobilum / Synthèse"
-date_realisation : "Date de démarrage : 2023 // Durée du marché : (nouvelles conditions)"
+prem_loc : "Toutes les gares du Grand Paris"
+prem_moe : "SGP / Agence Patrick Jouin"
+prem_moa :
 
+sec_loc :
+sec_moe :
+sec_moa :
+ 
+fabricant : "Mobilum / Synthèse"
+
+date_realisation :
+date_demarrage : "2023"
+duree_marche :
+
+recompense : "...?"
 ---
 
 ## Description

@@ -9,15 +9,24 @@ cover_image: "/references/cover_image/feuille-roquefere.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
 carousel: 
-- "../../images/references/carousel/page-entree.jpg"
-- "../../images/references/carousel/banc-feuille-roquefert-mobilum.png"
+- "/references/carousel/page-entree.jpg"
+- "/references/carousel/banc-feuille-roquefert-mobilum.png"
 
+prem_loc : "Chemin Roquefère"
+prem_moe : "Ville de Roquefere / Avril en Mai"
+prem_moa :
 
-localisation : "Chemin Roquefere"
-moe : "Ville de Roquefere / Avril en Mai"
-moa : "nom/société"
+sec_loc :
+sec_moe :
+sec_moa :
+ 
 fabricant : "Mobilum"
+
 date_realisation : "?"
+date_demarrage :
+duree_marche :
+
+recompense :
 
 ---
 

@@ -10,15 +10,24 @@ cover_image: "/references/cover_image/mobilum-piano-rezzo-ecole-normale-superieu
 cover_text: "Mobilier extérieur pour les étudiants dans un cadre prestigieux"
 
 carousel: 
-- "../../images/references/carousel/Piano-Rezzo-ENS-Saclay.jpg"
-- "../../images/references/carousel/Piano-Rezzo-Paris-Saclay.jpg"
+- "/references/carousel/Piano-Rezzo-ENS-Saclay.jpg"
+- "/references/carousel/Piano-Rezzo-Paris-Saclay.jpg"
 
-localisation : "ENS, Paris Saclay"
-moe : "Renzo Piano / Chercher nom installateur"
-moa : "nom/société"
+prem_loc : "ENS, Paris Saclay"
+prem_moe : "Renzo Piano / Chercher nom installateur"
+prem_moa :
+
+sec_loc :
+sec_moe :
+sec_moa :
+ 
 fabricant : "Mobilum"
-date_realisation : "?"
 
+date_realisation : "?"
+date_demarrage :
+duree_marche :
+
+recompense :
 ---
 
 ## Description

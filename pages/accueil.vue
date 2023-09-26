@@ -55,7 +55,7 @@
 <script>
 
 definePageMeta({
-  layout: "LayoutAccueil",
+  layout: false,
 });
 
 export default {

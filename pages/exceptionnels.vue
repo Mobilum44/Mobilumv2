@@ -26,7 +26,7 @@
 
 		<section class="wide">
 			<ul>
-				<li class="type__style" v-for="typ in ['Les grands comptes', 'Les remarquables', 'Les conceptuels']" :key="typ">
+				<li class="type__style" v-for="typ in ['Les grands comptes', 'Les remarquables', 'Les conceptuels', 'Les récompensés']" :key="typ">
 					<h2>{{ typ }}</h2>
 					<ul class="references-list">
 						<li v-for="reference in references?.filter((r) => r.type === typ)" :key="reference._id">

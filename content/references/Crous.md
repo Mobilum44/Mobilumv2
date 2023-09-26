@@ -9,16 +9,24 @@ cover_image: "/references/cover_image/ensemble-interieur-crous.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
 carousel: 
-- "../../images/references/carousel/page-entree.jpg"
-- "../../images/references/carousel/banc-feuille-roquefert-mobilum.png"
+- "/references/carousel/page-entree.jpg"
+- "/references/carousel/banc-feuille-roquefert-mobilum.png"
 
+prem_loc : "Campus Tertre, Nantes"
+prem_moe : "Crous de Nantes"
+prem_moa :
 
-localisation : "Campus Tertre, Nantes"
-moe : "Crous de Nantes"
-moa : "nom/société"
+sec_loc :
+sec_moe :
+sec_moa :
+ 
 fabricant : "Mobilum"
-date_realisation : "?"
 
+date_realisation : "2023"
+date_demarrage :
+duree_marche :
+
+recompense : 
 ---
 
 ## Description

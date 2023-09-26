@@ -10,14 +10,24 @@ cover_image: "/references/cover_image/tramway_angers_portrait.JPG"
 cover_text: "Un bain de soleil infini"
 
 carousel: 
-- "../../images/references/carousel/page-entree.jpg"
-- "../../images/references/carousel/page-entree.jpg"
+- "/references/carousel/page-entree.jpg"
+- "/references/carousel/page-entree.jpg"
 
-localisation : "Ligne 2 Angers"
-moe : "Angers métropole"
-moa : "nom/société"
+prem_loc : "Ligne 2 Angers"
+prem_moe : "Angers métropole"
+prem_moa :
+
+sec_loc :
+sec_moe :
+sec_moa :
+ 
 fabricant : "Mobilum / Ingénia"
+
 date_realisation : "?"
+date_demarrage :
+duree_marche :
+
+recompense : 
 
 ---
 

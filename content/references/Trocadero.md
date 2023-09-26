@@ -10,15 +10,24 @@ cover_image: "/references/cover_image/jardinieres-trocadero-paris.jpg"
 cover_text: "Les jardinières du Troca"
 
 carousel: 
-- "../../images/references/carousel/page-entree.jpg"
-- "../../images/references/carousel/page-entree.jpg"
+- "/references/carousel/page-entree.jpg"
+- "/references/carousel/page-entree.jpg"
 
+prem_loc : "Place du Trocadero, Paris"
+prem_moe : "M. Bortolussi / Vinci / Pinson Paysage"
+prem_moa : 
 
-localisation : "Place du Trocadero, Paris"
-moe : M. Bortolussi / Vinci / Pinson Paysage
-moa : 
+sec_loc :
+sec_moe :
+sec_moa :
+ 
 fabricant : "Mobilum"
+
 date_realisation : "2022"
+date_demarrage :
+duree_marche :
+
+recompense :
 
 ---
 

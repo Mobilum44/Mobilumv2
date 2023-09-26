@@ -10,13 +10,23 @@ cover_image: "/references/cover_image/mante-religieuse.jpg"
 cover_text: "On a refait l'intérieur des gares"
 
 carousel: 
-- "../../images/references/carousel/gros-plan-SGP.jpg"
+- "/references/carousel/gros-plan-SGP.jpg"
 
-localisation : "Toutes les gares du Grand Paris"
-moe : SGP / Agence Patrick Jouin
-moa :
+prem_loc : "Toutes les gares du Grand Paris"
+prem_moe : "SGP / Agence Patrick Jouin"
+prem_moa :
+
+sec_loc :
+sec_moe :
+sec_moa :
+ 
 fabricant : "OSS / Mobilum"
-date_realisation : "Demarrage du projet : 2023"
+
+date_realisation :
+date_demarrage : "2023"
+duree_marche :
+
+recompense : "...?"
 
 ---
 

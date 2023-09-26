@@ -11,7 +11,7 @@ cover_image: "/produits/cover_image/banc-obrac.jpg"
 carousel: 
 - "/produits/banquette-elium-parc.jpg"
 - "/produits/attente-showroom.jpg"
-- "../../images/canape-stamp-lisse.jpg"
+- "/canape-stamp-lisse.jpg"
 filaire: 
  - "/produits/filaires/filaire-cantine-04.png"
 reference: FOLOELL0106

@@ -9,14 +9,25 @@ cover_image: "/references/cover_image/carnon-transats-mila2.jpg"
 cover_text: "Un bain de soleil infini"
 
 carousel: 
-- "../../images/references/carousel/page-entree.jpg"
-- "../../images/references/carousel/page-entree.jpg"
+- "/references/carousel/page-entree.jpg"
+- "/references/carousel/page-entree.jpg"
 
-localisation : "Port de Plaisance, Carnon"
-moe : "VIlle de Carnon / Gauthier-Conquet / Egis"
-moa : "nom/société"
+
+prem_loc : "Port de Plaisance, Carnon"
+prem_moe : "Ville de Carnon / Gauthier-Conquet / Egis"
+prem_moa :
+
+sec_loc :
+sec_moe :
+sec_moa :
+ 
 fabricant : "Mobilum / Colas"
+
 date_realisation : "?"
+date_demarrage :
+duree_marche :
+
+recompense : 
 
 ---
 

@@ -10,14 +10,24 @@ cover_image: "/references/cover_image/puilboreau-centre-commercial-beaulieu.jpeg
 cover_text: "Un bain de soleil infini"
 
 carousel: 
-- "../../images/references/carousel/page-entree.jpg"
-- "../../images/references/carousel/page-entree.jpg"
+- "/references/carousel/page-entree.jpg"
+- "/references/carousel/page-entree.jpg"
 
-localisation : "Centre commercial Beaulieu"
-moe : "La Rochelle Agglomération / Forma6"
-moa : "nom/société"
+prem_loc : "Centre commercial Beaulieu"
+prem_moe : "La Rochelle Agglomération / Forma6"
+prem_moa :
+
+sec_loc :
+sec_moe :
+sec_moa :
+ 
 fabricant : "Mobilum / IDVerdé"
+
 date_realisation : "?"
+date_demarrage :
+duree_marche :
+
+recompense : 
 
 ---
 

@@ -217,7 +217,6 @@
 
     text-shadow : rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
-
     z-index : 1;
 	opacity: 1;
 
@@ -252,7 +251,7 @@
 }
 
 .card:hover img {
-	opacity: 0.3;
+	opacity: 0.2;
 	transition: all 0.3s ease-in-out;
 }
 

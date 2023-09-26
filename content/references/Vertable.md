@@ -9,15 +9,23 @@ cover_image: "/references/cover_image/vertable-infinie.jpg"
 cover_text: "Une table infinie"
 
 carousel: 
-- "../../images/references/carousel/vertou-vertable.jpg"
+- "/references/carousel/vertou-vertable.jpg"
 
+prem_loc : "Parc de la Sèvre, Vertou"
+prem_moe : "Ville de Vertou / Phytolab / Tugec"
+prem_moa : 
 
-localisation : "Parc de la Sèvre, Vertou"
-moe : "Ville de Vertou / Phytolab / Tugec"
-moa : "nom/société"
+sec_loc :
+sec_moe :
+sec_moa :
+ 
 fabricant : "Mobilum"
-date_realisation : "?"
 
+date_realisation : "?"
+date_demarrage :
+duree_marche :
+
+recompense :
 ---
 
 ## Description
