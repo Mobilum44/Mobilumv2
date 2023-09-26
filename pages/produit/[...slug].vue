@@ -11,7 +11,7 @@
 		<section class="sub__section">
 			<div class="gallery">
 				<div v-for="(img, i) in doc.carousel" :key="i">
-					<NuxtImg :src="img" witdh="1920px" />
+					<NuxtImg :src="img" width="1100" height="800" placeholder format="avif,webp" loading="lazy" />
 				</div>
 				<carousel :img="doc.carousel" />
 			</div>
@@ -23,25 +23,25 @@
 				<p>{{ doc.dureeDuProjet }}</p>
 			</div> -->
 
-			<div class="sub__section sub__section__content general">
-				<div class="general-filaire" v-for="(img, i) in doc.filaire" :key="i">
-					<NuxtImg :src="img" height="300px" />
-				</div>
-
-				<div class="general-infos">
-					<!--- Mettre bien en forme le document, et nettoyer un peu le code-->
-					<h2 class="general-titre">Caractéristiques</h2>
-					<p>
-						<em>Matériau :</em> : {{ doc.materiau }}<br />
-						<em>Poids</em> : {{ doc.poids }}kg<br />
-						<em>Dimensions</em> : {{ doc.dimensions }}mm <br />
-						<em>Format :</em> {{ doc.format }}
-					</p>
-					<p class="description">
-						{{ doc.description }}
-					</p>
-				</div>
+		<div class="sub__section sub__section__content general">
+			<div class="general-filaire" v-for="(img, i) in doc.filaire" :key="i">
+				<NuxtImg :src="img" height="300px" />
 			</div>
+
+			<div class="general-infos">
+				<!--- Mettre bien en forme le document, et nettoyer un peu le code-->
+				<h2 class="general-titre">Caractéristiques</h2>
+				<p>
+					<em>Matériau :</em> : {{ doc.materiau }}<br />
+					<em>Poids</em> : {{ doc.poids }}kg<br />
+					<em>Dimensions</em> : {{ doc.dimensions }}mm <br />
+					<em>Format :</em> {{ doc.format }}
+				</p>
+				<p class="description">
+					{{ doc.description }}
+				</p>
+			</div>
+		</div>
 
 		<section class="sub__section">
 			<h2>Nos finitions</h2>
@@ -54,7 +54,6 @@
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
 								src="/photospages/couleur-bfup-gris-fonce.jpg"
-								center
 								width="200vw"
 								fit="cover"
 								format="avif,webp"
@@ -68,7 +67,6 @@
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
 								src="/photospages/couleur-bfup-blanc.jpg"
-								center
 								width="200vw"
 								fit="cover"
 								format="avif,webp"
@@ -88,7 +86,6 @@
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
 								src="/photospages/couleur-bfup-taupe.jpg"
-								center
 								width="200vw"
 								fit="cover"
 								format="avif,webp"
@@ -102,7 +99,6 @@
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
 								src="/photospages/couleur-bfup-rose.jpg"
-								center
 								width="200vw"
 								fit="cover"
 								format="avif,webp"
@@ -116,7 +112,6 @@
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
 								src="/photospages/couleur-bfup-bleu.jpg"
-								center
 								width="200vw"
 								fit="cover"
 								format="avif,webp"
@@ -137,10 +132,42 @@
 
 		<section class="sub__section">
 			<h2>Dans la même gamme...</h2>
-			<b>Mettre les autres produits de la gamme ici</b>
+			<ul>
+				<li v-for="relatedProduct in relatedProducts" :key="relatedProduct._id">
+					<NuxtLink :to="relatedProduct._path">
+						<NuxtImg
+							:src="relatedProduct.cover_image"
+							:alt="relatedProduct.title"
+							width="200"
+							fit="cover"
+							format="avif,webp"
+							placeholder
+							loading="lazy"
+						/>
+						<p>{{ relatedProduct.title }}</p>
+					</NuxtLink>
+				</li>
+			</ul>
 		</section>
 	</ContentDoc>
 </template>
+
+<script lang="ts" setup>
+import { Product } from "@/assets/types";
+
+const route = useRoute();
+const { data: currentProduct } = useAsyncData("product", () => queryContent(route.fullPath).findOne() as Promise<Product>);
+const { data: relatedProducts } = await useAsyncData(
+	"relatedProducts",
+	() =>
+		queryContent("/produit")
+			.where({ gamme: currentProduct.value!.gamme })
+			.only(["_path", "title", "cover_image", "_id"])
+			.without(currentProduct.value!._id)
+			.limit(3)
+			.find() as Promise<Product[]>,
+);
+</script>
 
 <style scoped>
 .content-produits {
@@ -195,23 +222,22 @@ h1 {
 		Zone filaire
 	---------------------------------------------------------------*/
 .general {
-	display : flex;
-	align-items : center;
+	display: flex;
+	align-items: center;
 	justify-content: center;
-	margin : 0;
+	margin: 0;
 }
 
 .general-titre {
-	padding-left : 0;
-	margin-left : 0;
+	padding-left: 0;
+	margin-left: 0;
 }
 .general-filaire {
 	height: 80%;
 }
 
 .general-infos {
-	width : 65%;
-
+	width: 65%;
 }
 
 /*-----------------------------------------------------------------
