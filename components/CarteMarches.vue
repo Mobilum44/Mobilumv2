@@ -34,6 +34,7 @@ defineProps<{
 	max-height : 110%;
 }
 .CarteMarches h3 {
+	width : 60%;
 	position: absolute;
 	inset: auto auto 30px 30px;
 	margin: 0;

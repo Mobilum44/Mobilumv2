@@ -34,7 +34,7 @@
 					/>
 					<figcaption class="card__caption">
 						<h4>Parc</h4>
-						<p>Développement durable assumé.</p>
+						<p>Développement durable intégré.</p>
 					</figcaption>
 				</figure>
 			</div>
@@ -189,6 +189,10 @@
 /* --------------------------------------------------------------------------------------
             Animation des cartes
 ---------------------------------------------------------------------------------------*/
+p {
+	margin-top : 1.2rem;
+}
+
 .card {
 	width: 200px;
 	height: 200px;

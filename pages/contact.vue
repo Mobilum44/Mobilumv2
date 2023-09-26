@@ -47,7 +47,6 @@
 			</div>
 		</div>
 		<div class="sub__section maps">
-			<p> Où est la maps ?</p>
 			<MapsAdress />
 		</div>
 	</NuxtLayout>
@@ -134,8 +133,7 @@ p {
 
 
 .maps {
-	border : solid black;
-	height : 40vh;
+	height : 100%;
 }
 /* ------------------------------------------------------------------------------------------
 

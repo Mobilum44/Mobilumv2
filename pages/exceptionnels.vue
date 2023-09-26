@@ -7,14 +7,20 @@
 		<section class="sub__section">
 			<div class="chapeau">
 				<p>
-					Pour l'obtention de ces marchés, ce qui a fait la différence chez mobilum résulte dans la qualité de
-					son organisation industrielle, associées à un très fort savoir-faire technique.
+					<!---Pour l'obtention de ces marchés, ce qui a fait la différence chez mobilum provient de la qualité de
+					son organisation industrielle, associées à un très fort savoir-faire technique.---->
+					La qualité de notre organisation industrielle, associée à un fort savoir-faire technique
+					ont donné confiance pour l'obtention de ces projets.
 				</p>
 			</div>
 		</section>
 			<p>
-				Niuvelle catégorie : les récompensés <br />
-				St cyr / Les ulis / Bienale
+				<b> Essayer de mettre à la ligne après SNCF</b>
+				<b> Rendre les photos plus rapides à charger</b><br />
+				SNCF / SGP MU / SGP sign <br/>
+				Trocadero / ENS / Chanel / Galets / Tram angers / Puilboreau / La défense (si obtenu)<br/>
+				Vertable / sorbonne / saclay / carnon / roquefere / crous <br/>
+				Niuvelle catégorie : les récompensés - St cyr / Les ulis / Bienale<br />
 			</p>
 
 
@@ -27,7 +33,7 @@
 								<CarteMarches
 									:title="reference.title"
 									:path="reference._path"
-									:img="reference.cover_image"
+									:img="reference.cover_image" loading="lazy"
 									:alt="reference.cover_text"
 									:cover_text="reference.cover_text"
 								/>

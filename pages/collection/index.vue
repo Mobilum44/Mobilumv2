@@ -9,7 +9,7 @@ Supprimer sav -->
 		</template>
 
 		<b>
-			Rendre ca responsive
+			Rendre ca responsive // essayer plusieurs formats pour remplir page
 		</b>
 
 		<div class="collection">
@@ -28,10 +28,12 @@ Supprimer sav -->
 					<p>Mobilier urbain</p>
 				</NuxtLink>
 
-				<p>Une gamme complète de MU à votre disposition</p>
+				<p>Une gamme de 70 (à vérifier) mobiliers urbains à votre disposition</p>
 			</div>
 
 			<div class="sub__section">
+				<p>Nous savons répondre présents</p>
+
 				<NuxtLink class="items_styling shadow" to="/exceptionnels">
 					<NuxtImg
 						class="items__img"
@@ -45,8 +47,6 @@ Supprimer sav -->
 					/>
 					<p>Dossiers d'exception</p>
 				</NuxtLink>
-
-				<p>Nous savons répondre présents</p>
 			</div>
 
 			<div class="sub__section">
@@ -67,6 +67,7 @@ Supprimer sav -->
 			</div>
 
 			<div class="sub__section">
+				<p>Une valeur sure</p>
 				<NuxtLink class="items_styling shadow" to="/hook">
 					<NuxtImg
 						class="items__img"
@@ -80,7 +81,6 @@ Supprimer sav -->
 					/>
 					<p>HOOK</p>
 				</NuxtLink>
-				<p>Une valeur sure</p>
 			</div>
 		</div>
 
@@ -164,7 +164,7 @@ definePageMeta({
 	transform: translate(-50%, -50%);
 
 	margin: 0;
-	opacity: 0;
+	opacity: 1;
 
 	font-family: "Bebas Neue";
 	font-weight: 400;

@@ -14,16 +14,15 @@
 						<p class="quote">
 							<!--"Un mobilier urbain durable et au design novateur qui
 				s’intègre dans tous les paysages urbains, telle est l’ambition de Mobilum."-->
-							<span>"&thinsp;</span>
-							<span>Mobilum&thinsp;</span>
-							<span>façonne&thinsp;</span>
-							<span>le&thinsp;</span>
+							
+							<span>Mobilum&thinsp;</span><br />
+							<!--<span>façonne&thinsp;</span>--->
+							<span>Le&thinsp;</span>
 							<span>Béton&thinsp;</span>
 							<span>Fibré&thinsp;</span>
 							<span>à&thinsp;</span>
 							<span>la&thinsp;</span>
 							<span>Française&thinsp;</span>
-							<span>"&thinsp;</span>
 							<!--
 				Mots clefs :
 				L'artisanat français est grand
@@ -51,10 +50,9 @@
 	Mise en page : Cartes RS avec texte en dessous, 3 directement affichés
 	--------------------------------->
 		<p class="accueil_text">
-			Après dix ans de recherches et de développements, Mobilum possède un savoir-faire unique dans la création et
+			En dix ans d'existence, Mobilum a acquis un savoir-faire unique dans la création et
 			la fabrication de mobiliers urbains en Béton Fibré à Ultra-haute Performance. <br /><br />
-			Entreprise artisanale nantaise, Mobilum répond aux plus grandes exigences en matière de design au service
-			des environnements urbains.
+			Entreprise artisanale nantaise <b>N majuscule ?</b>, Mobilum répond aux exigences des environnements publics.
 		</p>
 
 	<!--------------------------------
@@ -64,6 +62,7 @@
 		<template #slot_bandeau>
 			<div class="redirection">
 				<h3>En quelques mots, Mobilum c'est ...</h3>
+				<b> Changer photo BFUP</b>
 				<SlideRedirection />
 			</div>
 		</template>
@@ -132,16 +131,18 @@ p {
 	padding-bottom: 15vh;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	align-items: flex-end;
+	justify-content: flex-end;
 }
 
 /* Section 2 : latest posts + content */
 .section {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
+	padding-bottom : 3rem;
+	padding-right : 10rem;
 }
 
 /*-------------------------------------------------------------------
@@ -153,7 +154,7 @@ p {
 	font-family: "Times New Roman", Times, serif;
 	font-style: italic;
 	font-size: 2rem;
-	color: white;
+	color:black;
 	text-shadow: black 1px 0 20px;
 	max-width: 150vh;
 

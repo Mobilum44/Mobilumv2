@@ -1,9 +1,7 @@
 <template>
-	<NuxtLayout name="layout-no-margin">
-		<!--- Mettre LayoutNoMargin-->
 		<ContentDoc v-slot="{ doc }">
 			<Button class="return" theme="bordered" onclick="/collection/"> Retour à la collection </Button>
-			<section class="page_top">
+			<section class="page_top content-produits">
 				<div class="title">
 					<h1 class="h1_title">
 						{{ doc.title }}
@@ -147,7 +145,6 @@
 				<b>Mettre les autres produits de la gamme ici</b>
 			</section>
 		</ContentDoc>
-	</NuxtLayout>
 </template>
 
 <!-- <page-query>
@@ -180,7 +177,9 @@ query Product ($id: ID!) {
 	text-decoration: underline;
 }
 ---------------------------------------------------------------*/
-
+.content-produits {
+	margin-top : 20vh;
+}
 .return {
 	height: 0;
 	overflow: hidden;

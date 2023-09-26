@@ -5,7 +5,11 @@
 			<h1>Mobilier Urbain</h1>
 		</div>
 
-		<div class="chapeau">Qu'est ce qu'on a à dire ?</div>
+		<div class="chapeau"></div>
+
+		<p><b>Double layout</b><br/>
+		Fauteuil stamp lisse -> Cover image<br/>
+	Fontaine simple 900 -> Cover image</p>
 
 		<div class="sub__section">
 			<ul class="collection_order">
@@ -29,6 +33,14 @@
 </template>
 
 <script setup lang="ts">
+definePageMeta({
+	layout: false,
+});
+
+definePageMeta({
+	layout: false,
+});
+
 const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 	// Requête pour récupérer les produits de la collection "Mobilier urbain"
 	// https://content.nuxtjs.org/api/composables/query-content

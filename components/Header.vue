@@ -62,7 +62,7 @@ Header {
 .header_content--mini {
 	padding-top: 0.25rem;
 	transition: all 0.3s ease-in-out;
-	border-bottom: solid black 1px;
+	/*border-bottom: solid black 1px;*/
 }
 
 .header ul {

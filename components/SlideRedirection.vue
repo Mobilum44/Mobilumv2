@@ -6,7 +6,7 @@
 		</NuxtLink>
 		<div class="box">
 			<NuxtImg src="/photospages/design-mobilum.jpg" format="avif,webp" placeholder loading="lazy" />
-			<p>Du design <em>à la Française</em></p>
+			<p>Du design <em><br />à la réalité</em></p>
 		</div>
 		<!--
     <NuxtLink

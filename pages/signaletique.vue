@@ -7,7 +7,8 @@
 		</div>
 
 		<p class="chapeau">
-			\Distingué \Résisistant \Ultra personalisable font de nos totems des pièces uniques dans ce domaine <br />
+			Création d'une pièce unique et distinguée à votre image.<br />
+			Nos totems ont la particularité de résister aux aménagements les plus sensibles.<br />
 			<b>Détails en plus sur chaque page de totem</b>
 		</p>
 
@@ -33,6 +34,10 @@
 </template>
 
 <script setup lang="ts">
+definePageMeta({
+	layout: false,
+});
+
 const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 	// Requête pour récupérer les produits de la collection "Mobilier urbain"
 	// https://content.nuxtjs.org/api/composables/query-content

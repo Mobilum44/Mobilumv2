@@ -11,7 +11,7 @@
 		</section>
 
 		<div class="section_top">
-			<b> Remettre les images en fixed</b>
+			<b>Mettre photo + urbaine </b>
 		</div>
 
 		<!-------------------------------------------------------------------
@@ -29,7 +29,7 @@
 							<!--
             La marque et le design : designers et distinctions
 			---->
-							<strong>"Le design, notre essence."</strong>
+							<strong>"Le design, on adhère !"</strong>
 							<br /><br />
 							Mobilum se définit par sa compétence en BFUP et son design, véritable ADN de l’entreprise.
 							Notre ambition est de concevoir des mobiliers urbains modernes et élégants qui s’intègrent
@@ -87,8 +87,7 @@ Notre savoir-faire
 					<div class="section__text">
 						<p>
 							<strong
-								>"Chez Mobilum, notre savoir-faire est ancré dans un artisanat 100% français et
-								local."</strong
+								>"Chez Mobilum, nos mains sont essentielles."</strong
 							>
 							<br /><br />
 							Notre volonté est de produire un travail artisanal de qualité 100% français en privilégiant
@@ -140,8 +139,7 @@ Notre savoir-faire
 					<div class="section__text">
 						<p>
 							<strong
-								>"Nous produisons de manière raisonnée en limitant au maximum notre impact sur
-								l'environnement."</strong
+								>"Notre devoir est de produire des mobiliers de manière durable et réfléchie."</strong
 							>
 							<br /><br />
 							Repenser le mobilier urbain nécessite d’intégrer le développement durable dans nos
@@ -162,17 +160,18 @@ Nos activités
 --------------------------------------------------->
 		<div class="sub__section wide dark cards">
 			<div class="left">
-				<h3>Mobilum, une présence remarquée</h3>
+				<h3>Mobilum, une présence remarquée, un réseau national</h3>
+				<p> Faire présentation plus sobre : https://fribly.com/2015/11/12/pure-css-responsive-image-gallery/ <br/>
+				Avec texte et animation cf collection </p>
 			</div>
 			<div class="sub__section">
 				<Card />
-
+<!--
 				<div class="sub__section wide">
-					<div class="left">
-						<h3>Notre réseau commercial nous permet d'être présents</h3>
+					<div class="left texte-commerce">
 					</div>
 					<Villes />
-				</div>
+				</div>---->
 			</div>
 		</div>
 	</NuxtLayout>
@@ -215,7 +214,7 @@ h2 {
 h3 {
 	font-family: "Montserrat";
 	font-weight: 500;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	padding-bottom: 1rem;
 	margin: 1rem;
 	padding-top: 2rem;
@@ -297,6 +296,10 @@ article {
 	padding-top: 0;
 }
 
+.texte-commerce {
+
+	margin-top : 2rem;
+}
 /* ------------------------------------------------------------------------------------------
             Gestion des images
 --------------------------------------------------------------------------------------------*/

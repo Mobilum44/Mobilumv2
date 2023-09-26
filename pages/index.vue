@@ -37,6 +37,7 @@ function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 <style scoped>
 .Empty {
 	background-size: cover;
+	max-height : 100vh;
 }
 
 .logo_bouton {

@@ -8,9 +8,9 @@
 
 		<div class="chapeau">
 			<p>
-				\Qualité \Esthétisme \Personnalisation font du hook un produit phare sur le marché des habillages de
-				coffrets techniques.<br />
-				<b>Rajouter : 1485 et 1675</b>
+				<!--\Qualité \Esthétisme \Personnalisation font du HOOK un produit phare sur le marché des habillages de
+				coffrets techniques.<br/>-->
+				Des modules personnalisables à souhait, composés de matériaux durables, simples à installer et à entretenir.
 			</p>
 		</div>
 

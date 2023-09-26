@@ -1,6 +1,6 @@
 ---
 type : Les grands comptes
-title: Le Grand Paris MU
+title: Le Grand Paris Mobilier Urbain
 sub_title : Mobilier en gare
 published: TRUE
 
@@ -16,10 +16,10 @@ localisation : "Toutes les gares du Grand Paris"
 moe : SGP / Agence Patrick Jouin
 moa :
 fabricant : "Mobilum / Synthèse"
-date_realisation : "Demarrage du projet : 2023"
+date_realisation : "Date de démarrage : 2023 // Durée du marché : (nouvelles conditions)"
 
 ---
 
 ## Description
 
-Coucou la description
+Enlever (si possible) "Mobilier urbain" dans le titre
