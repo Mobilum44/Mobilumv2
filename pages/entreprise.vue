@@ -157,11 +157,6 @@ Nos activités
 		<div class="sub__section wide dark cards">
 			<div class="left">
 				<h3>Mobilum, une présence remarquée, un réseau national</h3>
-				<p>
-					Faire présentation plus sobre : https://fribly.com/2015/11/12/pure-css-responsive-image-gallery/
-					<br />
-					Avec texte et animation cf collection
-				</p>
 			</div>
 			<div class="sub__section">
 				<CardPlaces />
