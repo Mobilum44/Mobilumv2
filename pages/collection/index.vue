@@ -9,7 +9,7 @@ Supprimer sav -->
 			</div>
 		</template>
 
-		<b> Rendre ca responsive // essayer plusieurs formats pour remplir page </b>
+		<b> Rendre ca responsive // Corriger toutes les images qui explosent ( . JPG)</b>
 
 		<div class="collection">
 			<div class="sub__section">
@@ -28,7 +28,9 @@ Supprimer sav -->
 				</NuxtLink>
 
 				<div class="left">
-					<p>Une gamme de 70 (à vérifier) mobiliers urbains à votre disposition</p>
+					<p>Une gamme de 70 (à vérifier) mobiliers urbains à votre disposition <br />
+						<b>Photo angers beacoup utilisée</b>
+					</p>
 				</div>
 			</div>
 
@@ -79,7 +81,7 @@ Supprimer sav -->
 					<NuxtImg
 						class="items__img"
 						alt="SNCF Gare Auxerre"
-						src="/collectioncover/hook-cover-image.JPG"
+						src="/collectioncover/hook-cover-image.jpg"
 						width="800"
 						height="500"
 						format="avif,webp"

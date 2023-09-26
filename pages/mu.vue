@@ -7,7 +7,7 @@
 
 		<div class="chapeau"></div>
 
-		<p><b>Double layout</b><br/>
+		<p>
 		Fauteuil stamp lisse -> Cover image<br/>
 	Fontaine simple 900 -> Cover image</p>
 

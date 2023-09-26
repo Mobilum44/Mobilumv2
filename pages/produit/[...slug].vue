@@ -1,191 +1,156 @@
 <template>
-		<ContentDoc v-slot="{ doc }">
-			<Button class="return" theme="bordered" onclick="/collection/"> Retour à la collection </Button>
-			<section class="page_top content-produits">
-				<div class="title">
-					<h1 class="h1_title">
-						{{ doc.title }}
-					</h1>
-					<p>{{ doc.designer }}</p>
+	<ContentDoc v-slot="{ doc }">
+		<section class="page_top content-produits">
+			<div class="title">
+				<h1 class="h1_title">
+					{{ doc.title }}
+				</h1>
+				<p>{{ doc.designer }}</p>
+			</div>
+		</section>
+		<section class="sub__section">
+			<div class="gallery">
+				<div v-for="(img, i) in doc.carousel" :key="i">
+					<NuxtImg :src="img" witdh="1920px" />
 				</div>
-			</section>
-			<section class="sub__section">
-				<div class="gallery">
-					<!----
-					<div v-for="(img, i) in doc.carousel" :key="i">
-						<NuxtImg :src="img" />
-					</div> --->
-					<carousel :img="doc.carousel" />
-				</div>
-			</section>
+				<carousel :img="doc.carousel" />
+			</div>
+		</section>
 
-			<!-- Contenu conditionnel : https://vuejs.org/guide/essentials/conditional.html -->
-			<!-- <div v-if="doc.dureeDuProjet">
+		<!-- Contenu conditionnel : https://vuejs.org/guide/essentials/conditional.html -->
+		<!-- <div v-if="doc.dureeDuProjet">
 				<h1>Durée du projet</h1>
 				<p>{{ doc.dureeDuProjet }}</p>
 			</div> -->
 
-			<section class="sub__section">
-				<h2>Caractéristiques</h2>
+			<div class="sub__section sub__section__content general">
+				<div class="general-filaire" v-for="(img, i) in doc.filaire" :key="i">
+					<NuxtImg :src="img" height="300px" />
+				</div>
 
-				<div class="sub__section__content">
-					<div>
-						<b>Trouver pourquoi filaire marche pas</b>
-					</div>
+				<div class="general-infos">
+					<!--- Mettre bien en forme le document, et nettoyer un peu le code-->
+					<h2 class="general-titre">Caractéristiques</h2>
 					<p>
 						<em>Matériau :</em> : {{ doc.materiau }}<br />
 						<em>Poids</em> : {{ doc.poids }}kg<br />
 						<em>Dimensions</em> : {{ doc.dimensions }}mm <br />
 						<em>Format :</em> {{ doc.format }}
 					</p>
-				</div>
-				<div class="sub__section__content">
 					<p class="description">
 						{{ doc.description }}
 					</p>
 				</div>
-			</section>
+			</div>
 
-			<section class="sub__section">
-				<h2>Nos finitions</h2>
-				<div class="sub__section__content">
-					<div class="sub__finitions">
-						<p class="strong">Couleurs naturelles</p>
-						<div class="type">
-							<div class="type__finition">
-								<NuxtImg
-									class="color_square"
-									alt="couleur du BFUP Mobilum"
-									src="/photospages/couleur-bfup-gris-fonce.jpg"
-									center
-									width="200vw"
-									fit="cover"
-									format="avif,webp"
-									placeholder
-									loading="lazy"
-								/>
-								<p>Gris foncé<br />(BCV Brut)</p>
-							</div>
-							<div class="type__finition">
-								<NuxtImg
-									class="color_square"
-									alt="couleur du BFUP Mobilum"
-									src="/photospages/couleur-bfup-blanc.jpg"
-									center
-									width="200vw"
-									fit="cover"
-									format="avif,webp"
-									placeholder
-									loading="lazy"
-								/>
-								<p>Blanc</p>
-							</div>
+		<section class="sub__section">
+			<h2>Nos finitions</h2>
+			<div class="sub__section__content">
+				<div class="sub__finitions">
+					<p class="strong">Couleurs naturelles</p>
+					<div class="type">
+						<div class="type__finition">
+							<NuxtImg
+								class="color_square"
+								alt="couleur du BFUP Mobilum"
+								src="/photospages/couleur-bfup-gris-fonce.jpg"
+								center
+								width="200vw"
+								fit="cover"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
+							<p>Gris foncé<br />(BCV Brut)</p>
 						</div>
-					</div>
-
-					<div class="sub__finitions">
-						<p class="strong">Teinté dans la masse</p>
-						<div class="type">
-							<div class="type__finition">
-								<NuxtImg
-									class="color_square"
-									alt="couleur du BFUP Mobilum"
-									src="/photospages/couleur-bfup-taupe.jpg"
-									center
-									width="200vw"
-									fit="cover"
-									format="avif,webp"
-									placeholder
-									loading="lazy"
-								/>
-								<p>Taupe</p>
-							</div>
-							<div class="type__finition">
-								<NuxtImg
-									class="color_square"
-									alt="couleur du BFUP Mobilum"
-									src="/photospages/couleur-bfup-rose.jpg"
-									center
-									width="200vw"
-									fit="cover"
-									format="avif,webp"
-									placeholder
-									loading="lazy"
-								/>
-								<p>Rose pastel</p>
-							</div>
-							<div class="type__finition">
-								<NuxtImg
-									class="color_square"
-									alt="couleur du BFUP Mobilum"
-									src="/photospages/couleur-bfup-bleu.jpg"
-									center
-									width="200vw"
-									fit="cover"
-									format="avif,webp"
-									placeholder
-									loading="lazy"
-								/>
-								<p>Bleu pastel</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="sub__finitions">
-						<p class="strong">Peinture polyuréthane</p>
-						<div class="type">
-							Tous les RAL sont possibles. Consultez-nous pour discuter de votre projet.
+						<div class="type__finition">
+							<NuxtImg
+								class="color_square"
+								alt="couleur du BFUP Mobilum"
+								src="/photospages/couleur-bfup-blanc.jpg"
+								center
+								width="200vw"
+								fit="cover"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
+							<p>Blanc</p>
 						</div>
 					</div>
 				</div>
-			</section>
 
-			<section class="sub__section">
-				<h2>Dans la même gamme...</h2>
-				<b>Mettre les autres produits de la gamme ici</b>
-			</section>
-		</ContentDoc>
+				<div class="sub__finitions">
+					<p class="strong">Teinté dans la masse</p>
+					<div class="type">
+						<div class="type__finition">
+							<NuxtImg
+								class="color_square"
+								alt="couleur du BFUP Mobilum"
+								src="/photospages/couleur-bfup-taupe.jpg"
+								center
+								width="200vw"
+								fit="cover"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
+							<p>Taupe</p>
+						</div>
+						<div class="type__finition">
+							<NuxtImg
+								class="color_square"
+								alt="couleur du BFUP Mobilum"
+								src="/photospages/couleur-bfup-rose.jpg"
+								center
+								width="200vw"
+								fit="cover"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
+							<p>Rose pastel</p>
+						</div>
+						<div class="type__finition">
+							<NuxtImg
+								class="color_square"
+								alt="couleur du BFUP Mobilum"
+								src="/photospages/couleur-bfup-bleu.jpg"
+								center
+								width="200vw"
+								fit="cover"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
+							<p>Bleu pastel</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="sub__finitions">
+					<p class="strong">Peinture polyuréthane</p>
+					<div class="type">Tous les RAL sont possibles. Consultez-nous pour discuter de votre projet.</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sub__section">
+			<h2>Dans la même gamme...</h2>
+			<b>Mettre les autres produits de la gamme ici</b>
+		</section>
+	</ContentDoc>
 </template>
 
-<!-- <page-query>
-query Product ($id: ID!) {
-	product: product (id: $id) {
-		title
-		gamme
-		designer
-		filaire
-		carousel (width: 600, quality: 100)
-		materiau
-		poids
-		dimensions
-		format
-		traitement
-		description
-	}
-}
-</page-query> -->
-
 <style scoped>
-/*-----------------------------------------------------------------
-	Bouton retour
-
-.return {
-	color: black;
-	text-decoration: none;
-}
-.return:hover {
-	text-decoration: underline;
-}
----------------------------------------------------------------*/
 .content-produits {
-	margin-top : 17vh;
+	margin-top: 17vh;
 }
 .return {
 	height: 0;
 	overflow: hidden;
 	border: none;
 }
-
 /*-----------------------------------------------------------------
 		Zone titre
 	---------------------------------------------------------------*/
@@ -229,8 +194,24 @@ h1 {
 /*-----------------------------------------------------------------
 		Zone filaire
 	---------------------------------------------------------------*/
-.filaire {
-	border: solid black;
+.general {
+	display : flex;
+	align-items : center;
+	justify-content: center;
+	margin : 0;
+}
+
+.general-titre {
+	padding-left : 0;
+	margin-left : 0;
+}
+.general-filaire {
+	height: 80%;
+}
+
+.general-infos {
+	width : 65%;
+
 }
 
 /*-----------------------------------------------------------------
@@ -250,7 +231,6 @@ h1 {
 	font-family: montserrat;
 }
 .sub__section__content {
-	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
