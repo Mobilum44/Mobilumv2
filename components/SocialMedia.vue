@@ -4,42 +4,57 @@ https://codepen.io/abdelrhmansaid/pen/OJRNOpQ
 -------------------------------------------------------------->
 
 <template>
-	<ul class="SocialMedial">
-		<li class="icon facebook">
-			<span class="tooltip">Facebook</span>
-			<span><i class="fab fa-facebook-f"></i></span>
-		</li>
-		<li class="icon twitter">
-			<span class="tooltip">Twitter</span>
-			<span><i class="fab fa-twitter"></i></span>
-		</li>
-		<li class="icon instagram">
-			<span class="tooltip">Instagram</span>
-			<span><i class="fab fa-instagram"></i></span>
-		</li>
-		<li class="icon github">
-			<span class="tooltip">Github</span>
-			<span><i class="fab fa-github"></i></span>
-		</li>
-		<li class="icon youtube">
-			<span class="tooltip">Youtube</span>
-			<span><i class="fab fa-youtube"></i></span>
-		</li>
-	</ul>
+	<ul class="content__RS">
+					<NuxtLink to="/contact">
+						<li class="icon mail">
+							<span class="tooltip">Mail</span>
+							<NuxtImg src="/logos/mail.png" width="40" format="avif,webp" placeholder loading="lazy" />
+						</li>
+					</NuxtLink>
+
+					<NuxtLink to="https://www.facebook.com/people/MOBILUM/100063454155980/">
+						<li class="icon facebook">
+							<span class="tooltip">Facebook</span>
+							<NuxtImg
+								src="/logos/facebook.png"
+								width="40"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
+						</li>
+					</NuxtLink>
+
+					<NuxtLink to="https://www.linkedin.com/company/mobilum-france/">
+						<li class="icon linkedin">
+							<span class="tooltip">Linkedin</span>
+							<NuxtImg
+								src="/logos/linkedin.png"
+								width="40"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
+						</li>
+					</NuxtLink>
+
+					<NuxtLink to="https://www.instagram.com/mobilum_france/?hl=fr">
+						<li class="icon instagram">
+							<span class="tooltip">Instagram</span>
+							<NuxtImg
+								src="/logos/instagram.png"
+								width="40"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
+						</li>
+					</NuxtLink>
+				</ul>
 </template>
 
 <style scoped>
-/*
-    Auther: Abdelrhman Said
-*/
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
 
 *:focus,
 *:active {
@@ -47,40 +62,34 @@ https://codepen.io/abdelrhmansaid/pen/OJRNOpQ
 	-webkit-tap-highlight-color: transparent;
 }
 
-html,
-body {
-	display: grid;
-	height: 100%;
-	width: 100%;
-	font-family: "Poppins", sans-serif;
-	place-items: center;
-	background: linear-gradient(315deg, #ffffff, #d7e1ec);
-}
-
-.SocialMedia {
-	display: inline-flex;
+.content__RS {
 	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+	gap: 1rem;
+	margin-top: 1rem;
+	padding: 0;
+	color: #1a949d;
+	text-decoration: none;
 }
 
-.SocialMedia .icon {
+.content__RS .icon {
 	position: relative;
-	background: #ffffff;
+	background: #1a949d;
 	border-radius: 50%;
-	padding: 15px;
-	margin: 10px;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	font-size: 18px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+	/* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); */
 	cursor: pointer;
 	transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.SocialMedia .tooltip {
+.content__RS .tooltip {
 	position: absolute;
 	top: 0;
 	font-size: 14px;
@@ -94,7 +103,7 @@ body {
 	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.SocialMedia .tooltip::before {
+.content__RS .tooltip::before {
 	position: absolute;
 	content: "";
 	height: 8px;
@@ -106,50 +115,44 @@ body {
 	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.SocialMedia .icon:hover .tooltip {
+.content__RS .icon:hover .tooltip {
 	top: -45px;
 	opacity: 1;
 	visibility: visible;
 	pointer-events: auto;
 }
 
-.SocialMedia .icon:hover span,
-.SocialMedia .icon:hover .tooltip {
+.content__RS .icon:hover span,
+.content__RS .icon:hover .tooltip {
 	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
 
-.SocialMedia .facebook:hover,
-.SocialMedia .facebook:hover .tooltip,
-.SocialMedia .facebook:hover .tooltip::before {
-	background: #1877f2;
-	color: #ffffff;
-}
-
-.SocialMedia .twitter:hover,
-.SocialMedia .twitter:hover .tooltip,
-.SocialMedia .twitter:hover .tooltip::before {
-	background: #1da1f2;
-	color: #ffffff;
-}
-
-.SocialMedia .instagram:hover,
-.SocialMedia .instagram:hover .tooltip,
-.SocialMedia .instagram:hover .tooltip::before {
-	background: #e4405f;
-	color: #ffffff;
-}
-
-.SocialMedia .github:hover,
-.SocialMedia .github:hover .tooltip,
-.SocialMedia .github:hover .tooltip::before {
+.content__RS .mail:hover,
+.content__RS .mail:hover .tooltip,
+.content__RS .mail:hover .tooltip::before {
 	background: #333333;
 	color: #ffffff;
 }
 
-.SocialMedia .youtube:hover,
-.SocialMedia .youtube:hover .tooltip,
-.SocialMedia .youtube:hover .tooltip::before {
-	background: #cd201f;
+.content__RS .facebook:hover,
+.content__RS .facebook:hover .tooltip,
+.content__RS .facebook:hover .tooltip::before {
+	background: #1877f2;
 	color: #ffffff;
 }
+
+.content__RS .instagram:hover,
+.content__RS .instagram:hover .tooltip,
+.content__RS .instagram:hover .tooltip::before {
+	background: #dd2a7b;
+	color: #ffffff;
+}
+
+.content__RS .linkedin:hover,
+.content__RS .linkedin:hover .tooltip,
+.content__RS .linkedin:hover .tooltip::before {
+	background: #0e76a8;
+	color: #ffffff;
+}
+
 </style>

@@ -33,7 +33,7 @@
 								<CarteMarches
 									:title="reference.title"
 									:path="reference._path"
-									:img="reference.cover_image" loading="lazy"
+									:img="reference.cover_image" loading="lazy"	placeholder
 									:alt="reference.cover_text"
 									:cover_text="reference.cover_text"
 								/>

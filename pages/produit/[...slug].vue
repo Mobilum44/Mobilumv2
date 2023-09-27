@@ -11,7 +11,7 @@
 		<section class="sub__section">
 			<div class="gallery">
 				<div v-for="(img, i) in doc.carousel" :key="i">
-					<NuxtImg :src="img" width="1100" height="800" placeholder format="avif,webp" loading="lazy" />
+					<NuxtImg :src="img" width="2000" placeholder format="avif,webp" loading="lazy" />
 				</div>
 				<carousel :img="doc.carousel" />
 			</div>
@@ -170,13 +170,25 @@ const { data: relatedProducts } = await useAsyncData(
 </script>
 
 <style scoped>
+
+
+/*-----------------------------------------------------------------
+		Sections générales
+	---------------------------------------------------------------*/
 .content-produits {
 	margin-top: 17vh;
 }
-.return {
-	height: 0;
-	overflow: hidden;
-	border: none;
+.sub__section {
+	width: 80%;
+}
+
+.strong {
+	font-family: montserrat;
+}
+.sub__section__content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 /*-----------------------------------------------------------------
 		Zone titre
@@ -199,7 +211,6 @@ p {
 	margin: 0;
 	padding: 0;
 }
-
 .h1_title {
 	border-bottom: solid black 1px;
 	text-align: center;
@@ -219,7 +230,21 @@ h1 {
 }
 
 /*-----------------------------------------------------------------
-		Zone filaire
+		Zone galerie
+	---------------------------------------------------------------*/
+	.gallery {
+	max-width : 100%;
+	margin-top: 4rem;
+	}
+
+
+	.gallery img {
+		object-fit: contain;
+		max-width : 100%;
+	}
+
+/*-----------------------------------------------------------------
+		Zone caractéristiques
 	---------------------------------------------------------------*/
 .general {
 	display: flex;
@@ -233,38 +258,28 @@ h1 {
 	margin-left: 0;
 }
 .general-filaire {
-	height: 80%;
+	width : 40%;
+	display : flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.general-filaire img {
+	object-fit: contain;
+	max-width : 90%;
 }
 
 .general-infos {
 	width: 65%;
 }
 
-/*-----------------------------------------------------------------
-		Zone galerie
-	---------------------------------------------------------------*/
-.gallery {
-	margin-top: 4rem;
-}
-/*-----------------------------------------------------------------
-		Sections générales
-	---------------------------------------------------------------*/
-.sub__section {
-	width: 80%;
-}
-
-.strong {
-	font-family: montserrat;
-}
-.sub__section__content {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
 .description {
 	margin-top: 2rem;
 }
+
+/*-----------------------------------------------------------------
+		Zone détails
+	---------------------------------------------------------------*/
 
 .sub__finitions {
 	margin-top: 0;
@@ -293,7 +308,7 @@ h1 {
 	width: 10vh;
 }
 /* ------------------------------------------------------------------------------------------
-RESPONSIVE TELEPHONES
+				RESPONSIVE TELEPHONES
 --------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 950px) {

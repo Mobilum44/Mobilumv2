@@ -1,4 +1,4 @@
-<template>
+<template> <!------- Pas utilisé. Pour les références ? A supprimer sinon ------>
 	<Section class="AutoSlider">
 		<div class="slider-container">
 			<div class="slide" v-for="img in carousel" :key="img.src">
@@ -22,6 +22,7 @@ defineProps<{
 }
 
 .AutoSlider {
+	border : solid green;
 	width: 100%;
 	height: 100%;
 	position: relative;

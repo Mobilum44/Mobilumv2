@@ -5,43 +5,57 @@
 				<h1>{{ doc.title }}</h1>
 				<p>{{ doc.sub_title }}</p>
 			</div>
+
+			<div class="reference-carousel wide">
+				<ul>
+					<li v-for="(img, i) in doc.carousel" :key="i">
+						<NuxtImg :src="img" width="1900" format="avif,webp" placeholder loading="lazy" />
+					</li>
+				</ul>
+			</div>
+
 			<div class="reference-info">
 				<ul>
-					<li>
-						<div v-if="doc.prem_loc">
-							<p><strong>Localisation</strong>: {{ doc.prem_loc }}</p>
-						</div>
-					</li>
+					<div class="reference-info-acteurs">
+						<div>
+							<li>
+								<div v-if="doc.prem_loc">
+									<p><strong>Localisation</strong>: {{ doc.prem_loc }}</p>
+								</div>
+							</li>
 
-					<li>
-						<div v-if="doc.prem_moe">
-							<p><strong>MOE</strong>: {{ doc.prem_moe }}</p>
-						</div>
-					</li>
+							<li>
+								<div v-if="doc.prem_moe">
+									<p><strong>MOE</strong>: {{ doc.prem_moe }}</p>
+								</div>
+							</li>
 
-					<li>
-						<div v-if="doc.prem_moa">
-							<p><strong>MOA</strong>: {{ doc.prem_moa }}</p>
+							<li>
+								<div v-if="doc.prem_moa">
+									<p><strong>MOA</strong>: {{ doc.prem_moa }}</p>
+								</div>
+							</li>
 						</div>
-					</li>
+						<div>
+							<li>
+								<div v-if="doc.sec_loc">
+									<p><strong>Localisation</strong>: {{ doc.sec_loc }}</p>
+								</div>
+							</li>
 
-					<li>
-						<div v-if="doc.sec_loc">
-							<p><strong>Localisation</strong>: {{ doc.sec_loc }}</p>
-						</div>
-					</li>
+							<li>
+								<div v-if="doc.sec_moe">
+									<p><strong>MOE</strong>: {{ doc.sec_moe }}</p>
+								</div>
+							</li>
 
-					<li>
-						<div v-if="doc.sec_moe">
-							<p><strong>MOE</strong>: {{ doc.sec_moe }}</p>
+							<li>
+								<div v-if="doc.sec_moa">
+									<p><strong>MOA</strong>: {{ doc.sec_moa }}</p>
+								</div>
+							</li>
 						</div>
-					</li>
-
-					<li>
-						<div v-if="doc.sec_moa">
-							<p><strong>MOA</strong>: {{ doc.sec_moa }}</p>
-						</div>
-					</li>
+					</div>
 
 					<li>
 						<div v-if="doc.fabricant">
@@ -54,7 +68,6 @@
 							<p><strong>Récompense</strong>: {{ doc.recompense }}</p>
 						</div>
 					</li>
-
 
 					<li>
 						<div v-if="doc.date_realisation">
@@ -75,7 +88,8 @@
 					</li>
 				</ul>
 			</div>
-			<div class="reference-image">
+
+			<!---			<div class="reference-image">
 				<figure>
 					<NuxtImg
 						:src="doc.cover_image"
@@ -90,14 +104,8 @@
 						<p>{{ doc.cover_text }}</p>
 					</figcaption>
 				</figure>
-			</div>
-			<div class="reference-carousel">
-				<ul>
-					<li v-for="(img, i) in doc.carousel" :key="i">
-						<NuxtImg :src="img" width="100" height="100" format="avif,webp" placeholder loading="lazy" />
-					</li>
-				</ul>
-			</div>
+			</div> ------>
+
 			<div class="reference-description">
 				<ContentRenderer :value="doc" />
 			</div>
@@ -108,7 +116,7 @@
 <style scoped>
 .reference {
 	margin-top: 17vh;
-	width: 60%;
+	width: 80%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -122,6 +130,32 @@
 	align-items: center;
 }
 
+.reference-carousel {
+	width: 100%;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.reference-carousel img {
+	max-width: 100%;
+	object-fit: contain;
+}
+
+.reference-info {
+	width : 100%;
+	border : solid green;
+	/* display : flex;
+	justify-content: center; */
+}
+
+.reference-info-acteurs {
+	width: 100%;
+	border : solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-bottom : 2rem;
+}
 h1 {
 	color: black;
 	border: none;

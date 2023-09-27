@@ -1,4 +1,4 @@
-<template>
+<template> <!------ A supprimer lorsque l'autre est validé -->
 	<div class="cartes_defilantes">
 		<div class="card-container">
 			<div class="card shadow">
