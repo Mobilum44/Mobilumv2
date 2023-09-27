@@ -90,6 +90,7 @@ p {
 	color: black;
 	margin-top: 5rem;
 	margin-bottom: 5rem;
+	margin-inline : auto;
 	width: 55%;
 	padding: 3rem;
 }
