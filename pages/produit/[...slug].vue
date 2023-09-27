@@ -156,16 +156,14 @@
 import { Product } from "@/assets/types";
 
 const route = useRoute();
-const { data: currentProduct } = useAsyncData("product", () => queryContent(route.fullPath).findOne() as Promise<Product>);
-const { data: relatedProducts } = await useAsyncData(
-	"relatedProducts",
-	() =>
-		queryContent("/produit")
-			.where({ gamme: currentProduct.value!.gamme })
-			.only(["_path", "title", "cover_image", "_id"])
-			.without(currentProduct.value!._id)
-			.limit(3)
-			.find() as Promise<Product[]>,
+const { data: currentProduct } = await useAsyncData("currentProduct", () => queryContent(route.fullPath).findOne() as Promise<Product>);
+const { data: relatedProducts } = await useAsyncData("relatedProducts", () =>
+	queryContent("/produit/")
+		.where({ gamme: currentProduct.value?.gamme || '' })
+		.only(["_path", "title", "cover_image", "_id"])
+		.without(currentProduct.value?._id || '')
+		.limit(3)
+		.find() as Promise<Product[]>,
 );
 </script>
 

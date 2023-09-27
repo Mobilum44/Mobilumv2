@@ -52,18 +52,14 @@
 </template>
 
 
-<script>
-
+<script lang="ts" setup>
 definePageMeta({
-  layout: false,
+	layout: false,
 });
 
-export default {
-	metaInfo: {
-		title: "Grands comptes et sur-mesure",
-	},
-
-}
+useSeoMeta({
+	title: "Accueil",
+});
 </script>
 
 
