@@ -1,25 +1,25 @@
 ---
-title: Appui-vélos KARO 
+title: Appui-vélos KARO
 published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
-category: Appui-vélos 
+category: Appui-vélos
 sub_category: 18 Appui-vélos
 gamme: KARO
-finitions: 
+finitions:
 cover_image: "/produits/cover_image/appuis-velo-karo.jpg"
-carousel: 
-- "/produits/appui-velo-karo-vicat.jpg"
-- "/produits/appui-velo-karo-le-trait.jpg"
-filaire: 
- - "/produits/filaires/filaire-appui-velo-karo.png"
+carousel:
+    - "/produits/appui-velo-karo-vicat.jpg"
+    - "/produits/appui-velo-karo-le-trait.jpg"
+filaire:
+    - "/produits/filaires/filaire-appui-velo-karo.png"
 reference: AVKARO_0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 33
-dimensions: L550 x P80 x H950 
+dimensions: L550 x P80 x H950
 format: Monobloc
 traitement: ""
-tags: 
+tags:
 ---
 
 ## Description

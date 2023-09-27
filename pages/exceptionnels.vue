@@ -9,34 +9,38 @@
 				<p>
 					<!---Pour l'obtention de ces marchés, ce qui a fait la différence chez mobilum provient de la qualité de
 					son organisation industrielle, associées à un très fort savoir-faire technique.---->
-					La qualité de notre organisation industrielle, associée à un fort savoir-faire technique
-					ont donné confiance pour l'obtention de ces projets.
+					La qualité de notre organisation industrielle, associée à un fort savoir-faire technique ont donné
+					confiance pour l'obtention de ces projets.
 				</p>
 			</div>
 		</section>
-			<p>
-				<b> Essayer de mettre à la ligne après SNCF</b>
-				<b> Rendre les photos plus rapides à charger</b><br />
-				SNCF / SGP MU / SGP sign <br/>
-				Trocadero / ENS / Chanel / Galets / Tram angers / Puilboreau / La défense (si obtenu)<br/>
-				Vertable / sorbonne / saclay / carnon / roquefere / crous <br/>
-				Niuvelle catégorie : les récompensés - St cyr / Les ulis / Bienale<br />
-			</p>
-
+		<p>
+			<b> Essayer de mettre à la ligne après SNCF</b>
+			SNCF / SGP MU / SGP sign <br />
+			Trocadero / ENS / Chanel / Galets / Tram angers / Puilboreau / La défense (si obtenu)<br />
+			Vertable / sorbonne / saclay / carnon / roquefere / crous <br />
+			Niuvelle catégorie : les récompensés - St cyr / Les ulis / Bienale<br />
+		</p>
 
 		<section class="wide">
 			<ul>
-				<li class="type__style" v-for="typ in ['Les grands comptes', 'Les remarquables', 'Les conceptuels', 'Les récompensés']" :key="typ">
+				<li
+					class="type__style"
+					v-for="typ in ['Les grands comptes', 'Les remarquables', 'Les conceptuels', 'Les récompensés']"
+					:key="typ"
+				>
 					<h2>{{ typ }}</h2>
 					<ul class="references-list">
 						<li v-for="reference in references?.filter((r) => r.type === typ)" :key="reference._id">
-								<CarteMarches
-									:title="reference.title"
-									:path="reference._path"
-									:img="reference.cover_image" loading="lazy"	placeholder
-									:alt="reference.cover_text"
-									:cover_text="reference.cover_text"
-								/>
+							<CarteMarches
+								:title="reference.title"
+								:path="reference._path"
+								:img="reference.cover_image"
+								loading="lazy"
+								placeholder
+								:alt="reference.cover_text"
+								:cover_text="reference.cover_text"
+							/>
 						</li>
 					</ul>
 				</li>
@@ -85,7 +89,7 @@ definePageMeta({
 h2 {
 	border: 0;
 	padding-left: 2rem;
-	margin-bottom : 2rem;
+	margin-bottom: 2rem;
 }
 
 .chapeau {
@@ -93,23 +97,22 @@ h2 {
 }
 
 .type__style {
-	margin-top : 2rem;
-	margin-bottom : 4rem;
+	margin-top: 2rem;
+	margin-bottom: 4rem;
 }
 .references-list {
 	display: flex;
 	flex-direction: row;
 	gap: 2rem;
 	margin-bottom: 1rem;
-	display : flex;
-	flex-wrap : wrap;
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: flex-start;
 }
 
 .references-list li {
-	width : 30%;
+	width: 30%;
 }
-
 
 /*
 

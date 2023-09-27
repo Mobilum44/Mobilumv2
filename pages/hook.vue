@@ -10,7 +10,8 @@
 			<p>
 				<!--\Qualité \Esthétisme \Personnalisation font du HOOK un produit phare sur le marché des habillages de
 				coffrets techniques.<br/>-->
-				Des modules personnalisables à souhait, composés de matériaux durables, simples à installer et à entretenir.
+				Des modules personnalisables à souhait, composés de matériaux durables, simples à installer et à
+				entretenir.
 			</p>
 		</div>
 
@@ -106,7 +107,9 @@ Paramètres de la galerie - position de base
 .image_cover:hover {
 	border-radius: 4px;
 	border: 0px;
-	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	box-shadow:
+		rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+		rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 	transition: all 0.3s ease-in-out;
 }
 .image_cover:hover p {

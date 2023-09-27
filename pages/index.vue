@@ -38,7 +38,7 @@ function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 <style scoped>
 .Empty {
 	background-size: cover;
-	width : 100%;
+	width: 100%;
 }
 
 .logo_bouton {

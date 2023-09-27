@@ -7,5 +7,14 @@
 	"trailingComma": "all",
 	"bracketSpacing": true,
 	"jsxBracketSameLine": false,
-	"arrowParens": "always"
+	"arrowParens": "always",
+	"proseWrap": "always",
+	"overrides": [
+		{
+			"files": "*.md",
+			"options": {
+				"printWidth": 80
+			}
+		}
+	]
 }

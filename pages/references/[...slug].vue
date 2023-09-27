@@ -6,6 +6,39 @@
 				<p>{{ doc.sub_title }}</p>
 			</div>
 
+			<ul class="reference-info">
+				<!--- mettre en row-->
+				<li>
+					<div v-if="doc.fabricant">
+						<p><em>Fabricant</em>: {{ doc.fabricant }}</p>
+					</div>
+				</li>
+
+				<li>
+					<div v-if="doc.recompense">
+						<p><em>Récompense</em>: {{ doc.recompense }}</p>
+					</div>
+				</li>
+
+				<li>
+					<div v-if="doc.date_realisation">
+						<p><em>Date de réalisation </em>: {{ doc.date_realisation }}</p>
+					</div>
+				</li>
+
+				<li>
+					<div v-if="doc.date_demarrage">
+						<p><em>Date de démarrage</em>: {{ doc.date_demarrage }}</p>
+					</div>
+				</li>
+
+				<li>
+					<div v-if="doc.duree_marche">
+						<p><em>Durée du marché</em>: {{ doc.duree_marche }}</p>
+					</div>
+				</li>
+			</ul>
+
 			<div class="reference-carousel wide">
 				<ul>
 					<li v-for="(img, i) in doc.carousel" :key="i">
@@ -14,80 +47,54 @@
 				</ul>
 			</div>
 
-			<div class="reference-info">
-				<ul>
-					<div class="reference-info-acteurs">
-						<div>
-							<li>
-								<div v-if="doc.prem_loc">
-									<p><strong>Localisation</strong>: {{ doc.prem_loc }}</p>
-								</div>
-							</li>
-
-							<li>
-								<div v-if="doc.prem_moe">
-									<p><strong>MOE</strong>: {{ doc.prem_moe }}</p>
-								</div>
-							</li>
-
-							<li>
-								<div v-if="doc.prem_moa">
-									<p><strong>MOA</strong>: {{ doc.prem_moa }}</p>
-								</div>
-							</li>
+			<ul class="reference-info-acteurs">
+				<div>
+					<li>
+						<div v-if="doc.prem_loc">
+							<p><em>Localisation</em>: {{ doc.prem_loc }}</p>
 						</div>
-						<div>
-							<li>
-								<div v-if="doc.sec_loc">
-									<p><strong>Localisation</strong>: {{ doc.sec_loc }}</p>
-								</div>
-							</li>
+					</li>
 
-							<li>
-								<div v-if="doc.sec_moe">
-									<p><strong>MOE</strong>: {{ doc.sec_moe }}</p>
-								</div>
-							</li>
-
-							<li>
-								<div v-if="doc.sec_moa">
-									<p><strong>MOA</strong>: {{ doc.sec_moa }}</p>
-								</div>
-							</li>
+					<li>
+						<div v-if="doc.prem_moe">
+							<p><em>MOE</em>: {{ doc.prem_moe }}</p>
 						</div>
+					</li>
+
+					<li>
+						<div v-if="doc.prem_moa">
+							<p><em>MOA</em>: {{ doc.prem_moa }}</p>
+						</div>
+					</li>
+				</div>
+				<div>
+					<li>
+						<div v-if="doc.sec_loc">
+							<p><em>Localisation</em>: {{ doc.sec_loc }}</p>
+						</div>
+					</li>
+
+					<li>
+						<div v-if="doc.sec_moe">
+							<p><em>MOE</em>: {{ doc.sec_moe }}</p>
+						</div>
+					</li>
+
+					<li>
+						<div v-if="doc.sec_moa">
+							<p><em>MOA</em>: {{ doc.sec_moa }}</p>
+						</div>
+					</li>
+				</div>
+			</ul>
+
+			<ul class="reference-info">
+				<li>
+					<div v-if="doc.moa_commun">
+						<p><em>MOA</em>: {{ doc.moa_commun }}</p>
 					</div>
-
-					<li>
-						<div v-if="doc.fabricant">
-							<p><strong>Fabricant</strong>: {{ doc.fabricant }}</p>
-						</div>
-					</li>
-
-					<li>
-						<div v-if="doc.recompense">
-							<p><strong>Récompense</strong>: {{ doc.recompense }}</p>
-						</div>
-					</li>
-
-					<li>
-						<div v-if="doc.date_realisation">
-							<p><strong>Date de réalisation </strong>: {{ doc.date_realisation }}</p>
-						</div>
-					</li>
-
-					<li>
-						<div v-if="doc.date_demarrage">
-							<p><strong>Date de démarrage</strong>: {{ doc.date_demarrage }}</p>
-						</div>
-					</li>
-
-					<li>
-						<div v-if="doc.duree_marche">
-							<p><strong>Durée du marché</strong>: {{ doc.duree_marche }}</p>
-						</div>
-					</li>
-				</ul>
-			</div>
+				</li>
+			</ul>
 
 			<!---			<div class="reference-image">
 				<figure>
@@ -141,21 +148,22 @@
 	object-fit: contain;
 }
 
-.reference-info {
-	width : 100%;
-	border : solid green;
-	/* display : flex;
-	justify-content: center; */
-}
-
 .reference-info-acteurs {
-	width: 100%;
-	border : solid black;
+	width: 50%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
-	margin-bottom : 2rem;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2rem;
+	gap: 3rem;
 }
+
+.reference-info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
 h1 {
 	color: black;
 	border: none;

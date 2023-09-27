@@ -1,35 +1,36 @@
 ---
-type : Les conceptuels
+type: Les conceptuels
 title: Carnon
 published: TRUE
 
-gamme: "?" 
+gamme: "?"
 
 cover_image: "/references/cover_image/carnon-transats-mila2.jpg"
 cover_text: "Un bain de soleil infini"
 
-carousel: 
-- "/references/carousel/page-entree.jpg"
-- "/references/carousel/page-entree.jpg"
+carousel:
+    - "/references/carousel/page-entree.jpg"
+    - "/references/carousel/page-entree.jpg"
 
+prem_loc: "Port de Plaisance, Carnon"
+prem_moe: "Ville de Carnon / Gauthier-Conquet / Egis"
+prem_moa:
 
-prem_loc : "Port de Plaisance, Carnon"
-prem_moe : "Ville de Carnon / Gauthier-Conquet / Egis"
-prem_moa :
+sec_loc:
+sec_moe:
+sec_moa:
 
-sec_loc :
-sec_moe :
-sec_moa :
- 
-fabricant : "Mobilum / Colas"
+moa_commun:
 
-date_realisation : "?"
-date_demarrage :
-duree_marche :
+fabricant: "Mobilum / Colas"
 
-recompense : 
+date_realisation: "?"
+date_demarrage:
+duree_marche:
 
+recompense:
 ---
 
 ## Description
- "Une place assise pour toute la famille"
+
+"Une place assise pour toute la famille"

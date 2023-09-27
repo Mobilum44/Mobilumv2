@@ -8,20 +8,21 @@ sub_category: 01 Module
 gamme: HOOK
 finitions: L535 bois
 cover_image: "/produits/cover_image/hook-765-bois.jpg"
-carousel: 
-- "/produits/banquette-elium-parc.jpg"
-- "/produits/attente-showroom.jpg"
-filaire: 
- - "/produits/filaires/filaire-cantine-04.png"
-reference: 
+carousel:
+    - "/produits/banquette-elium-parc.jpg"
+    - "/produits/attente-showroom.jpg"
+filaire:
+    - "/produits/filaires/filaire-cantine-04.png"
+reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids:
 dimensions:
 format: Multibloc
 traitement: ""
-tags: 
+tags:
 ---
 
 ## Description
 
-Options possibles : Profondeur simple ou double. Choix des portes : Bois / Alu composite. Avec ou sans boite aux lettres.
+Options possibles : Profondeur simple ou double. Choix des portes : Bois / Alu
+composite. Avec ou sans boite aux lettres.

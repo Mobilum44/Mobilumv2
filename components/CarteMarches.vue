@@ -1,7 +1,7 @@
 <template>
 	<article class="CarteMarches shadow">
 		<NuxtLink :to="path">
-			<NuxtImg :src="img" :alt="alt" placeholder loading="lazy" format="avif,webp" />
+			<NuxtImg :src="img" :alt="alt" width="614" height="500" placeholder loading="lazy" format="avif,webp" />
 			<h3>{{ title }}</h3>
 			<p>{{ cover_text }}</p>
 		</NuxtLink>
@@ -13,7 +13,7 @@ defineProps<{
 	title: string;
 	path?: string;
 	img: string;
-	cover_text : string;
+	cover_text: string;
 	alt: string;
 }>();
 </script>
@@ -21,20 +21,19 @@ defineProps<{
 <style scoped>
 .CarteMarches {
 	display: flex;
-	overflow : hidden;
-	position : relative;
-	height : 480px;
-	width : 100%;
-	margin-left : 1.5%;
-	margin-bottom : 1.5%;
-
+	overflow: hidden;
+	position: relative;
+	height: 480px;
+	width: 100%;
+	margin-left: 1.5%;
+	margin-bottom: 1.5%;
 }
 .CarteMarches img {
-	object-fit: cover;
-	max-height : 110%;
+	object-fit: contain;
+	/* Cartes zoomées. A corriger https://image.nuxt.com/usage/nuxt-img#sizes */
 }
 .CarteMarches h3 {
-	width : 60%;
+	width: 60%;
 	position: absolute;
 	inset: auto auto 30px 30px;
 	margin: 0;
@@ -43,26 +42,6 @@ defineProps<{
 	text-transform: uppercase;
 	color: white;
 }
-/*
-.CarteMarches p,
-.CarteMarches a {
-	position: absolute;
-	opacity: 1;
-	transition: opacity 0.3s ease-out;
-	color: white;
-}
-
-/*
-.CarteMarches p {
-	inset: auto auto 80px 30px;
-}
-
-.CarteMarches a {
-	inset: auto auto 40px 30px;
-	color: inherit;
-	text-decoration: none;
-}
-*/
 .CarteMarches:hover h3 {
 	inset: auto auto 220px 30px;
 	transition: inset 0.3s;

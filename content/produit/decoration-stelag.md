@@ -1,24 +1,24 @@
 ---
-title: Galet STELAG 
+title: Galet STELAG
 published: TRUE
-designer: 
+designer:
 collection: Mobilier urbain
 category: Autre
 sub_category: 90 Décoration
 gamme: STELAG
-finitions: 
+finitions:
 cover_image: "/produits/cover_image/galet-stelag.jpg"
-carousel: 
-- "/produits/galet-simple-stelag-fecamp.JPG"
-filaire: 
- - "/produits/filaires/filaire-cantine-04.png"
+carousel:
+    - "/produits/galet-simple-stelag-fecamp.JPG"
+filaire:
+    - "/produits/filaires/filaire-cantine-04.png"
 reference: GASTELA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 388
 dimensions: L1805 x P1260 H593
 format: Monobloc
 traitement: ""
-tags: 
+tags:
 ---
 
 ## Description

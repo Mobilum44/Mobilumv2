@@ -8,19 +8,20 @@ sub_category: 03 Module
 gamme: HOOK
 finitions: L1125 bois
 cover_image: "/produits/cover_image/hook-1125-double-alu-compo.jpg"
-carousel: 
-- "/produits/attente-showroom.jpg"
-filaire: 
- - "/produits/filaires/filaire-cantine-04.png"
-reference: 
+carousel:
+    - "/produits/attente-showroom.jpg"
+filaire:
+    - "/produits/filaires/filaire-cantine-04.png"
+reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 101
 dimensions: L1125 x P350 x H1130
 format: Multibloc
 traitement: ""
-tags: 
+tags:
 ---
 
 ## Description
 
-Options possibles : Profondeur simple ou double. Choix des portes : Bois / Alu composite. Avec ou sans boite aux lettres.
+Options possibles : Profondeur simple ou double. Choix des portes : Bois / Alu
+composite. Avec ou sans boite aux lettres.

@@ -26,7 +26,7 @@ export interface Product extends ParsedContent {
 	gamme: string;
 	finitions: string;
 	cover_image: string;
-	carousel: string[]
+	carousel: string[];
 	filaire: string[];
 	reference: string;
 	materiau: string;

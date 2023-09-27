@@ -1,6 +1,6 @@
 <template>
 	<div class="Banner">
-		<div class="banniere">
+		<div class="banniere flex-column">
 			<Button class="banner__button" theme="bordered" to="/contact"> Nous contacter </Button>
 			<img class="banner__image" src="/photospages/frise-isa.png" alt="Mobiliers Mobilum filaires" />
 		</div>
@@ -9,8 +9,6 @@
 
 <style>
 .banniere {
-	display: flex;
-	flex-direction: column;
 	align-items: center;
 	justify-content: flex-end;
 	font-family: "Bebas Neue";

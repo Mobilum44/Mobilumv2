@@ -1,4 +1,5 @@
-<template> <!------- Pas utilisé. Pour les références ? A supprimer sinon ------>
+<template>
+	<!------- Pas utilisé. Pour les références ? A supprimer sinon ------>
 	<Section class="AutoSlider">
 		<div class="slider-container">
 			<div class="slide" v-for="img in carousel" :key="img.src">
@@ -10,7 +11,7 @@
 
 <script lang="ts" setup>
 defineProps<{
-	carousel: any[],
+	carousel: any[];
 }>();
 </script>
 
@@ -22,7 +23,7 @@ defineProps<{
 }
 
 .AutoSlider {
-	border : solid green;
+	border: solid green;
 	width: 100%;
 	height: 100%;
 	position: relative;

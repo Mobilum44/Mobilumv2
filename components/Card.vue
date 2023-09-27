@@ -1,6 +1,7 @@
-<template> <!------ A supprimer lorsque l'autre est validé -->
+<template>
+	<!------ A supprimer lorsque l'autre est validé -->
 	<div class="cartes_defilantes">
-		<div class="card-container">
+		<div class="card-container flex-row">
 			<div class="card shadow">
 				<figure class="card__thumb">
 					<NuxtImg
@@ -182,15 +183,13 @@
 	width: 100%;
 }
 .card-container {
-	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
 }
 /* --------------------------------------------------------------------------------------
             Animation des cartes
 ---------------------------------------------------------------------------------------*/
 p {
-	margin-top : 1.2rem;
+	margin-top: 1.2rem;
 }
 
 .card {

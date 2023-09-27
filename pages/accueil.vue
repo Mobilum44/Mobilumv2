@@ -8,7 +8,7 @@
 			<section class="bandeau wide">
 				<div class="bandeau_content">
 					<div class="section">
-						<p class="quote">							
+						<p class="quote">
 							<span>Mobilum&thinsp;</span><br />
 							<!--<span>façonne&thinsp;</span>--->
 							<span>Le&thinsp;</span>
@@ -29,12 +29,13 @@
 	Mise en page : Cartes RS avec texte en dessous, 3 directement affichés
 	--------------------------------->
 		<p class="accueil_text">
-			En dix ans d'existence, Mobilum a acquis un savoir-faire unique dans la création et
-			la fabrication de mobiliers urbains en Béton Fibré à Ultra-haute Performance. <br /><br />
-			Entreprise artisanale nantaise <b>N majuscule ?</b>, Mobilum répond aux exigences des environnements publics.
+			En dix ans d'existence, Mobilum a acquis un savoir-faire unique dans la création et la fabrication de
+			mobiliers urbains en Béton Fibré à Ultra-haute Performance. <br /><br />
+			Entreprise artisanale nantaise <b>N majuscule ?</b>, Mobilum répond aux exigences des environnements
+			publics.
 		</p>
 
-	<!--------------------------------
+		<!--------------------------------
 	Explorer
 	--------------------------------->
 
@@ -46,11 +47,9 @@
 			</div>
 		</template>
 
-		<template #slot_contact>
-		</template>
+		<template #slot_contact> </template>
 	</NuxtLayout>
 </template>
-
 
 <script lang="ts" setup>
 definePageMeta({
@@ -61,7 +60,6 @@ useSeoMeta({
 	title: "Accueil",
 });
 </script>
-
 
 <style scoped>
 /* General */
@@ -98,7 +96,7 @@ p {
 
 /* Section 1 : Logo /Image */
 .bandeau {
-	margin-top : 17vh;
+	margin-top: 17vh;
 	background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0) 65%, #fefcf3),
 		url("/photospages/accueil-test-fond2.jpg");
 	opacity: 90%;
@@ -117,8 +115,8 @@ p {
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
-	padding-bottom : 3rem;
-	padding-right : 10rem;
+	padding-bottom: 3rem;
+	padding-right: 10rem;
 }
 
 /*-------------------------------------------------------------------
@@ -130,7 +128,7 @@ p {
 	font-family: "Times New Roman", Times, serif;
 	font-style: italic;
 	font-size: 2rem;
-	color:black;
+	color: black;
 	text-shadow: black 1px 0 20px;
 	max-width: 150vh;
 

@@ -156,20 +156,23 @@
 import { Product } from "@/assets/types";
 
 const route = useRoute();
-const { data: currentProduct } = await useAsyncData("currentProduct", () => queryContent(route.fullPath).findOne() as Promise<Product>);
-const { data: relatedProducts } = await useAsyncData("relatedProducts", () =>
-	queryContent("/produit/")
-		.where({ gamme: currentProduct.value?.gamme || '' })
-		.only(["_path", "title", "cover_image", "_id"])
-		.without(currentProduct.value?._id || '')
-		.limit(3)
-		.find() as Promise<Product[]>,
+const { data: currentProduct } = await useAsyncData(
+	"currentProduct",
+	() => queryContent(route.fullPath).findOne() as Promise<Product>,
+);
+const { data: relatedProducts } = await useAsyncData(
+	"relatedProducts",
+	() =>
+		queryContent("/produit/")
+			.where({ gamme: currentProduct.value?.gamme || "" })
+			.only(["_path", "title", "cover_image", "_id"])
+			.without(currentProduct.value?._id || "")
+			.limit(10)
+			.find() as Promise<Product[]>,
 );
 </script>
 
 <style scoped>
-
-
 /*-----------------------------------------------------------------
 		Sections générales
 	---------------------------------------------------------------*/
@@ -230,16 +233,15 @@ h1 {
 /*-----------------------------------------------------------------
 		Zone galerie
 	---------------------------------------------------------------*/
-	.gallery {
-	max-width : 100%;
+.gallery {
+	max-width: 100%;
 	margin-top: 4rem;
-	}
+}
 
-
-	.gallery img {
-		object-fit: contain;
-		max-width : 100%;
-	}
+.gallery img {
+	object-fit: contain;
+	max-width: 100%;
+}
 
 /*-----------------------------------------------------------------
 		Zone caractéristiques
@@ -256,15 +258,15 @@ h1 {
 	margin-left: 0;
 }
 .general-filaire {
-	width : 40%;
-	display : flex;
+	width: 40%;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .general-filaire img {
 	object-fit: contain;
-	max-width : 90%;
+	max-width: 90%;
 }
 
 .general-infos {

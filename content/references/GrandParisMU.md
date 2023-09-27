@@ -1,32 +1,34 @@
 ---
-type : Les grands comptes
+type: Les grands comptes
 title: Le Grand Paris Mobilier Urbain
-sub_title : Mobilier en gare
+sub_title: Mobilier en gare
 published: TRUE
 
-gamme: "?" 
+gamme: "?"
 
 cover_image: "/references/cover_image/assises-societe-du-grand-paris.png"
 cover_text: "On a refait l'intérieur des gares"
 
-carousel: 
-- "references/carousel/gros-plan-SGP.jpg"
+carousel:
+    - "references/carousel/gros-plan-SGP.jpg"
 
-prem_loc : "Toutes les gares du Grand Paris"
-prem_moe : "SGP / Agence Patrick Jouin"
-prem_moa :
+prem_loc: "Toutes les gares du Grand Paris"
+prem_moe: "SGP / Agence Patrick Jouin"
+prem_moa:
 
-sec_loc :
-sec_moe :
-sec_moa :
- 
-fabricant : "Mobilum / Synthèse"
+sec_loc:
+sec_moe:
+sec_moa:
 
-date_realisation :
-date_demarrage : "2023"
-duree_marche :
+moa_commun:
 
-recompense : "...?"
+fabricant: "Mobilum / Synthèse"
+
+date_realisation:
+date_demarrage: "2023"
+duree_marche:
+
+recompense: "...?"
 ---
 
 ## Description

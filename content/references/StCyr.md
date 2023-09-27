@@ -1,35 +1,37 @@
 ---
-type : Les récompensés
+type: Les récompensés
 title: St Cyr sur Loire
-sub_title : Parc
+sub_title: Parc
 published: TRUE
 
-gamme: "?" 
+gamme: "?"
 
 cover_image: "/references/cover_image/feuille-roquefere.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
-carousel: 
-- "/references/carousel/page-entree.jpg"
-- "/references/carousel/banc-feuille-roquefert-mobilum.png"
+carousel:
+    - "/references/carousel/page-entree.jpg"
+    - "/references/carousel/banc-feuille-roquefert-mobilum.png"
 
-prem_loc : 
-prem_moe : 
-prem_moa : 
+prem_loc:
+prem_moe:
+prem_moa:
 
-sec_loc :
-sec_moe :
-sec_moa :
- 
-fabricant : "Mobilum"
+sec_loc:
+sec_moe:
+sec_moa:
 
-date_realisation : "?"
-date_demarrage :
-duree_marche :
+moa_commun:
 
-recompense :
+fabricant: "Mobilum"
 
+date_realisation: "?"
+date_demarrage:
+duree_marche:
+
+recompense:
 ---
 
 ## Description
- "Intégrer nom de la récompense"
+
+"Intégrer nom de la récompense"

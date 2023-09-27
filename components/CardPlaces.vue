@@ -177,7 +177,7 @@
 
 <style scoped>
 .shadow {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .cartes_defilantes {
 	display: flex;
@@ -185,39 +185,40 @@
 }
 
 .card {
-    position : relative;
-    margin : 1.3rem;
-    overflow : hidden;
+	position: relative;
+	margin: 1.3rem;
+	overflow: hidden;
 
 	height: 250px;
 	width: 250px;
 
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
-    display : flex;
-    align-items: center;
-    justify-content: center;
-
-    border: solid #fefcf3 6px;
-    background-color : #1A949D;
+	border: solid #fefcf3 6px;
+	background-color: #1a949d;
 }
 
 .card img {
-    object-fit : cover;
-    max-height : 100%;
-    opacity : 1;
-    z-index : 99;
+	object-fit: cover;
+	max-height: 100%;
+	opacity: 1;
+	z-index: 99;
 }
 
 /*--------------------------------------------------------------------------------*/
 .card h4 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 
-    text-shadow : rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	text-shadow:
+		rgba(0, 0, 0, 0.19) 0px 10px 20px,
+		rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
-    z-index : 1;
+	z-index: 1;
 	opacity: 1;
 
 	font-family: "Bebas Neue";
@@ -230,64 +231,34 @@
 }
 
 .card p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 
-    opacity : 0;
-    width : 60%;
+	opacity: 0;
+	width: 60%;
 
-    color : white;
-    text-align: center;
+	color: white;
+	text-align: center;
 }
 .card:hover h4 {
 	opacity: 0;
-    transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
 }
 .card:hover p {
 	opacity: 1;
-    transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
 }
 
 .card:hover img {
 	opacity: 0.2;
 	transition: all 0.3s ease-in-out;
 }
-
 </style>
 
-
-.card__image {
-	transition: 0.5s ease-in-out;
-	object-fit: cover;
-}
-.card__caption {
-	position: absolute;
-	width: 200px;
-	height: 200px;
-	top: 50%;
-	z-index: 1;
-	padding: 0 1vw;
-	color: white;
-	transform: translateY(-50%);
-	transition: 0.3s;
-	top: calc(100% - 110px);
-	transform: unset;
-}
-
-.card__caption h4 {
-	margin-top: 8vh;
-	max-height: 85px;
-	overflow: hidden;
-	font-family: "Bebas Neue";
-	font-size: 1.5rem;
-	line-height: 28px;
-	text-shadow: 0px 1px 5px black;
-}
-.card__caption p {
-	height: 200px;
-	font-family: "Roboto", sans-serif;
-	color: white;
-	transition: 0.5s ease-in-out;
-}
+.card__image { transition: 0.5s ease-in-out; object-fit: cover; } .card__caption { position: absolute; width: 200px;
+height: 200px; top: 50%; z-index: 1; padding: 0 1vw; color: white; transform: translateY(-50%); transition: 0.3s; top:
+calc(100% - 110px); transform: unset; } .card__caption h4 { margin-top: 8vh; max-height: 85px; overflow: hidden;
+font-family: "Bebas Neue"; font-size: 1.5rem; line-height: 28px; text-shadow: 0px 1px 5px black; } .card__caption p {
+height: 200px; font-family: "Roboto", sans-serif; color: white; transition: 0.5s ease-in-out; }

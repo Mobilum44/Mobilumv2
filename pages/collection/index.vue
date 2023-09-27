@@ -28,7 +28,8 @@ Supprimer sav -->
 				</NuxtLink>
 
 				<div class="left">
-					<p>Une gamme de 70 (à vérifier) mobiliers urbains à votre disposition <br />
+					<p>
+						Une gamme de 70 (à vérifier) mobiliers urbains à votre disposition <br />
 						<b>Photo angers beacoup utilisée</b>
 					</p>
 				</div>
