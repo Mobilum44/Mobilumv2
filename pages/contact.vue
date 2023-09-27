@@ -52,16 +52,6 @@
 	</NuxtLayout>
 </template>
 
-
-<script>
-definePageMeta({
-  layout: "Default",
-});
-</script>
-
-
-
-
 <style scoped>
 .slot_image {
 	background: url("/photospages/sav-crous.jpg") center center no-repeat;

@@ -1,7 +1,7 @@
 <template>
 	<NuxtLayout name="default">
 		<template #slot_image>
-			<div class="slot_image" :style="{ backgroundImage: `url(${image})` }">
+			<div class="slot_image" :style="backgroundStyles('/backgroundpages/fond-entreprise-loroux-bottereau.jpg')">
 				<h1>Mobilum</h1>
 			</div>
 		</template>
@@ -171,20 +171,22 @@ Nos activités
 	</NuxtLayout>
 </template>
 
-<script>
+<script lang="ts" setup>
 definePageMeta({
 	layout: false,
 });
 
-import BackEntr from "/backgroundpages/fond-entreprise-loroux-bottereau.jpg";
+const img = useImage();
 
-export default {
-	data() {
-		return {
-			image: BackEntr,
-		};
-	},
-};
+function backgroundStyles(thumbnail: string): { backgroundImage: string } {
+	const imgUrl = img(thumbnail, {
+		width: 1920,
+		quality: 80,
+		placeholder: true,
+		format: "avif,webp",
+	});
+	return { backgroundImage: `url('${imgUrl}')` };
+}
 </script>
 
 <style scoped>

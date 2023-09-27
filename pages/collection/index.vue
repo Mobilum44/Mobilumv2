@@ -102,12 +102,6 @@ Supprimer sav -->
 	</NuxtLayout>
 </template>
 
-<script>
-definePageMeta({
-	layout: "Default",
-});
-</script>
-
 <style scoped>
 .slot_image {
 	background: url("/backgroundpages/fond-plage-collection.jpg") center center no-repeat;
