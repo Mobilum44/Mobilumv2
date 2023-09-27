@@ -5,9 +5,9 @@
 	-------------------------------------------------->
 
 		<template #slot_image>
-			<section class="bandeau wide">
+			<section class="bandeau wide flex-column">
 				<div class="bandeau_content">
-					<div class="section">
+					<div class="section flex-column">
 						<p class="quote">
 							<span>Mobilum&thinsp;</span><br />
 							<!--<span>façonne&thinsp;</span>--->
@@ -40,7 +40,7 @@
 	--------------------------------->
 
 		<template #slot_bandeau>
-			<div class="redirection">
+			<div class="redirection flex-column">
 				<h3>En quelques mots, Mobilum c'est ...</h3>
 				<b> Changer photo BFUP</b>
 				<SlideRedirection />
@@ -103,16 +103,12 @@ p {
 	background-size: cover;
 	height: 100vh;
 	padding-bottom: 15vh;
-	display: flex;
-	flex-direction: column;
 	align-items: flex-end;
 	justify-content: flex-end;
 }
 
 /* Section 2 : latest posts + content */
 .section {
-	display: flex;
-	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
 	padding-bottom: 3rem;
@@ -286,14 +282,10 @@ span:nth-child(29) {
 	.bandeau p {
 		margin-top: 0rem;
 		padding: 0.5rem;
-		display: flex;
-		flex-direction: column;
 	}
 
 	.redirection {
 		margin-left: 0rem;
-		display: flex;
-		flex-direction: column;
 		align-items: center;
 	}
 

@@ -11,8 +11,8 @@ Supprimer sav -->
 
 		<b> Rendre ca responsive // Corriger toutes les images qui explosent ( . JPG)</b>
 
-		<div class="collection">
-			<div class="sub__section">
+		<div class="collection flex_column">
+			<div class="sub__section flex-row">
 				<NuxtLink class="items_styling shadow" to="/mu">
 					<NuxtImg
 						class="items__img"
@@ -35,7 +35,7 @@ Supprimer sav -->
 				</div>
 			</div>
 
-			<div class="sub__section">
+			<div class="sub__section flex-row">
 				<div class="right">
 					<p class="right-align">Nous savons répondre présents</p>
 				</div>
@@ -55,7 +55,7 @@ Supprimer sav -->
 				</NuxtLink>
 			</div>
 
-			<div class="sub__section">
+			<div class="sub__section flex-row">
 				<NuxtLink class="items_styling shadow" to="/signaletique">
 					<NuxtImg
 						class="items__img"
@@ -74,7 +74,7 @@ Supprimer sav -->
 				</div>
 			</div>
 
-			<div class="sub__section">
+			<div class="sub__section flex-row">
 				<div class="right">
 					<p class="right-align">Une valeur sure</p>
 				</div>
@@ -112,15 +112,12 @@ Supprimer sav -->
 
 .collection {
 	margin-top: 5rem;
-	display: flex;
-	flex-direction: column;
+
 	align-items: center;
 	width: 100%;
 }
 
 .sub__section {
-	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-end;
 	gap: 1rem;

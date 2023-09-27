@@ -9,7 +9,7 @@
 		<div class="big_box">
 			<h2>Le BFUP</h2>
 
-			<div class="small_box">
+			<div class="flex-row">
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi
 					magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste
@@ -26,7 +26,7 @@
 		<div class="big_box">
 			<h2>La couleur</h2>
 
-			<div class="small_box">
+			<div class="flex-row">
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi
 					magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste
@@ -42,7 +42,7 @@
 
 		<div class="big_box">
 			<h2>Personnalisations</h2>
-			<div class="small_box">
+			<div class="flex-row">
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi
 					magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste
@@ -63,15 +63,5 @@
 	background: url("/photospages/fond_entreprise.jpg") center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-}
-
-.big_box {
-	display: flex;
-	flex-direction: column;
-}
-
-.small_box {
-	display: flex;
-	flex-direction: row;
 }
 </style>

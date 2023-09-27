@@ -5,7 +5,7 @@
 		<slot name="slot_image" class="slot_image">
 			<section class="image_title"></section>
 		</slot>
-		<section class="contenu">
+		<section class="contenu flex-column">
 			<slot />
 		</section>
 		<Banner />
@@ -15,8 +15,6 @@
 
 <style>
 .contenu {
-	display: flex;
-	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	padding: 0;

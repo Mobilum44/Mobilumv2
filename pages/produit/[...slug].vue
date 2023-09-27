@@ -1,7 +1,7 @@
 <template>
 	<ContentDoc v-slot="{ doc }">
-		<section class="page_top content-produits">
-			<div class="title">
+		<section class="page_top content-produits flex-row">
+			<div class="title flex-column">
 				<h1 class="h1_title">
 					{{ doc.title }}
 				</h1>
@@ -23,7 +23,7 @@
 				<p>{{ doc.dureeDuProjet }}</p>
 			</div> -->
 
-		<div class="sub__section sub__section__content general">
+		<div class="sub__section sub__section__content general flex-row">
 			<div class="general-filaire" v-for="(img, i) in doc.filaire" :key="i">
 				<NuxtImg :src="img" height="300px" />
 			</div>
@@ -45,11 +45,11 @@
 
 		<section class="sub__section">
 			<h2>Nos finitions</h2>
-			<div class="sub__section__content">
-				<div class="sub__finitions">
+			<div class="sub__section__content flex-row">
+				<div class="sub__finitions flex-column">
 					<p class="strong">Couleurs naturelles</p>
-					<div class="type">
-						<div class="type__finition">
+					<div class="type flex-row">
+						<div class="type__finition flex-column">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -62,7 +62,7 @@
 							/>
 							<p>Gris foncé<br />(BCV Brut)</p>
 						</div>
-						<div class="type__finition">
+						<div class="type__finition flex-column">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -78,10 +78,10 @@
 					</div>
 				</div>
 
-				<div class="sub__finitions">
+				<div class="sub__finitions flex-column">
 					<p class="strong">Teinté dans la masse</p>
-					<div class="type">
-						<div class="type__finition">
+					<div class="type flex-row">
+						<div class="type__finition flex-column">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -94,7 +94,7 @@
 							/>
 							<p>Taupe</p>
 						</div>
-						<div class="type__finition">
+						<div class="type__finition flex-column">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -107,7 +107,7 @@
 							/>
 							<p>Rose pastel</p>
 						</div>
-						<div class="type__finition">
+						<div class="type__finition flex-column">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -123,9 +123,9 @@
 					</div>
 				</div>
 
-				<div class="sub__finitions">
+				<div class="sub__finitions flex-column">
 					<p class="strong">Peinture polyuréthane</p>
-					<div class="type">Tous les RAL sont possibles. Consultez-nous pour discuter de votre projet.</div>
+					<div class="type flex-row">Tous les RAL sont possibles. Consultez-nous pour discuter de votre projet.</div>
 				</div>
 			</div>
 		</section>
@@ -187,8 +187,6 @@ const { data: relatedProducts } = await useAsyncData(
 	font-family: montserrat;
 }
 .sub__section__content {
-	display: flex;
-	flex-direction: row;
 	justify-content: space-around;
 }
 /*-----------------------------------------------------------------
@@ -196,15 +194,11 @@ const { data: relatedProducts } = await useAsyncData(
 	---------------------------------------------------------------*/
 .page_top {
 	width: 100%;
-	display: flex;
-	flex-direction: row;
 	justify-content: center;
 }
 
 .title {
 	width: 100%;
-	display: flex;
-	flex-direction: column;
 	align-items: center;
 }
 .title,
@@ -283,24 +277,18 @@ h1 {
 
 .sub__finitions {
 	margin-top: 0;
-	display: flex;
-	flex-direction: column;
 	align-items: center;
 	width: 33%;
 }
 .type {
 	width: 100%;
 	padding: 1rem;
-	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	gap: 1rem;
 	align-items: flex-start;
 }
 
 .type__finition {
-	display: flex;
-	flex-direction: column;
 	align-items: center;
 }
 .color_square {

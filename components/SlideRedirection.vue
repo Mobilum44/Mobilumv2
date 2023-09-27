@@ -1,11 +1,11 @@
 <template>
 	<div class="SlideRedirection">
 		<NuxtLink class="box" to="/entreprise">
-			<NuxtImg src="/photospages/plaques-hook-coulage-usine.jpg" format="avif,webp" placeholder loading="lazy" />
+			<NuxtImg src="/photospages/plaques-hook-coulage-usine.jpg" width="900px" format="avif,webp" placeholder loading="lazy" />
 			<p to="/entreprise">Un atelier <em>responsable</em></p>
 		</NuxtLink>
 		<div class="box">
-			<NuxtImg src="/photospages/design-mobilum.jpg" format="avif,webp" placeholder loading="lazy" />
+			<NuxtImg src="/photospages/design-mobilum.jpg" width="900px" format="avif,webp" placeholder loading="lazy" />
 			<p>
 				Du design <em><br />à la réalité</em>
 			</p>
@@ -16,12 +16,12 @@
 		to="/materiau"
     > -->
 		<div class="box">
-			<NuxtImg src="/photospages/BFUP-seau.jpg" format="avif,webp" placeholder loading="lazy" />
+			<NuxtImg src="/photospages/BFUP-seau.jpg" width="900px" format="avif,webp" placeholder loading="lazy" />
 			<p><em>Un matériau :</em> Le Béton Fibré Ultra Performant</p>
 		</div>
 		<!-- </NuxtLink> -->
 		<NuxtLink class="box" to="/collection">
-			<NuxtImg src="/photospages/Galets.jpg" format="avif,webp" placeholder loading="lazy" />
+			<NuxtImg src="/photospages/Galets.jpg" width="900px" format="avif,webp" placeholder loading="lazy" />
 			<p>
 				\ Une collection <br />
 				\ Du sur-mesure

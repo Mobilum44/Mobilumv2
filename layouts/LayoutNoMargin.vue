@@ -1,7 +1,7 @@
 <template>
 	<div class="LayoutNoMargin">
 		<Header />
-		<section class="contenu-no-margin">
+		<section class="contenu-no-margin flex-column">
 			<slot />
 		</section>
 		<Banner />
@@ -11,8 +11,6 @@
 
 <style>
 .contenu-no-margin {
-	display: flex;
-	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	padding: 0;

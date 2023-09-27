@@ -30,7 +30,7 @@
 					:key="typ"
 				>
 					<h2>{{ typ }}</h2>
-					<ul class="references-list">
+					<ul class="references-list flex-row">
 						<li v-for="reference in references?.filter((r) => r.type === typ)" :key="reference._id">
 							<CarteMarches
 								:title="reference.title"
@@ -101,8 +101,6 @@ h2 {
 	margin-bottom: 4rem;
 }
 .references-list {
-	display: flex;
-	flex-direction: row;
 	gap: 2rem;
 	margin-bottom: 1rem;
 	display: flex;
