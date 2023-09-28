@@ -1,4 +1,7 @@
 <template>
+
+
+<!---- Penser aux hook et signalétique : HOOK / Personnalisation-->
 	<ContentDoc v-slot="{ doc }">
 		<section class="page_top content-produits">
 			<div class="title">

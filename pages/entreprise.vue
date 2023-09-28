@@ -87,11 +87,11 @@ Notre savoir-faire
 							<strong>"Chez Mobilum, nos mains sont essentielles."</strong>
 							<br /><br />
 							Notre volonté est de produire un travail artisanal de qualité 100% français en privilégiant
-							le talent des partenaires locaux. Chaque mobilier a été étudié, conçu et réalisé dans notre
+							le talent des partenaires locaux. Chaque mobilier en Béton Fibré Ultra Performant (BFUP) a été étudié, conçu et réalisé dans notre
 							usine avec une attention méticuleuse aux détails, reflétant notre engagement envers
 							l’excellence et la fierté du travail bien fait. <br /><br />
 							Les techniques développées après des années de recherches sont uniques et exclusives pour
-							parvenir à la finesse et les formes de nos mobiliers.<br /><br />
+							parvenir à la finesse et les formes de nos mobiliers, dans ce matériau si novateur.<br /><br />
 							Désireux de partager notre expérience et notre savoir-faire, nous avons mis en place une
 							formation en interne permettant de certifier l’acquisition de compétences propres à
 							l’industriel BFUP en partenariat avec l’OPCO2i. Nous croyons fermement à la transmission des
@@ -138,8 +138,10 @@ Notre savoir-faire
 								>"Notre devoir est de produire des mobiliers de manière durable et réfléchie."</strong
 							>
 							<br /><br />
+							<b>Mettre la photo plus centrée sur le totem</b><br/><br/>
 							Repenser le mobilier urbain nécessite d’intégrer le développement durable dans nos
-							recherches, nos créations et notre croissance. <br /><br />
+							recherches, nos créations et notre croissance. <b> Parler du fait que le BFUP a pas été choisi au hasard.</b>
+							Pérennité du matériau, faible entretien et pluralité d'usage climatique ont été essentiels dans notre choix du BFUP.<br /><br />
 							Nous nous efforçons de produire de manière raisonnée pour limiter autant que possible notre
 							impact sur l’environnement. L’intégralité des produits présentés est fabriquée sur notre
 							site au Loroux-Bottereau en Loire Atlantique. <br /><br />

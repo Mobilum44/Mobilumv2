@@ -18,11 +18,8 @@
 						<p>
 							Nous vous prions de bien vouloir noter que notre service de contact est spécifiquement dédié
 							aux demandes professionnelles et institutionnelles. Nous regrettons de ne pas être en mesure
-							de répondre aux demandes des particuliers.
-						</p>
-						<p>
-							Nos services sont joignables du lundi au vendredi, <br />
-							de 9h à 12h30 et de 14h à 18h. <br /><br /><br />
+							de répondre aux demandes des particuliers. <br/><br/>
+
 							Les coordonnées de nos différents services :
 						</p>
 						<!-- Mettre les informations en colonne -->
@@ -46,9 +43,11 @@
 				</div>
 			</div>
 		</div>
+
+		<!---
 		<div class="sub__section maps">
 			<MapsAdress />
-		</div>
+		</div> --->
 	</NuxtLayout>
 </template>
 

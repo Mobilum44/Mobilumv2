@@ -30,9 +30,7 @@
 	--------------------------------->
 		<p class="accueil_text">
 			En dix ans d'existence, Mobilum a acquis un savoir-faire unique dans la création et la fabrication de
-			mobiliers urbains en Béton Fibré à Ultra-haute Performance. <br /><br />
-			Entreprise artisanale nantaise <b>N majuscule ?</b>, Mobilum répond aux exigences des environnements
-			publics.
+			mobiliers urbains en Béton Fibré Ultra Performant (BFUP). <br /><br />
 		</p>
 
 		<!--------------------------------

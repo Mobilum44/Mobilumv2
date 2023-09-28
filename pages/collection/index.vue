@@ -9,7 +9,8 @@ Supprimer sav -->
 			</div>
 		</template>
 
-		<b> Rendre ca responsive // Corriger toutes les images qui explosent ( . JPG)</b>
+		<b> Rendre ca responsive // Corriger toutes les images qui explosent ( . JPG) <br/>
+		Enlever tous les designers Forma6</b>
 
 		<div class="collection">
 			<div class="sub__section">
