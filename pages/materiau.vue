@@ -64,4 +64,9 @@
 	background-size: cover;
 	background-attachment: fixed;
 }
+
+.flex-dow {
+	display : flex;
+	flex-direction: row;
+}
 </style>

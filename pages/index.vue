@@ -1,7 +1,7 @@
 <template>
 	<NuxtLayout name="empty" class="Empty" :style="backgroundStyles('/backgroundpages/fond-accueil.jpg')">
 		<div>
-			<div class="logo_bouton flex-column">
+			<div class="logo_bouton">
 				<NuxtImg
 					alt="Logo mobilum"
 					width="200"
@@ -42,6 +42,8 @@ function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 }
 
 .logo_bouton {
+	display : flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	height: 100vh;

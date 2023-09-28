@@ -159,7 +159,6 @@
 				<NuxtImg
 					src="/cards/lotissement-hook-mobilum.png"
 					alt="Lotissement coffret technique hook mobilum"
-					class="card__image"
 					fit="cover"
 					width="250"
 					format="avif,webp"

@@ -1,7 +1,7 @@
 <template>
 	<ContentDoc v-slot="{ doc }">
-		<section class="page_top content-produits flex-row">
-			<div class="title flex-column">
+		<section class="page_top content-produits">
+			<div class="title">
 				<h1 class="h1_title">
 					{{ doc.title }}
 				</h1>
@@ -23,7 +23,7 @@
 				<p>{{ doc.dureeDuProjet }}</p>
 			</div> -->
 
-		<div class="sub__section sub__section__content general flex-row">
+		<div class="sub__section sub__section__content general">
 			<div class="general-filaire" v-for="(img, i) in doc.filaire" :key="i">
 				<NuxtImg :src="img" height="300px" />
 			</div>
@@ -45,11 +45,11 @@
 
 		<section class="sub__section">
 			<h2>Nos finitions</h2>
-			<div class="sub__section__content flex-row">
-				<div class="sub__finitions flex-column">
+			<div class="sub__section__content">
+				<div class="sub__finitions">
 					<p class="strong">Couleurs naturelles</p>
-					<div class="type flex-row">
-						<div class="type__finition flex-column">
+					<div class="type">
+						<div class="type__finition">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -62,7 +62,7 @@
 							/>
 							<p>Gris foncé<br />(BCV Brut)</p>
 						</div>
-						<div class="type__finition flex-column">
+						<div class="type__finition">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -78,10 +78,10 @@
 					</div>
 				</div>
 
-				<div class="sub__finitions flex-column">
+				<div class="sub__finitions">
 					<p class="strong">Teinté dans la masse</p>
-					<div class="type flex-row">
-						<div class="type__finition flex-column">
+					<div class="type">
+						<div class="type__finition">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -94,7 +94,7 @@
 							/>
 							<p>Taupe</p>
 						</div>
-						<div class="type__finition flex-column">
+						<div class="type__finition">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -107,7 +107,7 @@
 							/>
 							<p>Rose pastel</p>
 						</div>
-						<div class="type__finition flex-column">
+						<div class="type__finition">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -123,22 +123,24 @@
 					</div>
 				</div>
 
-				<div class="sub__finitions flex-column">
+				<div class="sub__finitions">
 					<p class="strong">Peinture polyuréthane</p>
-					<div class="type flex-row">Tous les RAL sont possibles. Consultez-nous pour discuter de votre projet.</div>
+					<div class="type">Tous les RAL sont possibles. Consultez-nous pour discuter de votre projet.</div>
 				</div>
 			</div>
 		</section>
 
 		<section class="sub__section">
 			<h2>Dans la même gamme...</h2>
-			<ul>
-				<li v-for="relatedProduct in relatedProducts" :key="relatedProduct._id">
+			<p><b>Lorsqu'il y en a trop, faire une scrollbar</b></p>
+			<ul class="famille-produit">
+				<li class="card" v-for="relatedProduct in relatedProducts" :key="relatedProduct._id">
 					<NuxtLink :to="relatedProduct._path">
 						<NuxtImg
 							:src="relatedProduct.cover_image"
 							:alt="relatedProduct.title"
 							width="200"
+							height="200"
 							fit="cover"
 							format="avif,webp"
 							placeholder
@@ -187,6 +189,8 @@ const { data: relatedProducts } = await useAsyncData(
 	font-family: montserrat;
 }
 .sub__section__content {
+	display : flex;
+	flex-direction: row;
 	justify-content: space-around;
 }
 /*-----------------------------------------------------------------
@@ -194,11 +198,15 @@ const { data: relatedProducts } = await useAsyncData(
 	---------------------------------------------------------------*/
 .page_top {
 	width: 100%;
+	display : flex;
+	flex-direction: row;
 	justify-content: center;
 }
 
 .title {
 	width: 100%;
+	display : flex;
+	flex-direction: column;
 	align-items: center;
 }
 .title,
@@ -277,24 +285,101 @@ h1 {
 
 .sub__finitions {
 	margin-top: 0;
+
+	display : flex;
+	flex-direction: column;
 	align-items: center;
 	width: 33%;
 }
 .type {
 	width: 100%;
 	padding: 1rem;
+
+	display : flex;
+	flex-direction: row;
 	justify-content: center;
 	gap: 1rem;
 	align-items: flex-start;
 }
 
 .type__finition {
+	display : flex;
+	flex-direction: column;
 	align-items: center;
 }
 .color_square {
 	height: 10vh;
 	width: 10vh;
 }
+
+/* ------------------------------------------------------------------------------------------
+				Famille produit
+
+				Pour faire le scroll : http://www.css3create.com/Slider-Galerie-photos-en-boucle-en-CSS3
+--------------------------------------------------------------------------------------------*/
+.famille-produit {
+	display : flex;
+	flex-direction: row;
+}
+
+.card {
+	position: relative;
+	margin: 1.3rem;
+	overflow: hidden;
+
+	height: 200px;
+	width: 200px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: #1a949d;
+}
+
+.card img {
+	object-fit: cover;
+	width : 100%;
+	opacity: 1;
+	z-index: 99;
+}
+
+.card p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	text-shadow:
+		rgba(0, 0, 0, 0.19) 0px 10px 20px,
+		rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+	z-index: 1;
+	opacity: 0;
+
+	font-family: "Bebas Neue";
+	font-weight: 400;
+	font-size: 1.5rem;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 1px;
+	color: white;
+}
+
+.card:hover p {
+	opacity: 1;
+	transition: all 0.1s ease-in-out;
+}
+
+.card:hover img {
+	opacity: 0.3;
+	transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
 /* ------------------------------------------------------------------------------------------
 				RESPONSIVE TELEPHONES
 --------------------------------------------------------------------------------------------*/

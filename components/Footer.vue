@@ -1,7 +1,7 @@
 <template>
 	<footer>
 		<!-- Mobiliers plus espacés, lignes entre les deux, moins de mobiliers -->
-		<div class="content_top flex-row">
+		<div class="content_top">
 			<div class="column__left">
 				<NuxtImg
 					class="Logo_mobilum"
@@ -23,8 +23,8 @@
 				</div>
 			</div>
 
-			<div class="column__right flex-column">
-				<div class="flex-column">
+			<div class="column__right">
+				<div class="right-link">
 					<NuxtLink class="footer__nav" to="/mentions"> Mentions légales </NuxtLink>
 					<NuxtLink class="footer__nav" to="/plan"> Plan du site </NuxtLink>
 				</div>
@@ -76,6 +76,9 @@ Zone haute du footer
 	padding-top: 1rem;
 	padding-left: 7rem;
 	padding-right: 7rem;
+
+	display : flex;
+	flex-direction: row;
 	justify-content: space-between;
 	align-items: space-between;
 	flex-wrap: wrap;
@@ -114,7 +117,14 @@ Colonne de droite
 ---------------------------------*/
 
 .column__right {
+	display : flex;
+	flex-direction : column;
 	padding-top: 1em;
+}
+
+.right-link {
+	display : flex;
+	flex-direction: column;
 }
 
 /*------------------

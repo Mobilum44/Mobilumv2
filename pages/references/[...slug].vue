@@ -1,12 +1,12 @@
 <template>
-	<main class="reference flex-column">
+	<main class="reference">
 		<ContentDoc v-slot="{ doc }">
-			<div class="reference-header flex-column">
+			<div class="reference-header">
 				<h1>{{ doc.title }}</h1>
 				<p>{{ doc.sub_title }}</p>
 			</div>
 
-			<ul class="reference-info flex-column">
+			<ul class="reference-info">
 				<!--- mettre en row-->
 				<li>
 					<div v-if="doc.fabricant">
@@ -47,7 +47,7 @@
 				</ul>
 			</div>
 
-			<ul class="reference-info-acteurs flex-row">
+			<ul class="reference-info-acteurs">
 				<div>
 					<li>
 						<div v-if="doc.prem_loc">
@@ -88,7 +88,7 @@
 				</div>
 			</ul>
 
-			<ul class="reference-info flex-column">
+			<ul class="reference-info">
 				<li>
 					<div v-if="doc.moa_commun">
 						<p><em>MOA</em>: {{ doc.moa_commun }}</p>
@@ -124,12 +124,16 @@
 .reference {
 	margin-top: 17vh;
 	width: 80%;
+	display : flex;
+	flex-direction: column;
 	align-items: center;
 }
 .reference-header {
 	padding: 2rem;
 	width: 80%;
 	border: solid black 1px;
+	display : flex;
+	flex-direction: column;
 	align-items: center;
 }
 
@@ -146,6 +150,8 @@
 
 .reference-info-acteurs {
 	width: 50%;
+	display : flex;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 2rem;
@@ -153,6 +159,8 @@
 }
 
 .reference-info {
+	display : flex;
+	flex-direction: column;
 	align-items: flex-start;
 }
 

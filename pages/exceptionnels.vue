@@ -15,6 +15,8 @@
 			</div>
 		</section>
 		<p>
+			<b> Les photos sont zoomées, corriger ca</b> <br />
+			<br />
 			<b> Essayer de mettre à la ligne après SNCF</b>
 			SNCF / SGP MU / SGP sign <br />
 			Trocadero / ENS / Chanel / Galets / Tram angers / Puilboreau / La défense (si obtenu)<br />
@@ -30,7 +32,7 @@
 					:key="typ"
 				>
 					<h2>{{ typ }}</h2>
-					<ul class="references-list flex-row">
+					<ul class="references-list">
 						<li v-for="reference in references?.filter((r) => r.type === typ)" :key="reference._id">
 							<CarteMarches
 								:title="reference.title"
@@ -104,6 +106,7 @@ h2 {
 	gap: 2rem;
 	margin-bottom: 1rem;
 	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
 }

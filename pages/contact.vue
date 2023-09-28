@@ -6,15 +6,15 @@
 			</div>
 		</template>
 
-		<div class="sub__section base flex-column">
-			<div class="content flex-row">
-				<div class="content_box flex-column">
+		<div class="sub__section base">
+			<div class="content">
+				<div class="content_box">
 					<Form />
 				</div>
 
-				<div class="content_box flex-column">
+				<div class="content_box">
 					<!-- Mettre les informations en colonne -->
-					<div class="services_box flex-column">
+					<div class="services_box">
 						<p>
 							Nous vous prions de bien vouloir noter que notre service de contact est spécifiquement dédié
 							aux demandes professionnelles et institutionnelles. Nous regrettons de ne pas être en mesure
@@ -26,7 +26,7 @@
 							Les coordonnées de nos différents services :
 						</p>
 						<!-- Mettre les informations en colonne -->
-						<div class="service flex-column">
+						<div class="service">
 							<!-- Mettre les informations en colonne-->
 							<h3>Commerce</h3>
 							<p>
@@ -35,7 +35,7 @@
 							</p>
 						</div>
 
-						<div class="service flex-column">
+						<div class="service">
 							<h3>Facturation</h3>
 							<p>
 								fournisseurs@mobilum-france.com <br />
@@ -71,21 +71,29 @@ useSeoMeta({
 }
 
 .base {
+	display : flex;
+	flex-direction: column;
 	text-align: center;
 	align-items: space-between;
 }
 
 .content {
+	display : flex;
+	flex-direction: row;
 	justify-content: center;
 	align-items: stretch;
 }
 
 .content_box {
+	display : flex;
+	flex-direction: column;
 	align-items: center;
 	margin: 2rem;
 }
 
 .services_box {
+	display : flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 100%;
@@ -97,6 +105,8 @@ useSeoMeta({
 	background-color: #f5ebe0;
 	width: 18rem;
 
+	display : flex;
+	flex-direction: column;
 	align-items: center;
 	margin: 1rem;
 	font-size: 14px;

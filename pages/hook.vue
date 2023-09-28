@@ -16,7 +16,7 @@
 		</div>
 
 		<div class="sub__section">
-			<ul class="collection_order flex-row">
+			<ul class="collection_order">
 				<li v-for="urbanFurniture in urbanFurnitures" :key="urbanFurniture.title">
 					<NuxtLink :to="urbanFurniture._path">
 						<article class="image_cover">
@@ -49,6 +49,8 @@ const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 Paramètres de la galerie - généralités
 ---------------------------------------------------------*/
 .collection_order {
+	display : flex;
+	flex-direction: row;
 	justify-content: center;
 	flex-wrap: wrap;
 	gap: 1rem;

@@ -7,20 +7,20 @@
 		</template>
 
 		<section class="page_top">
-			<div class="title"></div>
+			<div class="title"><b> Photo trop longue à charger</b></div>
 		</section>
 
-		<div class="section_top flex-row"></div>
+		<div class="section_top"></div>
 
 		<!-------------------------------------------------------------------
     La griffe Mobilum
 -------------------------------------------------------------------->
 
-		<div class="sub__section wide flex-column">
-			<div class="sub__section__content flex-column">
-				<div class="section__side illustration croquis flex-column"></div>
+		<div class="sub__section wide">
+			<div class="sub__section__content">
+				<div class="section__side illustration croquis"></div>
 
-				<div class="section__side text design flex-column">
+				<div class="section__side text design">
 					<h2>\ Le design selon Mobilum</h2>
 					<div class="section__text">
 						<p>
@@ -38,7 +38,7 @@
 							personnalité unique et une volonté commune de rendre service aux usagers tout en proposant
 							des mobiliers discrets, élégants sans ostentation et durables dans le temps.
 						</p>
-						<div class="real__model flex-row">
+						<div class="real__model">
 							<NuxtImg
 								alt="Table cantine réelle"
 								src="/photospages/table-cantine-02-croquis.png"
@@ -78,9 +78,9 @@
 		<!-------------------------------------------------------------------
 Notre savoir-faire
 -------------------------------------------------------------------->
-		<div class="sub__section wide dark flex-column">
-			<div class="sub__section__content flex-column">
-				<div class="section__side text flex-column">
+		<div class="sub__section wide dark">
+			<div class="sub__section__content">
+				<div class="section__side text">
 					<h2>\ Notre savoir-faire</h2>
 					<div class="section__text">
 						<p>
@@ -99,7 +99,7 @@ Notre savoir-faire
 						</p>
 					</div>
 				</div>
-				<div class="section__side illustration savoir-faire flex-column">
+				<div class="section__side illustration savoir-faire">
 					<!--
 				<NuxtImg
 				alt="mains mobilum"
@@ -117,9 +117,9 @@ Notre savoir-faire
 	Nos engagements
 	--------------------------------------------------->
 
-		<div class="sub__section wide flex-column">
-			<div class="sub__section__content flex-column">
-				<div class="section__side illustration RSE flex-column">
+		<div class="sub__section wide">
+			<div class="sub__section__content">
+				<div class="section__side illustration RSE">
 					<!--
 			<NuxtImg
 			alt="Angers tram"
@@ -130,7 +130,7 @@ Notre savoir-faire
 			/>
 			-->
 				</div>
-				<div class="section__side text flex-column">
+				<div class="section__side text">
 					<h2>\ Nos engagements</h2>
 					<div class="section__text">
 						<p>
@@ -154,7 +154,7 @@ Notre savoir-faire
 		<!---------------------------------------------------
 Nos activités
 --------------------------------------------------->
-		<div class="sub__section wide dark cards flex-column">
+		<div class="sub__section wide dark cards">
 			<div class="left">
 				<h3>Mobilum, une présence remarquée, un réseau national</h3>
 			</div>
@@ -222,9 +222,13 @@ h3 {
   -----------------------------------------------------------------------*/
 
 .section_top {
+
 	width: 70%;
 	margin-bottom: 3rem;
 	margin-top: 3rem;
+
+	display : flex;
+	flex-direction: row;
 	text-align: justify;
 	align-items: center;
 }
@@ -242,10 +246,15 @@ article {
     Page content 
   -----------------------------------------------------------------------*/
 .sub__section {
+	display : flex;
+	flex-direction: column;
 	justify-content: center;
 	margin: 0;
 }
+
 .section__side {
+	display : flex;
+	flex-direction: column;
 	justify-content: center;
 	/* border-radius: 5px; */
 	height: 120vh;
@@ -257,6 +266,9 @@ article {
 
 .real__model {
 	padding-top: 3rem;
+
+	display : flex;
+	flex-direction: row;
 	justify-content: space-between;
 }
 
@@ -334,6 +346,8 @@ article {
 		height: 100%;
 	}
 	.sub__section__content {
+		display : flex;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 	}
