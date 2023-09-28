@@ -37,6 +37,15 @@
 </template>
 
 <script setup lang="ts">
+
+definePageMeta({
+	layout: false,
+});
+
+useSeoMeta({
+	title: "Hook",
+});
+
 const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 	// Requête pour récupérer les produits de la collection "Mobilier urbain"
 	// https://content.nuxtjs.org/api/composables/query-content

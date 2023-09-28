@@ -7,11 +7,6 @@
 
 		<div class="chapeau"></div>
 
-		<p>
-			Fauteuil stamp lisse -> Cover image<br />
-			Fontaine simple 900 -> Cover image
-		</p>
-
 		<div class="sub__section">
 			<ul class="collection_order">
 				<li v-for="urbanFurniture in urbanFurnitures" :key="urbanFurniture.title">
@@ -41,7 +36,7 @@ definePageMeta({
 const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 	// Requête pour récupérer les produits de la collection "Mobilier urbain"
 	// https://content.nuxtjs.org/api/composables/query-content
-	queryContent("/produit").where({ collection: "Mobilier urbain" }).sort({ sub_category: 1 }).find(),
+	queryContent("/produit/").where({ collection: "Mobilier urbain" }).sort({ sub_category: 1 }).find(),
 );
 </script>
 

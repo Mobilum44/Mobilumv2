@@ -12,7 +12,7 @@ carousel:
     - "/produits/appuis-velo-track-st-cyr.jpg"
     - "/produits/focus-appui-velo-track-saint-cyr.jpg"
 filaire:
-    - "/produits/filaires/filaire-appui-velo-karo.png"
+    - "/produits/filaires/filaire-appui-velo-track.png"
 reference: AVTRACK0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 28

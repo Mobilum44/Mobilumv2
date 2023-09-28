@@ -11,7 +11,7 @@ cover_image: "/produits/cover_image/banc-elium-3-dossiers.jpg"
 carousel:
     - "/produits/attente-showroom.jpg"
 filaire:
-    - "/produits/filaires/filaire-cantine-04.png"
+    - "/produits/filaires/filaire-banc-elium-3-dossiers.png"
 reference: BSELIUM0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 291

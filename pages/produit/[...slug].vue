@@ -135,7 +135,8 @@
 
 		<section class="sub__section">
 			<h2>Dans la même gamme...</h2>
-			<p><b>Lorsqu'il y en a trop, faire une scrollbar</b></p>
+			<p><b>Lorsqu'il y en a trop, faire une scrollbar + enlever le produit en cours <br/>
+			Si la catégorie est vide, juste la supprimer</b></p>
 			<ul class="famille-produit">
 				<li class="card" v-for="relatedProduct in relatedProducts" :key="relatedProduct._id">
 					<NuxtLink :to="relatedProduct._path">

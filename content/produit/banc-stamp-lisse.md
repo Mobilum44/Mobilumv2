@@ -12,7 +12,7 @@ carousel:
     - "/produits/banquette-elium-parc.jpg"
     - "/produits/attente-showroom.jpg"
 filaire:
-    - "/produits/filaires/filaire-cantine-04.png"
+    - "/produits/filaires/filaire-banc-stamp-lisse.png"
 reference: BSSTAMP0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 366

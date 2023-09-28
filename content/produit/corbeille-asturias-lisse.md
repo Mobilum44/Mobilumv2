@@ -12,7 +12,7 @@ carousel:
     - "/produits/corbeille-asturias-lisse-chemille-en-anjou.jpg"
     - "/produits/corbeille-asturias-lisse-raismes.jpg"
 filaire:
-    - "/produits/filaires/filaire-corbeille-lisse-asturias.png"
+    - "/produits/filaires/filaire-corbeille-asturias-ronde-lisse.png"
 reference: COASTUR0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 98
