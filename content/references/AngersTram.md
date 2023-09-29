@@ -1,5 +1,6 @@
 ---
 type: Les remarquables
+cover_title :
 title: Tramway d'Angers
 sub_title: Tramway d'Angers, bancs en stations
 published: TRUE

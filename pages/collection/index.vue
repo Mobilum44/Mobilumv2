@@ -10,7 +10,8 @@ Supprimer sav -->
 		</template>
 
 		<b> Rendre ca responsive // Corriger toutes les images qui explosent ( . JPG) <br/>
-		Enlever tous les designers Forma6</b>
+		Enlever tous les designers Forma6</b><br/>
+		<b>Champs .md à rajouter : motifs (stamps, végétal), portes (hook), options(BAL), Personnalisation (totems)</b>
 
 		<div class="collection">
 			<div class="sub__section">

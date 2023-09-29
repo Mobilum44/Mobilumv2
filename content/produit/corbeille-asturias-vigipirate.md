@@ -12,7 +12,7 @@ carousel:
     - "/produits/corbeille-asturias-vigipirate-joncherolles.jpg"
     - "/produits/attente-showroom.jpg"
 filaire:
-    - "/produits/filaires/filaire-cantine-04.png"
+    - "/produits/filaires/filaire-corbeille-asturias-vigipirate.png"
 reference: COASTUR0601
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 54

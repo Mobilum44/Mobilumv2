@@ -1,5 +1,6 @@
 ---
 type: Les récompensés
+cover_title :
 title: Cimetière des Ulis
 published: TRUE
 

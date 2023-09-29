@@ -1,5 +1,6 @@
 ---
 type: Les conceptuels
+cover_title :
 title: Campus de Saclay
 sub_title: Villa Gallo-Romaine
 published: TRUE

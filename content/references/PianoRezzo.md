@@ -1,5 +1,6 @@
 ---
 type: Les remarquables
+cover_title :
 title: ENS Paris Saclay
 sub_title: Un patio naturel et épuré
 published: TRUE

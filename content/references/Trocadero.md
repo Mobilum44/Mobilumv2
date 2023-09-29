@@ -1,5 +1,6 @@
 ---
 type: Les remarquables
+cover_title :
 title: Trocadero
 sub_title: Jardinières de la terrasse
 published: TRUE

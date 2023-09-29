@@ -1,5 +1,6 @@
 ---
 type: Les conceptuels
+cover_title :
 title: Crous de Nantes
 published: TRUE
 

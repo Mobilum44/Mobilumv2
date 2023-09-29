@@ -1,6 +1,6 @@
 ---
 type: Les récompensés
-
+cover_title :
 title: Biennale du design de St Etienne
 published: TRUE
 

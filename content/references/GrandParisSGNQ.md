@@ -1,5 +1,6 @@
 ---
 type: Les grands comptes
+cover_title :
 title: Le Grand Paris Signalétique
 sub_title: Habillage signalétique
 published: TRUE

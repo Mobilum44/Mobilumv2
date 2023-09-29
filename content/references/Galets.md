@@ -1,5 +1,6 @@
 ---
 type: Les remarquables
+cover_title :
 title: Galets
 sub__title: "Deux projets : Rouen / Fecamp"
 published: TRUE

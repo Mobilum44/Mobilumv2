@@ -1,5 +1,6 @@
 ---
 type: Les grands comptes
+cover_title :
 title: Le Grand Paris Mobilier Urbain
 sub_title: Mobilier en gare
 published: TRUE

@@ -12,7 +12,7 @@ carousel:
     - "/produits/totem-ulis.jpg"
     - "/produits/attente-showroom.jpg"
 filaire:
-    - "/produits/filaires/filaire-cantine-04.png"
+    - "/produits/filaires/filaire-totem-mineral.png"
 reference: TOMINER0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 206

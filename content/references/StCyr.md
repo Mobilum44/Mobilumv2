@@ -1,5 +1,6 @@
 ---
 type: Les récompensés
+cover_title :
 title: St Cyr sur Loire
 sub_title: Parc
 published: TRUE

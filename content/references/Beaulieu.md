@@ -1,5 +1,6 @@
 ---
 type: Les remarquables
+cover_title :
 title: Puilboreau
 sub_title: Une gamme complète
 published: TRUE

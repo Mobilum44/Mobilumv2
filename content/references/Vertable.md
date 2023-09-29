@@ -1,5 +1,6 @@
 ---
 type: Les conceptuels
+cover_title :
 title: Vertable
 published: TRUE
 
