@@ -1,8 +1,10 @@
 ---
 type: Les conceptuels
-cover_title :
+cover_title : Crous de Nantes
 title: Crous de Nantes
 published: TRUE
+
+concept: "Mobilum en intérieur"
 
 gamme: "?"
 
@@ -13,8 +15,12 @@ carousel:
     - "/references/carousel/page-entree.jpg"
     - "/references/carousel/banc-feuille-roquefert-mobilum.png"
 
-prem_loc: "Campus Tertre, Nantes"
-prem_client: "Crous de Nantes"
+localisation: "Campus du Tertre / Nantes"
+client: "Crous Pays de la Loire"
+archi_be:
+
+prem_loc:
+prem_client:
 prem_archi_be:
 
 sec_loc:
@@ -24,16 +30,15 @@ sec_archi_be:
 moa_commun:
 
 installateur:
-fabricant: "Mobilum"
+fabricant:
 
-date_realisation: "2023"
+date_realisation: "20XX"
 date_demarrage:
 duree_marche:
 
 recompense:
-concept:
+
 ---
 
 ## Description
 
-"Mobilum en intérieur"

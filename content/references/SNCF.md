@@ -16,8 +16,12 @@ carousel:
     - "/references/carousel/gare-lille-flandres.JPG"
     - "/references/carousel/gare-lyon-part-dieu.JPG"
 
-prem_loc: "Toutes les gares de France"
-prem_client: "SNCF / AREP"
+localisation: "Toutes les gares de France"
+client: "SNCF / AREP"
+archi_be:
+
+prem_loc:
+prem_client:
 prem_archi_be:
 
 sec_loc:

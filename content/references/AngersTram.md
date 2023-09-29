@@ -1,21 +1,27 @@
 ---
 type: Les remarquables
-cover_title :
+cover_title : Tramway d'Angers
 title: Tramway d'Angers
-sub_title: Tramway d'Angers, bancs en stations
+sub_title:
 published: TRUE
+
+concept: Tramway d'Angers, bancs en stations
 
 gamme: "?"
 
 cover_image: "/references/cover_image/tramway_angers_portrait.JPG"
-cover_text: "Un bain de soleil infini"
+cover_text:
 
 carousel:
     - "/references/carousel/page-entree.jpg"
     - "/references/carousel/page-entree.jpg"
 
-prem_loc: "Ligne 2 Angers"
-prem_client: "Angers métropole"
+localisation: "Ligne 2 / Angers"
+client: "Angers métropole"
+archi_be:
+
+prem_loc:
+prem_client:
 prem_archi_be:
 
 sec_loc:
@@ -27,12 +33,12 @@ moa_commun:
 installateur:
 fabricant: "Mobilum / Ingénia"
 
-date_realisation: "?"
+date_realisation: "2019"
 date_demarrage:
 duree_marche:
 
 recompense:
-concept:
+
 ---
 
 ## Description

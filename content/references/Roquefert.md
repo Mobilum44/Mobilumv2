@@ -13,8 +13,12 @@ carousel:
     - "/references/carousel/page-entree.jpg"
     - "/references/carousel/banc-feuille-roquefert-mobilum.png"
 
-prem_loc: "Chemin Roquefère"
-prem_client: "Ville de Roquefere / Avril en Mai"
+localisation: "Chemin Roquefère"
+client: "Ville de Roquefere / Avril en Mai"
+archi_be:
+
+prem_loc:
+prem_client:
 prem_archi_be:
 
 sec_loc:

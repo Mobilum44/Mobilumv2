@@ -14,8 +14,11 @@ carousel:
     - "/references/carousel/page-entree.jpg"
     - "/references/carousel/page-entree.jpg"
 
-prem_loc: "Rouan"
-prem_client: "VIlle de Rouan / Folius"
+localisation: "Rouan"
+client: "VIlle de Rouan / Folius"
+archi_be: ""
+prem_loc:
+prem_client:
 prem_archi_be:
 
 sec_loc: "Fecamp"

@@ -1,17 +1,32 @@
 <template>
 	<main class="reference">
 		<ContentDoc v-slot="{ doc }">
+			<p><b>Idée : mettre lien vers la fiche des produits ? </b></p>
 			<div class="reference-header">
 				<h1>{{ doc.title }}</h1>
 				<p>{{ doc.sub_title }}</p>
 			</div>
 
 			<ul class="reference-info">
-				<!--- mettre en row-->
+				<li class="reference-info-ligne">
+					<div v-if="doc.client">{{ doc.client }}</div>
+					<div v-if="doc.archi_be">/ {{ doc.archi_be }}</div>
+				</li>
+
 				<li>
 					<div v-if="doc.fabricant">
-						<p><em>Fabricant</em>: {{ doc.fabricant }}</p>
+						<p><em>Fabricants</em>: {{ doc.fabricant }}</p>
 					</div>
+				</li>
+
+				<li class="reference-info-ligne">
+					<!---- Dates du projet --->
+					<div v-if="doc.date_realisation">{{ doc.date_realisation }}</div>
+					<div v-if="doc.date_demarrage">/ {{ doc.date_demarrage }}</div>
+					<div v-if="doc.duree_marche">/ {{ doc.duree_marche }}</div>
+
+					<!-----Localisation sur la même ligne ----->
+					<div v-if="doc.prem_loc"><b>(espace)</b>/ {{ doc.prem_loc }}</div>
 				</li>
 
 				<li>
@@ -20,64 +35,34 @@
 					</div>
 				</li>
 
+				<!-----Si jamais il y a eu 2 marchés pour le même projet ------>
 				<li>
-					<div v-if="doc.date_realisation">
-						<p><em>Date de réalisation </em>: {{ doc.date_realisation }}</p>
+					<div v-if="doc.prem_client">{{ doc.prem_client }}</div>
+					<div v-if="doc.prem_archi_be">/ {{ doc.prem_archi_be }}</div>
+				</li>
+				<li>
+					<div v-if="doc.sec_loc">
+						<p>{{ doc.sec_loc }}</p>
 					</div>
 				</li>
 
 				<li>
-					<div v-if="doc.date_demarrage">
-						<p><em>Date de démarrage</em>: {{ doc.date_demarrage }}</p>
+					<div v-if="doc.sec_client">
+						<p>{{ doc.sec_client }}</p>
 					</div>
 				</li>
 
 				<li>
-					<div v-if="doc.duree_marche">
-						<p><em>Durée du marché</em>: {{ doc.duree_marche }}</p>
+					<div v-if="doc.sec_archi_be">
+						<p>{{ doc.sec_archi_be }}</p>
 					</div>
 				</li>
-			</ul>
 
-			<ul class="reference-info-acteurs">
-				<div>
-					<li>
-						<div v-if="doc.prem_loc">
-							<p><em>Localisation</em>: {{ doc.prem_loc }}</p>
-						</div>
-					</li>
-
-					<li>
-						<div v-if="doc.prem_moe">
-							<p><em>MOE</em>: {{ doc.prem_moe }}</p>
-						</div>
-					</li>
-
-					<li>
-						<div v-if="doc.prem_moa">
-							<p><em>MOA</em>: {{ doc.prem_moa }}</p>
-						</div>
-					</li>
-				</div>
-				<div>
-					<li>
-						<div v-if="doc.sec_loc">
-							<p><em>Localisation</em>: {{ doc.sec_loc }}</p>
-						</div>
-					</li>
-
-					<li>
-						<div v-if="doc.sec_moe">
-							<p><em>MOE</em>: {{ doc.sec_moe }}</p>
-						</div>
-					</li>
-
-					<li>
-						<div v-if="doc.sec_moa">
-							<p><em>MOA</em>: {{ doc.sec_moa }}</p>
-						</div>
-					</li>
-				</div>
+				<li>
+					<div v-if="doc.installateur">
+						<p>{{ doc.installateur }}</p>
+					</div>
+				</li>
 			</ul>
 
 			<div v-if="doc.concept">
@@ -95,7 +80,7 @@
 			<ul class="reference-info">
 				<li>
 					<div v-if="doc.moa_commun">
-						<p><em>MOA</em>: {{ doc.moa_commun }}</p>
+						<p>{{ doc.moa_commun }}</p>
 					</div>
 				</li>
 			</ul>
@@ -116,10 +101,11 @@
 					</figcaption>
 				</figure>
 			</div> ------>
-
+			<!---
 			<div class="reference-description">
 				<ContentRenderer :value="doc" />
 			</div>
+			--->
 		</ContentDoc>
 	</main>
 </template>
@@ -152,20 +138,16 @@
 	object-fit: contain;
 }
 
-.reference-info-acteurs {
-	width: 50%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 2rem;
-	gap: 3rem;
-}
-
 .reference-info {
+	padding: 0;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
+}
+
+.reference-info-ligne {
+	display: flex;
+	flex-direction: row;
 }
 
 h1 {

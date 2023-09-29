@@ -1,8 +1,10 @@
 ---
 type: Les conceptuels
-cover_title :
+cover_title : Carnon
 title: Carnon
 published: TRUE
+
+concept: "Une place assise pour toute la famille" 
 
 gamme: "?"
 
@@ -13,8 +15,12 @@ carousel:
     - "/references/carousel/page-entree.jpg"
     - "/references/carousel/page-entree.jpg"
 
-prem_loc: "Port de Plaisance, Carnon"
-prem_client: "Ville de Carnon / Gauthier-Conquet / Egis"
+localisation: "Port de Plaisance / Carnon"
+client: "Ville de Carnon / Gauthier-Conquet / EGIS"
+archi_be:
+
+prem_loc:
+prem_client:
 prem_archi_be:
 
 sec_loc:
@@ -23,17 +29,15 @@ sec_archi_be:
 
 moa_commun:
 
-installateur:
-fabricant: "Mobilum / Colas"
+installateur: "Mobilum / Colas"
+fabricant: 
 
-date_realisation: "?"
+date_realisation: "2022"
 date_demarrage:
 duree_marche:
 
 recompense:
-concept:
+
 ---
 
 ## Description
-
-"Une place assise pour toute la famille"

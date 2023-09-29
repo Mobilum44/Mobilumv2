@@ -12,8 +12,12 @@ cover_text: "Mobilier pour le siège de Chanel"
 carousel:
     - "/references/carousel/page-entree.jpg"
 
-prem_loc: "Siège de Chanel"
-prem_client: "Chanel"
+localisation: "Siège de Chanel"
+client: "Chanel"
+archi_be:
+
+prem_loc:
+prem_client:
 prem_archi_be:
 
 sec_loc:

@@ -14,8 +14,12 @@ carousel:
     - "/references/carousel/Piano-Rezzo-ENS-Saclay.jpg"
     - "/references/carousel/Piano-Rezzo-Paris-Saclay.jpg"
 
-prem_loc: "ENS, Paris Saclay"
-prem_client: "Renzo Piano / Chercher nom installateur"
+localisation: "ENS, Paris Saclay"
+client: "Renzo Piano / Chercher nom installateur"
+archi_be:
+
+prem_loc:
+prem_client:
 prem_archi_be:
 
 sec_loc:

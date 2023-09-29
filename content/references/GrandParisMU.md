@@ -13,8 +13,12 @@ cover_text: "On a refait l'intérieur des gares"
 carousel:
     - "references/carousel/gros-plan-SGP.jpg"
 
-prem_loc: "Toutes les gares du Grand Paris"
-prem_client: "SGP / Agence Patrick Jouin"
+localisation: "Toutes les gares du Grand Paris"
+client: "SGP / Agence Patrick Jouin"
+archi_be:
+
+prem_loc:
+prem_client:
 prem_archi_be:
 
 sec_loc:

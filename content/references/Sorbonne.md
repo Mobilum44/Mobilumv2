@@ -13,9 +13,13 @@ carousel:
     - "/references/carousel/page-entree.jpg"
     - "/references/carousel/page-entree.jpg"
 
-prem_loc: "Campus Malesherbes, Sorbonne Université"
-prem_client: "La Sorbonne / Folius"
-prem_archi_be: "nom/société"
+localisation: "Campus Malesherbes, Sorbonne Université"
+client: "La Sorbonne / Folius"
+archi_be: "nom/société"
+
+prem_loc:
+prem_client:
+prem_archi_be:
 
 sec_loc:
 sec_client:

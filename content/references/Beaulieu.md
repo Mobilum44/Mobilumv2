@@ -1,9 +1,11 @@
 ---
 type: Les remarquables
-cover_title :
+cover_title : Puilboreau
 title: Puilboreau
-sub_title: Une gamme complète
+sub_title:
 published: TRUE
+
+concept: Une gamme complète de mobiliers urbains
 
 gamme: "?"
 
@@ -14,8 +16,12 @@ carousel:
     - "/references/carousel/page-entree.jpg"
     - "/references/carousel/page-entree.jpg"
 
-prem_loc: "Centre commercial Beaulieu"
-prem_client: "La Rochelle Agglomération / Forma6"
+localisation: "Centre commercial Beaulieu"
+client: "La Rochelle Agglomération / Forma6"
+archi_be:
+
+prem_loc:
+prem_client:
 prem_archi_be:
 
 sec_loc:
@@ -32,7 +38,6 @@ date_demarrage:
 duree_marche:
 
 recompense:
-concept:
 ---
 
 ## Description

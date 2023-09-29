@@ -13,6 +13,10 @@ carousel:
     - "/references/carousel/page-entree.jpg"
     - "/references/carousel/banc-feuille-roquefert-mobilum.png"
 
+localisation:
+client:
+archi_be:
+
 prem_loc:
 prem_client:
 prem_archi_be:

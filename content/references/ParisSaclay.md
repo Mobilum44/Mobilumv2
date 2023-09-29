@@ -15,8 +15,12 @@ carousel:
     - "/references/carousel/villa-gallo-romaine.jpg"
     - "/references/carousel/villa-gallo-romaine-nuit.jpg"
 
-prem_loc: "Plateau de Paris Saclay"
-prem_client: "Saclay Université / Alexandre Moronnoz"
+localisation: "Plateau de Paris Saclay"
+client: "Saclay Université / Alexandre Moronnoz"
+archi_be:
+
+prem_loc:
+prem_client:
 prem_archi_be:
 
 sec_loc:

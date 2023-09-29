@@ -12,8 +12,12 @@ cover_text: "Une table infinie"
 carousel:
     - "/references/carousel/vertou-vertable.jpg"
 
-prem_loc: "Parc de la Sèvre, Vertou"
-prem_client: "Ville de Vertou / Phytolab / Tugec"
+localisation: "Parc de la Sèvre, Vertou"
+client: "Ville de Vertou / Phytolab / Tugec"
+archi_be:
+
+prem_loc:
+prem_client:
 prem_archi_be:
 
 sec_loc:

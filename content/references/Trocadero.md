@@ -14,8 +14,12 @@ carousel:
     - "/references/carousel/page-entree.jpg"
     - "/references/carousel/page-entree.jpg"
 
-prem_loc: "Place du Trocadero, Paris"
-prem_client: "M. Bortolussi / Vinci / Pinson Paysage"
+localisation: "Place du Trocadero, Paris"
+client: "M. Bortolussi / Vinci / Pinson Paysage"
+archi_be:
+
+prem_loc:
+prem_client:
 prem_archi_be:
 
 sec_loc:
