@@ -27,7 +27,7 @@ sec_loc:
 sec_client:
 sec_archi_be:
 
-moa_commun:
+agent:
 
 installateur: "Mobilum / Colas"
 fabricant: 
@@ -37,6 +37,7 @@ date_demarrage:
 duree_marche:
 
 recompense:
+
 
 ---
 

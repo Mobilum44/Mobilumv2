@@ -1,7 +1,7 @@
 ---
 type: Les remarquables
-cover_title :
-title: Galets
+cover_title : Les Galets
+title: Les Galets
 sub__title: "Deux projets : Rouen / Fecamp"
 published: TRUE
 
@@ -14,28 +14,29 @@ carousel:
     - "/references/carousel/page-entree.jpg"
     - "/references/carousel/page-entree.jpg"
 
-localisation: "Rouan"
-client: "VIlle de Rouan / Folius"
-archi_be: ""
-prem_loc:
-prem_client:
+localisation:
+client: 
+archi_be:
+
+prem_loc: "Rouan"
+prem_client: "Ville de Rouan / Folius"
 prem_archi_be:
 
 sec_loc: "Fecamp"
 sec_client: "Ville de Fecamp / Soderef"
 sec_archi_be:
 
-moa_commun: "X-light"
+agent: "X-light"
 
 installateur:
-fabricant: "Mobilum"
+fabricant:
 
-date_realisation: "à retrouver"
+date_realisation: "20XX"
 date_demarrage:
 duree_marche:
-
 recompense:
-concept:
+
+concept: Pièces évidées / Design tout en rondeur / Monobloc
 ---
 
 ## Description

@@ -1,8 +1,8 @@
 ---
 type: Les conceptuels
-cover_title :
+cover_title : Campus de Saclay
 title: Campus de Saclay
-sub_title: Villa Gallo-Romaine
+sub_title: 
 published: TRUE
 
 gamme: "?"
@@ -15,7 +15,7 @@ carousel:
     - "/references/carousel/villa-gallo-romaine.jpg"
     - "/references/carousel/villa-gallo-romaine-nuit.jpg"
 
-localisation: "Plateau de Paris Saclay"
+localisation: "Villa Gallo-Romaine / Plateau de Paris Saclay"
 client: "Saclay Université / Alexandre Moronnoz"
 archi_be:
 
@@ -27,19 +27,19 @@ sec_loc:
 sec_client:
 sec_archi_be:
 
-moa_commun:
+agent:
 
 installateur:
 fabricant: "Tolerie Foreizienne / Mobilum"
 
-date_realisation: "?"
+date_realisation: "2022"
 date_demarrage:
 duree_marche:
-
 recompense:
-concept:
+
+concept: "De l'intelligence embarquée pour nos étudiants cablés "
 ---
 
 ## Description
 
-"De l'intelligence embarquée pour nos étudiants cablés "
+

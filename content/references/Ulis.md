@@ -1,7 +1,7 @@
 ---
 type: Les récompensés
-cover_title :
-title: Cimetière des Ulis
+cover_title : L'orme à Moineaux
+title: L'orme à Moineaux
 published: TRUE
 
 gamme: "?"
@@ -13,8 +13,8 @@ carousel:
     - "/references/carousel/page-entree.jpg"
     - "/references/carousel/banc-feuille-roquefert-mobilum.png"
 
-localisation:
-client:
+localisation: L'Orme à Moineaux / Cimetière des Ulis
+client: Mme Gourserol
 archi_be:
 
 prem_loc:
@@ -25,16 +25,16 @@ sec_loc:
 sec_client:
 sec_archi_be:
 
-moa_commun:
+agent:
 
-installateur:
-fabricant: "Mobilum"
+installateur: Essone TP
+fabricant:
 
-date_realisation: "?"
+date_realisation: "2018"
 date_demarrage:
 duree_marche:
+recompense: Trophées territoriaux du Funéraire - Animation cimetière & Valorisation du patrimoine
 
-recompense:
 concept:
 ---
 

@@ -1,6 +1,6 @@
 ---
 type: Les conceptuels
-cover_title :
+cover_title : Sorbonne université
 title: Sorbonne université
 published: TRUE
 
@@ -13,9 +13,9 @@ carousel:
     - "/references/carousel/page-entree.jpg"
     - "/references/carousel/page-entree.jpg"
 
-localisation: "Campus Malesherbes, Sorbonne Université"
+localisation: "Campus Malesherbes / Sorbonne Université"
 client: "La Sorbonne / Folius"
-archi_be: "nom/société"
+archi_be:
 
 prem_loc:
 prem_client:
@@ -25,19 +25,17 @@ sec_loc:
 sec_client:
 sec_archi_be:
 
-moa_commun:
+agent:
 
-installateur:
-fabricant: "Mobilum"
+installateur:  "S ......... / Mobilum"
+fabricant:
 
 date_realisation: "?"
 date_demarrage:
 duree_marche:
-
 recompense:
-concept:
+
+concept: "Amphithéatre extérieur afin d'acquérir du savoir en plein air "
 ---
 
 ## Description
-
-"Amphithéatre extérieur afin d'acquérir du savoir en plein air "

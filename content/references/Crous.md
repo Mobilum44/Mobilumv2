@@ -27,7 +27,7 @@ sec_loc:
 sec_client:
 sec_archi_be:
 
-moa_commun:
+agent:
 
 installateur:
 fabricant:
@@ -35,8 +35,8 @@ fabricant:
 date_realisation: "20XX"
 date_demarrage:
 duree_marche:
-
 recompense:
+
 
 ---
 

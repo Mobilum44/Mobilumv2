@@ -1,8 +1,8 @@
 ---
 type: Les remarquables
-cover_title :
+cover_title : ENS Paris Saclay
 title: ENS Paris Saclay
-sub_title: Un patio naturel et épuré
+sub_title:
 published: TRUE
 
 gamme: "?"
@@ -14,7 +14,7 @@ carousel:
     - "/references/carousel/Piano-Rezzo-ENS-Saclay.jpg"
     - "/references/carousel/Piano-Rezzo-Paris-Saclay.jpg"
 
-localisation: "ENS, Paris Saclay"
+localisation: "Ecole Normale Supérieure (ENS) / Paris Saclay"
 client: "Renzo Piano / Chercher nom installateur"
 archi_be:
 
@@ -26,7 +26,7 @@ sec_loc:
 sec_client:
 sec_archi_be:
 
-moa_commun:
+agent:
 
 installateur:
 fabricant: "Mobilum"
@@ -34,11 +34,10 @@ fabricant: "Mobilum"
 date_realisation: "?"
 date_demarrage:
 duree_marche:
-
 recompense:
-concept:
+
+concept: Un patio de nature
 ---
 
 ## Description
 
-"xxxxxxxxxx"

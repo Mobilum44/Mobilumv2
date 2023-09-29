@@ -25,7 +25,7 @@ sec_loc:
 sec_client:
 sec_archi_be:
 
-moa_commun:
+agent:
 
 installateur:
 fabricant: "OSS / Mobilum"
@@ -33,8 +33,8 @@ fabricant: "OSS / Mobilum"
 date_realisation:
 date_demarrage: "2023"
 duree_marche:
-
 recompense:
+
 concept: "...?"
 ---
 

@@ -25,7 +25,7 @@ sec_loc:
 sec_client:
 sec_archi_be:
 
-moa_commun:
+agent:
 
 installateur:
 fabricant: "Mobilum / Synthèse"
@@ -33,8 +33,8 @@ fabricant: "Mobilum / Synthèse"
 date_realisation:
 date_demarrage: "2023"
 duree_marche:
-
 recompense:
+
 concept: "...?"
 ---
 

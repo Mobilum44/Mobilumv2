@@ -1,8 +1,8 @@
 ---
 type: Les récompensés
-cover_title :
+cover_title : St Cyr sur Loire
 title: St Cyr sur Loire
-sub_title: Parc
+sub_title:
 published: TRUE
 
 gamme: "?"
@@ -11,12 +11,15 @@ cover_image: "/references/cover_image/feuille-roquefere.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
 carousel:
-    - "/references/carousel/page-entree.jpg"
-    - "/references/carousel/banc-feuille-roquefert-mobilum.png"
+    - "/references/carousel/st-cyr-vue-generale.jpeg"
+    - "/references/carousel/parc-st-cyr-chaise-obrac.jpg"
+    - "/references/carousel/st-cyr-banc-chaise-obrac.jpg"
+    - "/references/carousel/totem-st-cyr-mobilum.jpg"
+    - "/references/carousel/appui-velo-track-st-cyr.jpg"
 
-localisation:
-client:
-archi_be:
+localisation: Parc de Montjoie / St Cyr sur Loire
+client: 
+archi_be: Hessamfar & Vérons architectes
 
 prem_loc:
 prem_client:
@@ -26,19 +29,17 @@ sec_loc:
 sec_client:
 sec_archi_be:
 
-moa_commun:
+agent: Deltadis
 
-installateur:
-fabricant: "Mobilum"
+installateur: IDVerde
+fabricant:
 
-date_realisation: "?"
+date_realisation: "2019"
 date_demarrage:
 duree_marche:
+recompense: "European Architecture Awards 2020"
 
-recompense:
-concept:
+concept: "?"
 ---
 
 ## Description
-
-"Intégrer nom de la récompense"

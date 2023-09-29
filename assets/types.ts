@@ -16,7 +16,7 @@ export interface Reference extends ParsedContent {
 	sec_loc: string;
 	sec_client: string;
 	sec_archi_be: string;
-	moa_commun: string;
+	agent: string;
 	installateur: string;
 	fabricant: string;
 	date_realisation: string;
@@ -27,6 +27,7 @@ export interface Reference extends ParsedContent {
 	localisation: string;
 	client: string;
 	archi_be: string;
+	agent : string;
 }
 
 export interface Product extends ParsedContent {

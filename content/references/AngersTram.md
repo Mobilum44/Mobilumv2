@@ -28,7 +28,7 @@ sec_loc:
 sec_client:
 sec_archi_be:
 
-moa_commun:
+agent:
 
 installateur:
 fabricant: "Mobilum / Ingénia"
@@ -36,8 +36,8 @@ fabricant: "Mobilum / Ingénia"
 date_realisation: "2019"
 date_demarrage:
 duree_marche:
-
 recompense:
+
 
 ---
 

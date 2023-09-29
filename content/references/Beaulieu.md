@@ -28,7 +28,7 @@ sec_loc:
 sec_client:
 sec_archi_be:
 
-moa_commun:
+agent:
 
 installateur:
 fabricant: "Mobilum / IDVerdé"
@@ -36,8 +36,8 @@ fabricant: "Mobilum / IDVerdé"
 date_realisation: "?"
 date_demarrage:
 duree_marche:
-
 recompense:
+
 ---
 
 ## Description

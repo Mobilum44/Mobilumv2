@@ -1,6 +1,6 @@
 ---
 type: Les conceptuels
-cover_title :
+cover_title : Vertable
 title: Vertable
 published: TRUE
 
@@ -12,7 +12,7 @@ cover_text: "Une table infinie"
 carousel:
     - "/references/carousel/vertou-vertable.jpg"
 
-localisation: "Parc de la Sèvre, Vertou"
+localisation: "Parc de la Sèvre / Vertou"
 client: "Ville de Vertou / Phytolab / Tugec"
 archi_be:
 
@@ -24,19 +24,17 @@ sec_loc:
 sec_client:
 sec_archi_be:
 
-moa_commun:
+agent:
 
 installateur:
-fabricant: "Mobilum"
+fabricant:
 
-date_realisation: "?"
+date_realisation: "2022"
 date_demarrage:
 duree_marche:
-
 recompense:
-concept:
+
+concept: "Le buffet d'Astérix et Obelix a de la concurrence sur Vertou (inverser cover_text et concept ?)"
 ---
 
 ## Description
-
-## "Le buffet d'Astérix et Obelix a de la concurrence sur Vertou "

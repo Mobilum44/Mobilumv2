@@ -14,60 +14,64 @@
 				</li>
 
 				<li>
-					<div v-if="doc.fabricant">
-						<p><em>Fabricants</em>: {{ doc.fabricant }}</p>
-					</div>
-				</li>
-
-				<li class="reference-info-ligne">
-					<!---- Dates du projet --->
-					<div v-if="doc.date_realisation">{{ doc.date_realisation }}</div>
-					<div v-if="doc.date_demarrage">/ {{ doc.date_demarrage }}</div>
-					<div v-if="doc.duree_marche">/ {{ doc.duree_marche }}</div>
-
-					<!-----Localisation sur la même ligne ----->
-					<div v-if="doc.prem_loc"><b>(espace)</b>/ {{ doc.prem_loc }}</div>
-				</li>
-
-				<li>
-					<div v-if="doc.recompense">
-						<p><em>Récompense</em>: {{ doc.recompense }}</p>
-					</div>
-				</li>
-
-				<!-----Si jamais il y a eu 2 marchés pour le même projet ------>
-				<li>
-					<div v-if="doc.prem_client">{{ doc.prem_client }}</div>
-					<div v-if="doc.prem_archi_be">/ {{ doc.prem_archi_be }}</div>
-				</li>
-				<li>
-					<div v-if="doc.sec_loc">
-						<p>{{ doc.sec_loc }}</p>
-					</div>
-				</li>
-
-				<li>
-					<div v-if="doc.sec_client">
-						<p>{{ doc.sec_client }}</p>
-					</div>
-				</li>
-
-				<li>
-					<div v-if="doc.sec_archi_be">
-						<p>{{ doc.sec_archi_be }}</p>
-					</div>
-				</li>
-
-				<li>
 					<div v-if="doc.installateur">
 						<p>{{ doc.installateur }}</p>
 					</div>
 				</li>
 			</ul>
 
-			<div v-if="doc.concept">
-				<p><em>Concept</em>: {{ doc.concept }}</p>
-			</div>
+			<ul class="reference-info-ligne">
+				<!---- Mise en page spéciale (Galets): 2 marchés ------------>
+				<li class="reference-info-colonne">
+					<div v-if="doc.prem_loc">
+						<p>{{ doc.prem_loc }}</p>
+					</div>
+					<div v-if="doc.prem_client">{{ doc.prem_client }}</div>
+					<div v-if="doc.prem_archi_be">/ {{ doc.prem_archi_be }}</div>
+				</li>
+				<li class="reference-info-colonne">
+					<div v-if="doc.sec_loc">
+						<p>{{ doc.sec_loc }}</p>
+					</div>
+					<div v-if="doc.sec_client">{{ doc.sec_client }}</div>
+					<div v-if="doc.sec_archi_be">{{ doc.sec_archi_be }}</div>
+				</li>
+			</ul>
+
+			<ul class="reference-info">
+				<li>
+					<div v-if="doc.fabricant">
+						<p><em>Fabricants</em>: {{ doc.fabricant }}</p>
+					</div>
+				</li>
+
+				<li>
+					<div v-if="doc.agent">
+						<p><em>Agence</em>: {{ doc.agent }}</p>
+					</div>
+				</li>
+
+				<li class="reference-info-ligne">
+					<!---- Dates du projet --->
+					<div v-if="doc.date_realisation">{{ doc.date_realisation }} /</div>
+					<div v-if="doc.date_demarrage">{{ doc.date_demarrage }} /</div>
+					<div v-if="doc.duree_marche">{{ doc.duree_marche }} /</div>
+
+					<!-----Localisation sur la même ligne ----->
+					<div v-if="doc.localisation"><b> (espace)</b>{{ doc.localisation }}</div>
+				</li>
+			</ul>
+			<ul class="reference-info">
+				<li>
+					<div v-if="doc.recompense">
+						<p><em>Récompense</em>: {{ doc.recompense }}</p>
+						<br />
+					</div>
+				</li>
+				<div v-if="doc.concept">
+					<p><em>Concept</em>: {{ doc.concept }}</p>
+				</div>
+			</ul>
 
 			<div class="reference-carousel wide">
 				<ul>
@@ -76,14 +80,6 @@
 					</li>
 				</ul>
 			</div>
-
-			<ul class="reference-info">
-				<li>
-					<div v-if="doc.moa_commun">
-						<p>{{ doc.moa_commun }}</p>
-					</div>
-				</li>
-			</ul>
 
 			<!---			<div class="reference-image">
 				<figure>
@@ -111,6 +107,14 @@
 </template>
 
 <style scoped>
+h1 {
+	color: black;
+	border: none;
+	border-bottom: solid black 1px;
+	text-align: center;
+	font-size: 300%;
+	margin: 0;
+}
 .reference {
 	margin-top: 17vh;
 	width: 80%;
@@ -126,6 +130,28 @@
 	flex-direction: column;
 	align-items: center;
 }
+.reference-info {
+	padding: 0;
+	margin-top: 1.5rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.reference-info-ligne {
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.reference-info-colonne {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
 .reference-carousel {
 	width: 100%;
@@ -136,27 +162,6 @@
 .reference-carousel img {
 	max-width: 100%;
 	object-fit: contain;
-}
-
-.reference-info {
-	padding: 0;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.reference-info-ligne {
-	display: flex;
-	flex-direction: row;
-}
-
-h1 {
-	color: black;
-	border: none;
-	border-bottom: solid black 1px;
-	text-align: center;
-	font-size: 300%;
-	margin: 0;
 }
 
 @media only screen and (max-width: 950px) {
