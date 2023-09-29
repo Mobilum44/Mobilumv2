@@ -15,15 +15,16 @@ carousel:
     - "/references/carousel/page-entree.jpg"
 
 prem_loc: "Place du Trocadero, Paris"
-prem_moe: "M. Bortolussi / Vinci / Pinson Paysage"
-prem_moa:
+prem_client: "M. Bortolussi / Vinci / Pinson Paysage"
+prem_archi_be:
 
 sec_loc:
-sec_moe:
-sec_moa:
+sec_client:
+sec_archi_be:
 
 moa_commun:
 
+installateur:
 fabricant: "Mobilum"
 
 date_realisation: "2022"

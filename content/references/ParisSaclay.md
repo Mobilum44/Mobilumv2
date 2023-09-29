@@ -16,15 +16,16 @@ carousel:
     - "/references/carousel/villa-gallo-romaine-nuit.jpg"
 
 prem_loc: "Plateau de Paris Saclay"
-prem_moe: "Saclay Université / Alexandre Moronnoz"
-prem_moa:
+prem_client: "Saclay Université / Alexandre Moronnoz"
+prem_archi_be:
 
 sec_loc:
-sec_moe:
-sec_moa:
+sec_client:
+sec_archi_be:
 
 moa_commun:
 
+installateur:
 fabricant: "Tolerie Foreizienne / Mobilum"
 
 date_realisation: "?"

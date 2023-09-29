@@ -15,15 +15,16 @@ carousel:
     - "/references/carousel/page-entree.jpg"
 
 prem_loc: "Centre commercial Beaulieu"
-prem_moe: "La Rochelle Agglomération / Forma6"
-prem_moa:
+prem_client: "La Rochelle Agglomération / Forma6"
+prem_archi_be:
 
 sec_loc:
-sec_moe:
-sec_moa:
+sec_client:
+sec_archi_be:
 
 moa_commun:
 
+installateur:
 fabricant: "Mobilum / IDVerdé"
 
 date_realisation: "?"

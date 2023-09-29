@@ -14,15 +14,16 @@ carousel:
     - "/references/carousel/banc-feuille-roquefert-mobilum.png"
 
 prem_loc: "Campus Tertre, Nantes"
-prem_moe: "Crous de Nantes"
-prem_moa:
+prem_client: "Crous de Nantes"
+prem_archi_be:
 
 sec_loc:
-sec_moe:
-sec_moa:
+sec_client:
+sec_archi_be:
 
 moa_commun:
 
+installateur:
 fabricant: "Mobilum"
 
 date_realisation: "2023"

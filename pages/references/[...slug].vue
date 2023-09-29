@@ -79,7 +79,10 @@
 					</li>
 				</div>
 			</ul>
-			
+
+			<div v-if="doc.concept">
+				<p><em>Concept</em>: {{ doc.concept }}</p>
+			</div>
 
 			<div class="reference-carousel wide">
 				<ul>
@@ -88,8 +91,6 @@
 					</li>
 				</ul>
 			</div>
-
-
 
 			<ul class="reference-info">
 				<li>
@@ -127,7 +128,7 @@
 .reference {
 	margin-top: 17vh;
 	width: 80%;
-	display : flex;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
@@ -135,7 +136,7 @@
 	padding: 2rem;
 	width: 80%;
 	border: solid black 1px;
-	display : flex;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
@@ -153,7 +154,7 @@
 
 .reference-info-acteurs {
 	width: 50%;
-	display : flex;
+	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
@@ -162,7 +163,7 @@
 }
 
 .reference-info {
-	display : flex;
+	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 }

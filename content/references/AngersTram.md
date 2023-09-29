@@ -15,15 +15,16 @@ carousel:
     - "/references/carousel/page-entree.jpg"
 
 prem_loc: "Ligne 2 Angers"
-prem_moe: "Angers métropole"
-prem_moa:
+prem_client: "Angers métropole"
+prem_archi_be:
 
 sec_loc:
-sec_moe:
-sec_moa:
+sec_client:
+sec_archi_be:
 
 moa_commun:
 
+installateur:
 fabricant: "Mobilum / Ingénia"
 
 date_realisation: "?"

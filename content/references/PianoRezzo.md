@@ -15,15 +15,16 @@ carousel:
     - "/references/carousel/Piano-Rezzo-Paris-Saclay.jpg"
 
 prem_loc: "ENS, Paris Saclay"
-prem_moe: "Renzo Piano / Chercher nom installateur"
-prem_moa:
+prem_client: "Renzo Piano / Chercher nom installateur"
+prem_archi_be:
 
 sec_loc:
-sec_moe:
-sec_moa:
+sec_client:
+sec_archi_be:
 
 moa_commun:
 
+installateur:
 fabricant: "Mobilum"
 
 date_realisation: "?"

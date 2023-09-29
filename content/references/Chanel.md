@@ -13,15 +13,16 @@ carousel:
     - "/references/carousel/page-entree.jpg"
 
 prem_loc: "Siège de Chanel"
-prem_moe: "Chanel"
-prem_moa:
+prem_client: "Chanel"
+prem_archi_be:
 
 sec_loc:
-sec_moe:
-sec_moa:
+sec_client:
+sec_archi_be:
 
 moa_commun:
 
+installateur:
 fabricant: "Mobilum"
 
 date_realisation: "2023"

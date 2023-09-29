@@ -17,15 +17,16 @@ carousel:
     - "/references/carousel/gare-lyon-part-dieu.JPG"
 
 prem_loc: "Toutes les gares de France"
-prem_moe: "SNCF / AREP"
-prem_moa:
+prem_client: "SNCF / AREP"
+prem_archi_be:
 
 sec_loc:
-sec_moe:
-sec_moa:
+sec_client:
+sec_archi_be:
 
 moa_commun:
 
+installateur:
 fabricant: "Synthèse / Mobilum"
 
 date_realisation:

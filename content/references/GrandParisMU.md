@@ -14,15 +14,16 @@ carousel:
     - "references/carousel/gros-plan-SGP.jpg"
 
 prem_loc: "Toutes les gares du Grand Paris"
-prem_moe: "SGP / Agence Patrick Jouin"
-prem_moa:
+prem_client: "SGP / Agence Patrick Jouin"
+prem_archi_be:
 
 sec_loc:
-sec_moe:
-sec_moa:
+sec_client:
+sec_archi_be:
 
 moa_commun:
 
+installateur:
 fabricant: "Mobilum / Synthèse"
 
 date_realisation:

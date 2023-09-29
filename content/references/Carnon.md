@@ -14,15 +14,16 @@ carousel:
     - "/references/carousel/page-entree.jpg"
 
 prem_loc: "Port de Plaisance, Carnon"
-prem_moe: "Ville de Carnon / Gauthier-Conquet / Egis"
-prem_moa:
+prem_client: "Ville de Carnon / Gauthier-Conquet / Egis"
+prem_archi_be:
 
 sec_loc:
-sec_moe:
-sec_moa:
+sec_client:
+sec_archi_be:
 
 moa_commun:
 
+installateur:
 fabricant: "Mobilum / Colas"
 
 date_realisation: "?"

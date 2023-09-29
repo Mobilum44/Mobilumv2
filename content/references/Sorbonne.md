@@ -14,15 +14,16 @@ carousel:
     - "/references/carousel/page-entree.jpg"
 
 prem_loc: "Campus Malesherbes, Sorbonne Université"
-prem_moe: "La Sorbonne / Folius"
-prem_moa: "nom/société"
+prem_client: "La Sorbonne / Folius"
+prem_archi_be: "nom/société"
 
 sec_loc:
-sec_moe:
-sec_moa:
+sec_client:
+sec_archi_be:
 
 moa_commun:
 
+installateur:
 fabricant: "Mobilum"
 
 date_realisation: "?"

@@ -15,15 +15,16 @@ carousel:
     - "/references/carousel/page-entree.jpg"
 
 prem_loc: "Rouan"
-prem_moe: "VIlle de Rouan / Folius"
-prem_moa:
+prem_client: "VIlle de Rouan / Folius"
+prem_archi_be:
 
 sec_loc: "Fecamp"
-sec_moe: "Ville de Fecamp / Soderef"
-sec_moa:
+sec_client: "Ville de Fecamp / Soderef"
+sec_archi_be:
 
 moa_commun: "X-light"
 
+installateur:
 fabricant: "Mobilum"
 
 date_realisation: "à retrouver"
