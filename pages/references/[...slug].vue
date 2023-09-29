@@ -39,14 +39,6 @@
 				</li>
 			</ul>
 
-			<div class="reference-carousel wide">
-				<ul>
-					<li v-for="(img, i) in doc.carousel" :key="i">
-						<NuxtImg :src="img" width="1900" format="avif,webp" placeholder loading="lazy" />
-					</li>
-				</ul>
-			</div>
-
 			<ul class="reference-info-acteurs">
 				<div>
 					<li>
@@ -87,6 +79,17 @@
 					</li>
 				</div>
 			</ul>
+			
+
+			<div class="reference-carousel wide">
+				<ul>
+					<li v-for="(img, i) in doc.carousel" :key="i">
+						<NuxtImg :src="img" width="1900" format="avif,webp" placeholder loading="lazy" />
+					</li>
+				</ul>
+			</div>
+
+
 
 			<ul class="reference-info">
 				<li>

@@ -31,6 +31,7 @@ date_demarrage:
 duree_marche:
 
 recompense:
+concept:
 ---
 
 ## Description

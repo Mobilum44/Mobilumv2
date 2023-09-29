@@ -35,7 +35,7 @@
 					<ul class="references-list">
 						<li v-for="reference in references?.filter((r) => r.type === typ)" :key="reference._id">
 							<CarteMarches
-								:title="reference.title"
+								:title="reference.cover_title"
 								:path="reference._path"
 								:img="reference.cover_image"
 								loading="lazy"

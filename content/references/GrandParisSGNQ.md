@@ -29,7 +29,8 @@ date_realisation:
 date_demarrage: "2023"
 duree_marche:
 
-recompense: "...?"
+recompense:
+concept: "...?"
 ---
 
 ## Description
