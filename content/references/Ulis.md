@@ -10,8 +10,13 @@ cover_image: "/references/cover_image/feuille-roquefere.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
 carousel:
-    - "/references/carousel/page-entree.jpg"
-    - "/references/carousel/banc-feuille-roquefert-mobilum.png"
+    - "/references/carousel/ulis-entree-jardiniere-asturias.jpg"
+    - "/references/carousel/ulis-entree-cimetiere.jpg"
+    - "/references/carousel/ulis-totem-orme-a-moineaux.jpg"
+    - "/references/carousel/ulis-banc-elium-corbeille-vigipirate.jpg"
+    - "/references/carousel/ulis-gros-plan-fontaine.jpg"
+    - "/references/carousel/ulis-gros-plan-jardiniere-ronde.jpg"
+    - "/references/carousel/ulis-gros-plan-jardiniere-carree.jpg"
 
 localisation: L'Orme à Moineaux / Cimetière des Ulis
 client: Mme Gourserol
