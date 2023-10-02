@@ -7,6 +7,14 @@ category: Assise
 sub_category: 02 Chaise
 gamme: OBRAC
 finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation:
 cover_image: "/produits/cover_image/chaise-obrac.jpg"
 carousel:
     - "/produits/chaises-obrac-la-rochelle.jpg"

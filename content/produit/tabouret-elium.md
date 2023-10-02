@@ -7,6 +7,14 @@ category: Assise
 sub_category: 01 Tabouret
 gamme: ELIUM
 finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation:
 cover_image: "/produits/cover_image/tabouret-elium.jpg"
 carousel:
     - "/produits/tabouret-et-banquette-elium.jpg"

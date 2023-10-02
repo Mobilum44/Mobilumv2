@@ -38,7 +38,15 @@ export interface Product extends ParsedContent {
 	category: string;
 	sub_category: string;
 	gamme: string;
-	finitions: string;
+	finitions:string;
+	motif_prem: string;
+	motif_sec: string;
+	motif_ter: string;
+	portes_prem: string;
+	portes_sec: string;
+	portes_ter: string;
+	options: string;
+	personnalisation: string;
 	cover_image: string;
 	carousel: string[];
 	filaire: string[];

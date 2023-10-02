@@ -1,12 +1,20 @@
 ---
 title: Banquette ORIGAMI
 published: TRUE
-designer: Forma6
+designer:
 collection: Mobilier urbain
 category: Assise
 sub_category: 05 Banquette
 gamme: ORIGAMI
 finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation:
 cover_image: "/produits/cover_image/banquette-origami.jpg"
 carousel:
     - "/produits/banquette-origami.jpg"

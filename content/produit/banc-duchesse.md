@@ -1,12 +1,20 @@
 ---
 title: Banc DUCHESSE
 published: TRUE
-designer: Forma6
+designer:
 collection: Mobilier urbain
 category: Assise
 sub_category: 06 Banc
 gamme: DUCHESSE
 finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation:
 cover_image: "/produits/cover_image/banc-duchesse.jpg"
 carousel:
     - "/produits/banc-duchesse-bruz.JPG"

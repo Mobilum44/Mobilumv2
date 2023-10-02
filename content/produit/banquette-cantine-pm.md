@@ -6,7 +6,15 @@ collection: Mobilier urbain
 category: Assise
 sub_category: 05 Banquette
 gamme: CANTINE
-finitions: PM
+finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation: PM
 cover_image: "/produits/cover_image/banquette-cantine-pm.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"

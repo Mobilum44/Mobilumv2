@@ -7,6 +7,14 @@ category: Table
 sub_category: 11 Table
 gamme: VERTABLE
 finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation:
 cover_image: "/produits/cover_image/table-vertable.jpg"
 carousel:
     - "/produits/table-vertable-loroux-jaune.jpg"

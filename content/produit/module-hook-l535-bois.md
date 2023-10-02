@@ -6,7 +6,15 @@ collection: HOOK
 category: Assise
 sub_category: 01 Module
 gamme: HOOK
-finitions: L535 bois
+finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem: Image Bois
+portes_sec: Image Alu Compo
+portes_ter: 
+options:
+personnalisation: L535 bois
 cover_image: "/produits/cover_image/hook-765-bois.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"

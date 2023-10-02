@@ -6,7 +6,15 @@ collection: Mobilier urbain
 category: Jardinière
 sub_category: 14 Jardinière
 gamme: ASTURIAS
-finitions: lisse
+finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation: lisse
 cover_image: "/produits/cover_image/jardiniere-asturias-carree-lisse.jpg"
 carousel:
     - "/produits/jardiniere-asturias-carree-vegetale.png"

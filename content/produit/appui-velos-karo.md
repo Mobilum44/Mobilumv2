@@ -7,6 +7,14 @@ category: Appui-vélos
 sub_category: 18 Appui-vélos
 gamme: KARO
 finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation:
 cover_image: "/produits/cover_image/appuis-velo-karo.jpg"
 carousel:
     - "/produits/appui-velo-karo-vicat.jpg"

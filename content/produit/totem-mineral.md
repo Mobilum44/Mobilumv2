@@ -7,6 +7,14 @@ category: Totem
 sub_category: Totem
 gamme: MINERAL
 finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation:
 cover_image: "/produits/cover_image/totem-mineral-plein.jpg"
 carousel:
     - "/produits/totem-ulis.jpg"

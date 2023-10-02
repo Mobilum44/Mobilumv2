@@ -7,6 +7,14 @@ category: Assise
 sub_category: 91 Assise
 gamme: STELAG
 finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation:
 cover_image: "/produits/cover_image/galet-1-assise.jpg"
 carousel:
     - "/produits/attente-showroom.jpg"

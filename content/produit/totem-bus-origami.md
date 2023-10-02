@@ -1,12 +1,20 @@
 ---
 title: Totem BUS
 published: TRUE
-designer: Forma6
+designer:
 collection: Signalétique
 category: Totem
 sub_category: Totem bus
 gamme: ORIGAMI
 finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation:
 cover_image: "/produits/cover_image/totem-origami-bus.jpg"
 carousel:
     - "/produits/totem-bus-origami.png"

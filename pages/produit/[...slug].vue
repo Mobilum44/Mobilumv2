@@ -1,7 +1,5 @@
 <template>
-
-
-<!---- Penser aux hook et signalétique : HOOK / Personnalisation-->
+	<!---- Penser aux hook et signalétique : HOOK / Personnalisation-->
 	<ContentDoc v-slot="{ doc }">
 		<section class="page_top content-produits">
 			<div class="title">
@@ -49,10 +47,10 @@
 		<section class="sub__section">
 			<h2>Nos finitions</h2>
 			<div class="sub__section__content">
-				<div class="sub__finitions">
+				<div class="sub__couleurs">
 					<p class="strong">Couleurs naturelles</p>
 					<div class="type">
-						<div class="type__finition">
+						<div class="type__couleurs">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -65,7 +63,7 @@
 							/>
 							<p>Gris foncé<br />(BCV Brut)</p>
 						</div>
-						<div class="type__finition">
+						<div class="type__couleurs">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -81,10 +79,10 @@
 					</div>
 				</div>
 
-				<div class="sub__finitions">
+				<div class="sub__couleurs">
 					<p class="strong">Teinté dans la masse</p>
 					<div class="type">
-						<div class="type__finition">
+						<div class="type__couleurs">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -97,7 +95,7 @@
 							/>
 							<p>Taupe</p>
 						</div>
-						<div class="type__finition">
+						<div class="type__couleurs">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -110,7 +108,7 @@
 							/>
 							<p>Rose pastel</p>
 						</div>
-						<div class="type__finition">
+						<div class="type__couleurs">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -126,17 +124,35 @@
 					</div>
 				</div>
 
-				<div class="sub__finitions">
+				<div class="sub__couleurs">
 					<p class="strong">Peinture polyuréthane</p>
 					<div class="type">Tous les RAL sont possibles. Consultez-nous pour discuter de votre projet.</div>
 				</div>
+			</div>
+
+			<div class="sub__section__content">
+				<div v-if="doc.finitions">{{ doc.finitions }}</div>
+				<div v-if="doc.motifs">{{ doc.motifs }}</div>
+				<!--- mettre photos ici
+			<div class="general-filaire" v-for="(img, i) in doc.filaire" :key="i">
+				<NuxtImg :src="img" height="300px" />
+			</div>
+				-->
+
+				<div v-if="doc.portes">{{ doc.portes }} /</div>
+				<div v-if="doc.options">{{ doc.options }} /</div>
+				<div v-if="doc.personnalisation">{{ doc.personnalisation }} /</div>
 			</div>
 		</section>
 
 		<section class="sub__section">
 			<h2>Dans la même gamme...</h2>
-			<p><b>Lorsqu'il y en a trop, faire une scrollbar + enlever le produit en cours <br/>
-			Si la catégorie est vide, juste la supprimer</b></p>
+			<p>
+				<b
+					>Lorsqu'il y en a trop, faire une scrollbar + enlever le produit en cours <br />
+					Si la catégorie est vide, juste la supprimer</b
+				>
+			</p>
 			<ul class="famille-produit">
 				<li class="card" v-for="relatedProduct in relatedProducts" :key="relatedProduct._id">
 					<NuxtLink :to="relatedProduct._path">
@@ -179,6 +195,10 @@ const { data: relatedProducts } = await useAsyncData(
 </script>
 
 <style scoped>
+.strong {
+	font-family: montserrat;
+}
+
 /*-----------------------------------------------------------------
 		Sections générales
 	---------------------------------------------------------------*/
@@ -187,13 +207,12 @@ const { data: relatedProducts } = await useAsyncData(
 }
 .sub__section {
 	width: 80%;
+	border: solid blue;
 }
 
-.strong {
-	font-family: montserrat;
-}
 .sub__section__content {
-	display : flex;
+	border: solid pink;
+	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 }
@@ -202,14 +221,14 @@ const { data: relatedProducts } = await useAsyncData(
 	---------------------------------------------------------------*/
 .page_top {
 	width: 100%;
-	display : flex;
+	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
 
 .title {
 	width: 100%;
-	display : flex;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
@@ -287,10 +306,10 @@ h1 {
 		Zone détails
 	---------------------------------------------------------------*/
 
-.sub__finitions {
+.sub__couleurs {
 	margin-top: 0;
-
-	display : flex;
+	border: solid yellow;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 33%;
@@ -299,15 +318,15 @@ h1 {
 	width: 100%;
 	padding: 1rem;
 
-	display : flex;
+	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	gap: 1rem;
 	align-items: flex-start;
 }
 
-.type__finition {
-	display : flex;
+.type__couleurs {
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
@@ -322,7 +341,7 @@ h1 {
 				Pour faire le scroll : http://www.css3create.com/Slider-Galerie-photos-en-boucle-en-CSS3
 --------------------------------------------------------------------------------------------*/
 .famille-produit {
-	display : flex;
+	display: flex;
 	flex-direction: row;
 }
 
@@ -343,7 +362,7 @@ h1 {
 
 .card img {
 	object-fit: cover;
-	width : 100%;
+	width: 100%;
 	opacity: 1;
 	z-index: 99;
 }
@@ -354,9 +373,7 @@ h1 {
 	left: 50%;
 	transform: translate(-50%, -50%);
 
-	text-shadow:
-		rgba(0, 0, 0, 0.19) 0px 10px 20px,
-		rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
 	z-index: 1;
 	opacity: 0;
@@ -379,10 +396,6 @@ h1 {
 	opacity: 0.3;
 	transition: all 0.3s ease-in-out;
 }
-
-
-
-
 
 /* ------------------------------------------------------------------------------------------
 				RESPONSIVE TELEPHONES

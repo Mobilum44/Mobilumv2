@@ -7,6 +7,14 @@ category: Transat
 sub_category: 09 Transat
 gamme: CAMAH
 finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation:
 cover_image: "/produits/cover_image/transat-camah.jpg"
 carousel:
     - "/produits/transat-camah-cucq.JPG"

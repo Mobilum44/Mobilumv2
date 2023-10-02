@@ -6,7 +6,15 @@ collection: Mobilier urbain
 category: Assise
 sub_category: 07 Canapé
 gamme: STAMP
-finitions: lisse
+finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation: lisse
 cover_image: "/produits/cover_image/canape-stamp-lisse.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"

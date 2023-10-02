@@ -6,7 +6,15 @@ collection: Mobilier urbain
 category: Assise
 sub_category: 05 Banquette
 gamme: VASCO DE GAMA
-finitions: demi-lunes
+finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation: demi-lunes
 cover_image: "/produits/cover_image/banquette-vasco-de-gama-demi-lunes.jpg"
 carousel:
     - "/produits/banc-vasco-de-gama-a-angers.jpg"

@@ -6,7 +6,15 @@ collection: Mobilier urbain
 category: Table
 sub_category: 12 Mange debout
 gamme: CANTINE
-finitions: 02
+finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation: 02
 cover_image: "/produits/cover_image/mange-debout.jpg"
 carousel:
     - "/produits/mange-debout-carnon.jpg"

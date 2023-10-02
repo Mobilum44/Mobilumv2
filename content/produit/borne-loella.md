@@ -7,6 +7,14 @@ category: Borne
 sub_category: 15 Borne
 gamme: LOELLA
 finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation:
 cover_image: "/produits/cover_image/borne-loella.jpg"
 carousel:
     - "/produits/borne-fontaine-loella-rouen.jpg"

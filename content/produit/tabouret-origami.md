@@ -1,12 +1,20 @@
 ---
 title: Tabouret ORIGAMI
 published: TRUE
-designer: Forma6
+designer:
 collection: Mobilier urbain
 category: Assise
 sub_category: 01 Tabouret
 gamme: ORIGAMI
 finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation:
 cover_image: "/produits/cover_image/tabouret-origami.jpg"
 
 carousel:

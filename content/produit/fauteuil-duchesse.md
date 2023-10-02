@@ -1,12 +1,20 @@
 ---
 title: Fauteuil DUCHESSE
 published: TRUE
-designer: Forma6
+designer:
 collection: Mobilier urbain
 category: Assise
 sub_category: 03 Fauteuil
 gamme: DUCHESSE
 finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation:
 cover_image: "/produits/cover_image/fauteuil-duchesse.jpg"
 carousel:
     - "/produits/focus-chaise-duchesse.jpg"

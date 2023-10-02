@@ -1,12 +1,20 @@
 ---
 title: Assis debout ORIGAMI
 published: TRUE
-designer: Forma6
+designer:
 collection: Mobilier urbain
 category: Assise
 sub_category: 10 Assis debout
 gamme: ORIGAMI
 finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation:
 cover_image: "/produits/cover_image/assis-debout-origami.jpg"
 carousel:
     - "/produits/rangee-assis-debout-origami.jpg"

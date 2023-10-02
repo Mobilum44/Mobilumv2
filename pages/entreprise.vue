@@ -130,7 +130,7 @@ Notre savoir-faire
 			/>
 			-->
 				</div>
-				<div class="section__side text">
+				<div class="section__side text text-rse">
 					<h2>\ Nos engagements</h2>
 					<div class="section__text">
 						<p>
@@ -138,7 +138,6 @@ Notre savoir-faire
 								>"Notre devoir est de produire des mobiliers de manière durable et réfléchie."</strong
 							>
 							<br /><br />
-							<b>Mettre la photo plus centrée sur le totem</b><br/><br/>
 							Repenser le mobilier urbain nécessite d’intégrer le développement durable dans nos
 							recherches, nos créations et notre croissance. <b> Parler du fait que le BFUP a pas été choisi au hasard.</b>
 							Pérennité du matériau, faible entretien et pluralité d'usage climatique ont été essentiels dans notre choix du BFUP.<br /><br />
@@ -318,6 +317,10 @@ article {
 		url("/photospages/mobilum-valeurs-rse-avenirv2.png");
 	background-size: cover;
 	width: 100%;
+}
+
+.text-rse {
+	width : 100%;
 }
 
 /* ------------------------------------------------------------------------------------------

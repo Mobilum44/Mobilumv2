@@ -6,7 +6,15 @@ collection: Signalétique
 category: Totem
 sub_category: Totem
 gamme: MINERAL
-finitions: à motifs
+finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation: à motifs
 cover_image: "/produits/cover_image/totem-mineral.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"

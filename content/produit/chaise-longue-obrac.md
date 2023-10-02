@@ -7,6 +7,14 @@ category: Assise
 sub_category: 08 Chaise Longue
 gamme: OBRAC
 finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation:
 cover_image: "/produits/cover_image/chaise-longue-obrac.jpg"
 carousel:
     - "/produits/attente-showroom.jpg"

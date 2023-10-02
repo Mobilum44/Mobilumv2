@@ -6,7 +6,15 @@ collection: Mobilier urbain
 category: Fontaine
 sub_category: 16 Fontaine
 gamme: LOELLA
-finitions: 900
+finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation: 900
 cover_image: "/produits/cover_image/banc-obrac.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"

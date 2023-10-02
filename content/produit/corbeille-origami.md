@@ -1,12 +1,20 @@
 ---
 title: Corbeille ORIGAMI
 published: TRUE
-designer: Forma6
+designer:
 collection: Mobilier urbain
 category: Corbeille
 sub_category: 13 Corbeille
 gamme: ORIGAMI
 finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation:
 cover_image: "/produits/cover_image/corbeille-origami.jpg"
 carousel:
     - "/produits/corbeille-origami-chemin.jpeg"

@@ -6,7 +6,15 @@ collection: HOOK
 category: Assise
 sub_category: 02 Module
 gamme: HOOK
-finitions: L765 bois
+finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation: L765 bois
 cover_image: "/produits/cover_image/hook-765-bois.jpg"
 carousel:
     - "/produits/attente-showroom.jpg"

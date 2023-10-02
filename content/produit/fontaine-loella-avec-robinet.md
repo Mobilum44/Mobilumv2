@@ -7,6 +7,14 @@ category: Fontaine
 sub_category: 16 Fontaine
 gamme: LOELLA
 finitions:
+motif_prem:
+motif_sec:
+motif_ter:
+portes_prem:
+portes_sec:
+portes_ter:
+options:
+personnalisation:
 cover_image: "/produits/cover_image/fontaine-loella-avec-robinet.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"
