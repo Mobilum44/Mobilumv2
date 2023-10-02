@@ -7,20 +7,20 @@
 		</div>
 
 		<p class="chapeau">
-			<b> Trouver une accroche plus sympa "venez vous éclater avec nous"</b><br/>
+			<b> Trouver une accroche plus sympa "venez vous éclater avec nous"</b><br />
 			Création d'une pièce unique et distinguée à votre image à partir de notre gamme existante.<br />
-			Nous avons aussi la possibilité de créer des totems sur mesure <br/>
+			Nous avons aussi la possibilité de créer des totems sur mesure <br />
 			Nos totems équipent les rues, les parcs, les bords de mer, les zones de bus, les enceintes privées.<br />
-			Ils ont la particularité de résister aux aménagements les plus sensibles.<br/>
-			
-			<b>Détails en plus sur chaque page de totem</b><br/>
+			Ils ont la particularité de résister aux aménagements les plus sensibles.<br />
+
+			<b>Détails en plus sur chaque page de totem</b><br />
 			<b>Cover : Mettre logo mobilum à différents endroits </b>
 			<b>Créer nouvelle case : totems sur-mesure. Y mettre que des photos d'anciens totems</b>
 		</p>
 
 		<div class="sub__section">
-			<ul class="collection_order">
-				<li v-for="urbanFurniture in urbanFurnitures" :key="urbanFurniture.title">
+			<ul class="section-collection">
+				<li v-for="urbanFurniture in urbanFurnitures" :key="urbanFurniture.title" class="collection-item">
 					<NuxtLink :to="urbanFurniture._path">
 						<article class="image_cover">
 							<NuxtImg
@@ -36,9 +36,15 @@
 				</li>
 			</ul>
 
-			<p> L'engravé // La feuille d'expression // La vague // Le fin (ou le petit ou le discret)<br/>
-			<b>Mettre en dessous des cover totem</b></p>
+			<div class="section-collection">
+				<p class="collection-item">L'engravé</p>
+				<p class="collection-item">La feuille d'expression</p>
+				<p class="collection-item">La vague</p>
+				<p class="collection-item">Le fin (ou le petit ou le discret)</p>
+			</div>
 		</div>
+
+		<b>Mettre en dessous des cover totem</b>
 	</NuxtLayout>
 </template>
 
@@ -58,14 +64,23 @@ const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 /*---------------------------------------------------------
     Paramètres de la galerie - généralités
   ---------------------------------------------------------*/
-.collection_order {
-	display : flex;
+.section-collection {
+	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-around;
 	flex-wrap: wrap;
-	gap: 1rem;
 }
 
+.section-collection > p {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 1.2rem;
+}
+.collection-item {
+	width : 23%;
+	display : flex;
+	justify-content : center;
+}
 /*---------------------------------------------------------
     Paramètres de la galerie - position de base
   ---------------------------------------------------------*/
@@ -113,9 +128,7 @@ const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 .image_cover:hover {
 	border-radius: 4px;
 	border: 0px;
-	box-shadow:
-		rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-		rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 	transition: all 0.3s ease-in-out;
 }
 .image_cover:hover p {
@@ -136,7 +149,7 @@ const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 --------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 950px) {
-	.collection_order {
+	.section-collection {
 		display: flex;
 		flex-direction: column;
 		align-items: center;

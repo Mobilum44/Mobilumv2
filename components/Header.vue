@@ -101,13 +101,16 @@ Header {
 	transform: translate(-50%, 0) scaleX(1);
 }
 
+/* A CORRIGER : Mettre le lien en bleu lorsqu'on est sur la page active */
+
 .header .nav__link:focus {
 	color: #1a949d;
 }
-
-.header .nav__link.active {
+.nav__link:active {
 	color: #1a949d;
 }
+
+
 
 /* menu */
 

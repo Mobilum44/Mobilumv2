@@ -1,5 +1,4 @@
 <template>
-	<!---- Penser aux hook et signalétique : HOOK / Personnalisation-->
 	<ContentDoc v-slot="{ doc }">
 		<section class="page_top content-produits">
 			<div class="title">
@@ -17,12 +16,6 @@
 				<carousel :img="doc.carousel" />
 			</div>
 		</section>
-
-		<!-- Contenu conditionnel : https://vuejs.org/guide/essentials/conditional.html -->
-		<!-- <div v-if="doc.dureeDuProjet">
-				<h1>Durée du projet</h1>
-				<p>{{ doc.dureeDuProjet }}</p>
-			</div> -->
 
 		<div class="sub-section general">
 			<div class="general-filaire" v-for="(img, i) in doc.filaire" :key="i">
@@ -176,6 +169,7 @@
 		<section class="sub-section">
 			<div v-if="doc.portes_prem">
 				<h2>Les portes</h2>
+				<b>Mettre des photos des portes</b>
 				<div class="sub-section-content">
 					<div class="content">
 						{{ doc.portes_prem }}
@@ -183,7 +177,17 @@
 					</div>
 
 					<div class="content" v-if="doc.portes_sec">
-						{{ doc.portes_sec }}
+						<!---
+						<NuxtImg
+							:src="img"
+							alt="texte alternatif"
+							width="200"
+							height="200"
+							fit="cover"
+							format="avif,webp"
+							placeholder
+							loading="lazy"
+						/> --->
 						<p>Alu Composite</p>
 					</div>
 
@@ -323,7 +327,7 @@ h1 {
 	margin-top : 1rem;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 /*-----------------------------------------------------------------
@@ -381,7 +385,7 @@ h1 {
 	margin-top: 0;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
 	width: 100%;
 }
 
@@ -390,8 +394,11 @@ h1 {
 	list-style-type: disc;
 }
 
-ul {
+.content ul {
 	width : 100%;
+	display : flex;
+	flex-direction: column;
+	margin-left : 2rem;
 }
 .type {
 	width: 100%;

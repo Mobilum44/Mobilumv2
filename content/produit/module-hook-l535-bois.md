@@ -10,8 +10,10 @@ finitions: L535 bois
 motif_prem:
 motif_sec:
 motif_ter:
-portes_prem: Image Bois
-portes_sec: Image Alu Compo
+portes_prem:
+    - "/photospages/couleur-bfup-bleu.jpg"
+portes_sec:
+    - "/photospages/couleur-bfup-bleu.jpg"
 portes_ter: 
 options: Boite aux lettres 
 personnalisation:
