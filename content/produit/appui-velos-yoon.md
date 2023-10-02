@@ -21,7 +21,7 @@ carousel:
 filaire:
     - "/produits/filaires/filaire-appui-velo-yoon.png"
 reference: AVYOON_0101
-materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
+materiau: BFUP / Plaque inox
 poids: 28
 dimensions: L600 x P75 x H850
 format: Monobloc

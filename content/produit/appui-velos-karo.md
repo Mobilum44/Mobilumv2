@@ -22,7 +22,7 @@ carousel:
 filaire:
     - "/produits/filaires/filaire-appui-velo-karo.png"
 reference: AVKARO_0102
-materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
+materiau: BFUP / Plaque inox
 poids: 33
 dimensions: L550 x P80 x H950
 format: Monobloc

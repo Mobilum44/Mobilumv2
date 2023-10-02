@@ -29,9 +29,9 @@ sec_archi_be:
 agent:
 
 installateur:
-fabricant: "Mobilum"
+fabricant:
 
-date_realisation: "?"
+date_realisation:
 date_demarrage:
 duree_marche:
 recompense:

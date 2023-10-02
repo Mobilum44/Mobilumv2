@@ -1,6 +1,6 @@
 ---
 type: Les conceptuels
-cover_title : Carnon
+cover_title : Port de plaisance, Ville de Carnon
 title: Carnon
 published: TRUE
 
@@ -15,8 +15,8 @@ carousel:
     - "/references/carousel/page-entree.jpg"
     - "/references/carousel/page-entree.jpg"
 
-localisation: "Port de Plaisance / Carnon"
-client: "Ville de Carnon / Gauthier-Conquet / EGIS"
+localisation:
+client: "Gauthier-Conquet / EGIS"
 archi_be:
 
 prem_loc:
@@ -29,10 +29,10 @@ sec_archi_be:
 
 agent:
 
-installateur: "Mobilum / Colas"
+installateur:
 fabricant: 
 
-date_realisation: "2022"
+date_realisation:
 date_demarrage:
 duree_marche:
 

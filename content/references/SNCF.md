@@ -16,7 +16,7 @@ carousel:
     - "/references/carousel/gare-lille-flandres.JPG"
     - "/references/carousel/gare-lyon-part-dieu.JPG"
 
-localisation: "Toute la France"
+localisation: "Sur toute la France"
 client: "SNCF / AREP"
 archi_be:
 
@@ -34,11 +34,11 @@ installateur:
 fabricant: "Synthèse / Mobilum"
 
 date_realisation:
-date_demarrage: "2019"
+date_demarrage: "Marché en cours depuis 2019"
 duree_marche:
 recompense:
 
-concept: "?"
+concept:
 ---
 
 ## Description

@@ -9,8 +9,9 @@ Supprimer sav -->
 			</div>
 		</template>
 
+		<p> Photo notre dame de mont pas exploitable : mineur en plein milieu de la Photo</p> <br/>
 		<b> Rendre ca responsive // Corriger toutes les images qui explosent ( . JPG) <br/></b>
-		<b>Champs .md à rajouter : motifs (stamps, végétal), portes (hook), options(BAL), Personnalisation (totems)</b>
+		<b>Champs .md à améliorer</b><br/>
 
 		<div class="collection">
 			<div class="sub__section">

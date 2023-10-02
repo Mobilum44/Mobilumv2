@@ -13,7 +13,7 @@ carousel:
     - "/references/carousel/page-entree.jpg"
     - "/references/carousel/banc-feuille-roquefert-mobilum.png"
 
-localisation: Village de Roquefere
+localisation:
 client: "Ville de Roquefere / Avril en Mai"
 archi_be:
 
@@ -27,16 +27,15 @@ sec_archi_be:
 
 agent:
 
-installateur: Mobilum / CBTP
+installateur:
 fabricant:
 
-date_realisation: "?"
+date_realisation:
 date_demarrage:
 duree_marche:
 recompense:
 
-concept: "Utiliser les végétaux du lieu d'origine en les intégrant dans nos mobilier ...
-Trop beau !"
+concept: "Utiliser les végétaux du lieu d'origine en les intégrant dans nos mobilier."
 ---
 
 ## Description

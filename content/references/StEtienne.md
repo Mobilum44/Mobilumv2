@@ -33,11 +33,9 @@ fabricant:
 date_realisation: "2017"
 date_demarrage:
 duree_marche:
-recompense: Exposition lors de l'appel à projet Banc d'Essais 2017
+recompense: Exposition du perron Stoop lors de l'appel à projet Banc d'Essais 2017
 
 concept:
 ---
 
 ## Description
-
-## "Utiliser les végétaux du lieu d'origine en les intégrant dans nos mobilier ... Trop beau !"

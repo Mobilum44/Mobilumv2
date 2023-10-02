@@ -139,12 +139,11 @@ Notre savoir-faire
 							>
 							<br /><br />
 							Repenser le mobilier urbain nécessite d’intégrer le développement durable dans nos
-							recherches, nos créations et notre croissance. <b> Parler du fait que le BFUP a pas été choisi au hasard.</b>
-							Pérennité du matériau, faible entretien et pluralité d'usage climatique ont été essentiels dans notre choix du BFUP.<br /><br />
-							Nous nous efforçons de produire de manière raisonnée pour limiter autant que possible notre
-							impact sur l’environnement. L’intégralité des produits présentés est fabriquée sur notre
+							recherches, nos créations et notre croissance. <br/><br/>
+							Pérennité du matériau, faible entretien et réponse aux exigences climatiques ont été essentiels dans notre choix du BFUP.<br /><br />
+							L’intégralité des produits présentés est fabriquée sur notre
 							site au Loroux-Bottereau en Loire Atlantique. <br /><br />
-							Mobilum souhaite structurer une démarche RSE globale qui commnence par la réalisation de son
+							Mobilum a engagé une démarche RSE globale qui commence par la réalisation de son
 							bilan carbone, indispensable à la définitions d'objectifs justes et précis.
 						</p>
 					</div>

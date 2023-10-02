@@ -31,10 +31,10 @@ sec_archi_be:
 
 agent: Deltadis
 
-installateur: IDVerde
+installateur:
 fabricant:
 
-date_realisation: "2019"
+date_realisation:
 date_demarrage:
 duree_marche:
 recompense: "European Architecture Awards 2020"

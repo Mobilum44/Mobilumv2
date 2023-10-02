@@ -50,17 +50,18 @@
 		</section>
 
 		<p class="referencement">
+			<!---
 			Plongez dans notre portfolio de projets en BFUP d'exception, en termes de taille, de prestige et d'exigence
 			technique.<br /><br />
-			<!-- De la participation à des projets monumentaux pour des espaces emblématiques, aux tables de pique-nique
+			De la participation à des projets monumentaux pour des espaces emblématiques, aux tables de pique-nique
 impressionnantes conçues pour accueillir de grandes foules, notre expertise en mobilier urbain en BFUP garantit des
-réalisations exceptionnelles qui inspirent et marquent les esprits. <br /><br /> -->
+réalisations exceptionnelles qui inspirent et marquent les esprits. <br /><br />
 			Chaque projet est réalisé sur mesure pour répondre aux demandes spécifiques de chaque site et s'intégrer
 			harmonieusement dans son environnement. Nous sommes fiers de contribuer à la création de lieux publics
 			uniques, alliant fonctionnalité, durabilité et design. <br /><br />
 			Nous nous engageons à continuer à innover et à repousser les limites pour façonner les espaces publics de
 			demain, en créant des projets de mobiliers urbains en BFUP qui captivent les regards et améliorent la vie
-			quotidienne des citadins.
+			quotidienne des citadins. --->
 		</p>
 	</NuxtLayout>
 </template>

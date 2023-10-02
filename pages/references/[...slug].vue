@@ -1,7 +1,7 @@
 <template>
 	<main class="reference">
 		<ContentDoc v-slot="{ doc }">
-			<p><b>Idée : mettre lien vers la fiche des produits ? </b></p>
+			<p><b>Quand on peut : mettre lien vers la fiche des produits ? </b></p>
 			<div class="reference-header">
 				<h1>{{ doc.title }}</h1>
 				<p>{{ doc.sub_title }}</p>
@@ -58,7 +58,7 @@
 					<div v-if="doc.duree_marche">{{ doc.duree_marche }} /</div>
 
 					<!-----Localisation sur la même ligne ----->
-					<div v-if="doc.localisation"><b> (espace)</b>{{ doc.localisation }}</div>
+					<div v-if="doc.localisation"><b>(espace)</b>{{ doc.localisation }}</div>
 				</li>
 			</ul>
 			<ul class="reference-info">
@@ -71,6 +71,9 @@
 				<div v-if="doc.concept">
 					<p><em>Concept</em>: {{ doc.concept }}</p>
 				</div>
+				<div class="reference-description">
+				<ContentRenderer :value="doc" />
+			</div>
 			</ul>
 
 			<div class="reference-carousel wide">
@@ -97,11 +100,6 @@
 					</figcaption>
 				</figure>
 			</div> ------>
-			<!---
-			<div class="reference-description">
-				<ContentRenderer :value="doc" />
-			</div>
-			--->
 		</ContentDoc>
 	</main>
 </template>

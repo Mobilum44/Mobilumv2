@@ -18,8 +18,8 @@ localisation:
 client: 
 archi_be:
 
-prem_loc: "Rouan"
-prem_client: "Ville de Rouan / Folius"
+prem_loc: "Rouen"
+prem_client: "Ville de Rouen / Folius"
 prem_archi_be:
 
 sec_loc: "Fecamp"
@@ -31,7 +31,7 @@ agent: "X-light"
 installateur:
 fabricant:
 
-date_realisation: "20XX"
+date_realisation:
 date_demarrage:
 duree_marche:
 recompense:

@@ -5,7 +5,7 @@ title: Puilboreau
 sub_title:
 published: TRUE
 
-concept: Une gamme complète de mobiliers urbains
+concept: Une gamme complète de mobiliers urbains et de signalétique
 
 gamme: "?"
 
@@ -31,9 +31,9 @@ sec_archi_be:
 agent:
 
 installateur:
-fabricant: "Mobilum / IDVerdé"
+fabricant:
 
-date_realisation: "?"
+date_realisation:
 date_demarrage:
 duree_marche:
 recompense:

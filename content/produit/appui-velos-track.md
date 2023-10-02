@@ -22,7 +22,7 @@ carousel:
 filaire:
     - "/produits/filaires/filaire-appui-velo-track.png"
 reference: AVTRACK0101
-materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
+materiau: BFUP / Plaque inox
 poids: 28
 dimensions: L217 x P72 x H900
 format: Monobloc

@@ -21,7 +21,7 @@ carousel:
 filaire:
     - "/produits/filaires/filaire-cantine-04.png"
 reference: AVORIGA0101
-materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
+materiau: BFUP / Plaque inox
 poids: 39
 dimensions: L900 x P80 x H900
 format: Monobloc

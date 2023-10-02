@@ -15,7 +15,7 @@ carousel:
     - "/references/carousel/villa-gallo-romaine.jpg"
     - "/references/carousel/villa-gallo-romaine-nuit.jpg"
 
-localisation: "Villa Gallo-Romaine / Plateau de Paris Saclay"
+localisation: "Villa Gallo-Romaine"
 client: "Saclay Université / Alexandre Moronnoz"
 archi_be:
 
@@ -32,7 +32,7 @@ agent:
 installateur:
 fabricant: "Tolerie Foreizienne / Mobilum"
 
-date_realisation: "2022"
+date_realisation:
 date_demarrage:
 duree_marche:
 recompense:

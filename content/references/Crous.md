@@ -15,8 +15,8 @@ carousel:
     - "/references/carousel/page-entree.jpg"
     - "/references/carousel/banc-feuille-roquefert-mobilum.png"
 
-localisation: "Campus du Tertre / Nantes"
-client: "Crous Pays de la Loire"
+localisation: "Campus du Tertre"
+client:
 archi_be:
 
 prem_loc:
@@ -32,7 +32,7 @@ agent:
 installateur:
 fabricant:
 
-date_realisation: "20XX"
+date_realisation:
 date_demarrage:
 duree_marche:
 recompense:

@@ -27,7 +27,6 @@ export interface Reference extends ParsedContent {
 	localisation: string;
 	client: string;
 	archi_be: string;
-	agent : string;
 }
 
 export interface Product extends ParsedContent {

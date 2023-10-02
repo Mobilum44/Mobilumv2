@@ -14,7 +14,7 @@ portes_prem:
 portes_sec:
 portes_ter:
 options:
-personnalisation:
+personnalisation: "Faites sabler une image, un logo, ou donnez les indications que vous souhaitez."
 cover_image: "/produits/cover_image/totem-origami-rue.jpg"
 carousel:
     - "/produits/totem-rue-origami.jpg"

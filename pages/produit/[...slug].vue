@@ -3,13 +3,13 @@
 	<ContentDoc v-slot="{ doc }">
 		<section class="page_top content-produits">
 			<div class="title">
-				<h1 class="h1_title">
+				<h1>
 					{{ doc.title }}
 				</h1>
 				<p>{{ doc.designer }}</p>
 			</div>
 		</section>
-		<section class="sub__section">
+		<section class="sub-section">
 			<div class="gallery">
 				<div v-for="(img, i) in doc.carousel" :key="i">
 					<NuxtImg :src="img" width="2000" placeholder format="avif,webp" loading="lazy" />
@@ -24,7 +24,7 @@
 				<p>{{ doc.dureeDuProjet }}</p>
 			</div> -->
 
-		<div class="sub__section sub__section__content general">
+		<div class="sub-section general">
 			<div class="general-filaire" v-for="(img, i) in doc.filaire" :key="i">
 				<NuxtImg :src="img" height="300px" />
 			</div>
@@ -33,24 +33,32 @@
 				<!--- Mettre bien en forme le document, et nettoyer un peu le code-->
 				<h2 class="general-titre">Caractéristiques</h2>
 				<p>
-					<em>Matériau :</em> : {{ doc.materiau }}<br />
+					<em>Matériau :</em> : {{ doc.materiau }}
+					><br />
 					<em>Poids</em> : {{ doc.poids }}kg<br />
 					<em>Dimensions</em> : {{ doc.dimensions }}mm <br />
 					<em>Format :</em> {{ doc.format }}
 				</p>
-				<p class="description">
+				<p class="general-description">
 					{{ doc.description }}
 				</p>
 			</div>
 		</div>
 
-		<section class="sub__section">
+		<section class="sub-section">
 			<h2>Nos finitions</h2>
-			<div class="sub__section__content">
-				<div class="sub__couleurs">
+
+			<div class="sub-section-content">
+				<div class="content">
 					<p class="strong">Couleurs naturelles</p>
+					<ul>
+						<li class="list-element">Gris foncé</li>
+						<li class="list-element">Gris clair</li>
+						<li class="list-element">Blanc</li>
+					</ul>
+					<!-------
 					<div class="type">
-						<div class="type__couleurs">
+						<div class="type-color">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -61,9 +69,11 @@
 								placeholder
 								loading="lazy"
 							/>
-							<p>Gris foncé<br />(BCV Brut)</p>
 						</div>
-						<div class="type__couleurs">
+						<p>Gris foncé<br /></p>
+
+						<p>Gris clair<br /></p>
+						<div class="type-color">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -77,12 +87,19 @@
 							<p>Blanc</p>
 						</div>
 					</div>
+					------->
 				</div>
 
-				<div class="sub__couleurs">
+				<div class="content">
 					<p class="strong">Teinté dans la masse</p>
+					<ul>
+						<li class="list-element">Taupe</li>
+						<li class="list-element">Rose pastel</li>
+						<li class="list-element">Bleu pastel</li>
+					</ul>
+					<!-----------
 					<div class="type">
-						<div class="type__couleurs">
+						<div class="type-color">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -95,7 +112,7 @@
 							/>
 							<p>Taupe</p>
 						</div>
-						<div class="type__couleurs">
+						<div class="type-color">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -108,7 +125,7 @@
 							/>
 							<p>Rose pastel</p>
 						</div>
-						<div class="type__couleurs">
+						<div class="type-color">
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
@@ -121,31 +138,85 @@
 							/>
 							<p>Bleu pastel</p>
 						</div>
-					</div>
+					</div> ------------>
 				</div>
 
-				<div class="sub__couleurs">
+				<div class="content">
 					<p class="strong">Peinture polyuréthane</p>
 					<div class="type">Tous les RAL sont possibles. Consultez-nous pour discuter de votre projet.</div>
 				</div>
 			</div>
+		</section>
 
-			<div class="sub__section__content">
-				<div v-if="doc.finitions">{{ doc.finitions }}</div>
-				<div v-if="doc.motifs">{{ doc.motifs }}</div>
-				<!--- mettre photos ici
+		<section class="sub-section">
+			<div class="sub-section-content">
+				<div v-if="doc.motif_prem">
+					<div class="content">
+						{{ doc.motif_prem }}
+						<p>lisse</p>
+					</div>
+				</div>
+
+				<div v-if="doc.motif_sec">
+					<div class="content">
+						{{ doc.motif_sec }}
+						<p>Végétal</p>
+					</div>
+				</div>
+
+				<div v-if="doc.motif_ter">
+					<div class="content">
+						{{ doc.motif_ter }}
+						<p>lisse</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sub-section">
+			<div v-if="doc.portes_prem">
+				<h2>Les portes</h2>
+				<div class="sub-section-content">
+					<div class="content">
+						{{ doc.portes_prem }}
+						<p>Bois</p>
+					</div>
+
+					<div class="content" v-if="doc.portes_sec">
+						{{ doc.portes_sec }}
+						<p>Alu Composite</p>
+					</div>
+
+					<div class="content" v-if="doc.portes_ter">
+						{{ doc.portes_ter }}
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--- mettre photos ici
 			<div class="general-filaire" v-for="(img, i) in doc.filaire" :key="i">
 				<NuxtImg :src="img" height="300px" />
 			</div>
 				-->
+		<section class="sub-section">
+			<div v-if="doc.options">
+				<h2>Option</h2>
+				<div class="content">
+					{{ doc.options }}
+					<p>Avec ou sans boite aux lettres, colori au choix</p>
+				</div>
+			</div>
 
-				<div v-if="doc.portes">{{ doc.portes }} /</div>
-				<div v-if="doc.options">{{ doc.options }} /</div>
-				<div v-if="doc.personnalisation">{{ doc.personnalisation }} /</div>
+			<!----- Catégorie Personnalisation ne marche pas ----------->
+
+			<div v-if="doc.personnalisation">
+				<h2>Personnalisation</h2>
+				<div class="content">{{ doc.personnalisation }}</div>
 			</div>
 		</section>
 
-		<section class="sub__section">
+		<section class="sub-section">
 			<h2>Dans la même gamme...</h2>
 			<p>
 				<b
@@ -199,22 +270,9 @@ const { data: relatedProducts } = await useAsyncData(
 	font-family: montserrat;
 }
 
-/*-----------------------------------------------------------------
-		Sections générales
-	---------------------------------------------------------------*/
-.content-produits {
-	margin-top: 17vh;
-}
-.sub__section {
-	width: 80%;
-	border: solid blue;
-}
-
-.sub__section__content {
-	border: solid pink;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+h2 {
+	border-bottom: solid black 1px;
+	margin-top: 3rem;
 }
 /*-----------------------------------------------------------------
 		Zone titre
@@ -237,22 +295,35 @@ p {
 	margin: 0;
 	padding: 0;
 }
-.h1_title {
-	border-bottom: solid black 1px;
-	text-align: center;
-}
 
 h1 {
 	font-weight: 200;
 	text-transform: none;
 	text-align: center;
-	border: none;
+	border-bottom: solid black 1px;
 	color: black;
 	padding: 0;
 	margin: 0;
 	margin-top: 1rem;
 	padding-bottom: 1rem;
 	margin-bottom: 1rem;
+}
+
+/*-----------------------------------------------------------------
+		Sections générales
+	---------------------------------------------------------------*/
+.content-produits {
+	margin-top: 17vh;
+}
+.sub-section {
+	width: 80%;
+}
+
+.sub-section-content {
+	margin-top : 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
 /*-----------------------------------------------------------------
@@ -298,7 +369,7 @@ h1 {
 	width: 65%;
 }
 
-.description {
+.general-description {
 	margin-top: 2rem;
 }
 
@@ -306,17 +377,24 @@ h1 {
 		Zone détails
 	---------------------------------------------------------------*/
 
-.sub__couleurs {
+.content {
 	margin-top: 0;
-	border: solid yellow;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	width: 33%;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.list-element{
+	margin-left : 2rem;
+	list-style-type: disc;
+}
+
+ul {
+	width : 100%;
 }
 .type {
 	width: 100%;
-	padding: 1rem;
 
 	display: flex;
 	flex-direction: row;
@@ -325,7 +403,7 @@ h1 {
 	align-items: flex-start;
 }
 
-.type__couleurs {
+.type-color {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -412,13 +490,13 @@ h1 {
 		margin: 0;
 	}
 
-	.sub__section__content {
+	.sub-section-content {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	.sub__section__content p {
+	.sub-section-content p {
 		padding-top: 2rem;
 	}
 }

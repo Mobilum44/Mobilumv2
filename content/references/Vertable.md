@@ -29,7 +29,7 @@ agent:
 installateur:
 fabricant:
 
-date_realisation: "2022"
+date_realisation:
 date_demarrage:
 duree_marche:
 recompense:

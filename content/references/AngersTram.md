@@ -5,7 +5,7 @@ title: Tramway d'Angers
 sub_title:
 published: TRUE
 
-concept: Tramway d'Angers, bancs en stations
+concept: Bancs en stations
 
 gamme: "?"
 
@@ -31,9 +31,9 @@ sec_archi_be:
 agent:
 
 installateur:
-fabricant: "Mobilum / Ingénia"
+fabricant:
 
-date_realisation: "2019"
+date_realisation:
 date_demarrage:
 duree_marche:
 recompense:

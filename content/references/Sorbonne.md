@@ -13,7 +13,7 @@ carousel:
     - "/references/carousel/page-entree.jpg"
     - "/references/carousel/page-entree.jpg"
 
-localisation: "Campus Malesherbes / Sorbonne Université"
+localisation: "Campus Malesherbes"
 client: "La Sorbonne / Folius"
 archi_be:
 
@@ -27,10 +27,10 @@ sec_archi_be:
 
 agent:
 
-installateur:  "S ......... / Mobilum"
+installateur:
 fabricant:
 
-date_realisation: "?"
+date_realisation:
 date_demarrage:
 duree_marche:
 recompense:

@@ -14,7 +14,7 @@ portes_prem:
 portes_sec:
 portes_ter:
 options:
-personnalisation: à motifs
+personnalisation: "Recto verso / Sablage / Peinture / Plaque"
 cover_image: "/produits/cover_image/totem-mineral.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"

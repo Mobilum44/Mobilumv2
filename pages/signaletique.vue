@@ -7,9 +7,15 @@
 		</div>
 
 		<p class="chapeau">
-			Création d'une pièce unique et distinguée à votre image.<br />
-			Nos totems ont la particularité de résister aux aménagements les plus sensibles.<br />
-			<b>Détails en plus sur chaque page de totem</b>
+			<b> Trouver une accroche plus sympa "venez vous éclater avec nous"</b><br/>
+			Création d'une pièce unique et distinguée à votre image à partir de notre gamme existante.<br />
+			Nous avons aussi la possibilité de créer des totems sur mesure <br/>
+			Nos totems équipent les rues, les parcs, les bords de mer, les zones de bus, les enceintes privées.<br />
+			Ils ont la particularité de résister aux aménagements les plus sensibles.<br/>
+			
+			<b>Détails en plus sur chaque page de totem</b><br/>
+			<b>Cover : Mettre logo mobilum à différents endroits </b>
+			<b>Créer nouvelle case : totems sur-mesure. Y mettre que des photos d'anciens totems</b>
 		</p>
 
 		<div class="sub__section">
@@ -29,6 +35,9 @@
 					</NuxtLink>
 				</li>
 			</ul>
+
+			<p> L'engravé // La feuille d'expression // La vague // Le fin (ou le petit ou le discret)<br/>
+			<b>Mettre en dessous des cover totem</b></p>
 		</div>
 	</NuxtLayout>
 </template>

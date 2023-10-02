@@ -19,7 +19,7 @@ carousel:
     - "/references/carousel/ulis-gros-plan-jardiniere-carree.jpg"
 
 localisation: L'Orme à Moineaux / Cimetière des Ulis
-client: Mme Gourserol
+client: SICOMU - Mme Gourserol
 archi_be:
 
 prem_loc:
@@ -44,5 +44,3 @@ concept:
 ---
 
 ## Description
-
-## "Utiliser les végétaux du lieu d'origine en les intégrant dans nos mobilier ... Trop beau !"

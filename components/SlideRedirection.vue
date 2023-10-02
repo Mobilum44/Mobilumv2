@@ -7,7 +7,7 @@
 		<div class="box">
 			<NuxtImg src="/photospages/design-mobilum.jpg" width="900px" format="avif,webp" placeholder loading="lazy" />
 			<p>
-				Du design <em><br />à la réalité</em>
+				Du design <em><br />à la réalisation</em>
 			</p>
 		</div>
 		<!--

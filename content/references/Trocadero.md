@@ -2,7 +2,7 @@
 type: Les remarquables
 cover_title :
 title: Trocadero
-sub_title: Jardinières de la terrasse
+sub_title:
 published: TRUE
 
 gamme: YOON
@@ -29,16 +29,15 @@ sec_archi_be:
 agent:
 
 installateur:
-fabricant: "Mobilum"
+fabricant:
 
-date_realisation: "2022"
+date_realisation:
 date_demarrage:
 duree_marche:
 recompense:
 
-concept:
+concept:  
 ---
 
 ## Description
-
-## "Concept de jardinières amovibles / BFUP vieillit et engravé comme à l'époque."
+"Jardinières amovibles / BFUP vieillit et engravé comme à l'époque."
