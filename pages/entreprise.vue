@@ -222,7 +222,6 @@ h3 {
   -----------------------------------------------------------------------*/
 
 .section_top {
-
 	width: 70%;
 	margin-bottom: 3rem;
 	margin-top: 3rem;
@@ -233,14 +232,6 @@ h3 {
 	align-items: center;
 }
 
-article {
-	-webkit-column-count: 2;
-	-moz-column-count: 2;
-	column-count: 2;
-	-webkit-column-gap: 30px;
-	-moz-column-gap: 30px;
-	column-gap: 30px;
-}
 
 /*-------------------------------------------------------------------------
     Page content 
@@ -251,7 +242,6 @@ article {
 	justify-content: center;
 	margin: 0;
 }
-
 .section__side {
 	display : flex;
 	flex-direction: column;
@@ -271,7 +261,6 @@ article {
 	flex-direction: row;
 	justify-content: space-between;
 }
-
 .cards {
 	display: flex;
 	align-items: center;
@@ -289,7 +278,6 @@ article {
 	text-align: justify;
 	padding-top: 0;
 }
-
 .texte-commerce {
 	margin-top: 2rem;
 }
@@ -329,19 +317,13 @@ article {
 --------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 950px) {
-	h2 {
+h2 {
 		padding-left: 1rem;
 		padding-bottom: 1rem;
 		margin: 0rem;
 		border-bottom: solid 1px;
 	}
 
-	article {
-		-webkit-column-count: 1;
-		-moz-column-count: 1;
-		column-count: 1;
-		width: 100%;
-	}
 	.section_top {
 		margin: 0rem;
 	}
@@ -358,11 +340,26 @@ article {
 	.section__side {
 		height: 100%;
 		justify-content: flex-end;
-		/* border-radius: 5px; */
+		border-radius: 5px;
+		padding : 0;
 	}
 
 	.section__text {
 		padding-bottom: 0;
+		width : 100%;
+	}
+
+	.text {
+		width : 100%;
+	}
+
+	.real__model {
+		display : flex;
+		flex-direction : column;
+		margin: 0;
+		padding-top: 2rem;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.dark {
@@ -376,17 +373,23 @@ article {
 	.illustration img {
 		object-fit: cover;
 		background-position-y: bottom;
+		width : 100%;
+	}
+
+	.design {
+		margin : 0;
 	}
 
 	.croquis {
 		height: 50vh;
-		width: 90vw;
+		width: 90%;
 		background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)),
 			url("/photospages/croquis-sovann-kim-pour-mobilum.png");
 		background-size: cover;
 		box-shadow:
 			rgba(50, 50, 93, 0.8) 0px 2px 5px -1px,
 			rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
+		margin : 0;
 	}
 
 	.savoir-faire {
@@ -410,13 +413,6 @@ article {
 		box-shadow:
 			rgba(50, 50, 93, 0.8) 0px 2px 5px -1px,
 			rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
-	}
-
-	.real__model {
-		margin: 0;
-		padding-top: 2rem;
-		align-items: center;
-		justify-content: center;
 	}
 }
 </style>

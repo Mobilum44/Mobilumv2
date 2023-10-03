@@ -91,14 +91,14 @@ em {
 		justify-content: center;
 		height: 100vh;
 		width: 95%;
-		gap: 1%;
-	}
-
-	.box > img {
-		background-attachment: fixed;
+		gap: 1;
 	}
 	.box {
 		height: 200px;
+	}
+	
+	.box > img {
+		background-attachment: fixed;
 	}
 }
 </style>

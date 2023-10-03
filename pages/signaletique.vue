@@ -5,19 +5,17 @@
 
 			<h1>Signaletique</h1>
 		</div>
-
+		<b> Trouver une accroche plus sympa "venez vous éclater avec nous"</b>
 		<p class="chapeau">
-			<b> Trouver une accroche plus sympa "venez vous éclater avec nous"</b><br />
 			Création d'une pièce unique et distinguée à votre image à partir de notre gamme existante.<br />
 			Nous avons aussi la possibilité de créer des totems sur mesure <br />
 			Nos totems équipent les rues, les parcs, les bords de mer, les zones de bus, les enceintes privées.<br />
 			Ils ont la particularité de résister aux aménagements les plus sensibles.<br />
-
-			<b>Détails en plus sur chaque page de totem</b><br />
-			<b>Cover : Mettre logo mobilum à différents endroits </b>
 		</p>
 
 		<div class="sub__section">
+			<b>Vérifier les md</b><br />
+			<b>Cover : Mettre logo mobilum à différents endroits </b>
 			<ul class="section-collection">
 				<li v-for="urbanFurniture in urbanFurnitures" :key="urbanFurniture.title" class="collection-item">
 					<NuxtLink :to="urbanFurniture._path">
@@ -257,6 +255,7 @@ h3 {
 	text-align : center;
 }
 .wide {
+	margin-top : 4rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;

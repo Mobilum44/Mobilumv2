@@ -221,6 +221,17 @@ useSeoMeta({
 		margin-top: 0;
 	}
 
+	.sub__section {
+		display : flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.sub__section p {
+	text-align: center;
+	margin : 0;
+	padding : 0;
+	}
 	.items_styling {
 		height: 20rem;
 		width: 20rem;

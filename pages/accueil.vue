@@ -28,14 +28,15 @@
 	PARTIE A DEVELOPPER PLUS TARD
 	Mise en page : Cartes RS avec texte en dessous, 3 directement affichés
 	--------------------------------->
+	<b>Responsive : léger décalage horizontal</b>
 		<p class="accueil_text">
 			En dix ans d'existence, Mobilum a acquis un savoir-faire unique dans la création et la fabrication de
 			mobiliers urbains en Béton Fibré Ultra Performant (BFUP). <br /><br />
 		</p>
 
-		<!--------------------------------
-	Explorer
-	--------------------------------->
+<!--------------------------------
+	Slides photos
+--------------------------------->
 
 		<template #slot_bandeau>
 			<div class="redirection">
@@ -81,18 +82,6 @@ p {
 	text-align: center;
 }
 
-.accueil_text {
-	border-top: solid #1a949d 1px;
-	border-bottom: solid #1a949d 1px;
-	text-align: center;
-	color: black;
-	margin-top: 5rem;
-	margin-bottom: 5rem;
-	margin-inline : auto;
-	width: 55%;
-	padding: 3rem;
-}
-
 /* Section 1 : Logo /Image */
 .bandeau {
 	margin-top: 17vh;
@@ -109,6 +98,18 @@ p {
 	justify-content: flex-end;
 }
 
+.accueil_text {
+	border-top: solid #1a949d 1px;
+	border-bottom: solid #1a949d 1px;
+	text-align: center;
+	color: black;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	margin-inline : auto;
+	width: 55%;
+	padding: 3rem;
+}
+
 /* Section 2 : latest posts + content */
 .section {
 	display : flex;
@@ -122,7 +123,6 @@ p {
 /*-------------------------------------------------------------------
 	  Citation animée
 	------------------------------------------------------------------*/
-
 .quote {
 	padding: 4vh;
 	font-family: "Times New Roman", Times, serif;
@@ -135,6 +135,7 @@ p {
 	transform: scale(0.94);
 	animation: scale 6s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }
+
 @keyframes scale {
 	100% {
 		transform: scale(1);
@@ -280,22 +281,37 @@ span:nth-child(29) {
 }
 
 @media only screen and (max-width: 950px) {
-	.quote {
-		gap: 0;
-	}
-	.bandeau {
-		padding-bottom: 0;
-	}
 
-	.bandeau p {
-		margin-top: 0rem;
-		padding: 0.5rem;
-	}
+.bandeau {
+	padding-bottom: 0;
+	background-size : cover;
+	height : 40vh;
+	max-width : 100vw;
 
-	.redirection {
-		margin-left: 0rem;
-		align-items: center;
-	}
+	display : flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.quote {
+	padding: 0;
+	margin : 0;
+	width : 60%;
+}
+
+.section {
+	padding: 0;
+	display : flex;
+	flex-direction : column;
+	align-items: center;
+}
+
+
+
+.redirection {
+	margin: 0rem;
+	align-items: center;
+}
 
 	.redirection h3 {
 		margin-left: 0rem;

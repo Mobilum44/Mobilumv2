@@ -21,4 +21,10 @@
 	justify-content: center;
 	padding: 0;
 }
+
+@media only screen and (max-width: 950px) {
+	.contenu {
+		width : 100%;
+	}
+}
 </style>
