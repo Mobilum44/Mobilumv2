@@ -15,7 +15,6 @@
 
 			<b>Détails en plus sur chaque page de totem</b><br />
 			<b>Cover : Mettre logo mobilum à différents endroits </b>
-			<b>Créer nouvelle case : totems sur-mesure. Y mettre que des photos d'anciens totems</b>
 		</p>
 
 		<div class="sub__section">
@@ -44,7 +43,113 @@
 			</div>
 		</div>
 
-		<b>Mettre en dessous des cover totem</b>
+		<div class="sub__section wide ">
+			<h2>Votre totem sur mesure</h2>
+
+			<div class="surmesure-focus dark">
+				<div class="surmesure-focus-texte">
+					<h3>Dimensions</h3>
+					<p>Adapté à vos besoins</p>
+				</div>
+
+				<NuxtImg
+					alt="photo totem en fabrication mobilum BFUP"
+					src="/totems/totems-dimensions.png"
+					format="avif,webp"
+					placeholder
+					loading="lazy"
+					height="500"
+				/>
+
+				<!----
+				<NuxtImg
+					alt="photo totem en fabrication mobilum BFUP"
+					src="/totems/totem-petit-luneau-papinv2.png"
+					format="avif,webp"
+					placeholder
+					loading="lazy"
+					height="300"
+				/>
+
+				<NuxtImg
+					alt="photo totem en fabrication mobilum BFUP"
+					src="/totems/totem-normal-luneau-papin.png"
+					format="avif,webp"
+					placeholder
+					loading="lazy"
+					height="600"
+				/>
+				--->
+			</div>
+
+			<div class="surmesure-focus dark reverse">
+				<!----
+				<NuxtImg
+					alt="photo totem en fabrication mobilum BFUP"
+					src="/totems/totem-simone-veilv3.png"
+					format="avif,webp"
+					placeholder
+					loading="lazy"
+					height="600"
+				/>
+
+				<NuxtImg
+					alt="photo totem en fabrication mobilum BFUP"
+					src="/totems/totem-coeur-de-ville.png"
+					format="avif,webp"
+					placeholder
+					loading="lazy"
+					height="600"
+				/>
+				--->
+
+				<NuxtImg
+					alt="photo totem en fabrication mobilum BFUP"
+					src="/totems/totems-sablage.png"
+					format="avif,webp"
+					placeholder
+					loading="lazy"
+					height="500"
+				/>
+
+				<div class="surmesure-focus-texte">
+					<h3>Sablage</h3>
+					<p>Une esthétique qui vous ressemble</p>
+				</div>
+			</div>
+
+			<div class="surmesure-focus dark">
+				<div class="surmesure-focus-texte">
+					<h3>Peinture</h3>
+					<p>Du peps pour illuminer vos aménagements</p>
+				</div>
+
+				<NuxtImg
+					alt="photo totem en fabrication mobilum BFUP"
+					src="/totems/totems-peinturev2.png"
+					format="avif,webp"
+					placeholder
+					loading="lazy"
+					height="500"
+				/>
+			</div>
+
+			<div class="surmesure-focus dark reverse">
+				<NuxtImg
+					alt="photo totem en fabrication mobilum BFUP"
+					src="/totems/totems-plaquesv2.png"
+					format="avif,webp"
+					placeholder
+					loading="lazy"
+					height="500"
+				/>
+
+				<div class="surmesure-focus-texte">
+					<h3>Pose de plaques</h3>
+					<p> Une personnalisation infinie </p>
+				</div>
+			</div>
+		</div>
 	</NuxtLayout>
 </template>
 
@@ -77,9 +182,9 @@ const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 	font-size: 1.2rem;
 }
 .collection-item {
-	width : 23%;
-	display : flex;
-	justify-content : center;
+	width: 23%;
+	display: flex;
+	justify-content: center;
 }
 /*---------------------------------------------------------
     Paramètres de la galerie - position de base
@@ -97,14 +202,12 @@ const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 	/*box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;*/
 }
-
 .image_cover > img {
 	height: 100%;
 	width: 100%;
 	opacity: 1;
 	transition: all 0.3s ease-in-out;
 }
-
 .image_cover p {
 	position: absolute;
 	top: 50%;
@@ -142,6 +245,39 @@ const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 	transition: all 0.3s ease-in-out;
 }
 
+/*---------------------------------------------------------
+    Section sur-mesure
+  ---------------------------------------------------------*/
+
+h2 {
+	padding: 0;
+}
+h3 {
+	font-family: "Montserrat";
+	text-align : center;
+}
+.wide {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.surmesure-focus {
+	width: 70%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin : 3rem;
+	padding : 3rem 10rem 3rem 10rem;
+}
+
+.surmesure-focus-texte {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin : 2rem;
+	text-align : center;
+}
 /* ------------------------------------------------------------------------------------------
 
             RESPONSIVE TELEPHONES
@@ -153,6 +289,25 @@ const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+
+
+	.surmesure-focus {
+		display : flex;
+		flex-direction : column;
+		padding : 1rem;
+		margin : 1rem;
+	}
+
+.surmesure-focus img {
+	max-width : 100%;
+	object-fit: contain;
+
+}
+
+	.reverse {
+		display : flex;
+		flex-direction : column-reverse;
 	}
 }
 </style>
