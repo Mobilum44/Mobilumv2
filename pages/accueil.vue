@@ -6,35 +6,26 @@
 
 		<template #slot_image>
 			<section class="bandeau wide">
-				<div class="bandeau_content">
-					<div class="section">
-						<p class="quote">
-							<span>Mobilum&thinsp;</span><br />
-							<!--<span>façonne&thinsp;</span>--->
-							<span>Le&thinsp;</span>
-							<span>Béton&thinsp;</span>
-							<span>Fibré&thinsp;</span>
-							<span>à&thinsp;</span>
-							<span>la&thinsp;</span>
-							<span>Française&thinsp;</span>
-						</p>
-					</div>
+				<div class="bandeau-content">
+					<p class="quote">
+						<span>Mobilum&thinsp;</span><br />
+						<span>Le&thinsp;</span>
+						<span>Béton&thinsp;</span>
+						<span>Fibré&thinsp;</span>
+						<span>à&thinsp;</span>
+						<span>la&thinsp;</span>
+						<span>Française&thinsp;</span>
+					</p>
 				</div>
 			</section>
 		</template>
 
-		<template> </template>
-		<!--------------------------------
-	PARTIE A DEVELOPPER PLUS TARD
-	Mise en page : Cartes RS avec texte en dessous, 3 directement affichés
-	--------------------------------->
-	<b>Responsive : léger décalage horizontal</b>
 		<p class="accueil_text">
 			En dix ans d'existence, Mobilum a acquis un savoir-faire unique dans la création et la fabrication de
-			mobiliers urbains en Béton Fibré Ultra Performant (BFUP). <br /><br />
+			mobiliers urbains en Béton Fibré Ultra Performant (BFUP).
 		</p>
 
-<!--------------------------------
+		<!--------------------------------
 	Slides photos
 --------------------------------->
 
@@ -92,10 +83,19 @@ p {
 	height: 100vh;
 	padding-bottom: 15vh;
 
-	display : flex;
+	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
 	justify-content: flex-end;
+}
+
+.bandeau-content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding-bottom: 3rem;
+	padding-right: 10rem;
 }
 
 .accueil_text {
@@ -105,19 +105,9 @@ p {
 	color: black;
 	margin-top: 5rem;
 	margin-bottom: 5rem;
-	margin-inline : auto;
+	margin-inline: auto;
 	width: 55%;
 	padding: 3rem;
-}
-
-/* Section 2 : latest posts + content */
-.section {
-	display : flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: center;
-	padding-bottom: 3rem;
-	padding-right: 10rem;
 }
 
 /*-------------------------------------------------------------------
@@ -180,90 +170,6 @@ span:nth-child(8) {
 	animation: fade-in 1s 2.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-span:nth-child(9) {
-	animation: fade-in 1s 2.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(10) {
-	animation: fade-in 1s 2.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(11) {
-	animation: fade-in 3s 3.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(12) {
-	animation: fade-in 3s 3.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(13) {
-	animation: fade-in 3s 2.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(14) {
-	animation: fade-in 3s 2.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(15) {
-	animation: fade-in 3s 3.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(16) {
-	animation: fade-in 3s 3.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(17) {
-	animation: fade-in 3s 3.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(18) {
-	animation: fade-in 3s 3.7 forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(19) {
-	animation: fade-in 3s 3.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(20) {
-	animation: fade-in 3s 4.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(21) {
-	animation: fade-in 3s 4.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(22) {
-	animation: fade-in 3s 4.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(23) {
-	animation: fade-in 3s 4.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(24) {
-	animation: fade-in 3s 4.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(25) {
-	animation: fade-in 3s 5.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(26) {
-	animation: fade-in 3s 5.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(27) {
-	animation: fade-in 3s 5.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(28) {
-	animation: fade-in 3s 5.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(29) {
-	animation: fade-in 3s 5.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
 @keyframes fade-in {
 	100% {
 		opacity: 1;
@@ -273,7 +179,7 @@ span:nth-child(29) {
 
 /* section 3 : Activity cards */
 .redirection {
-	display : flex;
+	display: flex;
 	flex-direction: column;
 }
 .redirection h3 {
@@ -281,37 +187,41 @@ span:nth-child(29) {
 }
 
 @media only screen and (max-width: 950px) {
+	.contenu {
+		margin: 0;
+	}
+	.bandeau {
+		padding-bottom: 0;
+		background-size: cover;
+		height: 40vh;
+		max-width: 100vw;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
 
-.bandeau {
-	padding-bottom: 0;
-	background-size : cover;
-	height : 40vh;
-	max-width : 100vw;
+	.bandeau-content {
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.quote {
+		padding: 0;
+		margin: 0;
+		width: 60%;
+	}
 
-	display : flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-.quote {
-	padding: 0;
-	margin : 0;
-	width : 60%;
-}
-
-.section {
-	padding: 0;
-	display : flex;
-	flex-direction : column;
-	align-items: center;
-}
-
-
-
-.redirection {
-	margin: 0rem;
-	align-items: center;
-}
+	.accueil_text {
+		width: 60%;
+		padding: 1.5rem;
+		margin: 1rem 0rem;
+	}
+	.redirection {
+		margin: 0rem;
+		align-items: center;
+	}
 
 	.redirection h3 {
 		margin-left: 0rem;

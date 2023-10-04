@@ -285,6 +285,9 @@ const { data: relatedProducts } = await useAsyncData(
 <style scoped>
 .strong {
 	font-family: montserrat;
+	font-weight: 600;
+	color : #1a949d;
+	margin-bottom : 1rem;
 }
 
 h2 {

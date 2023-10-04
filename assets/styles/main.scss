@@ -147,6 +147,12 @@ sup {
 	justify-content: flex-end;
 }
 
+.contenu {
+	display : flex;
+	flex-direction : column;
+	align-items: center;
+	justify-content: center;
+}
 /* ------------------------------------------------------------------------------------------
 
             Styles de sous-sections
@@ -206,7 +212,7 @@ sup {
 	}
 
 	.contenu {
-		margin-top: 3rem;
+		margin-top: 2rem;
 		padding: 0.5rem;
 		display: flex;
 		flex-direction: column;

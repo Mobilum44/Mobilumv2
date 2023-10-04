@@ -9,14 +9,13 @@
 
 			<ul class="reference-info">
 				<li class="reference-info-ligne">
-					<div v-if="doc.client">{{ doc.client }}</div>
-					<div v-if="doc.archi_be">/ {{ doc.archi_be }}</div>
+					<div v-if="doc.row_one_prem">{{ doc.row_one_prem }}</div>
+					<div v-if="doc.row_one_sec">/ {{ doc.sec }}</div>
 				</li>
 
 				<li>
-					<div v-if="doc.installateur">
-						<p>{{ doc.installateur }}</p>
-					</div>
+					<div v-if="doc.row_two_prem">{{ doc.row_two_prem }}</div>
+					<div v-if="doc.row_two_sec">{{ doc.row_two_sec }}</div>
 				</li>
 			</ul>
 
@@ -27,56 +26,62 @@
 						<p>{{ doc.prem_loc }}</p>
 					</div>
 					<div v-if="doc.prem_client">{{ doc.prem_client }}</div>
-					<div v-if="doc.prem_archi_be">/ {{ doc.prem_archi_be }}</div>
+					<div v-if="doc.prem_acteur">/ {{ doc.prem_acteur }}</div>
 				</li>
 				<li class="reference-info-colonne">
 					<div v-if="doc.sec_loc">
 						<p>{{ doc.sec_loc }}</p>
 					</div>
 					<div v-if="doc.sec_client">{{ doc.sec_client }}</div>
-					<div v-if="doc.sec_archi_be">{{ doc.sec_archi_be }}</div>
+					<div v-if="doc.sec_acteur">{{ doc.sec_acteur }}</div>
 				</li>
 			</ul>
 
 			<ul class="reference-info responsive">
 				<li>
 					<div v-if="doc.fabricant">
-						<p><em>Fabricants</em>: {{ doc.fabricant }}</p>
+						<p><em>Fabricants :</em> {{ doc.fabricant }}</p>
 					</div>
 				</li>
 
 				<li>
-					<div v-if="doc.agent">
-						<p><em>Agence</em>: {{ doc.agent }}</p>
+					<div v-if="doc.row_three">
+						{{ doc.row_three }}
 					</div>
 				</li>
 
-				<li class="reference-info-ligne responsive">
-					<!---- Dates du projet --->
-					<div v-if="doc.date_realisation">{{ doc.date_realisation }} /</div>
-					<div v-if="doc.date_demarrage">{{ doc.date_demarrage }} /</div>
-					<div v-if="doc.duree_marche">{{ doc.duree_marche }} /</div>
+				<li>
+					<div v-if="doc.row_four">
+						{{ doc.row_four }}
+					</div>
+				</li>
 
-					<!-----Localisation sur la même ligne ----->
-					<div v-if="doc.localisation"><b>(espace)</b>{{ doc.localisation }}</div>
+				<li>
+					<div v-if="doc.agent"><em>Agence :</em>: {{ doc.agent }}</div>
 				</li>
 			</ul>
+
+			<div v-if="doc.concept">
+				<p><em>Concept :</em> {{ doc.concept }}</p>
+			</div>
+
 			<ul class="reference-info">
 				<li>
 					<div v-if="doc.recompense">
+						<div v-if="doc.recompense_logo" v-for="(img, i) in doc.recompense_logo" :key="i">
+							<NuxtImg :src="img" height="50px" />
+						</div>
 						<p><em>Récompense</em>: {{ doc.recompense }}</p>
 						<br />
 					</div>
 				</li>
-				<div v-if="doc.concept">
-					<p><em>Concept</em>: {{ doc.concept }}</p>
+
+				<div class="reference-info">
+					<ContentRenderer :value="doc" />
 				</div>
-				<div class="reference-description">
-				<ContentRenderer :value="doc" />
-			</div>
 			</ul>
 
-			<div class="reference-carousel wide">
+			<div class="reference-info wide">
 				<ul>
 					<li v-for="(img, i) in doc.carousel" :key="i">
 						<NuxtImg :src="img" width="1900" format="avif,webp" placeholder loading="lazy" />
@@ -84,22 +89,8 @@
 				</ul>
 			</div>
 
-			<!---			<div class="reference-image">
-				<figure>
-					<NuxtImg
-						:src="doc.cover_image"
-						:alt="doc.cover_text"
-						width="500"
-						height="500"
-						format="avif,webp"
-						placeholder
-						loading="lazy"
-					/>
-					<figcaption>
-						<p>{{ doc.cover_text }}</p>
-					</figcaption>
-				</figure>
-			</div> ------>
+			<!----- Mettre autres produits de la gamme grâce au champ "Gamme" ----->
+
 		</ContentDoc>
 	</main>
 </template>
@@ -120,7 +111,7 @@ h2 {
 	text-align: center;
 	font-family: "Montserrat";
 	font-size: 200%;
-	border : 0;
+	border: 0;
 }
 
 .reference {
@@ -174,26 +165,23 @@ h2 {
 
 @media only screen and (max-width: 950px) {
 	.reference-header {
-		padding : 0.5rem;
-		width :100%;
-		text-align: center;
+		padding: 0.5rem;
 	}
 
 	h1 {
-		padding : 0;
+		padding: 0;
 		text-align: center;
 		font-size: 2rem;
 	}
 
 	h2 {
-		font-size : 1.5rem;
-		margin-top : 0.5rem;
+		font-size: 1.5rem;
+		margin-top: 0.5rem;
 	}
 
 	.responsive {
 		flex-direction: column;
 		align-items: center;
 	}
-
 }
 </style>

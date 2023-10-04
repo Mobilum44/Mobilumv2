@@ -17,7 +17,7 @@
 		<p>
 			<b> Les photos sont zoomées, corriger ca</b> <br />
 			<br />
-			<b> Essayer de mettre à la ligne après SNCF</b>
+			<b>Classify : By type // Order by : champ md "order"</b> <br/>
 			SNCF / SGP MU / SGP sign <br />
 			Trocadero / ENS / Chanel / Galets / Tram angers / Puilboreau / La défense (si obtenu)<br />
 			Vertable / sorbonne / saclay / carnon / roquefere / crous <br />
