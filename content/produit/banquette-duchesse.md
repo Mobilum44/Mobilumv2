@@ -20,7 +20,7 @@ carousel:
     - "/produits/banquette-elium-parc.jpg"
     - "/produits/attente-showroom.jpg"
 filaire:
-    - "/produits/filaires/filaire-cantine-04.png"
+    - "/produits/filaires/filaire-banquette-duchesse.png"
 reference: BADUCHE0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 208

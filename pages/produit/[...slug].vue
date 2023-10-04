@@ -241,14 +241,16 @@
 					Si la catégorie est vide, juste la supprimer</b
 				>
 			</p>
+
+			<div class="scroll">
 			<ul class="famille-produit responsive">
-				<li class="card" v-for="relatedProduct in relatedProducts" :key="relatedProduct._id">
+				<li class="famille-card" v-for="relatedProduct in relatedProducts" :key="relatedProduct._id">
 					<NuxtLink :to="relatedProduct._path">
 						<NuxtImg
 							:src="relatedProduct.cover_image"
 							:alt="relatedProduct.title"
-							width="200"
-							height="200"
+							width="200px"
+							height="200px"
 							fit="cover"
 							format="avif,webp"
 							placeholder
@@ -258,6 +260,7 @@
 					</NuxtLink>
 				</li>
 			</ul>
+			</div>
 		</section>
 	</ContentDoc>
 </template>
@@ -337,6 +340,7 @@ h1 {
 }
 .sub-section {
 	width: 80%;
+	margin-top : 2rem;
 }
 
 .sub-section-content {
@@ -461,9 +465,18 @@ h1 {
 .famille-produit {
 	display: flex;
 	flex-direction: row;
+	width : 100%;
+	border : solid pink;
 }
 
-.card {
+.scroll { /*scroll qui ne marche pas*/
+        width: 80vw;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+.famille-card {
 	position: relative;
 	margin: 1.3rem;
 	overflow: hidden;
@@ -478,14 +491,14 @@ h1 {
 	background-color: #1a949d;
 }
 
-.card img {
+.famille-card img {
 	object-fit: cover;
 	width: 100%;
 	opacity: 1;
 	z-index: 99;
 }
 
-.card p {
+.famille-card p {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -505,12 +518,12 @@ h1 {
 	color: white;
 }
 
-.card:hover p {
+.famille-card:hover p {
 	opacity: 1;
 	transition: all 0.1s ease-in-out;
 }
 
-.card:hover img {
+.famille-card:hover img {
 	opacity: 0.3;
 	transition: all 0.3s ease-in-out;
 }

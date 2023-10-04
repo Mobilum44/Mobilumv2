@@ -20,7 +20,7 @@ carousel:
     - "/produits/table-vertable-loroux-jaune.jpg"
     - "/produits/table-vertable-loroux-orange.jpg"
 filaire:
-    - "/produits/filaires/filaire-cantine-04.png"
+    - "/produits/filaires/filaire-table-vertable.png"
 reference: ENVERTA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 688
