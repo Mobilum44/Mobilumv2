@@ -1,8 +1,8 @@
 ---
 type: Les grands comptes
-cover_title :
-title: Le Grand Paris Mobilier Urbain
-sub_title: Mobilier en gare
+cover_title : Le Grand Paris Mobilier Urbain
+title: Le Grand Paris
+sub_title:  Mobilier Urbain
 published: TRUE
 
 gamme: "?"
@@ -35,9 +35,7 @@ date_demarrage: "2023"
 duree_marche:
 recompense:
 
-concept: "...?"
+concept:
 ---
 
 ## Description
-
-Enlever (si possible) "Mobilier urbain" dans le titre

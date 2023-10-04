@@ -10,7 +10,7 @@ Supprimer sav -->
 		</template>
 
 		<p> Photo notre dame de mont pas exploitable : mineur en plein milieu de la Photo</p> <br/>
-		<b> Rendre ca responsive // Corriger toutes les images qui explosent ( . JPG) <br/></b>
+		<b> Rendre ca responsive // Corriger toutes les images qui explosent (. JPG) <br/></b>
 		<b>Champs .md à améliorer</b><br/>
 
 		<div class="collection">
@@ -30,14 +30,15 @@ Supprimer sav -->
 				</NuxtLink>
 
 				<div class="left">
+					<b>Changer photo</b>
 					<p>
-						Une gamme de 70 (à vérifier) mobiliers urbains à votre disposition <br />
-						<b>Photo angers beacoup utilisée</b>
+						Une gamme de plus de <b>50</b> mobiliers urbains à votre disposition <br />
 					</p>
+					
 				</div>
 			</div>
 
-			<div class="sub__section">
+			<div class="sub__section reverse">
 				<div class="right">
 					<p class="right-align">Nous savons répondre présents</p>
 				</div>
@@ -76,11 +77,11 @@ Supprimer sav -->
 				</div>
 			</div>
 
-			<div class="sub__section">
+			<div class="sub__section reverse">
 				<div class="right">
 					<p class="right-align">Une valeur sure</p>
 				</div>
-				<NuxtLink class="items_styling shadow" to="/hook">
+				<NuxtLink class="items_styling shadow " to="/hook">
 					<NuxtImg
 						class="items__img"
 						alt="SNCF Gare Auxerre"
@@ -213,6 +214,8 @@ useSeoMeta({
 }
 
 @media only screen and (max-width: 950px) {
+
+
 	.collection {
 		display: flex;
 		flex-direction: column;
@@ -225,12 +228,28 @@ useSeoMeta({
 		display : flex;
 		flex-direction: column;
 		align-items: center;
+		width : 100%;
 	}
+
+	.left, .right {
+		width : 100%;
+		display : flex;
+		flex-direction : column;
+		align-items : center;
+		justify-content: center;
+	}
+
+	.reverse  {
+		flex-direction: column-reverse;
+	}
+
+	
 
 	.sub__section p {
 	text-align: center;
 	margin : 0;
 	padding : 0;
+	font-size: 1.5rem;
 	}
 	.items_styling {
 		height: 20rem;

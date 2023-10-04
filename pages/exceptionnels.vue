@@ -27,7 +27,7 @@
 		<section class="wide">
 			<ul>
 				<li
-					class="type__style"
+					class="references"
 					v-for="typ in ['Les grands comptes', 'Les remarquables', 'Les conceptuels', 'Les récompensés']"
 					:key="typ"
 				>
@@ -99,7 +99,7 @@ h2 {
 	width: 70%;
 }
 
-.type__style {
+.references {
 	margin-top: 2rem;
 	margin-bottom: 4rem;
 }
@@ -145,6 +145,10 @@ ul {
 		width: 95%;
 	}
 
+	.chapeau {
+		width : 100%;
+	}
+
 	.sub__section {
 		margin-bottom: 0;
 	}
@@ -153,5 +157,19 @@ ul {
 		margin-bottom: 0;
 		margin-top: 2rem;
 	}
+
+	.references-list {
+	gap: 2rem;
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
 }
+
+.references-list li {
+	width : 100%;
+}
+}
+
+
+
 </style>

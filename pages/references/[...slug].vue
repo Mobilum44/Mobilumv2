@@ -4,7 +4,7 @@
 			<p><b>Quand on peut : mettre lien vers la fiche des produits ? </b></p>
 			<div class="reference-header">
 				<h1>{{ doc.title }}</h1>
-				<p>{{ doc.sub_title }}</p>
+				<h2>{{ doc.sub_title }}</h2>
 			</div>
 
 			<ul class="reference-info">
@@ -113,6 +113,16 @@ h1 {
 	font-size: 300%;
 	margin: 0;
 }
+
+h2 {
+	color: black;
+	border-bottom: solid black 1px;
+	text-align: center;
+	font-family: "Montserrat";
+	font-size: 200%;
+	border : 0;
+}
+
 .reference {
 	margin-top: 17vh;
 	width: 80%;

@@ -1,8 +1,8 @@
 ---
 type: Les grands comptes
-cover_title :
-title: Le Grand Paris Signalétique
-sub_title: Habillage signalétique
+cover_title : Le Grand Paris Signalétique
+title: Le Grand Paris
+sub_title: Signalétique
 published: TRUE
 
 gamme: "?"
@@ -35,9 +35,8 @@ date_demarrage: "2023"
 duree_marche:
 recompense:
 
-concept: "...?"
+concept:
 ---
 
 ## Description
 
-"Coucou "

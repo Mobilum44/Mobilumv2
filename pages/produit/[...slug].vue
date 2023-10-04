@@ -9,15 +9,30 @@
 			</div>
 		</section>
 		<section class="sub-section">
+			<!--- Modèle de carousel récupéré sur la doc nuxt https://ismail9k.github.io/vue3-carousel/getting-started.html 
+			<template>
+				<carousel :items-to-show="1.5">
+					<slide v-for="slide in 10" :key="slide">
+						{{ slide }}
+					</slide>
+
+					<template #addons>
+						<navigation />
+						<pagination />
+					</template>
+				</carousel>
+			</template>
+ -->
+
 			<div class="gallery">
 				<div v-for="(img, i) in doc.carousel" :key="i">
 					<NuxtImg :src="img" width="2000" placeholder format="avif,webp" loading="lazy" />
 				</div>
-				<carousel :img="doc.carousel" />
+				<Carousel :img="doc.carousel" />
 			</div>
 		</section>
 
-		<div class="sub-section general">
+		<div class="sub-section general responsive">
 			<div class="general-filaire" v-for="(img, i) in doc.filaire" :key="i">
 				<NuxtImg :src="img" height="300px" />
 			</div>
@@ -26,12 +41,42 @@
 				<!--- Mettre bien en forme le document, et nettoyer un peu le code-->
 				<h2 class="general-titre">Caractéristiques</h2>
 				<p>
-					<em>Matériau :</em> : {{ doc.materiau }}
-					><br />
-					<em>Poids</em> : {{ doc.poids }}kg<br />
-					<em>Dimensions</em> : {{ doc.dimensions }}mm <br />
+					<em>Matériau :</em> {{ doc.materiau }} <br />
+					<em>Poids :</em> {{ doc.poids }}kg<br />
+					<em>Dimensions :</em> {{ doc.dimensions }}mm <br />
 					<em>Format :</em> {{ doc.format }}
 				</p>
+
+				<div v-if="doc.motif_prem" class="general-motifs responsive">
+					<div class="general-content"><em>Finitions : </em></div>
+
+					<div class="responsive-row">
+						<div class="general-content">
+							{{ doc.motif_prem }}
+							<p>lisse</p>
+						</div>
+
+						<div class="general-content" v-for="(img, i) in doc.motif_sec" :key="i">
+							<NuxtImg :src="img" height="50px" />
+							<p>Végétal</p>
+						</div>
+
+						<!---<div v-if="doc.motif_sec">
+					<div class="general-content">
+						{{ doc.motif_sec }}
+						
+					</div>-->
+						<!---</div>
+
+					<div v-if="doc.motif_ter">
+						<div class="general-content">
+							{{ doc.motif_ter }}
+							<p>lisse</p>
+						</div>
+					</div>-->
+					</div>
+				</div>
+
 				<p class="general-description">
 					{{ doc.description }}
 				</p>
@@ -41,7 +86,7 @@
 		<section class="sub-section">
 			<h2>Nos finitions</h2>
 
-			<div class="sub-section-content">
+			<div class="sub-section-content responsive">
 				<div class="content">
 					<p class="strong">Couleurs naturelles</p>
 					<ul>
@@ -142,35 +187,10 @@
 		</section>
 
 		<section class="sub-section">
-			<div class="sub-section-content">
-				<div v-if="doc.motif_prem">
-					<div class="content">
-						{{ doc.motif_prem }}
-						<p>lisse</p>
-					</div>
-				</div>
-
-				<div v-if="doc.motif_sec">
-					<div class="content">
-						{{ doc.motif_sec }}
-						<p>Végétal</p>
-					</div>
-				</div>
-
-				<div v-if="doc.motif_ter">
-					<div class="content">
-						{{ doc.motif_ter }}
-						<p>lisse</p>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="sub-section">
 			<div v-if="doc.portes_prem">
 				<h2>Les portes</h2>
 				<b>Mettre des photos des portes</b>
-				<div class="sub-section-content">
+				<div class="sub-section-content responsive">
 					<div class="content">
 						{{ doc.portes_prem }}
 						<p>Bois</p>
@@ -211,13 +231,6 @@
 					<p>Avec ou sans boite aux lettres, colori au choix</p>
 				</div>
 			</div>
-
-			<!----- Catégorie Personnalisation ne marche pas ----------->
-
-			<div v-if="doc.personnalisation">
-				<h2>Personnalisation</h2>
-				<div class="content">{{ doc.personnalisation }}</div>
-			</div>
 		</section>
 
 		<section class="sub-section">
@@ -228,7 +241,7 @@
 					Si la catégorie est vide, juste la supprimer</b
 				>
 			</p>
-			<ul class="famille-produit">
+			<ul class="famille-produit responsive">
 				<li class="card" v-for="relatedProduct in relatedProducts" :key="relatedProduct._id">
 					<NuxtLink :to="relatedProduct._path">
 						<NuxtImg
@@ -324,7 +337,7 @@ h1 {
 }
 
 .sub-section-content {
-	margin-top : 1rem;
+	margin-top: 1rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -351,11 +364,21 @@ h1 {
 	align-items: center;
 	justify-content: center;
 	margin: 0;
+	margin-top: 3rem;
 }
 
 .general-titre {
 	padding-left: 0;
 	margin-left: 0;
+}
+
+.general-motifs {
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 3rem;
 }
 .general-filaire {
 	width: 40%;
@@ -373,6 +396,13 @@ h1 {
 	width: 65%;
 }
 
+.general-content {
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .general-description {
 	margin-top: 2rem;
 }
@@ -382,23 +412,23 @@ h1 {
 	---------------------------------------------------------------*/
 
 .content {
+	width: 100%;
 	margin-top: 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 100%;
 }
 
-.list-element{
-	margin-left : 2rem;
+.list-element {
+	margin-left: 2rem;
 	list-style-type: disc;
 }
 
 .content ul {
-	width : 100%;
-	display : flex;
+	width: 100%;
+	display: flex;
 	flex-direction: column;
-	margin-left : 2rem;
+	margin-left: 2rem;
 }
 .type {
 	width: 100%;
@@ -487,6 +517,9 @@ h1 {
 --------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 950px) {
+	h2 {
+		margin-top: 1rem;
+	}
 	.return {
 		height: 2rem;
 		overflow: hidden;
@@ -497,10 +530,30 @@ h1 {
 		margin: 0;
 	}
 
-	.sub-section-content {
-		display: flex;
+	.responsive {
+		border : solid pink;
 		flex-direction: column;
 		align-items: center;
+		width : 100%;
+	}
+
+	.responsive-row {
+		width : 100%;
+		border : solid yellow;
+		display : flex;
+		flex-direction: row;
+	gap : 3rem;
+	}
+
+	.general-filaire {
+		height: 100%;
+		width: 100%;
+	}
+
+	.general-motifs {
+		justify-content: flex-start;
+		align-items: flex-start;
+		gap: 0;
 	}
 
 	.sub-section-content p {

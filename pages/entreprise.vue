@@ -79,7 +79,7 @@
 Notre savoir-faire
 -------------------------------------------------------------------->
 		<div class="sub__section wide dark">
-			<div class="sub__section__content">
+			<div class="sub__section__content reverse">
 				<div class="section__side text">
 					<h2>\ Notre savoir-faire</h2>
 					<div class="section__text">
@@ -392,6 +392,9 @@ h2 {
 		margin : 0;
 	}
 
+	.reverse {
+		flex-direction: column-reverse;
+	}
 	.savoir-faire {
 		height: 30vh;
 		width: 90vw;
