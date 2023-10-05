@@ -284,10 +284,20 @@ h3 {
 --------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 950px) {
+
+	.sub__section {
+		margin-top : 0;
+		margin-bottom : 1rem;
+	}
 	.section-collection {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.section-collection > p {
+		height : 0;
+		opacity : 0;
 	}
 
 
@@ -299,7 +309,8 @@ h3 {
 	}
 
 .surmesure-focus img {
-	max-width : 100%;
+	height : 50vh;
+	width : 100%;
 	object-fit: contain;
 
 }

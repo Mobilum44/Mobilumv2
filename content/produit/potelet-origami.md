@@ -6,14 +6,9 @@ collection: Mobilier urbain
 category: Potelet
 sub_category: 17 Potelet
 gamme: ORIGAMI
-finitions:
-motif_prem:
-motif_sec:
-motif_ter:
-portes_prem:
-portes_sec:
-portes_ter:
-options:
+motifs:
+portes:
+bal:
 personnalisation:
 cover_image: "/produits/cover_image/potelet-fixe-origami.jpg"
 carousel:

@@ -6,14 +6,9 @@ collection: HOOK
 category: Module
 sub_category: 03 Module
 gamme: HOOK
-finitions:
-motif_prem:
-motif_sec:
-motif_ter:
-portes_prem:
-portes_sec:
-portes_ter:
-options:
+motifs: oui
+portes: oui
+bal: oui
 personnalisation: L1125 bois
 cover_image: "/produits/cover_image/hook-1125-double-alu-compo.jpg"
 carousel:

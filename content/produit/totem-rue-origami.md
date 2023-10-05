@@ -6,14 +6,9 @@ collection: Signalétique
 category: Totem
 sub_category: Totem rue
 gamme: ORIGAMI
-finitions:
-motif_prem:
-motif_sec:
-motif_ter:
-portes_prem:
-portes_sec:
-portes_ter:
-options:
+motifs:
+portes:
+bal:
 personnalisation: "Faites sabler une image, un logo, ou donnez les indications que vous souhaitez."
 cover_image: "/produits/cover_image/totem-origami-rue.jpg"
 carousel:

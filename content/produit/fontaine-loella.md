@@ -6,14 +6,9 @@ collection: Mobilier urbain
 category: Fontaine
 sub_category: 16 Fontaine
 gamme: LOELLA
-finitions:
-motif_prem:
-motif_sec:
-motif_ter:
-portes_prem:
-portes_sec:
-portes_ter:
-options:
+motifs:
+portes:
+bal:
 personnalisation: 1140
 cover_image: "/produits/cover_image/fontaine-loella.jpg"
 carousel:

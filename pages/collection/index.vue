@@ -10,8 +10,8 @@ Supprimer sav -->
 		</template>
 
 		<p> Photo notre dame de mont pas exploitable : mineur en plein milieu de la Photo</p> <br/>
-		<b> Rendre ca responsive // Corriger toutes les images qui explosent (. JPG) <br/></b>
-		<b>Champs .md à améliorer</b><br/>
+		<b> Corriger toutes les images qui explosent (. JPG) <br/></b>
+		Champs .md à améliorer  -> En cours<br/>
 
 		<div class="collection">
 			<div class="sub__section">

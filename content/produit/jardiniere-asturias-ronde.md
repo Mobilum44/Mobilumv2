@@ -6,14 +6,9 @@ collection: Mobilier urbain
 category: Jardinière
 sub_category: 14 Jardinière
 gamme: ASTURIAS
-finitions:
-motif_prem:
-motif_sec:
-motif_ter:
-portes_prem:
-portes_sec:
-portes_ter:
-options:
+motifs:
+portes:
+bal:
 personnalisation: végétal
 cover_image: "/produits/cover_image/jardiniere-asturias-ronde-vegetal.jpg"
 carousel:

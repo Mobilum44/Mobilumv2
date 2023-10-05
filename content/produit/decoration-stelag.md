@@ -6,14 +6,9 @@ collection: Mobilier urbain
 category: Autre
 sub_category: 90 Décoration
 gamme: STELAG
-finitions:
-motif_prem:
-motif_sec:
-motif_ter:
-portes_prem:
-portes_sec:
-portes_ter:
-options:
+motifs:
+portes:
+bal:
 personnalisation:
 cover_image: "/produits/cover_image/galet-stelag.jpg"
 carousel:

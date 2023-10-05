@@ -6,14 +6,9 @@ collection: Mobilier urbain
 category: Assise
 sub_category: 06 Banc
 gamme: STAMP
-finitions:
-motif_prem:
-motif_sec:
-motif_ter:
-portes_prem:
-portes_sec:
-portes_ter:
-options:
+motifs:
+portes:
+bal:
 personnalisation: lisse
 cover_image: "/produits/cover_image/banc-stamp-lisse.jpg"
 carousel:

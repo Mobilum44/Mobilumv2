@@ -6,14 +6,9 @@ collection: Mobilier urbain
 category: Assise
 sub_category: 06 Banc
 gamme: ELIUM
-finitions:
-motif_prem:
-motif_sec:
-motif_ter:
-portes_prem:
-portes_sec:
-portes_ter:
-options:
+motifs:
+portes:
+bal:
 personnalisation: 3 dossiers
 cover_image: "/produits/cover_image/banc-elium-3-dossiers.jpg"
 carousel:

@@ -47,39 +47,39 @@
 					<em>Format :</em> {{ doc.format }}
 				</p>
 
-				<div v-if="doc.motif_prem" class="general-motifs responsive">
+				<div v-if="doc.motifs" class="general-motifs responsive">
 					<div class="general-content"><em>Finitions : </em></div>
-
-					<div class="responsive-row">
-						<div class="general-content">
-							{{ doc.motif_prem }}
+					<div class="general-content responsive-row">
+						<div class="content">
+							<NuxtImg
+								src="/produits/motif-vegetal.png"
+								alt="Couleurs RAL des boites aux lettres Mobilum"
+								fit="cover"
+								height="50"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
 							<p>lisse</p>
 						</div>
-
-						<div class="general-content" v-for="(img, i) in doc.motif_sec" :key="i">
-							<NuxtImg :src="img" height="50px" />
+						<div class="content">
+							<NuxtImg
+								src="/produits/motif-vegetal.png"
+								alt="Couleurs RAL des boites aux lettres Mobilum"
+								fit="cover"
+								height="50"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
 							<p>Végétal</p>
 						</div>
-
-						<!---<div v-if="doc.motif_sec">
-					<div class="general-content">
-						{{ doc.motif_sec }}
-						
-					</div>-->
-						<!---</div>
-
-					<div v-if="doc.motif_ter">
-						<div class="general-content">
-							{{ doc.motif_ter }}
-							<p>lisse</p>
-						</div>
-					</div>-->
 					</div>
-				</div>
 
-				<p class="general-description">
-					{{ doc.description }}
-				</p>
+					<p class="general-description">
+						{{ doc.description }}
+					</p>
+				</div>
 			</div>
 		</div>
 
@@ -187,53 +187,56 @@
 		</section>
 
 		<section class="sub-section">
-			<div v-if="doc.portes_prem">
+			<div v-if="doc.portes">
 				<h2>Les portes</h2>
 				<b>Mettre des photos des portes</b>
 				<div class="sub-section-content responsive">
 					<div class="content">
-						{{ doc.portes_prem }}
-						<p>Bois</p>
-					</div>
-
-					<div class="content" v-if="doc.portes_sec">
-						<!---
 						<NuxtImg
-							:src="img"
-							alt="texte alternatif"
-							width="200"
-							height="200"
+							src="/produits/motif-vegetal.png"
+							alt="Couleurs RAL des boites aux lettres Mobilum"
 							fit="cover"
+							height="50"
 							format="avif,webp"
 							placeholder
 							loading="lazy"
-						/> --->
+						/>
+						<p>Bois</p>
+					</div>
+
+					<div class="content">
+						<NuxtImg
+							src="/produits/motif-vegetal.png"
+							alt="Couleurs RAL des boites aux lettres Mobilum"
+							fit="cover"
+							height="50"
+							format="avif,webp"
+							placeholder
+							loading="lazy"
+						/>
 						<p>Alu Composite</p>
 					</div>
-
-					<div class="content" v-if="doc.portes_ter">
-						{{ doc.portes_ter }}
-						<p></p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--- mettre photos ici
-			<div class="general-filaire" v-for="(img, i) in doc.filaire" :key="i">
-				<NuxtImg :src="img" height="300px" />
-			</div>
-				-->
-		<section class="sub-section">
-			<div v-if="doc.options">
-				<h2>Option</h2>
-				<div class="content">
-					{{ doc.options }}
-					<p>Avec ou sans boite aux lettres, colori au choix</p>
 				</div>
 			</div>
 		</section>
 
-		<section class="sub-section">
+		<section v-if="doc.bal" class="sub-section">
+			<h2>Option</h2>
+			<div class="content">
+				<NuxtImg
+					src="/produits/boites-aux-lettres-RAL.png"
+					alt="Couleurs RAL des boites aux lettres Mobilum"
+					fit="cover"
+					height="250"
+					format="avif,webp"
+					placeholder
+					loading="lazy"
+				/>
+				<p>Avec ou sans boite aux lettres, colori au choix</p>
+			</div>
+		</section>
+
+		<section class="sub-section famille">
 			<h2>Dans la même gamme...</h2>
 			<p>
 				<b
@@ -243,23 +246,23 @@
 			</p>
 
 			<div class="scroll">
-			<ul class="famille-produit responsive">
-				<li class="famille-card" v-for="relatedProduct in relatedProducts" :key="relatedProduct._id">
-					<NuxtLink :to="relatedProduct._path">
-						<NuxtImg
-							:src="relatedProduct.cover_image"
-							:alt="relatedProduct.title"
-							width="200px"
-							height="200px"
-							fit="cover"
-							format="avif,webp"
-							placeholder
-							loading="lazy"
-						/>
-						<p>{{ relatedProduct.title }}</p>
-					</NuxtLink>
-				</li>
-			</ul>
+				<ul class="famille-produit responsive">
+					<li class="famille-card" v-for="relatedProduct in relatedProducts" :key="relatedProduct._id">
+						<NuxtLink :to="relatedProduct._path">
+							<NuxtImg
+								:src="relatedProduct.cover_image"
+								:alt="relatedProduct.title"
+								width="200px"
+								height="200px"
+								fit="cover"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
+							<p>{{ relatedProduct.title }}</p>
+						</NuxtLink>
+					</li>
+				</ul>
 			</div>
 		</section>
 	</ContentDoc>
@@ -289,8 +292,8 @@ const { data: relatedProducts } = await useAsyncData(
 .strong {
 	font-family: montserrat;
 	font-weight: 600;
-	color : #1a949d;
-	margin-bottom : 1rem;
+	color: #1a949d;
+	margin-bottom: 1rem;
 }
 
 h2 {
@@ -340,7 +343,7 @@ h1 {
 }
 .sub-section {
 	width: 80%;
-	margin-top : 2rem;
+	margin-top: 2rem;
 }
 
 .sub-section-content {
@@ -402,11 +405,10 @@ h1 {
 .general-infos {
 	width: 65%;
 }
-
 .general-content {
 	margin-top: 0;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 }
 
@@ -462,19 +464,25 @@ h1 {
 
 				Pour faire le scroll : http://www.css3create.com/Slider-Galerie-photos-en-boucle-en-CSS3
 --------------------------------------------------------------------------------------------*/
+
+/* ------------------------------------------------------------------------------------------
+				Famille produit
+
+				Pour faire le scroll : http://www.css3create.com/Slider-Galerie-photos-en-boucle-en-CSS3
+--------------------------------------------------------------------------------------------*/
 .famille-produit {
 	display: flex;
 	flex-direction: row;
-	width : 100%;
-	border : solid pink;
+	width: 100%;
 }
 
-.scroll { /*scroll qui ne marche pas*/
-        width: 80vw;
-        overflow-x: auto;
-        overflow-y: hidden;
-        white-space: nowrap;
-    }
+.scroll {
+	/*scroll qui ne marche pas*/
+	width: 80vw;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
 
 .famille-card {
 	position: relative;
@@ -547,18 +555,16 @@ h1 {
 	}
 
 	.responsive {
-		border : solid pink;
 		flex-direction: column;
 		align-items: center;
-		width : 100%;
+		width: 100%;
 	}
 
 	.responsive-row {
-		width : 100%;
-		border : solid yellow;
-		display : flex;
+		width: 100%;
+		display: flex;
 		flex-direction: row;
-	gap : 3rem;
+		gap: 3rem;
 	}
 
 	.general-filaire {
@@ -574,6 +580,10 @@ h1 {
 
 	.sub-section-content p {
 		padding-top: 2rem;
+	}
+
+	.famille {
+		margin: 0;
 	}
 }
 </style>

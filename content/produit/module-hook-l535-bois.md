@@ -6,16 +6,9 @@ collection: HOOK
 category: Assise
 sub_category: 01 Module
 gamme: HOOK
-finitions: L535 bois
-motif_prem:
-motif_sec:
-motif_ter:
-portes_prem:
-    - "/photospages/couleur-bfup-bleu.jpg"
-portes_sec:
-    - "/photospages/couleur-bfup-bleu.jpg"
-portes_ter: 
-options: Boite aux lettres 
+motifs: oui
+portes: oui
+bal: oui
 personnalisation:
 cover_image: "/produits/cover_image/hook-765-bois.jpg"
 carousel:

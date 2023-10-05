@@ -6,14 +6,9 @@ collection: Mobilier urbain
 category: Corbeille
 sub_category: 13 Corbeille
 gamme: ASTURIAS
-finitions:
-motif_prem:
-motif_sec:
-motif_ter:
-portes_prem:
-portes_sec:
-portes_ter:
-options:
+motifs:
+portes:
+bal:
 personnalisation: végétal
 cover_image: "/produits/cover_image/corbeille-asturias-vegetal.jpg"
 carousel:

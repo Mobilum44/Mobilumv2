@@ -6,14 +6,9 @@ collection: Mobilier urbain
 category: Table
 sub_category: 11 1 Table
 gamme: CANTINE
-finitions:
-motif_prem:
-motif_sec:
-motif_ter:
-portes_prem:
-portes_sec:
-portes_ter:
-options:
+motifs:
+portes:
+bal:
 personnalisation: 01
 cover_image: "/produits/cover_image/table-urbaine-cantine-01.jpg"
 carousel:
