@@ -89,12 +89,13 @@
 			<div class="sub-section-content responsive">
 				<div class="content">
 					<p class="strong">Couleurs naturelles</p>
+					<!--<b> Remettre couleurs pour eux</b>
 					<ul>
 						<li class="list-element">Gris foncé</li>
 						<li class="list-element">Gris clair</li>
 						<li class="list-element">Blanc</li>
-					</ul>
-					<!-------
+					</ul>--->
+
 					<div class="type">
 						<div class="type-color">
 							<NuxtImg
@@ -107,10 +108,23 @@
 								placeholder
 								loading="lazy"
 							/>
+							<p>Gris foncé</p>
 						</div>
-						<p>Gris foncé<br /></p>
 
-						<p>Gris clair<br /></p>
+						<div class="type-color">
+							<NuxtImg
+								class="color_square"
+								alt="couleur du BFUP Mobilum"
+								src="/photospages/couleur-bfup-gris-fonce.jpg"
+								width="200vw"
+								fit="cover"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
+							<p><b>Gris clair</b></p>
+						</div>
+
 						<div class="type-color">
 							<NuxtImg
 								class="color_square"
@@ -125,7 +139,6 @@
 							<p>Blanc</p>
 						</div>
 					</div>
-					------->
 				</div>
 
 				<div class="content">
@@ -184,12 +197,16 @@
 					<div class="type">Tous les RAL sont possibles. Consultez-nous pour discuter de votre projet.</div>
 				</div>
 			</div>
+			<p class="strong">Possibilité d'envoi de plaques échantillons</p>
 		</section>
 
 		<section class="sub-section">
 			<div v-if="doc.portes">
 				<h2>Les portes</h2>
-				<b>Mettre des photos des portes</b>
+				<b
+					>Mettre des photos des portes en entier (rectangle) + alu compo à motifs (indiquer personnalisation
+					possible)</b
+				>
 				<div class="sub-section-content responsive">
 					<div class="content">
 						<NuxtImg
@@ -222,6 +239,8 @@
 
 		<section v-if="doc.bal" class="sub-section">
 			<h2>Option</h2>
+			<b>Enlever les ral et laisser une seule petite bal</b>
+			<p>Boites aux lettres au choix : nous consulter</p>
 			<div class="content">
 				<NuxtImg
 					src="/produits/boites-aux-lettres-RAL.png"
@@ -234,6 +253,12 @@
 				/>
 				<p>Avec ou sans boite aux lettres, colori au choix</p>
 			</div>
+		</section>
+
+		<section v-if="doc.personnalisation" class="sub-section">
+			<h2>Personnalisation</h2>
+			<p>Mettre petit texte (humain / commercial) pour inciter les clients intéressés à nous contacter (trouver une
+			jolie tournure)</p>
 		</section>
 
 		<section class="sub-section famille">
@@ -344,6 +369,11 @@ h1 {
 .sub-section {
 	width: 80%;
 	margin-top: 2rem;
+}
+
+.sub-section > p {
+	margin-top: 2rem;
+	text-align: center;
 }
 
 .sub-section-content {

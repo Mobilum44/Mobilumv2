@@ -9,7 +9,7 @@ gamme: CANTINE
 motifs:
 portes:
 bal:
-personnalisation: 04
+personnalisation:
 cover_image: "/produits/cover_image/table-cantine-champetre-04.jpg"
 carousel:
     - "/produits/table-cantine-04-st-viaud.jpg"

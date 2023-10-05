@@ -9,7 +9,7 @@ gamme: CANTINE
 motifs:
 portes:
 bal:
-personnalisation: PM
+personnalisation:
 cover_image: "/produits/cover_image/banquette-cantine-pm.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"

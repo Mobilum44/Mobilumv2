@@ -9,7 +9,7 @@ gamme: ASTURIAS
 motifs:
 portes:
 bal:
-personnalisation: lisse
+personnalisation:
 cover_image: "/produits/cover_image/jardiniere-asturias-carree-lisse.jpg"
 carousel:
     - "/produits/jardiniere-asturias-carree-vegetale.png"

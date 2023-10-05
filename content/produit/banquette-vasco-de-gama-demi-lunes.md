@@ -9,7 +9,7 @@ gamme: VASCO DE GAMA
 motifs:
 portes:
 bal:
-personnalisation: demi-lunes
+personnalisation:
 cover_image: "/produits/cover_image/banquette-vasco-de-gama-demi-lunes.jpg"
 carousel:
     - "/produits/banc-vasco-de-gama-a-angers.jpg"

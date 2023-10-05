@@ -9,9 +9,8 @@ Supprimer sav -->
 			</div>
 		</template>
 
-		<p> Photo notre dame de mont pas exploitable : mineur en plein milieu de la Photo</p> <br/>
-		<b> Corriger toutes les images qui explosent (. JPG) <br/></b>
-		Champs .md à améliorer  -> En cours<br/>
+		<p><b> Corriger toutes les images qui explosent (. JPG) <br/></b>
+		Champs .md à améliorer  -> En cours<br/></p>
 
 		<div class="collection">
 			<div class="sub__section">
@@ -32,7 +31,7 @@ Supprimer sav -->
 				<div class="left">
 					<b>Changer photo</b>
 					<p>
-						Une gamme de plus de <b>50</b> mobiliers urbains à votre disposition <br />
+						Nos créations de mobiliers urbains<br />
 					</p>
 					
 				</div>
@@ -118,7 +117,7 @@ useSeoMeta({
 
 <style scoped>
 .slot_image {
-	background: url("/backgroundpages/fond-plage-collection.jpg") center center no-repeat;
+	background: url("/backgroundpages/fond-collection-beam-plage.jpg") center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }

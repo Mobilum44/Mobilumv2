@@ -1,7 +1,7 @@
 ---
 title: Table VERTABLE
 published: TRUE
-designer: Phytolab
+designer:
 collection: Mobilier urbain
 category: Table
 sub_category: 11 Table

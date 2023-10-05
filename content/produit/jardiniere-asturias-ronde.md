@@ -9,7 +9,7 @@ gamme: ASTURIAS
 motifs:
 portes:
 bal:
-personnalisation: végétal
+personnalisation:
 cover_image: "/produits/cover_image/jardiniere-asturias-ronde-vegetal.jpg"
 carousel:
     - "/produits/jardiniere-ronde-lisse-asturias-grandville.jpg"

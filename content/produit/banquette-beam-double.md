@@ -9,7 +9,7 @@ gamme: BEAM
 motifs:
 portes:
 bal:
-personnalisation: double
+personnalisation:
 cover_image: "/produits/cover_image/banquette-beam-double.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"

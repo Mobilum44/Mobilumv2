@@ -9,7 +9,7 @@ gamme: CANTINE
 motifs:
 portes:
 bal:
-personnalisation: 02
+personnalisation:
 cover_image: "/produits/cover_image/table-urbaine-cantine-02.jpg"
 carousel:
     #- "/produits/table-cantine-02-le-trait.jpg"

@@ -8,7 +8,6 @@
 		<b> Trouver une accroche plus sympa "venez vous éclater avec nous"</b>
 		<p class="chapeau">
 			Création d'une pièce unique et distinguée à votre image à partir de notre gamme existante.<br />
-			Nous avons aussi la possibilité de créer des totems sur mesure <br />
 			Nos totems équipent les rues, les parcs, les bords de mer, les zones de bus, les enceintes privées.<br />
 			Ils ont la particularité de résister aux aménagements les plus sensibles.<br />
 		</p>
@@ -41,110 +40,75 @@
 			</div>
 		</div>
 
-		<div class="sub__section wide ">
+		<div class="sub__section wide">
 			<h2>Votre totem sur mesure</h2>
 
-			<div class="surmesure-focus dark">
-				<div class="surmesure-focus-texte">
-					<h3>Dimensions</h3>
-					<p>Adapté à vos besoins</p>
+			<div class="sur-mesure">
+				<div class="surmesure-focus dark">
+					<NuxtImg
+						alt="photo totem en fabrication mobilum BFUP"
+						src="/totems/totems-dimensions.png"
+						format="avif,webp"
+						placeholder
+						loading="lazy"
+						width="230"
+					/>
+
+					<div class="surmesure-focus-texte">
+						<h3>Dimensions</h3>
+						<p>Adapté à vos besoins</p>
+					</div>
 				</div>
 
-				<NuxtImg
-					alt="photo totem en fabrication mobilum BFUP"
-					src="/totems/totems-dimensions.png"
-					format="avif,webp"
-					placeholder
-					loading="lazy"
-					height="500"
-				/>
+				<div class="surmesure-focus dark">
+					<NuxtImg
+						alt="photo totem en fabrication mobilum BFUP"
+						src="/totems/totems-sablage.png"
+						format="avif,webp"
+						placeholder
+						loading="lazy"
+						width="400"
+					/>
 
-				<!----
-				<NuxtImg
-					alt="photo totem en fabrication mobilum BFUP"
-					src="/totems/totem-petit-luneau-papinv2.png"
-					format="avif,webp"
-					placeholder
-					loading="lazy"
-					height="300"
-				/>
-
-				<NuxtImg
-					alt="photo totem en fabrication mobilum BFUP"
-					src="/totems/totem-normal-luneau-papin.png"
-					format="avif,webp"
-					placeholder
-					loading="lazy"
-					height="600"
-				/>
-				--->
-			</div>
-
-			<div class="surmesure-focus dark reverse">
-				<!----
-				<NuxtImg
-					alt="photo totem en fabrication mobilum BFUP"
-					src="/totems/totem-simone-veilv3.png"
-					format="avif,webp"
-					placeholder
-					loading="lazy"
-					height="600"
-				/>
-
-				<NuxtImg
-					alt="photo totem en fabrication mobilum BFUP"
-					src="/totems/totem-coeur-de-ville.png"
-					format="avif,webp"
-					placeholder
-					loading="lazy"
-					height="600"
-				/>
-				--->
-
-				<NuxtImg
-					alt="photo totem en fabrication mobilum BFUP"
-					src="/totems/totems-sablage.png"
-					format="avif,webp"
-					placeholder
-					loading="lazy"
-					height="500"
-				/>
-
-				<div class="surmesure-focus-texte">
-					<h3>Sablage</h3>
-					<p>Une esthétique qui vous ressemble</p>
-				</div>
-			</div>
-
-			<div class="surmesure-focus dark">
-				<div class="surmesure-focus-texte">
-					<h3>Peinture</h3>
-					<p>Du peps pour illuminer vos aménagements</p>
+					<div class="surmesure-focus-texte">
+						<h3>Sablage</h3>
+						<p>Une esthétique qui vous ressemble</p>
+					</div>
 				</div>
 
-				<NuxtImg
-					alt="photo totem en fabrication mobilum BFUP"
-					src="/totems/totems-peinturev2.png"
-					format="avif,webp"
-					placeholder
-					loading="lazy"
-					height="500"
-				/>
-			</div>
+				<div class="surmesure-focus dark">
 
-			<div class="surmesure-focus dark reverse">
-				<NuxtImg
-					alt="photo totem en fabrication mobilum BFUP"
-					src="/totems/totems-plaquesv2.png"
-					format="avif,webp"
-					placeholder
-					loading="lazy"
-					height="500"
-				/>
+					<NuxtImg
+						alt="photo totem en fabrication mobilum BFUP"
+						src="/totems/totems-peinturev2.png"
+						format="avif,webp"
+						placeholder
+						loading="lazy"
+						width="400"
+					/>
 
-				<div class="surmesure-focus-texte">
-					<h3>Pose de plaques</h3>
-					<p> Une personnalisation infinie </p>
+					<div class="surmesure-focus-texte">
+						<h3>Peinture</h3>
+						<p>Du peps pour illuminer vos aménagements</p>
+					</div>
+
+
+				</div>
+
+				<div class="surmesure-focus dark">
+					<NuxtImg
+						alt="photo totem en fabrication mobilum BFUP"
+						src="/totems/totems-plaquesv2.png"
+						format="avif,webp"
+						placeholder
+						loading="lazy"
+						width="400"
+					/>
+
+					<div class="surmesure-focus-texte">
+						<h3>Pose de plaques</h3>
+						<p>Une personnalisation infinie</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -252,21 +216,30 @@ h2 {
 }
 h3 {
 	font-family: "Montserrat";
-	text-align : center;
+	text-align: center;
 }
 .wide {
-	margin-top : 4rem;
+	margin-top: 4rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+
+.sur-mesure {
+	display : flex;
+	flex-direction : row;
+}
 .surmesure-focus {
-	width: 70%;
+	width : 25%;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin : 3rem;
-	padding : 3rem 10rem 3rem 10rem;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+}
+
+.surmesure-focus img {
+	max-width : 80%;
 }
 
 .surmesure-focus-texte {
@@ -274,8 +247,8 @@ h3 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin : 2rem;
-	text-align : center;
+	margin: 2rem;
+	text-align: center;
 }
 /* ------------------------------------------------------------------------------------------
 
@@ -284,10 +257,9 @@ h3 {
 --------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 950px) {
-
 	.sub__section {
-		margin-top : 0;
-		margin-bottom : 1rem;
+		margin-top: 0;
+		margin-bottom: 1rem;
 	}
 	.section-collection {
 		display: flex;
@@ -296,28 +268,23 @@ h3 {
 	}
 
 	.section-collection > p {
-		height : 0;
-		opacity : 0;
+		height: 0;
+		opacity: 0;
 	}
 
-
-	.surmesure-focus {
-		display : flex;
-		flex-direction : column;
-		padding : 1rem;
-		margin : 1rem;
-	}
-
-.surmesure-focus img {
-	height : 50vh;
-	width : 100%;
-	object-fit: contain;
-
+	.sur-mesure {
+	display : flex;
+	flex-direction : column;
 }
+	.surmesure-focus {
+		width : 90%;
+		margin: 1rem;
+	}
 
-	.reverse {
-		display : flex;
-		flex-direction : column-reverse;
+	.surmesure-focus img {
+		height: 50vh;
+		width: 100%;
+		object-fit: contain;
 	}
 }
 </style>

@@ -13,7 +13,13 @@
 				Des modules personnalisables à souhait, composés de matériaux durables, simples à installer et à
 				entretenir.
 			</p>
+			<p> Gamme de 6 modules de dimensions différentes.<br/>
+			Possibilité d'effectuer des modules sur-mesure.</p>
 		</div>
+		<b> Mettre photo illustration des plaques usine <br/>
+			Mettre "HOOK" en cover_title et ligne en dessous pour indiquer la taille "L535", "L765" ...tous en bois et mieux "répartis"<br />
+		Trouver solution pour avoir grille de 6 (2;3) et mettre 7eme en sur-mesure : page entière </b>
+
 
 		<div class="sub__section">
 			<ul class="collection_order">

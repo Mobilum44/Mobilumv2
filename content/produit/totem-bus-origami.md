@@ -9,7 +9,7 @@ gamme: ORIGAMI
 motifs:
 portes:
 bal:
-personnalisation:
+personnalisation: oui
 cover_image: "/produits/cover_image/totem-origami-bus.jpg"
 carousel:
     - "/produits/totem-bus-origami.png"

@@ -87,8 +87,8 @@ Notre savoir-faire
 							<strong>"Chez Mobilum, nos mains sont essentielles."</strong>
 							<br /><br />
 							Notre volonté est de produire un travail artisanal de qualité 100% français en privilégiant
-							le talent des partenaires locaux. Chaque mobilier en Béton Fibré Ultra Performant (BFUP) a été étudié, conçu et réalisé dans notre
-							usine avec une attention méticuleuse aux détails, reflétant notre engagement envers
+							le talent des partenaires locaux. Chaque mobilier en Béton Fibré Ultra Performant (BFUP) a été étudié,
+							conçu et réalisé avec une attention méticuleuse aux détails, reflétant notre engagement envers
 							l’excellence et la fierté du travail bien fait. <br /><br />
 							Les techniques développées après des années de recherches sont uniques et exclusives pour
 							parvenir à la finesse et les formes de nos mobiliers, dans ce matériau si novateur.<br /><br />

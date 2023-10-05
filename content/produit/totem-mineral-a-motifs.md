@@ -9,7 +9,7 @@ gamme: MINERAL
 motifs:
 portes:
 bal:
-personnalisation: "Recto verso / Sablage / Peinture / Plaque"
+personnalisation: oui
 cover_image: "/produits/cover_image/totem-mineral.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"

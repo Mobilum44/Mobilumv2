@@ -9,7 +9,7 @@ gamme: ASTURIAS
 motifs:
 portes:
 bal:
-personnalisation: lisse
+personnalisation:
 cover_image: "/produits/cover_image/corbeille-asturias-lisse.jpg"
 carousel:
     - "/produits/corbeille-asturias-lisse-chemille-en-anjou.jpg"

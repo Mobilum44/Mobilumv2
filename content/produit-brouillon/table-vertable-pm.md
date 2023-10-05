@@ -1,7 +1,7 @@
 ---
 title: Table VERTABLE PM
 published: TRUE
-designer: Phytolab
+designer:
 collection: Mobilier urbain
 category: Table
 sub_category: 11 Table
@@ -9,7 +9,7 @@ gamme: VERTABLE
 motifs:
 portes:
 bal:
-personnalisation: PM
+personnalisation:
 cover_image: "/produits/cover_image/table-vertable-pm.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"

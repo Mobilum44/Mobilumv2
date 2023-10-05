@@ -9,7 +9,7 @@ gamme: ELIUM
 motifs:
 portes:
 bal:
-personnalisation: 3 dossiers
+personnalisation:
 cover_image: "/produits/cover_image/banc-elium-3-dossiers.jpg"
 carousel:
     - "/produits/attente-showroom.jpg"

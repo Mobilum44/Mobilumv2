@@ -9,7 +9,7 @@ gamme: BEAM
 motifs:
 portes:
 bal:
-personnalisation: simple
+personnalisation:
 cover_image: "/produits/cover_image/banquette-beam.jpg"
 carousel:
     - "/produits/banquette-beam-plage.jpg"

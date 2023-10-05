@@ -9,7 +9,7 @@ gamme: ASTURIAS
 motifs:
 portes:
 bal:
-personnalisation: végétal
+personnalisation:
 cover_image: "/produits/cover_image/corbeille-asturias-vegetal.jpg"
 carousel:
     - "/produits/attente-showroom.jpg"

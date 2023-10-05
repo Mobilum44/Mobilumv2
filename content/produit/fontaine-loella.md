@@ -9,7 +9,7 @@ gamme: LOELLA
 motifs:
 portes:
 bal:
-personnalisation: 1140
+personnalisation:
 cover_image: "/produits/cover_image/fontaine-loella.jpg"
 carousel:
     - "/produits/fontaine-loella-1100.jpg"

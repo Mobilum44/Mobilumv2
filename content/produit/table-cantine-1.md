@@ -9,7 +9,7 @@ gamme: CANTINE
 motifs:
 portes:
 bal:
-personnalisation: 01
+personnalisation:
 cover_image: "/produits/cover_image/table-urbaine-cantine-01.jpg"
 carousel:
     - "/produits/table-cantine-01-neuville-de-poitou.jpg"

@@ -34,8 +34,7 @@
 
 		<div class="legal">
 			<p class="coordonnées">
-				&copy; Mobilum 2023. Tous droits réservés. Fait avec
-				<em class="heart">♥</em> par l'équipe MOBILUM.
+				&copy; Mobilum 2023. Tous droits réservés.
 			</p>
 		</div>
 	</footer>
@@ -46,11 +45,6 @@
 *:before,
 *:after {
 	box-sizing: border-box;
-}
-
-.heart {
-	font-style: normal;
-	color: #f56d91;
 }
 
 footer {

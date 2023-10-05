@@ -13,16 +13,18 @@
 					confiance pour l'obtention de ces projets.
 				</p>
 			</div>
+
+			<p>
+				<b>Mettre photos illustration</b><br/>
+				<b> Les photos sont zoomées, corriger ca</b> <br />
+				<br />
+				<b>Classify : By type // Order by : champ md "order"</b> <br />
+				SNCF / SGP MU / SGP sign <br />
+				Trocadero / ENS / Chanel / Galets / Tram angers / Puilboreau / La défense (si obtenu)<br />
+				Vertable / sorbonne / saclay / carnon / roquefere / crous <br />
+				Niuvelle catégorie : les récompensés - St cyr / Les ulis / Bienale<br />
+			</p>
 		</section>
-		<p>
-			<b> Les photos sont zoomées, corriger ca</b> <br />
-			<br />
-			<b>Classify : By type // Order by : champ md "order"</b> <br/>
-			SNCF / SGP MU / SGP sign <br />
-			Trocadero / ENS / Chanel / Galets / Tram angers / Puilboreau / La défense (si obtenu)<br />
-			Vertable / sorbonne / saclay / carnon / roquefere / crous <br />
-			Niuvelle catégorie : les récompensés - St cyr / Les ulis / Bienale<br />
-		</p>
 
 		<section class="wide">
 			<ul>
@@ -146,7 +148,7 @@ ul {
 	}
 
 	.chapeau {
-		width : 100%;
+		width: 100%;
 	}
 
 	.sub__section {
@@ -159,17 +161,14 @@ ul {
 	}
 
 	.references-list {
-	gap: 2rem;
-	margin-bottom: 1rem;
-	display: flex;
-	flex-direction: column;
+		gap: 2rem;
+		margin-bottom: 1rem;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.references-list li {
+		width: 100%;
+	}
 }
-
-.references-list li {
-	width : 100%;
-}
-}
-
-
-
 </style>

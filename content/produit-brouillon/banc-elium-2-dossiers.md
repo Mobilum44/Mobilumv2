@@ -9,7 +9,7 @@ gamme: ELIUM
 motifs:
 portes:
 bal:
-personnalisation: 2 dossiers
+personnalisation:
 cover_image: "/produits/cover_image/banc-elium-2-dossiers.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"

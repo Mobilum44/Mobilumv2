@@ -9,7 +9,7 @@ gamme: STAMP
 motifs:
 portes:
 bal:
-personnalisation: window
+personnalisation:
 cover_image: "/produits/cover_image/canape-stamp-window.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"

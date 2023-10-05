@@ -9,7 +9,7 @@ gamme: ORIGAMI
 motifs:
 portes:
 bal:
-personnalisation: "Faites sabler une image, un logo, ou donnez les indications que vous souhaitez."
+personnalisation: oui
 cover_image: "/produits/cover_image/totem-origami-rue.jpg"
 carousel:
     - "/produits/totem-rue-origami.jpg"

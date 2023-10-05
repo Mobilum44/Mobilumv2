@@ -9,7 +9,7 @@ gamme: CANTINE
 motifs:
 portes:
 bal:
-personnalisation: 02
+personnalisation:
 cover_image: "/produits/cover_image/mange-debout.jpg"
 carousel:
     - "/produits/mange-debout-carnon.jpg"

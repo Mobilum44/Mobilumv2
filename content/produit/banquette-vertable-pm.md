@@ -1,7 +1,7 @@
 ---
 title: Banquette VERTABLE PM
 published: TRUE
-designer: Phytolab
+designer:
 collection: Mobilier urbain
 category: Assise
 sub_category: 05 Banquette
@@ -9,7 +9,7 @@ gamme: VERTABLE
 motifs:
 portes:
 bal:
-personnalisation: PM
+personnalisation:
 cover_image: "/produits/cover_image/banquette-vertable-pm.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"

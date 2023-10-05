@@ -9,7 +9,7 @@ gamme: LOELLA
 motifs:
 portes:
 bal:
-personnalisation: 900
+personnalisation:
 cover_image: "/produits/cover_image/banc-obrac.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"

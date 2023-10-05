@@ -9,7 +9,7 @@ gamme: ASTURIAS
 motifs:
 portes:
 bal:
-personnalisation: VIGIPIRATE
+personnalisation:
 cover_image: "/produits/cover_image/corbeille-asturias-vigipirate.jpg"
 carousel:
     - "/produits/corbeille-asturias-vigipirate-joncherolles.jpg"

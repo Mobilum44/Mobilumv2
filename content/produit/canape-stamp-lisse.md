@@ -9,7 +9,7 @@ gamme: STAMP
 motifs:
 portes:
 bal:
-personnalisation: lisse
+personnalisation:
 cover_image: "/produits/cover_image/canape-stamp-lisse.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"

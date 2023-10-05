@@ -9,7 +9,7 @@ gamme: HOOK
 motifs: oui
 portes: oui
 bal: oui
-personnalisation: L1485 bois
+personnalisation:
 cover_image: "/produits/cover_image/hook-1125-double-alu-compo.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"
