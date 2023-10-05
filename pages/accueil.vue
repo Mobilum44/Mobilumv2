@@ -19,6 +19,7 @@
 				</div>
 			</section>
 		</template>
+		<b>Images header toutes trop longues à charger sur téléphone</b>
 
 		<p class="accueil_text">
 			En dix ans d'existence, Mobilum a acquis un savoir-faire unique dans la création et la fabrication de
