@@ -18,7 +18,7 @@ Supprimer sav -->
 					<NuxtImg
 						class="items__img"
 						alt="SNCF Gare Auxerre"
-						src="/collectioncover/angers_tram.jpg"
+						src="/collectioncover/fond-parc-mobilier-urbain.jpg"
 						width="800"
 						height="500"
 						format="avif,webp"
@@ -29,7 +29,6 @@ Supprimer sav -->
 				</NuxtLink>
 
 				<div class="left">
-					<b>Changer photo</b>
 					<p>
 						Nos créations de mobiliers urbains<br />
 					</p>
