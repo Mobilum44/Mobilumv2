@@ -7,6 +7,8 @@ category: Table
 sub_category: 11 2 Table urbaine
 gamme: CANTINE
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:

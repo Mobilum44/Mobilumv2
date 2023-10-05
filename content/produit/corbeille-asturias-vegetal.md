@@ -6,7 +6,9 @@ collection: Mobilier urbain
 category: Corbeille
 sub_category: 13 Corbeille
 gamme: ASTURIAS
-motifs:
+motifs: oui
+motif_vegetal: oui
+motif_window:
 portes:
 bal:
 personnalisation:

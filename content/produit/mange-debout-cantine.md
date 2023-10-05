@@ -7,6 +7,8 @@ category: Table
 sub_category: 12 Mange debout
 gamme: CANTINE
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:

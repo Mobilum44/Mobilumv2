@@ -7,6 +7,8 @@ category: Table
 sub_category: 11 Table
 gamme: VERTABLE
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:

@@ -7,6 +7,8 @@ category: Appui-vélos
 sub_category: 18 Appui-vélos
 gamme: TRACK
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:

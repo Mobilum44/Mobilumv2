@@ -7,6 +7,8 @@ category: Fontaine
 sub_category: 16 Fontaine
 gamme: LOELLA
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:

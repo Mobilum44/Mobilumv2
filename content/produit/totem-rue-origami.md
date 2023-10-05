@@ -7,6 +7,8 @@ category: Totem
 sub_category: Totem rue
 gamme: ORIGAMI
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation: oui

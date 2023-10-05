@@ -13,7 +13,6 @@
 		</p>
 
 		<div class="sub__section">
-			<b>Vérifier les md</b><br />
 			<b>Cover : Mettre logo mobilum à différents endroits </b>
 			<ul class="section-collection">
 				<li v-for="urbanFurniture in urbanFurnitures" :key="urbanFurniture.title" class="collection-item">

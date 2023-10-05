@@ -7,6 +7,8 @@ category: Assise
 sub_category: 05 Banquette
 gamme: VASCO DE GAMA
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:

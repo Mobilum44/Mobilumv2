@@ -7,6 +7,8 @@ category: Assise
 sub_category: 10 Assis debout
 gamme: ORIGAMI
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:

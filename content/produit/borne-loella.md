@@ -7,6 +7,8 @@ category: Borne
 sub_category: 15 Borne
 gamme: LOELLA
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:

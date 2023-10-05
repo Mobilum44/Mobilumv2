@@ -7,6 +7,8 @@ category: Table
 sub_category: 11 1 Table
 gamme: CANTINE
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:

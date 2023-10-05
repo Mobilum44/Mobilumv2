@@ -7,6 +7,8 @@ category: Transat
 sub_category: 09 Transat
 gamme: MILA
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:

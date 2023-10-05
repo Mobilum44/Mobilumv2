@@ -6,7 +6,9 @@ collection: Mobilier urbain
 category: Assise
 sub_category: 07 Canapé
 gamme: STAMP
-motifs:
+motifs: oui
+motif_vegetal:
+motif_window: oui
 portes:
 bal:
 personnalisation:

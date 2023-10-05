@@ -7,6 +7,8 @@ category: Jardinière
 sub_category: 93 Jardinière
 gamme: STELAG
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:

@@ -7,6 +7,8 @@ category: Autre
 sub_category: 90 Décoration
 gamme: STELAG
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:

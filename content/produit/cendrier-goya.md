@@ -7,6 +7,8 @@ category: Cendrier
 sub_category: 13 Cendrier
 gamme: GOYA
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:

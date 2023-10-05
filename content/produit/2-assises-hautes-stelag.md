@@ -7,6 +7,8 @@ category: Assise
 sub_category: 922 Assise
 gamme: STELAG
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:

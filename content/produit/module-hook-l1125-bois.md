@@ -7,6 +7,8 @@ category: Module
 sub_category: 03 Module
 gamme: HOOK
 motifs:
+motif_vegetal:
+motif_window:
 portes: oui
 bal: oui
 personnalisation:

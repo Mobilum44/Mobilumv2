@@ -7,6 +7,8 @@ category: Assise
 sub_category: 08 Chaise Longue
 gamme: OBRAC
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:

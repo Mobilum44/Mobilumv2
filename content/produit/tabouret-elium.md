@@ -7,6 +7,8 @@ category: Assise
 sub_category: 01 Tabouret
 gamme: ELIUM
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:

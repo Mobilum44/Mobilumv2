@@ -7,6 +7,8 @@ category: Potelet
 sub_category: 17 Potelet
 gamme: ORIGAMI
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:

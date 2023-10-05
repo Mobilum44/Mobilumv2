@@ -7,6 +7,8 @@ category: Assise
 sub_category: 01 Module
 gamme: HOOK
 motifs:
+motif_vegetal:
+motif_window:
 portes: oui
 bal: oui
 personnalisation:

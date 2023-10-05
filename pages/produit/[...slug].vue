@@ -60,9 +60,9 @@
 								placeholder
 								loading="lazy"
 							/>
-							<p>lisse</p>
+							<p>Lisse</p>
 						</div>
-						<div class="content">
+						<div v-if="doc.motif_vegetal" class="content">
 							<NuxtImg
 								src="/produits/motif-vegetal.png"
 								alt="Couleurs RAL des boites aux lettres Mobilum"
@@ -74,6 +74,20 @@
 							/>
 							<p>Végétal</p>
 						</div>
+
+						<div v-if="doc.motif_window" class="content">
+							<NuxtImg
+								src="/produits/motif-vegetal.png"
+								alt="Couleurs RAL des boites aux lettres Mobilum"
+								fit="cover"
+								height="50"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
+							<p>Window</p>
+						</div>
+
 					</div>
 
 					<p class="general-description">
@@ -89,7 +103,7 @@
 			<div class="sub-section-content responsive">
 				<div class="content">
 					<p class="strong">Couleurs naturelles</p>
-					<!--<b> Remettre couleurs pour eux</b>
+					<!--
 					<ul>
 						<li class="list-element">Gris foncé</li>
 						<li class="list-element">Gris clair</li>
@@ -102,7 +116,7 @@
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
 								src="/photospages/couleur-bfup-gris-fonce.jpg"
-								width="200vw"
+								width="50"
 								fit="cover"
 								format="avif,webp"
 								placeholder
@@ -115,14 +129,14 @@
 							<NuxtImg
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
-								src="/photospages/couleur-bfup-gris-fonce.jpg"
-								width="200vw"
+								src="/photospages/couleur-bfup-gris-clair2.jpg"
+								width="50"
 								fit="cover"
 								format="avif,webp"
 								placeholder
 								loading="lazy"
 							/>
-							<p><b>Gris clair</b></p>
+							<p>Gris clair</p>
 						</div>
 
 						<div class="type-color">
@@ -130,7 +144,7 @@
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
 								src="/photospages/couleur-bfup-blanc.jpg"
-								width="200vw"
+								width="50"
 								fit="cover"
 								format="avif,webp"
 								placeholder
@@ -155,7 +169,7 @@
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
 								src="/photospages/couleur-bfup-taupe.jpg"
-								width="200vw"
+								width="50"
 								fit="cover"
 								format="avif,webp"
 								placeholder
@@ -168,7 +182,7 @@
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
 								src="/photospages/couleur-bfup-rose.jpg"
-								width="200vw"
+								width="50"
 								fit="cover"
 								format="avif,webp"
 								placeholder
@@ -181,7 +195,7 @@
 								class="color_square"
 								alt="couleur du BFUP Mobilum"
 								src="/photospages/couleur-bfup-bleu.jpg"
-								width="200vw"
+								width="50"
 								fit="cover"
 								format="avif,webp"
 								placeholder

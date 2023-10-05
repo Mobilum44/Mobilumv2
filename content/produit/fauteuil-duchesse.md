@@ -7,6 +7,8 @@ category: Assise
 sub_category: 03 Fauteuil
 gamme: DUCHESSE
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:

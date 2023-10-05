@@ -21,7 +21,7 @@
 		</div>
 		<!-- </NuxtLink> -->
 		<NuxtLink class="box" to="/collection">
-			<NuxtImg src="/photospages/Galets.jpg" width="900px" format="avif,webp" placeholder loading="lazy" />
+			<NuxtImg src="/photospages/photo-parc-aire-de-jeux.jpg" width="900px" format="avif,webp" placeholder loading="lazy" />
 			<p>
 				\ Une collection <br />
 				\ Du sur-mesure

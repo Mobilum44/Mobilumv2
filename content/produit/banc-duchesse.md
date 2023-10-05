@@ -7,6 +7,8 @@ category: Assise
 sub_category: 06 Banc
 gamme: DUCHESSE
 motifs:
+motif_vegetal:
+motif_window:
 portes:
 bal:
 personnalisation:
