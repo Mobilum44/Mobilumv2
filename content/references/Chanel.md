@@ -1,6 +1,6 @@
 ---
 type: Les remarquables
-cover_title :
+cover_title : Chanel
 title: Chanel
 published: TRUE
 
