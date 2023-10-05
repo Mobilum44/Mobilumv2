@@ -6,6 +6,7 @@ collection: Mobilier urbain
 category: Appui-vélos
 sub_category: 18 Appui-vélos
 gamme: KARO
+taille:
 motifs:
 motif_vegetal:
 motif_window:

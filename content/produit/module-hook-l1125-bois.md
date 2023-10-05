@@ -6,6 +6,7 @@ collection: HOOK
 category: Module
 sub_category: 03 Module
 gamme: HOOK
+taille:
 motifs:
 motif_vegetal:
 motif_window:

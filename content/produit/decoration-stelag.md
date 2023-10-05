@@ -6,6 +6,7 @@ collection: Mobilier urbain
 category: Autre
 sub_category: 90 Décoration
 gamme: STELAG
+taille:
 motifs:
 motif_vegetal:
 motif_window:

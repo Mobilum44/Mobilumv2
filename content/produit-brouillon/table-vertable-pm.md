@@ -6,6 +6,7 @@ collection: Mobilier urbain
 category: Table
 sub_category: 11 Table
 gamme: VERTABLE
+taille:
 motifs:
 motif_vegetal:
 motif_window:

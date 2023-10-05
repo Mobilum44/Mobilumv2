@@ -6,6 +6,7 @@ collection: Signalétique
 category: Totem
 sub_category: Totem rue
 gamme: ORIGAMI
+taille:
 motifs:
 motif_vegetal:
 motif_window:

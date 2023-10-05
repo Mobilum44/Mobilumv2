@@ -6,6 +6,7 @@ collection: Mobilier urbain
 category: Assise
 sub_category: 10 Assis debout
 gamme: ORIGAMI
+taille:
 motifs:
 motif_vegetal:
 motif_window:

@@ -6,6 +6,7 @@ collection: Mobilier urbain
 category: Fontaine
 sub_category: 16 Fontaine
 gamme: LOELLA
+taille:
 motifs:
 motif_vegetal:
 motif_window:

@@ -6,6 +6,7 @@ collection: Mobilier urbain
 category: Assise
 sub_category: 922 Assise
 gamme: STELAG
+taille:
 motifs:
 motif_vegetal:
 motif_window:

@@ -6,6 +6,7 @@ collection: Mobilier urbain
 category: Jardinière
 sub_category: 93 Jardinière
 gamme: STELAG
+taille:
 motifs:
 motif_vegetal:
 motif_window:

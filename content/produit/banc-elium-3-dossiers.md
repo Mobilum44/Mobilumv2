@@ -6,6 +6,7 @@ collection: Mobilier urbain
 category: Assise
 sub_category: 06 Banc
 gamme: ELIUM
+taille:
 motifs:
 motif_vegetal:
 motif_window:

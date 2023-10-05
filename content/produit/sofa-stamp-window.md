@@ -6,6 +6,7 @@ collection: Mobilier urbain
 category: Assise
 sub_category: 06 Sofa
 gamme: STAMP
+taille:
 motifs: oui
 motif_vegetal:
 motif_window: oui

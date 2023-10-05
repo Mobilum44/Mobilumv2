@@ -6,6 +6,7 @@ collection: Signalétique
 category: Totem
 sub_category: Totem
 gamme: MINERAL
+taille:
 motifs:
 motif_vegetal:
 motif_window:

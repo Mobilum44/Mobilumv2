@@ -6,6 +6,7 @@ collection: Mobilier urbain
 category: Assise
 sub_category: 02 Chaise
 gamme: ELIUM
+taille:
 motifs:
 motif_vegetal:
 motif_window:

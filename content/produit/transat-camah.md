@@ -6,6 +6,7 @@ collection: Mobilier urbain
 category: Transat
 sub_category: 09 Transat
 gamme: CAMAH
+taille:
 motifs:
 motif_vegetal:
 motif_window:

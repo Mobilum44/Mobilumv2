@@ -6,6 +6,7 @@ collection: HOOK
 category: Assise
 sub_category: 01 Module
 gamme: HOOK
+taille:
 motifs:
 motif_vegetal:
 motif_window:

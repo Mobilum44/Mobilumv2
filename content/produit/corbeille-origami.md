@@ -6,6 +6,7 @@ collection: Mobilier urbain
 category: Corbeille
 sub_category: 13 Corbeille
 gamme: ORIGAMI
+taille:
 motifs:
 motif_vegetal:
 motif_window:

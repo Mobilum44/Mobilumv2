@@ -16,7 +16,7 @@
 			<p> Gamme de 6 modules de dimensions différentes.<br/>
 			Possibilité d'effectuer des modules sur-mesure.</p>
 		</div>
-		<b> Mettre photo illustration des plaques usine <br/>
+		<b> Mettre photo illustration en dessous des cartes produits : plaques HOOK coulées en usine <br/>
 			Mettre "HOOK" en cover_title et ligne en dessous pour indiquer la taille "L535", "L765" ...tous en bois et mieux "répartis"<br />
 		Trouver solution pour avoir grille de 6 (2;3) et mettre 7eme en sur-mesure : page entière </b>
 
@@ -33,8 +33,9 @@
 								placeholder
 								loading="lazy"
 							/>
-							<p>{{ urbanFurniture.title }}</p>
+							<p>{{ urbanFurniture.gamme }}</p>
 						</article>
+						<p>{{ urbanFurniture.taille }}</p>
 					</NuxtLink>
 				</li>
 			</ul>

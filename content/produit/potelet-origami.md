@@ -6,6 +6,7 @@ collection: Mobilier urbain
 category: Potelet
 sub_category: 17 Potelet
 gamme: ORIGAMI
+taille:
 motifs:
 motif_vegetal:
 motif_window:

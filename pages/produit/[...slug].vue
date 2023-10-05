@@ -62,6 +62,7 @@
 							/>
 							<p>Lisse</p>
 						</div>
+						<b>Demander à olivier les motifs en mode filaire</b>
 						<div v-if="doc.motif_vegetal" class="content">
 							<NuxtImg
 								src="/produits/motif-vegetal.png"
@@ -427,7 +428,7 @@ h1 {
 }
 
 .general-motifs {
-	width: 60%;
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;

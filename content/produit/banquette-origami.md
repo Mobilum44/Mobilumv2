@@ -6,6 +6,7 @@ collection: Mobilier urbain
 category: Assise
 sub_category: 05 Banquette
 gamme: ORIGAMI
+taille:
 motifs:
 motif_vegetal:
 motif_window:
