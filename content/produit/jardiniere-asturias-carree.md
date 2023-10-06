@@ -18,7 +18,7 @@ carousel:
     - "/produits/jardiniere-asturias-carree-vegetale.png"
     - "/produits/jardiniere-asturias-carree-vegetale-gros-plan.jpg"
 filaire:
-    - "/produits/filaires/filaire-jardiniere-asturias-carree.png"
+    - "/produits/filaires/filaire-jardiniere-carree-asturias.png"
 reference: JAASTUR0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 330
