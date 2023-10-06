@@ -27,16 +27,10 @@
 							/>
 							<p>{{ urbanFurniture.title }}</p>
 						</article>
+							<p class="collection-item">{{ urbanFurniture.cover_undertext }}</p>
 					</NuxtLink>
 				</li>
 			</ul>
-
-			<div class="section-collection">
-				<p class="collection-item">L'engravé</p>
-				<p class="collection-item">La feuille d'expression</p>
-				<p class="collection-item">La vague</p>
-				<p class="collection-item">Le fin (ou le petit ou le discret)</p>
-			</div>
 		</div>
 
 		<div class="sub__section wide">
@@ -136,16 +130,16 @@ const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
-
-.section-collection > p {
+.collection-item {
+	text-align: center;
+	text-decoration: none;
 	font-family: "Times New Roman", Times, serif;
 	font-style: italic;
 	font-size: 1.2rem;
 }
-.collection-item {
-	width: 23%;
-	display: flex;
-	justify-content: center;
+
+.collection-item a {
+	text-decoration: none;
 }
 /*---------------------------------------------------------
     Paramètres de la galerie - position de base

@@ -6,7 +6,7 @@ collection: Mobilier urbain
 category: Assise
 sub_category: 05 Banquette
 gamme: VASCO DE GAMA
-taille:
+cover_undertext:
 motifs:
 motif_vegetal:
 motif_window:

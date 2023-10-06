@@ -6,7 +6,7 @@ collection: Mobilier urbain
 category: Borne
 sub_category: 15 Borne
 gamme: LOELLA
-taille:
+cover_undertext:
 motifs:
 motif_vegetal:
 motif_window:

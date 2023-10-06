@@ -6,7 +6,7 @@ collection: Mobilier urbain
 category: Table
 sub_category: 12 Mange debout
 gamme: CANTINE
-taille:
+cover_undertext:
 motifs:
 motif_vegetal:
 motif_window:

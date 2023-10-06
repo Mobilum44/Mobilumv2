@@ -6,7 +6,7 @@ collection: Mobilier urbain
 category: Table
 sub_category: 11 3 Table
 gamme: CANTINE
-taille:
+cover_undertext:
 motifs:
 motif_vegetal:
 motif_window:

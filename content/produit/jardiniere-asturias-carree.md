@@ -6,7 +6,7 @@ collection: Mobilier urbain
 category: Jardinière
 sub_category: 14 Jardinière
 gamme: ASTURIAS
-taille:
+cover_undertext:
 motifs: oui
 motif_vegetal: oui
 motif_window:

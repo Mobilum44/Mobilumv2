@@ -6,7 +6,7 @@ collection: Signalétique
 category: Totem
 sub_category: Totem rue
 gamme: ORIGAMI
-taille:
+cover_undertext: La vague
 motifs:
 motif_vegetal:
 motif_window:

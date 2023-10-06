@@ -6,7 +6,7 @@ collection: Mobilier urbain
 category: Assise
 sub_category: 08 Chaise Longue
 gamme: OBRAC
-taille:
+cover_undertext:
 motifs:
 motif_vegetal:
 motif_window:

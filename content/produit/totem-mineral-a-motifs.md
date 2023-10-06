@@ -6,7 +6,7 @@ collection: Signalétique
 category: Totem
 sub_category: Totem
 gamme: MINERAL
-taille:
+cover_undertext: L'engravé
 motifs:
 motif_vegetal:
 motif_window:

@@ -6,7 +6,7 @@ collection: HOOK
 category: Module
 sub_category: 04 Module
 gamme: HOOK
-taille:
+cover_undertext: L1305
 motifs:
 motif_vegetal:
 motif_window:

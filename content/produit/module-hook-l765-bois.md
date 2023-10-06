@@ -6,7 +6,7 @@ collection: HOOK
 category: Assise
 sub_category: 02 Module
 gamme: HOOK
-taille:
+cover_undertext: L765
 motifs:
 motif_vegetal:
 motif_window:

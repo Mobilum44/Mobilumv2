@@ -6,7 +6,7 @@ collection: Mobilier urbain
 category: Cendrier
 sub_category: 13 Cendrier
 gamme: GOYA
-taille:
+cover_undertext:
 motifs:
 motif_vegetal:
 motif_window:

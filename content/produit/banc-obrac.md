@@ -6,7 +6,7 @@ collection: Mobilier urbain
 category: Assise
 sub_category: 06 Banc
 gamme: OBRAC
-taille:
+cover_undertext:
 motifs:
 motif_vegetal:
 motif_window:

@@ -6,7 +6,7 @@ collection: Mobilier urbain
 category: Appui-vélos
 sub_category: 18 Appui-vélos
 gamme: YOON
-taille:
+cover_undertext:
 motifs:
 motif_vegetal:
 motif_window:

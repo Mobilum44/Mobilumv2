@@ -13,19 +13,23 @@
 				Des modules personnalisables à souhait, composés de matériaux durables, simples à installer et à
 				entretenir.
 			</p>
-			<p> Gamme de 6 modules de dimensions différentes.<br/>
-			Possibilité d'effectuer des modules sur-mesure.</p>
+			<p>
+				Gamme de 6 modules de dimensions différentes.<br />
+				Possibilité d'effectuer des modules sur-mesure.
+			</p>
 		</div>
-		<b> Mettre photo illustration en dessous des cartes produits : plaques HOOK coulées en usine <br/>
-			Mettre "HOOK" en cover_title et ligne en dessous pour indiquer la taille "L535", "L765" ...tous en bois et mieux "répartis"<br />
-		Trouver solution pour avoir grille de 6 (2;3) et mettre 7eme en sur-mesure : page entière </b>
-
+		<b>
+			Mettre photo illustration en dessous des cartes produits : plaques HOOK coulées en usine <br />
+			Mettre "HOOK" en cover_title et ligne en dessous pour indiquer la taille "L535", "L765" ...tous en bois et
+			mieux "répartis"<br />
+			Trouver solution pour avoir grille de 6 (2;3) et mettre 7eme en sur-mesure : page entière
+		</b>
 
 		<div class="sub__section">
-			<ul class="collection_order">
+			<ul class="collection-order">
 				<li v-for="urbanFurniture in urbanFurnitures" :key="urbanFurniture.title">
 					<NuxtLink :to="urbanFurniture._path">
-						<article class="image_cover">
+						<article class="image-cover">
 							<NuxtImg
 								alt="photo collection HOOK mobilum"
 								:src="urbanFurniture.cover_image"
@@ -35,7 +39,10 @@
 							/>
 							<p>{{ urbanFurniture.gamme }}</p>
 						</article>
-						<p>{{ urbanFurniture.taille }}</p>
+						<p class="hook-size">
+							{{ urbanFurniture.cover_undertext }} <br />
+							<b>Enlever soulignement</b>
+						</p>
 					</NuxtLink>
 				</li>
 			</ul>
@@ -44,7 +51,6 @@
 </template>
 
 <script setup lang="ts">
-
 definePageMeta({
 	layout: false,
 });
@@ -64,22 +70,22 @@ const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 /*---------------------------------------------------------
 Paramètres de la galerie - généralités
 ---------------------------------------------------------*/
-.collection_order {
-	display : flex;
+.collection-order {
+	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	flex-wrap: wrap;
 	gap: 1rem;
 }
 
-.collection_order ul {
+.collection-order ul {
 	padding-inline-start: 0px;
 }
 
 /*---------------------------------------------------------
 Paramètres de la galerie - position de base
 ---------------------------------------------------------*/
-.image_cover {
+.image-cover {
 	border-radius: 7px;
 	border: solid white;
 
@@ -93,14 +99,14 @@ Paramètres de la galerie - position de base
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;*/
 }
 
-.image_cover > img {
+.image-cover > img {
 	height: 100%;
 	width: 100%;
 	opacity: 1;
 	transition: all 0.3s ease-in-out;
 }
 
-.image_cover p {
+.image-cover p {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -117,23 +123,31 @@ Paramètres de la galerie - position de base
 	transition: all 0.5s ease-in-out;
 }
 
+.hook-size {
+	text-align: center;
+	font-family: "Bebas Neue";
+	color: black;
+}
+
+.hook-size a {
+	text-decoration: none;
+	border: solid red;
+}
 /*---------------------------------------------------------
     Paramètres de la galerie - position selection
   ---------------------------------------------------------*/
-.image_cover:hover {
+.image-cover:hover {
 	border-radius: 4px;
 	border: 0px;
-	box-shadow:
-		rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-		rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 	transition: all 0.3s ease-in-out;
 }
-.image_cover:hover p {
+.image-cover:hover p {
 	opacity: 1;
 	transition: all 0.5s ease-in-out;
 }
 
-.image_cover:hover > img {
+.image-cover:hover > img {
 	opacity: 0.3;
 	transition: all 0.3s ease-in-out;
 }
@@ -145,7 +159,7 @@ Paramètres de la galerie - position de base
 --------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 950px) {
-	.collection_order {
+	.collection-order {
 		display: flex;
 		flex-direction: column;
 		align-items: center;

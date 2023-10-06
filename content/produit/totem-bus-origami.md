@@ -6,7 +6,7 @@ collection: Signalétique
 category: Totem
 sub_category: Totem bus
 gamme: ORIGAMI
-taille:
+cover_undertext: Le fin / Le petit / Le discret
 motifs:
 motif_vegetal:
 motif_window:

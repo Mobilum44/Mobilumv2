@@ -6,7 +6,7 @@ collection: Mobilier urbain
 category: Assise
 sub_category: 06 Banc
 gamme: STAMP
-taille:
+cover_undertext:
 motifs: oui
 motif_vegetal:
 motif_window: oui

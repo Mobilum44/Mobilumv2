@@ -37,7 +37,7 @@ export interface Product extends ParsedContent {
 	category: string;
 	sub_category: string;
 	gamme: string;
-	taille:string;
+	cover_undertext:string;
 	motifs: string;
 	motif_vegetal: string;
 	motif_window: string;

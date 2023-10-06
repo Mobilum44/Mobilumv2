@@ -6,7 +6,7 @@ collection: HOOK
 category: Assise
 sub_category: 01 Module
 gamme: HOOK
-taille:
+cover_undertext: L535
 motifs:
 motif_vegetal:
 motif_window:

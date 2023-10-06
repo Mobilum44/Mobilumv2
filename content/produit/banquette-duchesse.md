@@ -6,7 +6,7 @@ collection: Mobilier urbain
 category: Assise
 sub_category: 05 Banquette
 gamme: DUCHESSE
-taille:
+cover_undertext:
 motifs:
 motif_vegetal:
 motif_window:
