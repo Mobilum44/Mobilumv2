@@ -35,7 +35,7 @@ li {
 }
 
 .slot_image {
-	margin-top: 17vh;
+	margin-top: 120px;
 	height: 83vh;
 	width: 100%;
 	display: flex;
@@ -124,7 +124,7 @@ sup {
 	line-height: 2rem;
 	margin-left: 3rem;
 	margin-bottom: 2rem;
-	width : 70%;
+	width: 70%;
 }
 
 /* Pour les textes de référencement */
@@ -148,11 +148,12 @@ sup {
 }
 
 .contenu {
-	display : flex;
-	flex-direction : column;
+	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
+
 /* ------------------------------------------------------------------------------------------
 
             Styles de sous-sections

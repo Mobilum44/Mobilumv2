@@ -5,7 +5,7 @@
 	-------------------------------------------------->
 
 		<template #slot_image>
-			<section class="bandeau wide">
+			<section class="bandeau wide" :style="backgroundStyles('/photospages/accueil-test-fond2.jpg')">
 				<div class="bandeau-content">
 					<p class="quote">
 						<span>Mobilum&thinsp;</span><br />
@@ -43,6 +43,8 @@
 </template>
 
 <script lang="ts" setup>
+const img = useImage();
+
 definePageMeta({
 	layout: false,
 });
@@ -50,6 +52,16 @@ definePageMeta({
 useSeoMeta({
 	title: "Accueil",
 });
+
+function backgroundStyles(thumbnail: string): { backgroundImage: string } {
+	const imgUrl = img(thumbnail, {
+		width: 1920,
+		quality: 80,
+		placeholder: true,
+		format: "avif,webp",
+	});
+	return { backgroundImage: `linear-gradient(to bottom, rgba(255, 0, 0, 0) 65%, #fefcf3), url('${imgUrl}')` };
+}
 </script>
 
 <style scoped>
@@ -76,9 +88,7 @@ p {
 
 /* Section 1 : Logo /Image */
 .bandeau {
-	margin-top: 17vh;
-	background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0) 65%, #fefcf3),
-		url("/photospages/accueil-test-fond2.jpg");
+	margin-top: 120px;
 	opacity: 90%;
 	background-size: cover;
 	height: 100vh;

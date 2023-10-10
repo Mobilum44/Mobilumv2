@@ -9,27 +9,31 @@
 			</div>
 		</section>
 		<section class="sub-section">
-			<!--- Modèle de carousel récupéré sur la doc nuxt https://ismail9k.github.io/vue3-carousel/getting-started.html 
-			<template>
-				<carousel :items-to-show="1.5">
-					<slide v-for="slide in 10" :key="slide">
-						{{ slide }}
-					</slide>
+			<Carousel :wrap-around="true" snap-align="center" :items-to-show="1.5">
+				<Slide v-for="(img, i) in doc.carousel" :key="i">
+					<NuxtImg
+						:src="img"
+						width="1000"
+						height="600"
+						quality="60"
+						placeholder
+						format="avif,webp"
+						loading="lazy"
+					/>
+				</Slide>
 
-					<template #addons>
-						<navigation />
-						<pagination />
-					</template>
-				</carousel>
-			</template>
- -->
+				<template #addons>
+					<Navigation />
+					<Pagination />
+				</template>
+			</Carousel>
 
-			<div class="gallery">
+			<!-- <div class="gallery">
 				<div v-for="(img, i) in doc.carousel" :key="i">
 					<NuxtImg :src="img" width="2000" placeholder format="avif,webp" loading="lazy" />
 				</div>
 				<Carousel :img="doc.carousel" />
-			</div>
+			</div> -->
 		</section>
 
 		<div class="sub-section general responsive">
@@ -88,7 +92,6 @@
 							/>
 							<p>Window</p>
 						</div>
-
 					</div>
 
 					<p class="general-description">
@@ -272,8 +275,10 @@
 
 		<section v-if="doc.personnalisation" class="sub-section">
 			<h2>Personnalisation</h2>
-			<p>Mettre petit texte (humain / commercial) pour inciter les clients intéressés à nous contacter (trouver une
-			jolie tournure)</p>
+			<p>
+				Mettre petit texte (humain / commercial) pour inciter les clients intéressés à nous contacter (trouver
+				une jolie tournure)
+			</p>
 		</section>
 
 		<section class="sub-section famille">
@@ -379,7 +384,7 @@ h1 {
 		Sections générales
 	---------------------------------------------------------------*/
 .content-produits {
-	margin-top: 17vh;
+	margin-top: 120px;
 }
 .sub-section {
 	width: 80%;

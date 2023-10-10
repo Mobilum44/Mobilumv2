@@ -14,7 +14,7 @@
 
 <style scoped>
 .slot_image {
-	margin-top: 17vh;
+	margin-top: 120px;
 }
 .contenu {
 	gap: 0;
