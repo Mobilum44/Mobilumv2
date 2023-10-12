@@ -17,7 +17,7 @@
 				<NuxtLink class="nav__link" to="/contact"> Contact </NuxtLink>
 			</li>
 			<li>
-				<NuxtLink class="nav__link" to="/taches"> 🔎 </NuxtLink>
+				<!-- <NuxtLink class="nav__link" to="/taches"> 🔎 </NuxtLink> -->
 			</li>
 		</ul>
 	</header>
@@ -28,18 +28,21 @@ onMounted(async () => {
 	await nextTick();
 	window.addEventListener("scroll", () => {
 		const header = document.getElementsByClassName("header_content")[0];
-		if (!header) return;
+		const menu = document.getElementsByClassName("menu")[0];
+		if (!header || !menu) return;
 		if (document.documentElement.scrollTop >= 25) {
 			header.classList.add("header_content--mini");
+			menu.classList.add("menu--mini");
 		} else {
 			header.classList.remove("header_content--mini");
+			menu.classList.remove("menu--mini");
 		}
 	});
 });
 </script>
 
 <style>
-Header {
+header {
 	top: 0;
 	width: 100%;
 	background-color: rgb(254, 252, 243, 0.7);
@@ -50,12 +53,23 @@ Header {
 	z-index: 999;
 }
 
+header:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	backdrop-filter: blur(0.5rem);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
 .header_content {
 	background-color: rgb(254, 252, 243, 0.7);
-	padding: 1rem 2rem 0rem 2rem;
+	padding: 0.5rem 2rem 0.25rem 2rem;
 	padding-bottom: 0;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -110,20 +124,19 @@ Header {
 	color: #1a949d;
 }
 
-
-
-/* menu */
-
-.header .menu {
-	max-height: 0;
-	transition: max-height 0.2s ease-out;
+.header ul {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
 }
 
 /* menu icon */
 
 .header .menu-icon {
 	cursor: pointer;
-	display: inline-block;
+	display: none;
+	justify-content: center;
+	align-items: center;
 	padding: 28px 20px;
 	position: relative;
 	user-select: none;
@@ -184,20 +197,37 @@ Header {
 	top: 0;
 }
 
-@media (min-width: 48em) {
-	.header li {
-		float: left;
-	}
-	.header li .nav__link {
-		margin: 1.5rem;
-	}
+@media (max-width: 768px) {
 	.header .menu {
-		clear: none;
-		float: right;
-		max-height: none;
+		position: fixed;
+		top: 111px;
+		left: 0;
+		padding-top: 2rem;
+		transform: translateX(100%);
+		opacity: 0;
+		background-color: rgb(254, 252, 243, 0.7);
+		height: 100dvh;
+		max-height: unset !important;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		transition: all 500ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+		backdrop-filter: blur(0.5rem);
+		border-top: solid rgba(26, 148, 157, 0.5) 1px;
 	}
+
+	.header .menu-btn:checked ~ .menu {
+		transform: translateX(0%);
+		opacity: 1;
+	}
+
 	.header .menu-icon {
-		display: none;
+		display: flex;
+	}
+
+	.menu--mini {
+		top: 81.25px !important;
+		transition: all 0.3s ease-in-out;
 	}
 }
 </style>

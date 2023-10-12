@@ -87,9 +87,9 @@ Notre savoir-faire
 							<strong>"Chez Mobilum, nos mains sont essentielles."</strong>
 							<br /><br />
 							Notre volonté est de produire un travail artisanal de qualité 100% français en privilégiant
-							le talent des partenaires locaux. Chaque mobilier en Béton Fibré Ultra Performant (BFUP) a été étudié,
-							conçu et réalisé avec une attention méticuleuse aux détails, reflétant notre engagement envers
-							l’excellence et la fierté du travail bien fait. <br /><br />
+							le talent des partenaires locaux. Chaque mobilier en Béton Fibré Ultra Performant (BFUP) a
+							été étudié, conçu et réalisé avec une attention méticuleuse aux détails, reflétant notre
+							engagement envers l’excellence et la fierté du travail bien fait. <br /><br />
 							Les techniques développées après des années de recherches sont uniques et exclusives pour
 							parvenir à la finesse et les formes de nos mobiliers, dans ce matériau si novateur.<br /><br />
 							Désireux de partager notre expérience et notre savoir-faire, nous avons mis en place une
@@ -139,12 +139,13 @@ Notre savoir-faire
 							>
 							<br /><br />
 							Repenser le mobilier urbain nécessite d’intégrer le développement durable dans nos
-							recherches, nos créations et notre croissance. <br/><br/>
-							Pérennité du matériau, faible entretien et réponse aux exigences climatiques ont été essentiels dans notre choix du BFUP.<br /><br />
-							L’intégralité des produits présentés est fabriquée sur notre
-							site au Loroux-Bottereau en Loire Atlantique. <br /><br />
-							Mobilum a engagé une démarche RSE globale qui commence par la réalisation de son
-							bilan carbone, indispensable à la définitions d'objectifs justes et précis.
+							recherches, nos créations et notre croissance. <br /><br />
+							Pérennité du matériau, faible entretien et réponse aux exigences climatiques ont été
+							essentiels dans notre choix du BFUP.<br /><br />
+							L’intégralité des produits présentés est fabriquée sur notre site au Loroux-Bottereau en
+							Loire Atlantique. <br /><br />
+							Mobilum a engagé une démarche RSE globale qui commence par la réalisation de son bilan
+							carbone, indispensable à la définitions d'objectifs justes et précis.
 						</p>
 					</div>
 				</div>
@@ -185,14 +186,12 @@ function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 		placeholder: true,
 		format: "avif,webp",
 	});
-	return { backgroundImage: `url('${imgUrl}')` };
+	return { backgroundImage: `linear-gradient(to bottom, rgba(255, 0, 0, 0) 65%, #fefcf3), url('${imgUrl}')` };
 }
 </script>
 
 <style scoped>
 .slot_image {
-	background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0) 65%, #fefcf3),
-		url("/photospages/accueil-test-fond2.jpg");
 	opacity: 90%;
 	background-size: cover;
 	background-attachment: fixed;
@@ -226,24 +225,23 @@ h3 {
 	margin-bottom: 3rem;
 	margin-top: 3rem;
 
-	display : flex;
+	display: flex;
 	flex-direction: row;
 	text-align: justify;
 	align-items: center;
 }
 
-
 /*-------------------------------------------------------------------------
     Page content 
   -----------------------------------------------------------------------*/
 .sub__section {
-	display : flex;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	margin: 0;
 }
 .section__side {
-	display : flex;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	/* border-radius: 5px; */
@@ -257,7 +255,7 @@ h3 {
 .real__model {
 	padding-top: 3rem;
 
-	display : flex;
+	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
@@ -307,7 +305,7 @@ h3 {
 }
 
 .text-rse {
-	width : 100%;
+	width: 100%;
 }
 
 /* ------------------------------------------------------------------------------------------
@@ -317,7 +315,7 @@ h3 {
 --------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 950px) {
-h2 {
+	h2 {
 		padding-left: 1rem;
 		padding-bottom: 1rem;
 		margin: 0rem;
@@ -332,7 +330,7 @@ h2 {
 		height: 100%;
 	}
 	.sub__section__content {
-		display : flex;
+		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
@@ -341,21 +339,21 @@ h2 {
 		height: 100%;
 		justify-content: flex-end;
 		border-radius: 5px;
-		padding : 0;
+		padding: 0;
 	}
 
 	.section__text {
 		padding-bottom: 0;
-		width : 100%;
+		width: 100%;
 	}
 
 	.text {
-		width : 100%;
+		width: 100%;
 	}
 
 	.real__model {
-		display : flex;
-		flex-direction : column;
+		display: flex;
+		flex-direction: column;
 		margin: 0;
 		padding-top: 2rem;
 		align-items: center;
@@ -373,11 +371,11 @@ h2 {
 	.illustration img {
 		object-fit: cover;
 		background-position-y: bottom;
-		width : 100%;
+		width: 100%;
 	}
 
 	.design {
-		margin : 0;
+		margin: 0;
 	}
 
 	.croquis {
@@ -386,10 +384,8 @@ h2 {
 		background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)),
 			url("/photospages/croquis-sovann-kim-pour-mobilum.png");
 		background-size: cover;
-		box-shadow:
-			rgba(50, 50, 93, 0.8) 0px 2px 5px -1px,
-			rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
-		margin : 0;
+		box-shadow: rgba(50, 50, 93, 0.8) 0px 2px 5px -1px, rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
+		margin: 0;
 	}
 
 	.reverse {
@@ -401,9 +397,7 @@ h2 {
 		background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)),
 			url("/photospages/savoir-faire.jpg");
 		background-size: cover;
-		box-shadow:
-			rgba(50, 50, 93, 0.8) 0px 2px 5px -1px,
-			rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
+		box-shadow: rgba(50, 50, 93, 0.8) 0px 2px 5px -1px, rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
 	}
 
 	.RSE {
@@ -413,9 +407,7 @@ h2 {
 		background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)),
 			url("/photospages/mobilum-valeurs-rse-avenirv2.png");
 		background-size: cover;
-		box-shadow:
-			rgba(50, 50, 93, 0.8) 0px 2px 5px -1px,
-			rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
+		box-shadow: rgba(50, 50, 93, 0.8) 0px 2px 5px -1px, rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
 	}
 }
 </style>

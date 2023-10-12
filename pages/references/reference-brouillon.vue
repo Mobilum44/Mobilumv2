@@ -90,7 +90,6 @@
 			</div>
 
 			<!----- Mettre autres produits de la gamme grâce au champ "Gamme" ----->
-
 		</ContentDoc>
 	</main>
 </template>
@@ -115,7 +114,7 @@ h2 {
 }
 
 .reference {
-	margin-top: 17vh;
+	margin-top: 120px;
 	width: 80%;
 	display: flex;
 	flex-direction: column;

@@ -72,8 +72,8 @@
 					<p><em>Concept</em>: {{ doc.concept }}</p>
 				</div>
 				<div class="reference-description">
-				<ContentRenderer :value="doc" />
-			</div>
+					<ContentRenderer :value="doc" />
+				</div>
 			</ul>
 
 			<div class="reference-carousel wide">
@@ -120,11 +120,11 @@ h2 {
 	text-align: center;
 	font-family: "Montserrat";
 	font-size: 200%;
-	border : 0;
+	border: 0;
 }
 
 .reference {
-	margin-top: 17vh;
+	margin-top: 120px;
 	width: 80%;
 	display: flex;
 	flex-direction: column;
@@ -174,26 +174,25 @@ h2 {
 
 @media only screen and (max-width: 950px) {
 	.reference-header {
-		padding : 0.5rem;
-		width :100%;
+		padding: 0.5rem;
+		width: 100%;
 		text-align: center;
 	}
 
 	h1 {
-		padding : 0;
+		padding: 0;
 		text-align: center;
 		font-size: 2rem;
 	}
 
 	h2 {
-		font-size : 1.5rem;
-		margin-top : 0.5rem;
+		font-size: 1.5rem;
+		margin-top: 0.5rem;
 	}
 
 	.responsive {
 		flex-direction: column;
 		align-items: center;
 	}
-
 }
 </style>
