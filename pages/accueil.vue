@@ -33,7 +33,6 @@
 		<template #slot_bandeau>
 			<div class="redirection">
 				<h3>En quelques mots, Mobilum c'est ...</h3>
-				<b> Changer photo BFUP</b>
 				<SlideRedirection />
 			</div>
 		</template>

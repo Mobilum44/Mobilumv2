@@ -7,7 +7,7 @@ published: TRUE
 
 gamme: "?"
 
-cover_image: "/references/cover_image/mobilum-piano-rezzo-ecole-normale-superieure-ens.jpg"
+cover_image: "/references/cover_image/ens-paris-saclay-mobilum.jpg"
 cover_text: "Mobilier extérieur pour les étudiants dans un cadre prestigieux"
 
 carousel:

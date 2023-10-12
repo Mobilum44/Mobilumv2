@@ -6,7 +6,7 @@ published: TRUE
 
 gamme: "?"
 
-cover_image: "/references/cover_image/vertable-infinie.jpg"
+cover_image: "/references/cover_image/table-vertable-vertou-mobilum.jpg"
 cover_text: "Une table infinie"
 
 carousel:

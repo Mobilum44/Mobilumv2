@@ -9,7 +9,7 @@ concept: Une gamme complète de mobiliers urbains et de signalétique
 
 gamme: "?"
 
-cover_image: "/references/cover_image/puilboreau-centre-commercial-beaulieu.jpeg"
+cover_image: "/references/cover_image/puilboreau-centre-commercial-beaulieu.jpg"
 cover_text: "Un bain de soleil infini"
 
 carousel:

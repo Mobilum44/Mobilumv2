@@ -7,14 +7,13 @@ published: TRUE
 
 gamme: "?"
 
-cover_image: "/references/cover_image/feuille-roquefere.jpg"
+cover_image: "/references/cover_image/cover-parc-saint-cyr-mobilum.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
 carousel:
     - "/references/carousel/st-cyr-vue-generale.jpeg"
-    - "/references/carousel/parc-st-cyr-chaise-obrac.jpg"
-    - "/references/carousel/st-cyr-banc-chaise-obrac.jpg"
     - "/references/carousel/totem-st-cyr-mobilum.jpg"
+    - "/references/carousel/st-cyr-banc-chaise-obrac.jpg"
     - "/references/carousel/appui-velo-track-st-cyr.jpg"
 
 localisation: Parc de Montjoie / St Cyr sur Loire

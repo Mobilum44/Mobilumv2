@@ -16,7 +16,7 @@
 
 			<p>
 				<b>Mettre photos illustration</b><br/>
-				<b> Les photos sont zoomées, corriger ca</b> <br />
+				<b> Cover_image : SGP / Bienale / Tram Angers / Galets / Trocadero / Chanel</b> <br />
 				<br />
 				<b>Classify : By type // Order by : champ md "order"</b> <br />
 				SNCF / SGP MU / SGP sign <br />

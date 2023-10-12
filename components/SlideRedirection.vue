@@ -16,8 +16,8 @@
 		to="/materiau"
     > -->
 		<div class="box">
-			<NuxtImg src="/photospages/BFUP-seau.jpg" width="900px" format="avif,webp" placeholder loading="lazy" />
-			<p><em>Un matériau :</em> Le Béton Fibré Ultra Performant</p>
+			<NuxtImg src="/photospages/bfup-truelle-large.jpg" width="900px" format="avif,webp" placeholder loading="lazy" />
+			<p><em>Un matériau :</em><br/> Le Béton Fibré Ultra Performant</p>
 		</div>
 		<!-- </NuxtLink> -->
 		<NuxtLink class="box" to="/collection">

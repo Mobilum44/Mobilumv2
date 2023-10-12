@@ -8,7 +8,7 @@ concept: "Mobilum en intérieur"
 
 gamme: "?"
 
-cover_image: "/references/cover_image/ensemble-interieur-crous.jpg"
+cover_image: "/references/cover_image/crous-nantes-etudiants.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
 carousel:
