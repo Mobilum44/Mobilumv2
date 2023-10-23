@@ -13,7 +13,7 @@ motif_window:
 portes: oui
 bal: oui
 personnalisation:
-cover_image: "/produits/cover_image/cover-hook-1675.png"
+cover_image: "/produits/cover_image/cover-hook-1675.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"
     - "/produits/attente-showroom.jpg"

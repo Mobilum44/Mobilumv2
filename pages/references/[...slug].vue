@@ -87,7 +87,7 @@
 			</div>
 
 			<div class="reference-info">
-				<p>Produits présentés dans le projet</p>
+				<h3>Produits présentés dans le projet</h3>
 				<p><b>Mettre le lien vers les fiches produits</b></p>
 			</div>
 		</ContentDoc>

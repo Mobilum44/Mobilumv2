@@ -20,7 +20,7 @@
 		</div>
 		<b>
 			Mettre photo illustration en dessous des cartes produits : plaques HOOK coulées en usine <br />
-			Tous en bois et mieux "répartis"<br /> Trouver solution pour avoir grille de 6 (2;3)
+			Trouver solution pour avoir grille de 6 (2;3)
 			et mettre 7eme en sur-mesure : page entière à créer.
 		</b>
 
@@ -40,10 +40,10 @@
 						</article>
 						<p class="hook-size">
 							{{ urbanFurniture.cover_undertext }} <br />
-							<b>Enlever soulignement</b>
 						</p>
 					</NuxtLink>
 				</li>
+				<b>Enlever soulignement</b>
 			</ul>
 		</div>
 	</NuxtLayout>

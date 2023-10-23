@@ -7,7 +7,7 @@ published: TRUE
 
 order: 4
 
-gamme: "?"
+gamme: STELAG
 
 cover_image: "/references/cover_image/galets-rouen-place.jpg"
 cover_text: "Blablabla"
