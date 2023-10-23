@@ -13,12 +13,12 @@ motif_window:
 portes: oui
 bal: oui
 personnalisation:
-cover_image: "/produits/cover_image/hook-1125-double-alu-compo.jpg"
+cover_image: "/produits/cover_image/cover-hook-1675.png"
 carousel:
     - "/produits/banquette-elium-parc.jpg"
     - "/produits/attente-showroom.jpg"
 filaire:
-    - "/produits/filaires/filaire-cantine-04.png"
+    - "/produits/filaires/filaire-hook-1675.png"
 reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 101

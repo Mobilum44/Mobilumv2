@@ -4,6 +4,8 @@ cover_title : Sorbonne université
 title: Sorbonne université
 published: TRUE
 
+order: 2
+
 gamme: "?"
 
 cover_image: "/references/cover_image/sorbonne-universite-amphi-stoop-cube.jpg"

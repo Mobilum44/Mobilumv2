@@ -5,6 +5,8 @@ title: Puilboreau
 sub_title:
 published: TRUE
 
+order: 6
+
 concept: Une gamme complète de mobiliers urbains et de signalétique
 
 gamme: "?"

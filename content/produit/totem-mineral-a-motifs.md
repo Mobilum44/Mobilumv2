@@ -13,7 +13,7 @@ motif_window:
 portes:
 bal:
 personnalisation: oui
-cover_image: "/produits/cover_image/totem-mineral.jpg"
+cover_image: "/produits/cover_image/totem-mineral-motifs.jpg"
 carousel:
     - "/produits/banquette-elium-parc.jpg"
     - "/produits/attente-showroom.jpg"

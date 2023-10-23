@@ -16,13 +16,8 @@
 
 			<p>
 				<b>Mettre photos illustration</b><br/>
-				<b> Cover_image : SGP / Bienale / Tram Angers / Galets / Trocadero / Chanel</b> <br />
-				<br />
-				<b>Classify : By type // Order by : champ md "order"</b> <br />
-				SNCF / SGP MU / SGP sign <br />
-				Trocadero / ENS / Chanel / Galets / Tram angers / Puilboreau / La défense (si obtenu)<br />
-				Vertable / sorbonne / saclay / carnon / roquefere / crous <br />
-				Niuvelle catégorie : les récompensés - St cyr / Les ulis / Bienale<br />
+				<b> Cover_image : SGP / Bienale / Chanel</b> <br />
+				<b> Corriger largeur des images (responsive)</b>
 			</p>
 		</section>
 
@@ -73,7 +68,7 @@ import { Reference } from "@/assets/types";
 
 const { data: references } = await useAsyncData(
 	"references",
-	() => queryContent("/references").find() as Promise<Reference[]>,
+	() => queryContent("/references").sort({ order: 1 }).find() as Promise<Reference[]>,
 );
 
 useSeoMeta({

@@ -4,6 +4,8 @@ cover_title : L'orme à Moineaux
 title: L'orme à Moineaux
 published: TRUE
 
+order: 2
+
 gamme: "?"
 
 cover_image: "/references/cover_image/sortie-orme-a-moineaux.jpg"

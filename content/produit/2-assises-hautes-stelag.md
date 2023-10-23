@@ -17,7 +17,7 @@ cover_image: "/produits/cover_image/galet-2-assises-L.jpg"
 carousel:
     - "/produits/galet-stelag-haut-deux-assises-rouen.JPG"
 filaire:
-    - "/produits/filaires/filaire-cantine-04.png"
+    - "/produits/filaires/filaire-2-assises-hautes-stelag.png"
 reference: AGSTELA0202
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 411

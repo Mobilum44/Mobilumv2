@@ -7,7 +7,6 @@
 		</template>
 
 		<section class="page_top">
-			<div class="title"><b> Photo trop longue à charger</b></div>
 		</section>
 
 		<div class="section_top"></div>
@@ -186,7 +185,7 @@ function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 		placeholder: true,
 		format: "avif,webp",
 	});
-	return { backgroundImage: `linear-gradient(to bottom, rgba(255, 0, 0, 0) 65%, #fefcf3), url('${imgUrl}')` };
+	return { backgroundImage: `url('${imgUrl}')` };
 }
 </script>
 

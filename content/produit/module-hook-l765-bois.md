@@ -13,11 +13,11 @@ motif_window:
 portes: oui
 bal: oui
 personnalisation:
-cover_image: "/produits/cover_image/hook-765-bois.jpg"
+cover_image: "/produits/cover_image/cover-hook-765.png"
 carousel:
     - "/produits/attente-showroom.jpg"
 filaire:
-    - "/produits/filaires/filaire-cantine-04.png"
+    - "/produits/filaires/filaire-hook-765.png"
 reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 86

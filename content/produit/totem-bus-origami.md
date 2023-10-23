@@ -6,14 +6,14 @@ collection: Signalétique
 category: Totem
 sub_category: Totem bus
 gamme: ORIGAMI
-cover_undertext: Le fin / Le petit / Le discret
+cover_undertext: La vague
 motifs:
 motif_vegetal:
 motif_window:
 portes:
 bal:
 personnalisation: oui
-cover_image: "/produits/cover_image/totem-origami-bus.jpg"
+cover_image: "/produits/cover_image/totem-bus-origami.jpg"
 carousel:
     - "/produits/totem-bus-origami.png"
 filaire:

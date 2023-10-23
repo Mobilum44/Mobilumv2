@@ -5,6 +5,8 @@ title: Le Grand Paris
 sub_title: Signalétique
 published: TRUE
 
+order: 3
+
 gamme: "?"
 
 cover_image: "/references/cover_image/mante-religieuse.jpg"

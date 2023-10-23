@@ -13,11 +13,11 @@ motif_window:
 portes: oui
 bal: oui
 personnalisation:
-cover_image: "/produits/cover_image/hook-1125-double-alu-compo.jpg"
+cover_image: "/produits/cover_image/cover-hook-1125.png"
 carousel:
     - "/produits/attente-showroom.jpg"
 filaire:
-    - "/produits/filaires/filaire-cantine-04.png"
+    - "/produits/filaires/filaire-hook-1125.png"
 reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 101

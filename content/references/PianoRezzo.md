@@ -5,6 +5,8 @@ title: ENS Paris Saclay
 sub_title:
 published: TRUE
 
+order: 2
+
 gamme: "?"
 
 cover_image: "/references/cover_image/ens-paris-saclay-mobilum.jpg"

@@ -5,6 +5,8 @@ title: Trocadero
 sub_title:
 published: TRUE
 
+order: 1
+
 gamme: YOON
 
 cover_image: "/references/cover_image/jardinieres-trocadero-paris-mobilum.jpg"

@@ -1,7 +1,6 @@
 <template>
 	<main class="reference">
 		<ContentDoc v-slot="{ doc }">
-			<p><b>Quand on peut : mettre lien vers la fiche des produits ? </b></p>
 			<div class="reference-header">
 				<h1>{{ doc.title }}</h1>
 				<h2>{{ doc.sub_title }}</h2>
@@ -58,7 +57,7 @@
 					<div v-if="doc.duree_marche">{{ doc.duree_marche }} /</div>
 
 					<!-----Localisation sur la même ligne ----->
-					<div v-if="doc.localisation"><b>(espace)</b>{{ doc.localisation }}</div>
+					<div v-if="doc.localisation">{{ doc.localisation }}</div>
 				</li>
 			</ul>
 			<ul class="reference-info">
@@ -71,9 +70,12 @@
 				<div v-if="doc.concept">
 					<p><em>Concept</em>: {{ doc.concept }}</p>
 				</div>
+
+				<!---
 				<div class="reference-description">
 					<ContentRenderer :value="doc" />
 				</div>
+				--->
 			</ul>
 
 			<div class="reference-carousel wide">
@@ -84,22 +86,10 @@
 				</ul>
 			</div>
 
-			<!---			<div class="reference-image">
-				<figure>
-					<NuxtImg
-						:src="doc.cover_image"
-						:alt="doc.cover_text"
-						width="500"
-						height="500"
-						format="avif,webp"
-						placeholder
-						loading="lazy"
-					/>
-					<figcaption>
-						<p>{{ doc.cover_text }}</p>
-					</figcaption>
-				</figure>
-			</div> ------>
+			<div class="reference-info">
+				<p>Produits présentés dans le projet</p>
+				<p><b>Mettre le lien vers les fiches produits</b></p>
+			</div>
 		</ContentDoc>
 	</main>
 </template>
@@ -132,6 +122,7 @@ h2 {
 }
 .reference-header {
 	padding: 2rem;
+	margin-top : 2rem;
 	width: 80%;
 	border: solid black 1px;
 	display: flex;

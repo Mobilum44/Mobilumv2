@@ -4,6 +4,8 @@ cover_title : Vertable
 title: Vertable
 published: TRUE
 
+order: 1
+
 gamme: "?"
 
 cover_image: "/references/cover_image/table-vertable-vertou-mobilum.jpg"

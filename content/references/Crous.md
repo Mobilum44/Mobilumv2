@@ -4,6 +4,8 @@ cover_title : Crous de Nantes
 title: Crous de Nantes
 published: TRUE
 
+order: 6
+
 concept: "Mobilum en intérieur"
 
 gamme: "?"

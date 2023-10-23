@@ -5,6 +5,8 @@ title: Le Grand Paris
 sub_title:  Mobilier Urbain
 published: TRUE
 
+order: 2
+
 gamme: "?"
 
 cover_image: "/references/cover_image/assises-societe-du-grand-paris.png"

@@ -6,14 +6,14 @@ collection: Signalétique
 category: Totem
 sub_category: Totem rue
 gamme: ORIGAMI
-cover_undertext: La vague
+cover_undertext: Le fin / Le petit / Le discret
 motifs:
 motif_vegetal:
 motif_window:
 portes:
 bal:
 personnalisation: oui
-cover_image: "/produits/cover_image/totem-origami-rue.jpg"
+cover_image: "/produits/cover_image/totem-rue-origami.jpg"
 carousel:
     - "/produits/totem-rue-origami.jpg"
     - "/produits/totem-rue-origami-passage-pieton-flou.jpg"

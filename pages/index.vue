@@ -11,7 +11,7 @@
 					loading="lazy"
 				/>
 				<Button theme="slide" to="/accueil"> Entrer </Button>
-				<b>Remettre bien le fond</b>
+				<b>Remettre bien le fond : Pas ouf en responsive, plutot focus sur les bancs</b>
 			</div>
 		</div>
 	</NuxtLayout>

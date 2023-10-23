@@ -6,6 +6,7 @@ export interface Reference extends ParsedContent {
 	title: string;
 	sub_title: string;
 	published: boolean;
+	order : string;
 	gamme: string;
 	cover_image: string;
 	cover_text: string;

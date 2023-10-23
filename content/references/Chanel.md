@@ -4,6 +4,8 @@ cover_title : Chanel
 title: Chanel
 published: TRUE
 
+order: 3
+
 gamme: "?"
 
 cover_image: "/references/cover_image/mante-religieuse.jpg"

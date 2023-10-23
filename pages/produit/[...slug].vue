@@ -9,7 +9,7 @@
 			</div>
 		</section>
 		<section class="sub-section">
-			<Carousel :wrap-around="true" snap-align="center" :items-to-show="1.5">
+			<Carousel :wrap-around="true" snap-align="center" :items-to-show="1">
 				<Slide v-for="(img, i) in doc.carousel" :key="i">
 					<NuxtImg
 						:src="img"
@@ -28,12 +28,6 @@
 				</template>
 			</Carousel>
 
-			<!-- <div class="gallery">
-				<div v-for="(img, i) in doc.carousel" :key="i">
-					<NuxtImg :src="img" width="2000" placeholder format="avif,webp" loading="lazy" />
-				</div>
-				<Carousel :img="doc.carousel" />
-			</div> -->
 		</section>
 
 		<div class="sub-section general responsive">
@@ -107,12 +101,6 @@
 			<div class="sub-section-content responsive">
 				<div class="content">
 					<p class="strong">Couleurs naturelles</p>
-					<!--
-					<ul>
-						<li class="list-element">Gris foncé</li>
-						<li class="list-element">Gris clair</li>
-						<li class="list-element">Blanc</li>
-					</ul>--->
 
 					<div class="type">
 						<div class="type-color">

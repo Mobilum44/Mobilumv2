@@ -4,6 +4,8 @@ cover_title : Biennale du design
 title: Biennale internationnale du design de St Etienne
 published: TRUE
 
+order: 3
+
 gamme: "?"
 
 cover_image: "/references/cover_image/feuille-roquefere.jpg"
