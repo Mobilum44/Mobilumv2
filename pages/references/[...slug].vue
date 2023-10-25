@@ -79,11 +79,24 @@
 			</ul>
 
 			<div class="reference-carousel wide">
-				<ul>
-					<li v-for="(img, i) in doc.carousel" :key="i">
-						<NuxtImg :src="img" width="1900" format="avif,webp" placeholder loading="lazy" />
-					</li>
-				</ul>
+				<Carousel :wrap-around="true" snap-align="center" :items-to-show="1">
+					<Slide v-for="(img, i) in doc.carousel" :key="i">
+						<NuxtImg
+							:src="img"
+							width="1100"
+							height="600"
+							quality="60"
+							placeholder
+							format="avif,webp"
+							loading="lazy"
+						/>
+					</Slide>
+
+					<template #addons>
+						<Navigation />
+						<Pagination />
+					</template>
+				</Carousel>
 			</div>
 
 			<div class="reference-info">
@@ -98,7 +111,6 @@
 useSeoMeta({
 	title: "Nos références",
 });
-
 </script>
 
 <style scoped>
@@ -129,7 +141,7 @@ h2 {
 }
 .reference-header {
 	padding: 2rem;
-	margin-top : 2rem;
+	margin-top: 2rem;
 	width: 80%;
 	border: solid black 1px;
 	display: flex;

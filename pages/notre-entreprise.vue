@@ -145,7 +145,6 @@ Notre savoir-faire
 							essentiels dans notre choix du BFUP.<br /><br />
 							Mobilum a engagé une démarche RSE globale qui commence par la réalisation de son bilan
 							carbone, indispensable à la définitions d'objectifs justes et précis. <br/><br/>
-							<b> Photoshop : enfouir le pied du totem</b>
 						</p>
 					</div>
 				</div>
@@ -178,6 +177,10 @@ definePageMeta({
 });
 
 const img = useImage();
+
+useSeoMeta({
+	title: "Mobilum",
+});
 
 function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 	const imgUrl = img(thumbnail, {
@@ -299,7 +302,7 @@ h3 {
 }
 .RSE {
 	background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #fefcf3),
-		url("/photospages/mobilum-valeurs-rse-avenirv2.png");
+		url("/photospages/mobilum-valeurs-rse-avenirv3.jpg");
 	background-size: cover;
 	width: 100%;
 }

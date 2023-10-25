@@ -13,7 +13,7 @@ motif_window:
 portes:
 bal:
 personnalisation: oui
-cover_image: "/produits/cover_image/totem-bus-origami.jpg"
+cover_image: "/produits/cover_image/totem-origami.jpg"
 carousel:
     - "/produits/totem-bus-origami.png"
 filaire:

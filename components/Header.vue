@@ -8,7 +8,7 @@
 				<NuxtLink class="nav__link" to="/accueil"> Accueil </NuxtLink>
 			</li>
 			<li>
-				<NuxtLink class="nav__link" to="/entreprise"> Mobilum </NuxtLink>
+				<NuxtLink class="nav__link" to="/notre-entreprise"> Mobilum </NuxtLink>
 			</li>
 			<li>
 				<NuxtLink class="nav__link" to="/collection"> Nos collections </NuxtLink>

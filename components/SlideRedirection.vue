@@ -1,8 +1,8 @@
 <template>
 	<div class="SlideRedirection">
-		<NuxtLink class="box" to="/entreprise">
+		<NuxtLink class="box" to="/notre-entreprise">
 			<NuxtImg src="/photospages/plaques-hook-coulage-usine.jpg" width="900px" format="avif,webp" placeholder loading="lazy" />
-			<p to="/entreprise">Un atelier <em>responsable</em></p>
+			<p to="/notre-entreprise">Un atelier <em>responsable</em></p>
 		</NuxtLink>
 		<div class="box">
 			<NuxtImg src="/photospages/design-mobilum.jpg" width="900px" format="avif,webp" placeholder loading="lazy" />

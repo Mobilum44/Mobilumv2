@@ -13,7 +13,7 @@
 				<Slide v-for="(img, i) in doc.carousel" :key="i">
 					<NuxtImg
 						:src="img"
-						width="1000"
+						width="1100"
 						height="600"
 						quality="60"
 						placeholder
@@ -392,19 +392,6 @@ h1 {
 }
 
 /*-----------------------------------------------------------------
-		Zone galerie
-	---------------------------------------------------------------*/
-.gallery {
-	max-width: 100%;
-	margin-top: 4rem;
-}
-
-.gallery img {
-	object-fit: contain;
-	max-width: 100%;
-}
-
-/*-----------------------------------------------------------------
 		Zone caractéristiques
 	---------------------------------------------------------------*/
 .general {
@@ -442,6 +429,10 @@ h1 {
 
 .general-infos {
 	width: 65%;
+}
+
+.general-infos h2 {
+	margin-top : 0;
 }
 .general-content {
 	margin-top: 0;

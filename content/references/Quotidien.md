@@ -11,7 +11,7 @@ concept: Supprimer la page (n'avoir qu'une carte qui s'affiche sur la collection
 
 gamme: "?"
 
-cover_image: "/references/cover_image/tramway_angers_portrait.JPG"
+cover_image: "/references/cover_image/mante-religieuse.jpg"
 cover_text: "Nous remercions tous nos clients. plus de 400 villes et 15 000 mobiliers (à vérifier)"
 
 carousel:

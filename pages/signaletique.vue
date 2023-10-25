@@ -11,9 +11,7 @@
 
 			Il ne vous reste plus qu'à libérer votre créativité afin de donner vie à une pièce unique et distinguée.<br />
 			</p>
-
-		<b>Redimensionner le totem à motifs</b>
-
+			
 		<div class="sub__section">
 			<ul class="section-collection">
 				<li v-for="urbanFurniture in urbanFurnitures" :key="urbanFurniture.title" class="collection-item">

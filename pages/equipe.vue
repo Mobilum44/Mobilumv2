@@ -1,6 +1,6 @@
 <template>
 	<TeamPage>
-		<NuxtLink class="Retour" to="/entreprise"> Retour </NuxtLink>
+		<NuxtLink class="Retour" to="/notre-entreprise"> Retour </NuxtLink>
 
 		<div class="title">
 			<h1>Bienvenue chez nous !</h1>

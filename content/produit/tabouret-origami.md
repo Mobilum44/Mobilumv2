@@ -19,7 +19,7 @@ carousel:
     - "/produits/chemin-tabouret-origami.jpeg"
     - "/produits/tabourets-origami-proville.jpg"
 filaire:
-    - "/produits/filaires/filaire-tabouret-origami.png"
+    - "/produits/filaires/filaire-tabouret-origami-2.png"
 reference: TBORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 73
