@@ -18,7 +18,7 @@ carousel:
     - "/produits/chaises-obrac-la-rochelle.jpg"
     - "/produits/obrac-chaises-la-rochelle-velo.jpg"
 filaire:
-    - "/produits/filaires/filaire-chaise-obrac.png"
+    - "/produits/filaires/filaire-chaise-obrac-2.png"
 reference: CHOBRAC0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 134

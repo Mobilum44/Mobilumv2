@@ -19,7 +19,7 @@ carousel:
     - "/produits/banc-obrac-la-roche-sur-yon.jpg"
     - "/produits/deux-banc-obrac-la-roche-sur-yon.jpg"
 filaire:
-    - "/produits/filaires/filaire-banc-obrac.png"
+    - "/produits/filaires/filaire-banc-obrac-2.png"
 reference: BSOBRAC0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 441

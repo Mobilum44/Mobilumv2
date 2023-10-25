@@ -18,7 +18,7 @@ carousel:
     - "/produits/banquette-elium-parc.jpg"
     - "/produits/attente-showroom.jpg"
 filaire:
-    - "/produits/filaires/filaire-banquette-vertable-pm-2.png"
+    - "/produits/filaires/filaire-banquette-vertable-pm-3.png"
 reference: BAVERTA0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 52

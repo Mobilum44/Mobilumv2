@@ -19,7 +19,7 @@ carousel:
     - "/produits/table-cantine-02-le-trait-v2.jpg"
     - "/produits/table-cantine-02-vernon.jpg"
 filaire:
-    - "/produits/filaires/filaire-table-cantine-02.png"
+    - "/produits/filaires/filaire-table-cantine-02-2.png"
 reference: TACANTI0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 491

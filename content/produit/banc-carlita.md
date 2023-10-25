@@ -19,7 +19,7 @@ carousel:
     - "/produits/banquette-carlita-place.jpg"
     - "/produits/banquette-carlita-face.jpg"
 filaire:
-    - "/produits/filaires/filaire-banc-carlita.png"
+    - "/produits/filaires/filaire-banc-carlita-2.png"
 reference: BSCARLI0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 317
