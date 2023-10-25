@@ -34,6 +34,13 @@ defineProps<{
 	object-position: 50% 50%;
 	/* Cartes zoomées. A corriger https://image.nuxt.com/usage/nuxt-img#sizes */
 }
+
+.CarteMarches p {
+	border : solid black;
+	color :white;
+}
+
+
 .CarteMarches h3 {
 	width: 60%;
 	position: absolute;

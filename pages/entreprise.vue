@@ -28,7 +28,7 @@
 			---->
 							<strong>"Le design, on adhère !"</strong>
 							<br /><br />
-							Mobilum se définit par sa compétence en BFUP et son design, véritable ADN de l’entreprise.
+							Mobilum se définit par sa compétence en BFUP et son design. <br/>
 							Notre ambition est de concevoir des mobiliers urbains modernes et élégants qui s’intègrent
 							harmonieusement dans l’espace public. <br /><br />
 							Pour cela nous avons fait le choix de nous associer à des designers aguerris qui pensent
@@ -139,12 +139,13 @@ Notre savoir-faire
 							<br /><br />
 							Repenser le mobilier urbain nécessite d’intégrer le développement durable dans nos
 							recherches, nos créations et notre croissance. <br /><br />
-							Pérennité du matériau, faible entretien et réponse aux exigences climatiques ont été
-							essentiels dans notre choix du BFUP.<br /><br />
 							L’intégralité des produits présentés est fabriquée sur notre site au Loroux-Bottereau en
 							Loire Atlantique. <br /><br />
+							Pérennité du matériau, faible entretien et réponse aux exigences climatiques ont été
+							essentiels dans notre choix du BFUP.<br /><br />
 							Mobilum a engagé une démarche RSE globale qui commence par la réalisation de son bilan
-							carbone, indispensable à la définitions d'objectifs justes et précis.
+							carbone, indispensable à la définitions d'objectifs justes et précis. <br/><br/>
+							<b> Photoshop : enfouir le pied du totem</b>
 						</p>
 					</div>
 				</div>

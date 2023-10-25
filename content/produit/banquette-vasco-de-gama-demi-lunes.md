@@ -4,7 +4,7 @@ published: TRUE
 designer:
 collection: Mobilier urbain
 category: Assise
-sub_category: 05 Banquette
+sub_category: 05.07 Banquette
 gamme: VASCO DE GAMA
 cover_undertext:
 motifs:

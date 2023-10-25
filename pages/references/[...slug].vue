@@ -94,6 +94,13 @@
 	</main>
 </template>
 
+<script setup lang="ts">
+useSeoMeta({
+	title: "Nos références",
+});
+
+</script>
+
 <style scoped>
 h1 {
 	color: black;

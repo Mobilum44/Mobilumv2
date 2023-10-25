@@ -8,14 +8,25 @@
 			<section class="bandeau wide" :style="backgroundStyles('/photospages/accueil-test-fond2.jpg')">
 				<div class="bandeau-content">
 					<p class="quote">
-						<span>Mobilum&thinsp;</span><br />
+						<!--<span>Mobilum&thinsp;</span><br /> --->
 						<span>Le&thinsp;</span>
 						<span>Béton&thinsp;</span>
-						<span>Fibré&thinsp;</span>
+						<span>Fibré&thinsp;</span><br />
 						<span>à&thinsp;</span>
 						<span>la&thinsp;</span>
 						<span>Française&thinsp;</span>
 					</p>
+					<NuxtImg
+								alt="Table cantine réelle"
+								class="logo-french-fab"
+								src="/logos/french-fab.png"
+								center
+								width="40"
+								fit="cover"
+								format="avif,webp"
+								placeholder
+								loading="lazy"
+							/>
 				</div>
 			</section>
 		</template>
@@ -101,11 +112,11 @@ p {
 
 .bandeau-content {
 	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+	flex-direction: row;
+	align-items: center;
 	justify-content: center;
-	padding-bottom: 3rem;
-	padding-right: 10rem;
+	padding-bottom: 2.5rem;
+	padding-right: 12rem;
 }
 
 .accueil_text {
@@ -125,12 +136,16 @@ p {
 	------------------------------------------------------------------*/
 .quote {
 	padding: 4vh;
+
+	font-family: "Bebas neue", Times, serif;
+	/*
 	font-family: "Times New Roman", Times, serif;
 	font-style: italic;
+	*/
 	font-size: 2rem;
 	color: black;
 	text-shadow: black 1px 0 20px;
-	max-width: 150vh;
+	max-width: 180vh;
 
 	transform: scale(0.94);
 	animation: scale 6s forwards cubic-bezier(0.5, 1, 0.89, 1);
@@ -177,6 +192,10 @@ span:nth-child(7) {
 }
 
 span:nth-child(8) {
+	animation: fade-in 1s 2.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(9) {
 	animation: fade-in 1s 2.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 

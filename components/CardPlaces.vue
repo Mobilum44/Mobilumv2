@@ -41,25 +41,6 @@
 		<div class="card shadow">
 			<figure class="card__thumb">
 				<NuxtImg
-					src="/cards/obrac-la-rochelle-port-neuf.png"
-					alt="Bord de mer à cucq transat Camah de Mobilum"
-					class="card__image"
-					fit="cover"
-					width="250"
-					format="avif,webp"
-					placeholder
-					loading="lazy"
-				/>
-				<figcaption class="card__caption">
-					<h4>Bord de mer</h4>
-					<p>Embruns, climats ne sont plus des contraintes.</p>
-				</figcaption>
-			</figure>
-		</div>
-
-		<div class="card shadow">
-			<figure class="card__thumb">
-				<NuxtImg
 					src="/cards/gare-est-paris-mobilum.jpg"
 					alt="Photo gare paris mobilum"
 					class="card__image"
@@ -153,6 +134,25 @@
 			</figure>
 		</div>
 
+		<div class="card shadow">
+			<figure class="card__thumb">
+				<NuxtImg
+					src="/cards/obrac-la-rochelle-port-neuf.png"
+					alt="Bord de mer à cucq transat Camah de Mobilum"
+					class="card__image"
+					fit="cover"
+					width="250"
+					format="avif,webp"
+					placeholder
+					loading="lazy"
+				/>
+				<figcaption class="card__caption">
+					<h4>Bord de mer</h4>
+					<p>Embruns, climats ne sont plus des contraintes.</p>
+				</figcaption>
+			</figure>
+		</div>
+		
 		<div class="card shadow">
 			<figure class="card__thumb">
 				<!-- Parcs, Bords de mer, Gare, Lycée, ...-->

@@ -110,7 +110,7 @@ definePageMeta({
 });
 
 useSeoMeta({
-	title: "Accueil",
+	title: "Nos collections",
 });
 </script>
 

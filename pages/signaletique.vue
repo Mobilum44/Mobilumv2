@@ -5,12 +5,14 @@
 
 			<h1>Signaletique</h1>
 		</div>
-		<b> Trouver une accroche plus sympa "venez vous éclater avec nous"</b>
 		<p class="chapeau">
-			Création d'une pièce unique et distinguée à votre image à partir de notre gamme existante.<br />
 			Nos totems équipent les rues, les parcs, les bords de mer, les zones de bus, les enceintes privées.<br />
-			Ils ont la particularité de résister aux aménagements les plus sensibles.<br />
-		</p>
+			Ils ont la particularité de résister aux aménagements les plus sensibles.<br /><br />
+
+			Il ne vous reste plus qu'à libérer votre créativité afin de donner vie à une pièce unique et distinguée.<br />
+			</p>
+
+		<b>Redimensionner le totem à motifs</b>
 
 		<div class="sub__section">
 			<ul class="section-collection">
@@ -26,7 +28,7 @@
 							/>
 							<p>{{ urbanFurniture.title }}</p>
 						</article>
-							<p class="collection-item">{{ urbanFurniture.cover_undertext }}</p>
+							<p class="undertext">{{ urbanFurniture.cover_undertext }}</p>
 					</NuxtLink>
 				</li>
 			</ul>
@@ -112,6 +114,10 @@ definePageMeta({
 	layout: false,
 });
 
+useSeoMeta({
+	title: "La signalétique",
+});
+
 const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 	// Requête pour récupérer les produits de la collection "Mobilier urbain"
 	// https://content.nuxtjs.org/api/composables/query-content
@@ -133,8 +139,11 @@ const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 	text-align: center;
 	text-decoration: none;
 	font-family: "Times New Roman", Times, serif;
-	font-style: italic;
 	font-size: 1.2rem;
+}
+
+.undertext {
+	font-style: italic;
 }
 
 .collection-item a {
@@ -145,12 +154,11 @@ const { data: urbanFurnitures } = await useAsyncData("produit", () =>
   ---------------------------------------------------------*/
 .image_cover {
 	border-radius: 7px;
-	border: solid white;
 
 	position: relative;
 	justify-self: center;
-	height: 225px;
-	width: 225px;
+	height: 300px;
+	width: 300px;
 
 	background-color: #1a949d;
 	/*box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,

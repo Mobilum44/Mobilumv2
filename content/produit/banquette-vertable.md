@@ -4,7 +4,7 @@ published: TRUE
 designer: Phytolab
 collection: Mobilier urbain
 category: Assise
-sub_category: 05 Banquette
+sub_category: 05.11 Banquette
 gamme: VERTABLE
 cover_undertext:
 motifs:

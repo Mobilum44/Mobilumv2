@@ -4,7 +4,7 @@ published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
-sub_category: 05 Banquette
+sub_category: 05.04 Banquette
 gamme: CANTINE
 cover_undertext:
 motifs:

@@ -135,6 +135,13 @@
 	</NuxtLayout>
 </template>
 
+
+<script setup lang="ts">
+useSeoMeta({
+	title: "Mentions légales",
+});
+</script>
+
 <style scoped>
 .slot_image {
 	background: url("/photospages/fond_entreprise.jpg") center center no-repeat;

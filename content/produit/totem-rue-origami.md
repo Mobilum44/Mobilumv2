@@ -4,9 +4,9 @@ published: TRUE
 designer:
 collection: Signalétique
 category: Totem
-sub_category: Totem rue
+sub_category: Totem de rue
 gamme: ORIGAMI
-cover_undertext: Le fin / Le petit / Le discret
+cover_undertext: Le minimaliste
 motifs:
 motif_vegetal:
 motif_window:

@@ -4,7 +4,7 @@ published: TRUE
 designer:
 collection: Mobilier urbain
 category: Assise
-sub_category: 05 Banquette
+sub_category: 05.05 Banquette
 gamme: ORIGAMI
 cover_undertext:
 motifs:

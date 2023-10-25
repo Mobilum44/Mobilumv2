@@ -21,7 +21,8 @@
 		<b>
 			Mettre photo illustration en dessous des cartes produits : plaques HOOK coulées en usine <br />
 			Trouver solution pour avoir grille de 6 (2;3)
-			et mettre 7eme en sur-mesure : page entière à créer.
+			et mettre 7eme en sur-mesure : page entière à créer. <br/><br />
+			Refaire la page en décalé (comme page "nos collections")
 		</b>
 
 		<div class="sub__section">
@@ -55,7 +56,7 @@ definePageMeta({
 });
 
 useSeoMeta({
-	title: "Hook",
+	title: "Les Hook",
 });
 
 const { data: urbanFurnitures } = await useAsyncData("produit", () =>
@@ -95,8 +96,8 @@ Paramètres de la galerie - position de base
 
 	position: relative;
 	justify-self: center;
-	height: 225px;
-	width: 225px;
+	height: 400px;
+	width: 400px;
 
 	background-color: #1a949d;
 	/*box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,

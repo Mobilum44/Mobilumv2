@@ -1,5 +1,5 @@
 ---
-title: Totem MINERAL à motifs
+title: Totem MINERAL directionnel
 published: TRUE
 designer: Spritz
 collection: Signalétique

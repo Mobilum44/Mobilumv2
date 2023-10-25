@@ -4,7 +4,7 @@ published: TRUE
 designer:
 collection: Mobilier urbain
 category: Assise
-sub_category: 05 Banquette
+sub_category: 05.10 Banquette
 gamme: VERTABLE
 cover_undertext:
 motifs:

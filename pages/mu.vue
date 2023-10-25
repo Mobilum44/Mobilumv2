@@ -5,7 +5,8 @@
 			<h1>Mobilier Urbain</h1>
 		</div>
 
-		<div class="chapeau"></div>
+		<div class="chapeau"><b>Fiche cube à faire / Photo perron : mettre plus d'assemblages avec cube en avant</b><br/>
+		</div>
 
 		<div class="sub__section">
 			<ul class="collection_order">
@@ -33,11 +34,17 @@ definePageMeta({
 	layout: false,
 });
 
+
 const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 	// Requête pour récupérer les produits de la collection "Mobilier urbain"
 	// https://content.nuxtjs.org/api/composables/query-content
 	queryContent("/produit/").where({ collection: "Mobilier urbain" }).sort({ sub_category: 1 }).find(),
 );
+
+useSeoMeta({
+	title: "Mobilier urbain",
+});
+
 </script>
 
 <style scoped>

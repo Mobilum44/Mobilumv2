@@ -12,6 +12,7 @@
 					La qualité de notre organisation industrielle, associée à un fort savoir-faire technique ont donné
 					confiance pour l'obtention de ces projets.
 				</p>
+				<b>Corriger les mini textes (qui n'apparaissent pas)</b>
 			</div>
 
 			<p>
@@ -72,7 +73,7 @@ const { data: references } = await useAsyncData(
 );
 
 useSeoMeta({
-	title: "Grands comptes et sur-mesure",
+	title: "Nos dossiers d'exception",
 });
 
 definePageMeta({

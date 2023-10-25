@@ -4,7 +4,7 @@ published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
-sub_category: 05 Banquette
+sub_category: 05.0 Banquette
 gamme: ELIUM
 cover_undertext:
 motifs:

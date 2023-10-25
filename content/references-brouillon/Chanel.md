@@ -1,9 +1,8 @@
 ---
-type: Les remarquables
+type: 
 cover_title : Chanel
 title: Chanel
-published: TRUE
-
+published: true
 order: 3
 
 gamme: "?"

@@ -4,7 +4,7 @@ published: TRUE
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
-sub_category: 05 Banquette
+sub_category: 05.02 Banquette
 gamme: BEAM
 cover_undertext:
 motifs:
