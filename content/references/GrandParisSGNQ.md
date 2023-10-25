@@ -9,7 +9,7 @@ order: 3
 
 gamme: "?"
 
-cover_image: "/references/cover_image/mante-religieuse.jpg"
+cover_image: "/references/cover_image/SGP-signaletique-resized.png"
 cover_text: "On a refait l'intérieur des gares"
 
 carousel:

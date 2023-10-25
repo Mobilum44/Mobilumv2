@@ -17,7 +17,7 @@
 
 			<p>
 				<b>Mettre photos illustration</b><br/>
-				<b> Cover_image : SGP / Bienale / Chanel</b> <br />
+				<b> Cover_image : notre quotidien</b> <br />
 				<b> Corriger largeur des images (responsive)</b>
 			</p>
 		</section>

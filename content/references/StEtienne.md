@@ -8,7 +8,7 @@ order: 3
 
 gamme: "?"
 
-cover_image: "/references/cover_image/feuille-roquefere.jpg"
+cover_image: "/references/cover_image/biennale-st-etienne.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
 carousel:
