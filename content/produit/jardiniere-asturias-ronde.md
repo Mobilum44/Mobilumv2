@@ -18,7 +18,7 @@ carousel:
     - "/produits/jardiniere-ronde-lisse-asturias-grandville.jpg"
     - "/produits/jardiniere-asturias-ronde-vegetale.jpg"
 filaire:
-    - "/produits/filaires/filaire-cantine-04.png"
+    - "/produits/filaires/filaire-jardiniere-ronde.png"
 reference: JAASTUR0402
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids:

@@ -17,7 +17,7 @@ cover_image: "/produits/cover_image/borne-loella.jpg"
 carousel:
     - "/produits/borne-fontaine-loella-rouen.jpg"
 filaire:
-    - "/produits/filaires/filaire-borne-fontaine-loella.png"
+    - "/produits/filaires/filaire-borne-fontaine-loella-2.png"
 reference: FOLOELL0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 117

@@ -50,8 +50,8 @@
 					<div class="general-content responsive-row">
 						<div class="content">
 							<NuxtImg
-								src="/produits/motif-vegetal.png"
-								alt="Couleurs RAL des boites aux lettres Mobilum"
+								src="/produits/motif-lisse.png"
+								alt="surface lisse mobilier BFUP Mobilum"
 								fit="cover"
 								height="50"
 								format="avif,webp"
@@ -60,11 +60,10 @@
 							/>
 							<p>Lisse</p>
 						</div>
-						<b>Demander à olivier les motifs en mode filaire</b>
 						<div v-if="doc.motif_vegetal" class="content">
 							<NuxtImg
-								src="/produits/motif-vegetal.png"
-								alt="Couleurs RAL des boites aux lettres Mobilum"
+								src="/produits/motif-vegetal-filaire-2.png"
+								alt="motif mobilier BFUP mobilum"
 								fit="cover"
 								height="50"
 								format="avif,webp"
@@ -76,7 +75,7 @@
 
 						<div v-if="doc.motif_window" class="content">
 							<NuxtImg
-								src="/produits/motif-vegetal.png"
+								src="/produits/motif-window-filaire.png"
 								alt="Couleurs RAL des boites aux lettres Mobilum"
 								fit="cover"
 								height="50"
@@ -415,6 +414,10 @@ h1 {
 	align-items: center;
 	gap: 3rem;
 }
+
+.general-motifs .content {
+	margin-right : 3rem;
+}
 .general-filaire {
 	width: 40%;
 	display: flex;
@@ -536,6 +539,8 @@ h1 {
 }
 
 .famille-card p {
+	border : solid black;
+	width : 80%;
 	position: absolute;
 	top: 50%;
 	left: 50%;

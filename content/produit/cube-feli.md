@@ -15,13 +15,13 @@ bal:
 personnalisation:
 cover_image: "/produits/filaires/filaire-poteau-origami.png"
 carousel:
-    - "/produits/filaires/filaire-poteau-origami.png"
+    - "/produits/filaires/filaire-poteau-origami-2.png"
 filaire:
-    - "/produits/filaires/filaire-poteau-origami.png"
+    - "/produits/filaires/filaire-cube-feli.png"
 reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids:
-dimensions: L80 x P80 x H900
+dimensions: L1000 x P1000 x H508
 format: Monobloc
 traitement: ""
 tags:

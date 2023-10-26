@@ -18,7 +18,7 @@ carousel:
     - "/produits/attente-showroom.jpg"
     - "/produits/attente-showroom.jpg"
 filaire:
-    - "/produits/filaires/filaire-corbeille-asturias-ronde-vegetale.png"
+    - "/produits/filaires/filaire-corbeille-asturias-ronde-vegetale-2.png"
 reference: COASTUR0402
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 98
