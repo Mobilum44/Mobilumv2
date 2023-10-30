@@ -14,7 +14,7 @@ cover_image: "/references/cover_image/carnon-transats-mila2.jpg"
 cover_text: "Un bain de soleil infini"
 
 carousel:
-    - "/references/carousel/page-entree.jpg"
+    - "/references/carousel/carnon-bain-soleil.jpg"
     - "/references/carousel/page-entree.jpg"
 
 localisation:
