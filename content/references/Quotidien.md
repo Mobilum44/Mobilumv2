@@ -19,7 +19,7 @@ carousel:
     - "/references/carousel/page-entree.jpg"
 
 localisation:
-client:
+client: Texte par mail
 archi_be:
 
 prem_loc:
