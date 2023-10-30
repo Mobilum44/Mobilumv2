@@ -15,8 +15,10 @@ cover_image: "/references/cover_image/tramway_angers_portrait.JPG"
 cover_text:
 
 carousel:
-    - "/references/carousel/page-entree.jpg"
-    - "/references/carousel/page-entree.jpg"
+    - "/references/carousel/angers-tram-ville.jpg"
+    - "/references/carousel/angers-tram-bancs-velo.jpg"
+    - "/references/carousel/angers-tram-face.jpg"
+    - "/references/carousel/angers-tram-bancs-seuls.jpg"
 
 localisation: "Ligne 2 / Angers"
 client: "Angers métropole"

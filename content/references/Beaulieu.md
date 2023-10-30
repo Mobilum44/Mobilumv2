@@ -15,8 +15,11 @@ cover_image: "/references/cover_image/puilboreau-centre-commercial-beaulieu.jpg"
 cover_text: "Un bain de soleil infini"
 
 carousel:
-    - "/references/carousel/page-entree.jpg"
-    - "/references/carousel/page-entree.jpg"
+    - "/references/carousel/puilboreau-beaulieu-corbeille-bancs.jpeg"
+    - "/references/carousel/puilboreau-beaulieu-totem-hook.jpeg"
+    - "/references/carousel/puilboreau-beaulieu-tabourets-nuit.jpeg"
+    - "/references/carousel/puilboreau-beaulieu-corbeille-assis-debout.jpeg"
+
 
 localisation: "Centre commercial Beaulieu"
 client: "La Rochelle Agglomération / Forma6"

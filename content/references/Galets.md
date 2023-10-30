@@ -13,8 +13,9 @@ cover_image: "/references/cover_image/galets-rouen-place.jpg"
 cover_text: "Blablabla"
 
 carousel:
-    - "/references/carousel/page-entree.jpg"
-    - "/references/carousel/page-entree.jpg"
+    - "/references/carousel/stelag-place-fecamp-mobilum-galets.jpg"
+    - "/references/carousel/stelag-place-rouen-galets.jpg"
+    - "/references/carousel/stelag-place-fecamp-galets-mobilum.jpg"
 
 localisation:
 client: 

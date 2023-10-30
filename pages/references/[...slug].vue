@@ -83,8 +83,8 @@
 					<Slide v-for="(img, i) in doc.carousel" :key="i">
 						<NuxtImg
 							:src="img"
-							width="1100"
-							height="600"
+							width="1050"
+							height="700"
 							quality="60"
 							placeholder
 							format="avif,webp"

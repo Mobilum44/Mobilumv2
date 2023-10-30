@@ -13,8 +13,8 @@ cover_image: "/references/cover_image/jardinieres-trocadero-paris-mobilum.jpg"
 cover_text: "Les jardinières du Troca"
 
 carousel:
-    - "/references/carousel/page-entree.jpg"
-    - "/references/carousel/page-entree.jpg"
+    - "/references/carousel/trocadero-jardinieres.png"
+    - "/references/carousel/trocadero-jardinieres-cote.jpg"
 
 localisation: "Place du Trocadero, Paris"
 client: "M. Bortolussi / Vinci / Pinson Paysage"

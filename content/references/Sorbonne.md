@@ -12,8 +12,10 @@ cover_image: "/references/cover_image/sorbonne-universite-amphi-stoop-cube.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
 carousel:
-    - "/references/carousel/page-entree.jpg"
-    - "/references/carousel/page-entree.jpg"
+    - "/references/carousel/sorbonne-escaliers.jpg"
+    - "/references/carousel/sorbonne-detail-face.jpg"
+    - "/references/carousel/sorbonne-detail-coin.jpg"
+    - "/references/carousel/sorbonne-detail-escalier.jpg"
 
 localisation: "Campus Malesherbes"
 client: "La Sorbonne / Folius"

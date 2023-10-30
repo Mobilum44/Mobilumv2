@@ -12,8 +12,9 @@ cover_image: "/references/cover_image/feuille-roquefere.jpg"
 cover_text:
 
 carousel:
-    - "/references/carousel/page-entree.jpg"
-    - "/references/carousel/banc-feuille-roquefert-mobilum.png"
+    - "/references/carousel/roquefere-gros-plan-feuille.jpg"
+    - "/references/carousel/roquefere-moulage-feuille.jpg"
+    - "/references/carousel/roquefere-resultat-final.jpg"
 
 localisation:
 client: "Ville de Roquefere / Avril en Mai"

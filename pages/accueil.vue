@@ -14,7 +14,7 @@
 						<span>Fibré&thinsp;</span><br />
 						<span>à&thinsp;</span>
 						<span>la&thinsp;</span>
-						<span>Française&thinsp;</span>
+						<span>Nantaise&thinsp;</span>
 					</p>
 					<NuxtImg
 								alt="Table cantine réelle"

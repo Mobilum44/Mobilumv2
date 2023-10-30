@@ -27,7 +27,6 @@
 					<Pagination />
 				</template>
 			</Carousel>
-
 		</section>
 
 		<div class="sub-section general responsive">
@@ -271,10 +270,10 @@
 		<section class="sub-section famille">
 			<h2>Dans la même gamme...</h2>
 			<p>
-				<b
-					>Lorsqu'il y en a trop, faire une scrollbar + enlever le produit en cours <br />
-					Si la catégorie est vide, juste la supprimer</b
-				>
+				<b>Lorsqu'il y en a trop, faire une scrollbar + enlever le produit en cours <br />
+					Si la catégorie est vide, juste la supprimer</b>
+				<br />
+				<b> Trouver comment remettre les titres trop longs à la ligne, dans le cadre.</b>
 			</p>
 
 			<div class="scroll">
@@ -416,7 +415,7 @@ h1 {
 }
 
 .general-motifs .content {
-	margin-right : 3rem;
+	margin-right: 3rem;
 }
 .general-filaire {
 	width: 40%;
@@ -435,7 +434,7 @@ h1 {
 }
 
 .general-infos h2 {
-	margin-top : 0;
+	margin-top: 0;
 }
 .general-content {
 	margin-top: 0;
@@ -539,8 +538,9 @@ h1 {
 }
 
 .famille-card p {
-	border : solid black;
-	width : 80%;
+	border: solid black;
+
+	width: 80%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
