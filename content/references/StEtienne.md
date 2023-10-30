@@ -12,8 +12,9 @@ cover_image: "/references/cover_image/biennale-st-etienne.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
 carousel:
-    - "/references/carousel/page-entree.jpg"
-    - "/references/carousel/banc-feuille-roquefert-mobilum.png"
+    - "/references/carousel/biennale-bancs-mobilum.jpg" 
+    - "/references/carousel/biennale-bancs-stoop-mobilum-crop.jpg"
+    - "/references/carousel/biennale-bancs-stoop-mobilum-chien.jpg"
 
 localisation: Biennale de St Etienne
 client:

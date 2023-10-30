@@ -14,8 +14,9 @@ cover_image: "/references/cover_image/crous-nantes-etudiants.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
 carousel:
-    - "/references/carousel/page-entree.jpg"
-    - "/references/carousel/banc-feuille-roquefert-mobilum.png"
+    - "/references/carousel/crous-vue-generale.jpg"
+    - "/references/carousel/crous-assis-debouts.jpg"
+    - "/references/carousel/crous-tables-mobilum.jpg"
 
 localisation: "Campus du Tertre"
 client:

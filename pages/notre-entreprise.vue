@@ -2,7 +2,7 @@
 	<NuxtLayout name="default">
 		<template #slot_image>
 			<div class="slot_image" :style="backgroundStyles('/backgroundpages/fond-entreprise-loroux-bottereau.jpg')">
-				<h1>Mobilum</h1>
+				<h1>Notre entreprise</h1>
 			</div>
 		</template>
 
@@ -202,6 +202,10 @@ function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 /*-------------------------------------------------------------------------
     General
 -----------------------------------------------------------------------*/
+h1 {
+	opacity : 0;
+}
+
 h2 {
 	padding-bottom: 1rem;
 	margin: 1rem;

@@ -259,6 +259,8 @@
 			</div>
 		</section>
 
+
+		<!----
 		<section v-if="doc.personnalisation" class="sub-section">
 			<h2>Personnalisation</h2>
 			<p>
@@ -266,6 +268,7 @@
 				une jolie tournure)
 			</p>
 		</section>
+		-->
 
 		<section class="sub-section famille">
 			<h2>Dans la même gamme...</h2>

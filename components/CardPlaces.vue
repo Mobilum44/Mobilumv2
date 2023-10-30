@@ -41,7 +41,7 @@
 		<div class="card shadow">
 			<figure class="card__thumb">
 				<NuxtImg
-					src="/cards/gare-est-paris-mobilum.jpg"
+					src="/cards/gare-sncf.jpg"
 					alt="Photo gare paris mobilum"
 					class="card__image"
 					fit="cover"
@@ -110,7 +110,7 @@
 				/>
 				<figcaption class="card__caption">
 					<h4>Ecole</h4>
-					<p>Nous accompagnons les générations novatrices.</p>
+					<p>Nous accompagnons toutes les générations.</p>
 				</figcaption>
 			</figure>
 		</div>
@@ -118,7 +118,7 @@
 		<div class="card shadow">
 			<figure class="card__thumb">
 				<NuxtImg
-					src="/cards/totem-tertiaire-mobilum.jpg"
+					src="/cards/tertiaire.jpg"
 					alt="totem en BFUP pour l'entreprise Luneau Papin par Mobilum"
 					class="card__image"
 					fit="cover"
@@ -129,7 +129,7 @@
 				/>
 				<figcaption class="card__caption">
 					<h4>Tertiaire</h4>
-					<p>Image de marque remarquable et personnalisable. PHOTO DE PIANO REZZO</p>
+					<p>Image de marque remarquable et personnalisable.</p>
 				</figcaption>
 			</figure>
 		</div>

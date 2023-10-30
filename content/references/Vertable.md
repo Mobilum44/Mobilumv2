@@ -13,6 +13,8 @@ cover_text: "Une table infinie"
 
 carousel:
     - "/references/carousel/vertou-vertable.jpg"
+    - "/references/carousel/vertable-deux-tables.jpg"
+    - "/references/carousel/vertou-sous-le-soleil.jpg"
 
 localisation: "Parc de la Sèvre / Vertou"
 client: "Ville de Vertou / Phytolab / Tugec"

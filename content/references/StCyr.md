@@ -40,7 +40,7 @@ date_demarrage:
 duree_marche:
 recompense: "European Architecture Awards 2020"
 
-concept: "?"
+concept:
 ---
 
 ## Description

@@ -13,7 +13,6 @@ cover_text:
 
 carousel:
     - "/references/carousel/roquefere-gros-plan-feuille.jpg"
-    - "/references/carousel/roquefere-moulage-feuille.jpg"
     - "/references/carousel/roquefere-resultat-final.jpg"
 
 localisation:
