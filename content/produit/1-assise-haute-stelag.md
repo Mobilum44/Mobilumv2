@@ -1,6 +1,6 @@
 ---
 title: 1 assise haute STELAG
-published: TRUE
+
 designer:
 collection: Mobilier urbain
 category: Assise
@@ -25,7 +25,6 @@ poids: 411
 dimensions: L1805 x P1260 H762
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

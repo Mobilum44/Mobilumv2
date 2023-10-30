@@ -1,6 +1,6 @@
 ---
 title: Chaise OBRAC
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -25,7 +25,6 @@ poids: 134
 dimensions: L550 x P725 x H930
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

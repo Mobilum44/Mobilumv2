@@ -1,6 +1,6 @@
 ---
 title: Table urbaine CANTINE 02
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Table
@@ -26,7 +26,6 @@ poids: 491
 dimensions: L2500 x P900 x H750
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

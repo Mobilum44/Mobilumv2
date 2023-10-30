@@ -1,6 +1,5 @@
 ---
 title: Fauteuil STAMP lisse
-published: FALSE
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -25,7 +24,6 @@ poids: 141
 dimensions: L550 x P550 x H830
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

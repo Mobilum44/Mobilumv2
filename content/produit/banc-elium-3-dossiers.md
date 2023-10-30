@@ -24,7 +24,6 @@ poids: 291
 dimensions: L1800 x P544 x H944
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

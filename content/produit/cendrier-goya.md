@@ -1,6 +1,6 @@
 ---
 title: Cendrier GOYA
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Cendrier
@@ -24,7 +24,6 @@ poids: 30
 dimensions: L207 x P100 x H1000
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

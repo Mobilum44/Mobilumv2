@@ -5,8 +5,7 @@ export interface Reference extends ParsedContent {
 	cover_title: string;
 	title: string;
 	sub_title: string;
-	published: boolean;
-	order : string;
+	order: string;
 	gamme: string;
 	cover_image: string;
 	cover_text: string;
@@ -32,13 +31,12 @@ export interface Reference extends ParsedContent {
 
 export interface Product extends ParsedContent {
 	title: string;
-	published: boolean;
 	designer: string;
 	collection: string;
 	category: string;
 	sub_category: string;
 	gamme: string;
-	cover_undertext:string;
+	cover_undertext: string;
 	motifs: string;
 	motif_vegetal: string;
 	motif_window: string;

@@ -1,9 +1,9 @@
 ---
 type: Les récompensés
-cover_title : St Cyr sur Loire
+cover_title: St Cyr sur Loire
 title: St Cyr sur Loire
 sub_title:
-published: TRUE
+
 
 order: 1
 
@@ -19,7 +19,7 @@ carousel:
     - "/references/carousel/appui-velo-track-st-cyr.jpg"
 
 localisation: Parc de Montjoie / St Cyr sur Loire
-client: 
+client:
 archi_be: Hessamfar & Vérons architectes
 
 prem_loc:

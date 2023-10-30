@@ -1,6 +1,6 @@
 ---
 title: Fontaine avec robinet LOËLLA
-published: TRUE
+
 designer: Cecile Planchais
 collection: Mobilier urbain
 category: Fontaine
@@ -25,7 +25,6 @@ poids: 98
 dimensions: L397 x P640 x H1110
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

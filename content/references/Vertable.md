@@ -1,8 +1,8 @@
 ---
 type: Les conceptuels
-cover_title : Vertable
+cover_title: Vertable
 title: Vertable
-published: TRUE
+
 
 order: 1
 
@@ -38,7 +38,9 @@ date_demarrage:
 duree_marche:
 recompense:
 
-concept: "Le buffet d'Astérix et Obelix a de la concurrence sur Vertou (inverser cover_text et concept ?)"
+concept:
+    "Le buffet d'Astérix et Obelix a de la concurrence sur Vertou (inverser
+    cover_text et concept ?)"
 ---
 
 ## Description

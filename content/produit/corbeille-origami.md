@@ -1,6 +1,6 @@
 ---
 title: Corbeille ORIGAMI
-published: TRUE
+
 designer:
 collection: Mobilier urbain
 category: Corbeille
@@ -24,7 +24,6 @@ poids: 111
 dimensions: L500 x P445 H1024
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

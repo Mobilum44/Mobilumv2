@@ -1,6 +1,5 @@
 ---
 title: Banquette DUCHESSE
-published: TRUE
 designer:
 collection: Mobilier urbain
 category: Assise
@@ -25,7 +24,6 @@ poids: 208
 dimensions: L2424 x P635 H450
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

@@ -1,6 +1,6 @@
 ---
 title: Table VERTABLE PM
-published: TRUE
+
 designer:
 collection: Mobilier urbain
 category: Table
@@ -25,7 +25,6 @@ poids: 610
 dimensions: L2700 x P1500 x H770
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

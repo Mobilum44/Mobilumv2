@@ -1,9 +1,9 @@
 ---
 type: Les grands comptes
-cover_title : Le Grand Paris Signalétique
+cover_title: Le Grand Paris Signalétique
 title: Le Grand Paris
 sub_title: Signalétique
-published: TRUE
+
 
 order: 3
 
@@ -41,4 +41,3 @@ concept:
 ---
 
 ## Description
-

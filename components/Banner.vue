@@ -5,6 +5,7 @@
 			<NuxtImg
 				class="banner__image"
 				src="/photospages/frise-isa.png"
+				quality="20"
 				format="avif,webp"
 				alt="Mobiliers Mobilum filaires"
 				loading="lazy"

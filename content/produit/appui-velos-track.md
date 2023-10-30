@@ -1,6 +1,6 @@
 ---
 title: Appui-vélos TRACK
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Appui-vélos
@@ -25,7 +25,6 @@ poids: 28
 dimensions: L217 x P72 x H900
 format: Monobloc
 traitement: ""
-tags: ""
 ---
 
 ## Description

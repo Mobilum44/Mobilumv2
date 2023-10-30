@@ -1,6 +1,6 @@
 ---
 title: Fontaine simple 900 LOËLLA
-published: TRUE
+
 designer: Cecile Planchais
 collection: Mobilier urbain
 category: Fontaine
@@ -26,7 +26,6 @@ poids: 82
 dimensions: L395 x P433 x H985
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

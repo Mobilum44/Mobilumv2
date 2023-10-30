@@ -1,6 +1,6 @@
 ---
 title: Fauteuil DUCHESSE
-published: TRUE
+
 designer:
 collection: Mobilier urbain
 category: Assise
@@ -24,7 +24,6 @@ poids: 108
 dimensions: L640 x P562 H845
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

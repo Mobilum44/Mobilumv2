@@ -1,8 +1,8 @@
 ---
 type: Les récompensés
-cover_title : L'orme à Moineaux
+cover_title: L'orme à Moineaux
 title: L'orme à Moineaux
-published: TRUE
+
 
 order: 2
 
@@ -40,7 +40,9 @@ fabricant:
 date_realisation: "2018"
 date_demarrage:
 duree_marche:
-recompense: Trophées territoriaux du Funéraire - Animation cimetière & Valorisation du patrimoine
+recompense:
+    Trophées territoriaux du Funéraire - Animation cimetière & Valorisation du
+    patrimoine
 
 concept:
 ---

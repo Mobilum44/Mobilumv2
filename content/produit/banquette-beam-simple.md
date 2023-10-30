@@ -1,6 +1,6 @@
 ---
 title: Banquette simple BEAM
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -24,7 +24,6 @@ poids: 260
 dimensions: L2000 x P400 x H457
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

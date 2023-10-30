@@ -1,9 +1,9 @@
 ---
 type: Les remarquables
-cover_title : Puilboreau
+cover_title: Puilboreau
 title: Puilboreau
 sub_title:
-published: TRUE
+
 
 order: 6
 
@@ -19,7 +19,6 @@ carousel:
     - "/references/carousel/puilboreau-beaulieu-totem-hook.jpeg"
     - "/references/carousel/puilboreau-beaulieu-tabourets-nuit.jpeg"
     - "/references/carousel/puilboreau-beaulieu-corbeille-assis-debout.jpeg"
-
 
 localisation: "Centre commercial Beaulieu"
 client: "La Rochelle Agglomération / Forma6"
@@ -42,7 +41,6 @@ date_realisation:
 date_demarrage:
 duree_marche:
 recompense:
-
 ---
 
 ## Description

@@ -1,6 +1,6 @@
 ---
 title: Potelet fixe ORIGAMI
-published: TRUE
+
 designer:
 collection: Mobilier urbain
 category: Potelet
@@ -24,7 +24,6 @@ poids: 14
 dimensions: L80 x P80 x H900
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

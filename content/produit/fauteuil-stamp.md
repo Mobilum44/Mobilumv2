@@ -1,6 +1,6 @@
 ---
 title: Fauteuil STAMP
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -24,7 +24,6 @@ poids: 137
 dimensions: L550 x P550 x H830
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

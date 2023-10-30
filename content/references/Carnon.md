@@ -1,12 +1,12 @@
 ---
 type: Les conceptuels
-cover_title : Port de plaisance, Ville de Carnon
+cover_title: Port de plaisance, Ville de Carnon
 title: Carnon
-published: TRUE
+
 
 order: 4
 
-concept: "Une place assise pour toute la famille" 
+concept: "Une place assise pour toute la famille"
 
 gamme: "?"
 
@@ -32,15 +32,13 @@ sec_archi_be:
 agent:
 
 installateur:
-fabricant: 
+fabricant:
 
 date_realisation:
 date_demarrage:
 duree_marche:
 
 recompense:
-
-
 ---
 
 ## Description

@@ -1,8 +1,7 @@
 ---
 type: Les conceptuels
-cover_title : Sorbonne université
+cover_title: Sorbonne université
 title: Sorbonne université
-published: TRUE
 
 order: 2
 
@@ -39,7 +38,8 @@ date_demarrage:
 duree_marche:
 recompense:
 
-concept: "Amphithéatre extérieur afin d'acquérir du savoir en plein air "
+concept: "Amphithéatre extérieur afin d'acquérir du savoir en plein air"
+relatedProducts: ["Banc perron STOOP"]
 ---
 
 ## Description

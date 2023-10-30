@@ -1,6 +1,6 @@
 ---
 title: Jardinière STELAG
-published: TRUE
+
 designer:
 collection: Mobilier urbain
 category: Jardinière
@@ -25,7 +25,6 @@ poids: 577
 dimensions: L1950 x P1395 H682
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

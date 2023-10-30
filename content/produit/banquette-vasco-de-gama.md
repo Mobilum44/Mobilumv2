@@ -1,6 +1,6 @@
 ---
 title: Banquette VASCO DE GAMA
-published: TRUE
+
 designer:
 collection: Mobilier urbain
 category: Assise
@@ -24,7 +24,6 @@ poids: 198
 dimensions: L2000 x P400 H550
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

@@ -1,6 +1,6 @@
 ---
 title: Tabouret ORIGAMI
-published: TRUE
+
 designer:
 collection: Mobilier urbain
 category: Assise
@@ -26,7 +26,6 @@ poids: 73
 dimensions: L480 x P450 H450
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

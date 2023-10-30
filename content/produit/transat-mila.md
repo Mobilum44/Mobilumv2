@@ -1,6 +1,6 @@
 ---
 title: Transat MILA
-published: TRUE
+
 designer: Gautier & Conquet
 collection: Mobilier urbain
 category: Transat
@@ -25,7 +25,6 @@ poids: 385
 dimensions: L750 x P2320 H1100
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

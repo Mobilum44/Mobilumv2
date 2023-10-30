@@ -1,8 +1,8 @@
 ---
-type: 
-cover_title : Chanel
+type:
+cover_title: Chanel
 title: Chanel
-published: true
+
 order: 3
 
 gamme: "?"

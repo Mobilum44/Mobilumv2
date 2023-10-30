@@ -1,6 +1,6 @@
 ---
 title: Borne LOËLLA
-published: TRUE
+
 designer: Cecile Planchais
 collection: Mobilier urbain
 category: Borne
@@ -24,7 +24,6 @@ poids: 117
 dimensions: L397 x P640 x H1110
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

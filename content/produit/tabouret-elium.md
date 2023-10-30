@@ -1,6 +1,6 @@
 ---
 title: Tabouret ELIUM
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -24,7 +24,6 @@ poids: 94
 dimensions: L500 x P500 x H540
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

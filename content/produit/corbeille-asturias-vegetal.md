@@ -1,6 +1,6 @@
 ---
 title: Corbeille ASTURIAS végétal
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Corbeille
@@ -25,7 +25,6 @@ poids: 98
 dimensions: ⌀493 H826
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

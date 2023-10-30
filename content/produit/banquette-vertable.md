@@ -1,6 +1,6 @@
 ---
 title: Banquette VERTABLE
-published: TRUE
+
 designer: Phytolab
 collection: Mobilier urbain
 category: Assise
@@ -25,7 +25,6 @@ poids: 130
 dimensions: L2700 x P300 x H420
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

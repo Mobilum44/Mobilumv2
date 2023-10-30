@@ -1,6 +1,6 @@
 ---
 title: Module HOOK L535
-published: TRUE
+
 designer: Spritz
 collection: HOOK
 category: Assise
@@ -25,7 +25,6 @@ poids:
 dimensions:
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

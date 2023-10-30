@@ -1,6 +1,6 @@
 ---
 title: Jardinière ASTURIAS carrée
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Jardinière
@@ -25,7 +25,6 @@ poids: 330
 dimensions: L1000 x P1000 x H900
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

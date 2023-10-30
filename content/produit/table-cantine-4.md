@@ -1,6 +1,6 @@
 ---
 title: Table champêtre CANTINE 04
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Table
@@ -25,7 +25,6 @@ poids: 901
 dimensions: L2500 x P1650 x H750
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

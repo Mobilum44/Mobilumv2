@@ -1,9 +1,9 @@
 ---
 type: Les grands comptes
-cover_title : Le Grand Paris Mobilier Urbain
+cover_title: Le Grand Paris Mobilier Urbain
 title: Le Grand Paris
-sub_title:  Mobilier Urbain
-published: TRUE
+sub_title: Mobilier Urbain
+
 
 order: 2
 

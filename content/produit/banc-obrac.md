@@ -1,6 +1,6 @@
 ---
 title: Banc OBRAC
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -26,7 +26,6 @@ poids: 441
 dimensions: L2000 x P725 x H930
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

@@ -1,9 +1,9 @@
 ---
 type: Les remarquables
-cover_title : Trocadero
+cover_title: Trocadero
 title: Trocadero
 sub_title:
-published: TRUE
+
 
 order: 1
 
@@ -38,8 +38,9 @@ date_demarrage:
 duree_marche:
 recompense:
 
-concept:  
+concept:
 ---
 
 ## Description
+
 "Jardinières amovibles / BFUP vieillit et engravé comme à l'époque."

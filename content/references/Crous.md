@@ -1,8 +1,8 @@
 ---
 type: Les conceptuels
-cover_title : Crous de Nantes
+cover_title: Crous de Nantes
 title: Crous de Nantes
-published: TRUE
+
 
 order: 6
 
@@ -39,9 +39,6 @@ date_realisation:
 date_demarrage:
 duree_marche:
 recompense:
-
-
 ---
 
 ## Description
-

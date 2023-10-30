@@ -1,6 +1,6 @@
 ---
 title: Assis debout ORIGAMI
-published: TRUE
+
 designer:
 collection: Mobilier urbain
 category: Assise
@@ -24,7 +24,6 @@ poids: 75
 dimensions: L500 x P210 H1077
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

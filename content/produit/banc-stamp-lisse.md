@@ -25,7 +25,6 @@ poids: 366
 dimensions: L1800 x P550 x H830
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

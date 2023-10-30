@@ -99,18 +99,44 @@
 				</Carousel>
 			</div>
 
-			<div class="reference-info">
+			<div class="reference-info" v-if="relatedProducts && relatedProducts.length">
 				<h3>Produits présentés dans le projet</h3>
-				<p><b>Mettre le lien vers les fiches produits</b></p>
+				<div>
+					<ul>
+						<li v-for="product in relatedProducts" :key="product._id">
+							<p>
+								<NuxtLink :to="product._path">{{ product.title }}</NuxtLink>
+							</p>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</ContentDoc>
 	</main>
 </template>
 
 <script setup lang="ts">
+import { Product } from "@/assets/types";
+
 useSeoMeta({
 	title: "Nos références",
 });
+
+const route = useRoute();
+
+const { data: currentProject } = await useAsyncData("currentProject", () =>
+	queryContent(route.fullPath).only(["_path", "relatedProducts", "_id"]).findOne(),
+);
+
+const { data: relatedProducts } = await useAsyncData(
+	"relatedProducts",
+	() =>
+		queryContent("/produit/")
+			.where({ title: { $in: currentProject.value?.relatedProducts || [] } })
+			.only(["_path", "title", "cover_image", "_id"])
+			.limit(5)
+			.find() as Promise<Product[]>,
+);
 </script>
 
 <style scoped>

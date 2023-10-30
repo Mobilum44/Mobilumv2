@@ -1,6 +1,6 @@
 ---
 title: Sofa STAMP
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -25,7 +25,6 @@ poids: 359
 dimensions: L1800 x P550 x H830
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

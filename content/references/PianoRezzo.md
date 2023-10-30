@@ -1,9 +1,9 @@
 ---
 type: Les remarquables
-cover_title : ENS Paris Saclay
+cover_title: ENS Paris Saclay
 title: ENS Paris Saclay
 sub_title:
-published: TRUE
+
 
 order: 2
 
@@ -42,4 +42,3 @@ concept: Un patio de nature
 ---
 
 ## Description
-

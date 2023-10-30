@@ -1,6 +1,6 @@
 ---
 title: Module HOOK L1305
-published: TRUE
+
 designer: Spritz
 collection: HOOK
 category: Module
@@ -25,7 +25,6 @@ poids: 101
 dimensions:
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

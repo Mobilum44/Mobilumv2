@@ -25,7 +25,6 @@ poids: 223
 dimensions: L2000 x P450 H850
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

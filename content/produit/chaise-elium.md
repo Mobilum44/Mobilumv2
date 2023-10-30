@@ -1,6 +1,6 @@
 ---
 title: Chaise ELIUM
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -26,7 +26,6 @@ poids: 109
 dimensions: L500 x P544 x H844
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

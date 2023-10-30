@@ -1,6 +1,6 @@
 ---
 title: Le cube
-published: TRUE
+
 designer:
 collection: Mobilier urbain
 category: Assises
@@ -24,7 +24,6 @@ poids:
 dimensions: L1000 x P1000 x H508
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

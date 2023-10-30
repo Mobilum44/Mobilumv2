@@ -1,9 +1,9 @@
 ---
 type: Les remarquables
-cover_title : Tramway d'Angers
+cover_title: Tramway d'Angers
 title: Tramway d'Angers
 sub_title:
-published: TRUE
+
 
 order: 5
 
@@ -41,8 +41,6 @@ date_realisation:
 date_demarrage:
 duree_marche:
 recompense:
-
-
 ---
 
 ## Description

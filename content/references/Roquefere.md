@@ -1,8 +1,8 @@
 ---
 type: Les conceptuels
-cover_title : Roquefere
+cover_title: Roquefere
 title: Roquefere
-published: TRUE
+
 
 order: 5
 
@@ -37,7 +37,8 @@ date_demarrage:
 duree_marche:
 recompense:
 
-concept: "Utiliser les végétaux du lieu d'origine en les intégrant dans nos mobilier."
+concept:
+    "Utiliser les végétaux du lieu d'origine en les intégrant dans nos mobilier."
 ---
 
 ## Description

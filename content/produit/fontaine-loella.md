@@ -1,6 +1,6 @@
 ---
 title: Fontaine LOËLLA
-published: TRUE
+
 designer: Cecile Planchais
 collection: Mobilier urbain
 category: Fontaine
@@ -25,7 +25,6 @@ poids: 95
 dimensions: L395 x P433 x H1105
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

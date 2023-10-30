@@ -1,6 +1,6 @@
 ---
 title: Mange-debout
-published: TRUE
+
 designer:
 collection: Mobilier urbain
 category: Table
@@ -24,7 +24,6 @@ poids: 491
 dimensions: L2500 x P900 x H750
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

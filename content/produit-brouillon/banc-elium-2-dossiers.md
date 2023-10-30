@@ -1,6 +1,6 @@
 ---
 title: Banc ELIUM 2 dossiers
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -25,7 +25,6 @@ poids: 264
 dimensions: L1800 x P544 x H944
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

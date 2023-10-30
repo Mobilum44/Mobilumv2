@@ -1,6 +1,6 @@
 ---
 title: Module HOOK L765
-published: TRUE
+
 designer: Spritz
 collection: HOOK
 category: Assise
@@ -24,7 +24,6 @@ poids: 86
 dimensions: L765 x P350 x H1130
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

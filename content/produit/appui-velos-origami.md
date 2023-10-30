@@ -1,6 +1,5 @@
 ---
 title: Appui-vélos ORIGAMI
-published: TRUE
 designer:
 collection: Mobilier urbain
 category: Appui-vélos
@@ -24,7 +23,6 @@ poids: 39
 dimensions: L900 x P80 x H900
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

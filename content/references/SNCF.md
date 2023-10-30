@@ -1,9 +1,9 @@
 ---
 type: Les grands comptes
-cover_title : SNCF
+cover_title: SNCF
 title: Mobiliers en gare
 sub_title:
-published: TRUE
+
 
 order: 1
 

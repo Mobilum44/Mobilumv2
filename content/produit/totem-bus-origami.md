@@ -1,6 +1,6 @@
 ---
 title: Totem BUS
-published: TRUE
+
 designer:
 collection: Signalétique
 category: Totem
@@ -24,7 +24,6 @@ poids: 393
 dimensions: L700 x P194 H2000
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

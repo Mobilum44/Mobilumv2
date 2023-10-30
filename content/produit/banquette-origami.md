@@ -1,6 +1,6 @@
 ---
 title: Banquette ORIGAMI
-published: TRUE
+
 designer:
 collection: Mobilier urbain
 category: Assise
@@ -24,7 +24,6 @@ poids: 163
 dimensions: L2000 x P450 H450
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

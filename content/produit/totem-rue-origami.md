@@ -1,6 +1,6 @@
 ---
 title: Totem RUE
-published: TRUE
+
 designer:
 collection: Signalétique
 category: Totem
@@ -25,7 +25,6 @@ poids: 96
 dimensions: L300 x P97 x H2000
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

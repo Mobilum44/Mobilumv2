@@ -1,9 +1,9 @@
 ---
 type: Les remarquables
-cover_title : Les Galets
+cover_title: Les Galets
 title: Les Galets
 sub__title: "Deux projets : Rouen / Fecamp"
-published: TRUE
+
 
 order: 4
 
@@ -18,7 +18,7 @@ carousel:
     - "/references/carousel/stelag-place-fecamp-galets-mobilum.jpg"
 
 localisation:
-client: 
+client:
 archi_be:
 
 prem_loc: "Rouen"

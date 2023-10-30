@@ -1,9 +1,9 @@
 ---
 type: Les conceptuels
-cover_title : Campus de Saclay
+cover_title: Campus de Saclay
 title: Campus de Saclay
-sub_title: 
-published: TRUE
+sub_title:
+
 
 order: 3
 
@@ -43,5 +43,3 @@ concept: "De l'intelligence embarquée pour nos étudiants cablés "
 ---
 
 ## Description
-
-

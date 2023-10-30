@@ -1,6 +1,6 @@
 ---
 title: Banquette CANTINE
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -25,7 +25,6 @@ poids: 192
 dimensions: L2500 x P430 x H430
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

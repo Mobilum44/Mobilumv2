@@ -1,6 +1,6 @@
 ---
 title: Banquette VERTABLE PM
-published: TRUE
+
 designer:
 collection: Mobilier urbain
 category: Assise
@@ -25,7 +25,6 @@ poids: 52
 dimensions: L1364 x P300 x H420
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

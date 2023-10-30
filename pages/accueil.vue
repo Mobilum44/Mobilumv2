@@ -17,16 +17,16 @@
 						<span>Nantaise&thinsp;</span>
 					</p>
 					<NuxtImg
-								alt="Table cantine réelle"
-								class="logo-french-fab"
-								src="/logos/french-fab.png"
-								center
-								width="40"
-								fit="cover"
-								format="avif,webp"
-								placeholder
-								loading="lazy"
-							/>
+						alt="Table cantine réelle"
+						class="logo-french-fab"
+						src="/logos/french-fab.png"
+						center
+						width="40"
+						fit="cover"
+						format="avif,webp"
+						placeholder
+						loading="lazy"
+					/>
 				</div>
 			</section>
 		</template>

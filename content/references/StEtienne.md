@@ -1,8 +1,8 @@
 ---
 type: Les récompensés
-cover_title : Biennale du design
+cover_title: Biennale du design
 title: Biennale internationnale du design de St Etienne
-published: TRUE
+
 
 order: 3
 
@@ -12,7 +12,7 @@ cover_image: "/references/cover_image/biennale-st-etienne.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
 carousel:
-    - "/references/carousel/biennale-bancs-mobilum.jpg" 
+    - "/references/carousel/biennale-bancs-mobilum.jpg"
     - "/references/carousel/biennale-bancs-stoop-mobilum-crop.jpg"
     - "/references/carousel/biennale-bancs-stoop-mobilum-chien.jpg"
 
@@ -36,7 +36,8 @@ fabricant:
 date_realisation: "2017"
 date_demarrage:
 duree_marche:
-recompense: Exposition du perron Stoop lors de l'appel à projet Banc d'Essais 2017
+recompense:
+    Exposition du perron Stoop lors de l'appel à projet Banc d'Essais 2017
 
 concept:
 ---

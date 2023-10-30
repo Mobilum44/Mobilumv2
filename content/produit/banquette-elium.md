@@ -1,6 +1,6 @@
 ---
 title: Banquette ELIUM
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -25,7 +25,6 @@ poids: 201
 dimensions: L1800 x P500 x H440
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

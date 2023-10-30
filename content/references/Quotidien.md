@@ -1,18 +1,21 @@
 ---
 type: Les remarquables
-cover_title : Notre quotidien
+cover_title: Notre quotidien
 title:
 sub_title:
-published: TRUE
+
 
 order: 1
 
-concept: Supprimer la page (n'avoir qu'une carte qui s'affiche sur la collection)
+concept:
+    Supprimer la page (n'avoir qu'une carte qui s'affiche sur la collection)
 
 gamme: "?"
 
 cover_image: "/references/cover_image/mante-religieuse.jpg"
-cover_text: "Nous remercions tous nos clients. plus de 400 villes et 15 000 mobiliers (à vérifier)"
+cover_text:
+    "Nous remercions tous nos clients. plus de 400 villes et 15 000 mobiliers (à
+    vérifier)"
 
 carousel:
     - "/references/carousel/page-entree.jpg"
@@ -39,8 +42,6 @@ date_realisation:
 date_demarrage:
 duree_marche:
 recompense:
-
-
 ---
 
 ## Description

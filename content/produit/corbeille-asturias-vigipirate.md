@@ -1,6 +1,6 @@
 ---
 title: Corbeille VIGIPIRATE ASTURIAS
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Corbeille
@@ -25,7 +25,6 @@ poids: 54
 dimensions: ⌀500 H830
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

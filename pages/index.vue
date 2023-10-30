@@ -31,7 +31,7 @@ useSeoMeta({
 function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 	const imgUrl = img(thumbnail, {
 		width: 1920,
-		quality: 80,
+		quality: 50,
 		placeholder: true,
 		format: "avif,webp",
 	});
@@ -42,11 +42,13 @@ function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 <style scoped>
 .Empty {
 	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	width: 100%;
 }
 
 .logo_bouton {
-	display : flex;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;

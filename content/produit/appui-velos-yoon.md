@@ -24,7 +24,6 @@ poids: 28
 dimensions: L600 x P75 x H850
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

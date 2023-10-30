@@ -1,6 +1,6 @@
 ---
 title: Chaise Longue OBRAC
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -24,7 +24,6 @@ poids: 161
 dimensions: L600 x P1000 x H900
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

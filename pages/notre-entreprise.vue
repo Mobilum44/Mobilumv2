@@ -6,8 +6,7 @@
 			</div>
 		</template>
 
-		<section class="page_top">
-		</section>
+		<section class="page_top"></section>
 
 		<div class="section_top"></div>
 
@@ -28,7 +27,7 @@
 			---->
 							<strong>"Le design, on adhère !"</strong>
 							<br /><br />
-							Mobilum se définit par sa compétence en BFUP et son design. <br/>
+							Mobilum se définit par sa compétence en BFUP et son design. <br />
 							Notre ambition est de concevoir des mobiliers urbains modernes et élégants qui s’intègrent
 							harmonieusement dans l’espace public. <br /><br />
 							Pour cela nous avons fait le choix de nous associer à des designers aguerris qui pensent
@@ -144,7 +143,7 @@ Notre savoir-faire
 							Pérennité du matériau, faible entretien et réponse aux exigences climatiques ont été
 							essentiels dans notre choix du BFUP.<br /><br />
 							Mobilum a engagé une démarche RSE globale qui commence par la réalisation de son bilan
-							carbone, indispensable à la définitions d'objectifs justes et précis. <br/><br/>
+							carbone, indispensable à la définitions d'objectifs justes et précis. <br /><br />
 						</p>
 					</div>
 				</div>
@@ -203,7 +202,7 @@ function backgroundStyles(thumbnail: string): { backgroundImage: string } {
     General
 -----------------------------------------------------------------------*/
 h1 {
-	opacity : 0;
+	opacity: 0;
 }
 
 h2 {

@@ -11,15 +11,14 @@ export default defineNuxtConfig({
 					"Bebas Neue": {
 						wght: [400],
 					},
-					"Montserrat": {
+					Montserrat: {
 						wght: [400, 500, 600, 700],
 					},
 				},
 			},
 		],
 		"nuxt-simple-sitemap",
-		'vue3-carousel-nuxt',
+		"vue3-carousel-nuxt",
 	],
 	css: ["@/assets/styles/main.scss"],
-
 });

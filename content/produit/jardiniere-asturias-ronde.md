@@ -1,6 +1,6 @@
 ---
 title: Jardinière ASTURIAS ronde
-published: true
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Jardinière
@@ -25,7 +25,6 @@ poids:
 dimensions:
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description

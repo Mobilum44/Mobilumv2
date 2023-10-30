@@ -1,6 +1,6 @@
 ---
 title: Banquette double BEAM
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -25,7 +25,6 @@ poids: 527
 dimensions: L2000 x P820 x H457
 format: Multibloc
 traitement: ""
-tags:
 ---
 
 ## Description

@@ -259,7 +259,6 @@
 			</div>
 		</section>
 
-
 		<!----
 		<section v-if="doc.personnalisation" class="sub-section">
 			<h2>Personnalisation</h2>
@@ -270,11 +269,13 @@
 		</section>
 		-->
 
-		<section class="sub-section famille">
+		<section class="sub-section famille" v-if="relatedProducts && relatedProducts.length">
 			<h2>Dans la même gamme...</h2>
 			<p>
-				<b>Lorsqu'il y en a trop, faire une scrollbar + enlever le produit en cours <br />
-					Si la catégorie est vide, juste la supprimer</b>
+				<b>
+					Lorsqu'il y en a trop, faire une scrollbar + enlever le produit en cours <br />
+					Si la catégorie est vide, juste la supprimer
+				</b>
 				<br />
 				<b> Trouver comment remettre les titres trop longs à la ligne, dans le cadre.</b>
 			</p>
@@ -314,10 +315,9 @@ const { data: relatedProducts } = await useAsyncData(
 	"relatedProducts",
 	() =>
 		queryContent("/produit/")
-			.where({ gamme: currentProduct.value?.gamme || "" })
+			.where({ gamme: currentProduct.value?.gamme || "", title: { $ne: currentProduct.value?.title || "" } })
 			.only(["_path", "title", "cover_image", "_id"])
-			.without(currentProduct.value?._id || "")
-			.limit(10)
+			.limit(5)
 			.find() as Promise<Product[]>,
 );
 </script>
@@ -507,6 +507,7 @@ h1 {
 .famille-produit {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 	width: 100%;
 }
 
@@ -542,7 +543,7 @@ h1 {
 
 .famille-card p {
 	border: solid black;
-
+	white-space: normal;
 	width: 80%;
 	position: absolute;
 	top: 50%;

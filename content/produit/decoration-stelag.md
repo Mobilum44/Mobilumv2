@@ -1,6 +1,6 @@
 ---
 title: Galet STELAG
-published: TRUE
+
 designer:
 collection: Mobilier urbain
 category: Autre
@@ -24,7 +24,6 @@ poids: 388
 dimensions: L1805 x P1260 H593
 format: Monobloc
 traitement: ""
-tags:
 ---
 
 ## Description
