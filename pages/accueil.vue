@@ -17,7 +17,7 @@
 						<span>Nantaise&thinsp;</span>
 					</p>
 					<NuxtImg
-						alt="Table cantine réelle"
+						alt="Logo french fab"
 						class="logo-french-fab"
 						src="/logos/french-fab.png"
 						center

@@ -15,8 +15,7 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banquette-cantine-pm.jpg"
 carousel:
-    - "/produits/banquette-elium-parc.jpg"
-    - "/produits/attente-showroom.jpg"
+    - "/produits/banquette-cantine-pm.jpg"
 filaire:
     - "/produits/filaires/filaire-banquette-cantine-pm-2.png"
 reference: BACANTI0102

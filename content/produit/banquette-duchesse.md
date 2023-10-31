@@ -14,8 +14,8 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banquette-duchesse.jpg"
 carousel:
-    - "/produits/banquette-elium-parc.jpg"
-    - "/produits/attente-showroom.jpg"
+    - "/produits/banquette-duchesse.jpg"
+    - "/produits/banquette-duchesse-vue-haut.jpg"
 filaire:
     - "/produits/filaires/filaire-banquette-duchesse.png"
 reference: BADUCHE0101

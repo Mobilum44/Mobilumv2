@@ -273,11 +273,8 @@
 			<h2>Dans la même gamme...</h2>
 			<p>
 				<b>
-					Lorsqu'il y en a trop, faire une scrollbar + enlever le produit en cours <br />
-					Si la catégorie est vide, juste la supprimer
+					Pas de scrollbar ? <br />
 				</b>
-				<br />
-				<b> Trouver comment remettre les titres trop longs à la ligne, dans le cadre.</b>
 			</p>
 
 			<div class="scroll">
@@ -498,12 +495,6 @@ h1 {
 
 				Pour faire le scroll : http://www.css3create.com/Slider-Galerie-photos-en-boucle-en-CSS3
 --------------------------------------------------------------------------------------------*/
-
-/* ------------------------------------------------------------------------------------------
-				Famille produit
-
-				Pour faire le scroll : http://www.css3create.com/Slider-Galerie-photos-en-boucle-en-CSS3
---------------------------------------------------------------------------------------------*/
 .famille-produit {
 	display: flex;
 	flex-direction: row;
@@ -542,7 +533,6 @@ h1 {
 }
 
 .famille-card p {
-	border: solid black;
 	white-space: normal;
 	width: 80%;
 	position: absolute;

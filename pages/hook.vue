@@ -19,7 +19,6 @@
 			</p>
 		</div>
 		<b>
-			Mettre photo illustration en dessous des cartes produits : plaques HOOK coulées en usine <br />
 			Trouver solution pour avoir grille de 6 (2;3)
 			et mettre 7eme en sur-mesure : page entière à créer. <br/><br />
 			Refaire la page en décalé (comme page "nos collections")
@@ -46,6 +45,20 @@
 				</li>
 				<b>Enlever soulignement</b>
 			</ul>
+		</div>
+
+		<div>
+
+			<NuxtImg
+						alt="photo rangement plaques hook mobilum BFUP"
+						src="/photospages/hook-illustration.jpg"
+						format="avif,webp"
+						placeholder
+						loading="lazy"
+						width="1200"
+					/>
+
+
 		</div>
 	</NuxtLayout>
 </template>

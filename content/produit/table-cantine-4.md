@@ -15,6 +15,7 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/table-cantine-champetre-04.jpg"
 carousel:
+    - "/produits/table-cantine-04-loroux-mobilum.jpg"
     - "/produits/table-cantine-04-st-viaud.jpg"
 
 filaire:

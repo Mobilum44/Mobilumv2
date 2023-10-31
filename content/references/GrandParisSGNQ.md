@@ -14,6 +14,8 @@ cover_text: "On a refait l'intérieur des gares"
 
 carousel:
     - "/references/carousel/gros-plan-SGP.jpg"
+    - "/references/carousel/sgp-signaletique-brut-peints.jpg"
+    - "/references/carousel/sgp-signaletique-peints-bruts.jpg"
 
 localisation: "Toutes les gares du Grand Paris"
 client: "SGP / Agence Patrick Jouin"

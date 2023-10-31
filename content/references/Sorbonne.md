@@ -39,7 +39,7 @@ duree_marche:
 recompense:
 
 concept: "Amphithéatre extérieur afin d'acquérir du savoir en plein air"
-relatedProducts: ["Banc perron STOOP"]
+relatedProducts: ["Banc perron STOOP", "Chaise OBRAC"]
 ---
 
 ## Description

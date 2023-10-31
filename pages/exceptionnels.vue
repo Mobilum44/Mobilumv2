@@ -16,7 +16,6 @@
 			</div>
 
 			<p>
-				<b>Corriger les mini textes (qui n'apparaissent pas)</b> <br/>
 				<b>Mettre photos illustration</b><br/>
 				<b> Cover_image : notre quotidien</b> <br />
 				<b> Corriger largeur des images (responsive)</b>

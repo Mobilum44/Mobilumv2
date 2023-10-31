@@ -85,7 +85,7 @@
 							:src="img"
 							width="1050"
 							height="700"
-							quality="60"
+							quality="100"
 							placeholder
 							format="avif,webp"
 							loading="lazy"

@@ -9,8 +9,7 @@ Supprimer sav -->
 			</div>
 		</template>
 
-		<p><b> Corriger toutes les images qui explosent (. JPG) <br/></b>
-		Champs .md à améliorer  -> En cours<br/></p>
+		<p><b> Corriger toutes les images qui explosent (. JPG) <br/></b></p>
 
 		<div class="collection">
 			<div class="sub__section">

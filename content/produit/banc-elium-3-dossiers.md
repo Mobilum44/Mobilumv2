@@ -15,7 +15,7 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banc-elium-3-dossiers.jpg"
 carousel:
-    - "/produits/attente-showroom.jpg"
+    - "/produits/banc-elium-loroux-mobilum.jpg"
 filaire:
     - "/produits/filaires/filaire-banc-elium-3-dossiers-2.png"
 reference: BSELIUM0102

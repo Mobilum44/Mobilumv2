@@ -13,7 +13,10 @@ cover_image: "/references/cover_image/assises-societe-du-grand-paris.png"
 cover_text: "On a refait l'intérieur des gares"
 
 carousel:
-    - "references/carousel/gros-plan-SGP.jpg"
+    - "references/carousel/sgp-mobilier-urbain-assise-2.jpg"
+    - "references/carousel/sgp-mobilier-urbain-assise.jpg"
+    - "references/carousel/sgp-mobilier-urbain-assises-rangements.jpg"
+    - "references/carousel/sgp-mobilier-urbain-detail.jpg"
 
 localisation: "Toutes les gares du Grand Paris"
 client: "SGP / Agence Patrick Jouin"
