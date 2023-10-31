@@ -7,8 +7,9 @@
 				</h1>
 				<p>{{ doc.designer }}</p>
 			</div>
-			<b>Responsive à faire</b>
 		</section>
+
+		<b>Responsive à faire</b>
 		<section class="sub-section">
 			<Carousel :wrap-around="true" snap-align="center" :items-to-show="1">
 				<Slide v-for="(img, i) in doc.carousel" :key="i">
@@ -16,7 +17,7 @@
 						:src="img"
 						width="1100"
 						height="600"
-						quality="60"
+						quality="80"
 						placeholder
 						format="avif,webp"
 						loading="lazy"
