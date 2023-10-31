@@ -38,9 +38,9 @@ date_demarrage:
 duree_marche:
 recompense:
 
-concept:
+concept: Jardinières amovibles / BFUP vieillit et engravé comme à l'époque.
 ---
 
 ## Description
 
-"Jardinières amovibles / BFUP vieillit et engravé comme à l'époque."
+""

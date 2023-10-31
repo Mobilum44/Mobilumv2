@@ -1,5 +1,5 @@
 ---
-type: Les grands comptes
+type: Marchés au long court
 cover_title: SNCF
 title: Mobiliers en gare
 sub_title:

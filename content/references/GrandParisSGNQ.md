@@ -1,5 +1,5 @@
 ---
-type: Les grands comptes
+type: Marchés au long court
 cover_title: Le Grand Paris Signalétique
 title: Le Grand Paris
 sub_title: Signalétique

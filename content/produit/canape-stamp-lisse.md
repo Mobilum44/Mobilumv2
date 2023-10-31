@@ -15,8 +15,8 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/canape-stamp-lisse.jpg"
 carousel:
-    - "/produits/banquette-elium-parc.jpg"
-    - "/produits/attente-showroom.jpg"
+    - "/produits/canape-stamp-loroux-mobilum.jpg"
+    - "/produits/stamp-detail-accoudoir.jpg"
 filaire:
     - "/produits/filaires/filaire-canape-stamp-lisse.png"
 reference: CASTAMP0101

@@ -15,8 +15,8 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banc-stamp-lisse.jpg"
 carousel:
-    - "/produits/banquette-elium-parc.jpg"
-    - "/produits/attente-showroom.jpg"
+    - "/produits/banc-stamp-window.jpg"
+    - "/produits/banc-stamp.jpg"
 filaire:
     - "/produits/filaires/filaire-banc-stamp-lisse.png"
 reference: BSSTAMP0101

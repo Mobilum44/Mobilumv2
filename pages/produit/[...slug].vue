@@ -7,6 +7,7 @@
 				</h1>
 				<p>{{ doc.designer }}</p>
 			</div>
+			<b>Responsive à faire</b>
 		</section>
 		<section class="sub-section">
 			<Carousel :wrap-around="true" snap-align="center" :items-to-show="1">

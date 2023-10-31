@@ -15,7 +15,7 @@ bal:
 personnalisation:
 cover_image: "/produits/filaires/filaire-poteau-origami.png"
 carousel:
-    - "/produits/filaires/filaire-poteau-origami-2.png"
+    - "/produits/assemblage-cube-perron.jpg"
 filaire:
     - "/produits/filaires/filaire-cube-feli.png"
 reference:

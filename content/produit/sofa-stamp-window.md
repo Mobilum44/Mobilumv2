@@ -15,8 +15,7 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/sofa-stamp-window.jpg"
 carousel:
-    - "/produits/banquette-elium-parc.jpg"
-    - "/produits/attente-showroom.jpg"
+    - "/produits/sofa-stamp-window.jpg"
 filaire:
     - "/produits/filaires/filaire-cantine-04.png"
 reference: SOSTAMP0201

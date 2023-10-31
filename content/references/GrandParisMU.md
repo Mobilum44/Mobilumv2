@@ -1,5 +1,5 @@
 ---
-type: Les grands comptes
+type: Marchés au long court
 cover_title: Le Grand Paris Mobilier Urbain
 title: Le Grand Paris
 sub_title: Mobilier Urbain

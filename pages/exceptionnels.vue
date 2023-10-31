@@ -26,7 +26,7 @@
 			<ul>
 				<li
 					class="references"
-					v-for="typ in ['Les grands comptes', 'Les remarquables', 'Les conceptuels', 'Les récompensés']"
+					v-for="typ in ['Marchés au long court', 'Les remarquables', 'Les conceptuels', 'Les récompensés']"
 					:key="typ"
 				>
 					<h2>{{ typ }}</h2>
