@@ -39,6 +39,11 @@ date_realisation:
 date_demarrage:
 duree_marche:
 recompense:
+
+texte_quotidien :
+texte_vicat :
+
+relatedProducts: ["Banc perron STOOP", "Chaise OBRAC"]
 ---
 
 ## Description

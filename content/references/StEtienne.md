@@ -40,6 +40,11 @@ recompense:
     Exposition du perron Stoop lors de l'appel à projet Banc d'Essais 2017
 
 concept:
+
+texte_quotidien :
+texte_vicat :
+
+relatedProducts: ["Banc perron STOOP", "Chaise OBRAC"]
 ---
 
 ## Description

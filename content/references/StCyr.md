@@ -41,6 +41,11 @@ duree_marche:
 recompense: "European Architecture Awards 2020"
 
 concept:
+
+texte_quotidien :
+texte_vicat :
+
+relatedProducts: ["Banc perron STOOP", "Chaise OBRAC"]
 ---
 
 ## Description

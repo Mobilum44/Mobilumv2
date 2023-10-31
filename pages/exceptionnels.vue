@@ -16,9 +16,8 @@
 			</div>
 
 			<p>
-				<b>Mettre photos illustration</b><br/>
-				<b> Cover_image : notre quotidien</b> <br />
-				<b> Corriger largeur des images (responsive)</b>
+				<b> Cover_image : notre quotidien</b><br />
+				<b> Corriger largeur des images (responsive) : SGP MU et angers</b>
 			</p>
 		</section>
 

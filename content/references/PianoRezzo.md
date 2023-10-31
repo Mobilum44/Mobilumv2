@@ -39,6 +39,9 @@ duree_marche:
 recompense:
 
 concept: Un patio de nature
+
+texte_quotidien :
+texte_vicat :
 ---
 
 ## Description

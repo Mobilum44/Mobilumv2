@@ -40,11 +40,14 @@ fabricant:
 date_realisation: "2018"
 date_demarrage:
 duree_marche:
-recompense:
-    Trophées territoriaux du Funéraire - Animation cimetière & Valorisation du
-    patrimoine
+recompense: Trophées territoriaux du Funéraire - Animation cimetière & Valorisation du patrimoine
 
 concept:
+
+texte_quotidien :
+texte_vicat :
+
+relatedProducts: ["Banc perron STOOP", "Chaise OBRAC"]
 ---
 
 ## Description

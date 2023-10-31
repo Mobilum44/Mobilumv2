@@ -41,6 +41,11 @@ duree_marche:
 recompense:
 
 concept:
+
+texte_quotidien :
+texte_vicat :
+
+relatedProducts: ["Banc perron STOOP", "Chaise OBRAC"]
 ---
 
 ## Description

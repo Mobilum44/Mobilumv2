@@ -4,7 +4,6 @@ cover_title: Tramway d'Angers
 title: Tramway d'Angers
 sub_title:
 
-
 order: 5
 
 concept: Bancs en stations
@@ -41,6 +40,11 @@ date_realisation:
 date_demarrage:
 duree_marche:
 recompense:
+
+texte_quotidien :
+texte_vicat :
+
+relatedProducts: ["Banc perron STOOP", "Chaise OBRAC"]
 ---
 
 ## Description

@@ -40,6 +40,11 @@ duree_marche:
 recompense:
 
 concept: Pièces évidées / Design tout en rondeur / Monobloc
+
+texte_quotidien :
+texte_vicat :
+
+relatedProducts: ["Banc perron STOOP", "Chaise OBRAC"]
 ---
 
 ## Description

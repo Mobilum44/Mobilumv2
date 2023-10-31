@@ -39,6 +39,11 @@ recompense:
 
 concept:
     "Utiliser les végétaux du lieu d'origine en les intégrant dans nos mobilier."
+
+texte_quotidien :
+texte_vicat :
+
+relatedProducts: ["Banc perron STOOP", "Chaise OBRAC"]
 ---
 
 ## Description
