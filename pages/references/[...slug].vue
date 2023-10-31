@@ -37,6 +37,11 @@
 				</li>
 			</ul>
 
+			<!-- Mise en page spécial : Quotidien -->
+			<div v-if="doc.texte_quotidien" class="chapeau">{{ doc.texte_quotidien }}</div>
+			<b>Reprendre charte graphique Vicat</b>
+			<div v-if="doc.texte_vicat" class="vicat">{{ doc.texte_vicat }}</div>
+
 			<ul class="reference-info responsive">
 				<li>
 					<div v-if="doc.fabricant">
@@ -156,6 +161,20 @@ h2 {
 	font-family: "Montserrat";
 	font-size: 200%;
 	border: 0;
+}
+
+.chapeau {
+	margin-top: 3rem;
+	width: 80%;
+	text-align: center;
+}
+
+.vicat {
+	background-color: grey;
+	color: white;
+	width: 80%;
+	padding: 1rem;
+	text-align: justify;
 }
 
 .reference {
