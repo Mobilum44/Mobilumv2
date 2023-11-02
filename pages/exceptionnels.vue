@@ -16,6 +16,7 @@
 			</div>
 
 			<p>
+				<b>Images trop longues à charger + responsive à corriger (largeur)</b>
 				<b> Cover_image : notre quotidien</b><br />
 				<b> Corriger largeur des images (responsive) : SGP MU et angers</b>
 			</p>
@@ -37,6 +38,7 @@
 								:img="reference.cover_image"
 								loading="lazy"
 								placeholder
+								quality="60"
 								:alt="reference.cover_text"
 								:cover_text="reference.cover_text"
 							/>

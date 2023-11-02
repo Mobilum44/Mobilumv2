@@ -8,7 +8,9 @@
 
 		<section class="page_top"></section>
 
-		<div class="section_top"></div>
+		<div class="section_top">
+			<b>Chargement décalé de l'image sur tel</b>
+		</div>
 
 		<!-------------------------------------------------------------------
     La griffe Mobilum
@@ -135,6 +137,7 @@ Notre savoir-faire
 							<strong
 								>"Notre devoir est de produire des mobiliers de manière durable et réfléchie."</strong
 							>
+							<b>Photo trop longue à charger sur tel</b>
 							<br /><br />
 							Repenser le mobilier urbain nécessite d’intégrer le développement durable dans nos
 							recherches, nos créations et notre croissance. <br /><br />
