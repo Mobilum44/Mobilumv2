@@ -9,7 +9,7 @@
 			</div>
 		</section>
 
-		<b>Responsive à faire</b>
+		<b>Responsive à faire : comment modifier le carousel ?</b>
 		<section class="sub-section">
 			<Carousel :wrap-around="true" snap-align="center" :items-to-show="1">
 				<Slide v-for="(img, i) in doc.carousel" :key="i">
@@ -573,15 +573,6 @@ h1 {
 @media only screen and (max-width: 950px) {
 	h2 {
 		margin-top: 1rem;
-	}
-	.return {
-		height: 2rem;
-		overflow: hidden;
-		border: solid black 1px;
-	}
-
-	.gallery {
-		margin: 0;
 	}
 
 	.responsive {

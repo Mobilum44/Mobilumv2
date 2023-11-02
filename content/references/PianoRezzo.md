@@ -17,7 +17,7 @@ carousel:
     - "/references/carousel/Piano-Rezzo-Paris-Saclay.jpg"
 
 localisation: "Ecole Normale Supérieure (ENS) / Paris Saclay"
-client: "Renzo Piano / Chercher nom installateur"
+client: "Renzo Piano / SATP"
 archi_be:
 
 prem_loc:

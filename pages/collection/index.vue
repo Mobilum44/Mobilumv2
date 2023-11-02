@@ -13,10 +13,10 @@ Supprimer sav -->
 
 		<div class="collection">
 			<div class="sub__section">
-				<NuxtLink class="items_styling shadow" to="/mu">
+				<NuxtLink class="items_styling shadow" to="/mobilier-urbain">
 					<NuxtImg
 						class="items__img"
-						alt="SNCF Gare Auxerre"
+						alt="mobilum mobilier urbain"
 						src="/collectioncover/fond-parc-mobilier-urbain.jpg"
 						width="800"
 						height="500"

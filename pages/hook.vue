@@ -18,11 +18,6 @@
 				Possibilité d'effectuer des modules sur-mesure.
 			</p>
 		</div>
-		<b>
-			Trouver solution pour avoir grille de 6 (2;3)
-			et mettre 7eme en sur-mesure : page entière à créer. <br/><br />
-			Refaire la page en décalé (comme page "nos collections")
-		</b>
 
 		<div class="sub__section">
 			<ul class="collection-order">
@@ -90,15 +85,19 @@ Paramètres de la galerie - généralités
 	justify-content: center;
 	flex-wrap: wrap;
 	gap: 1rem; */
-
-	display :grid;
-	grid-template-columns: 30%;
-	grid-template-rows: 1;
 }
 
-.collection-order ul {
-	padding-inline-start: 0px;
+
+ul {
+  width : 100%;
+  display : grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 2rem;
+  list-style-type: none;
+  align-items: center;
 }
+
 
 /*---------------------------------------------------------
 Paramètres de la galerie - position de base
@@ -109,8 +108,8 @@ Paramètres de la galerie - position de base
 
 	position: relative;
 	justify-self: center;
-	height: 400px;
-	width: 400px;
+	height: 380px;
+	width: 380px;
 
 	background-color: #1a949d;
 	/*box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -145,11 +144,8 @@ Paramètres de la galerie - position de base
 	text-align: center;
 	font-family: "Bebas Neue";
 	color: black;
-}
-
-.hook-size a {
+	font-size : 1.2rem;
 	text-decoration: none;
-	border: solid red;
 }
 /*---------------------------------------------------------
     Paramètres de la galerie - position selection

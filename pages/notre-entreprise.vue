@@ -24,9 +24,6 @@
 					<h2>\ Le design selon Mobilum</h2>
 					<div class="section__text">
 						<p>
-							<!--
-            La marque et le design : designers et distinctions
-			---->
 							<strong>"Le design, on adhère !"</strong>
 							<br /><br />
 							Mobilum se définit par sa compétence en BFUP et son design. <br />
@@ -86,10 +83,10 @@ Notre savoir-faire
 						<p>
 							<strong>"Chez Mobilum, nos mains resteront essentielles."</strong>
 							<br /><br />
-							Notre volonté est de produire un travail artisanal de qualité 100% français.
-							Chaque mobilier en Béton Fibré Ultra Performant (BFUP) a
-							été étudié, conçu et réalisé avec une attention méticuleuse aux détails, reflétant notre
-							engagement envers l’excellence et la fierté du travail bien fait. <br /><br />
+							Notre volonté est de produire un travail artisanal de qualité 100% français. Chaque mobilier
+							en Béton Fibré Ultra Performant (BFUP) a été étudié, conçu et réalisé avec une attention
+							méticuleuse aux détails, reflétant notre engagement envers l’excellence et la fierté du
+							travail bien fait. <br /><br />
 							Les techniques développées après des années de recherches sont uniques et exclusives pour
 							parvenir à la finesse et les formes de nos mobiliers, dans ce matériau si novateur.<br /><br />
 							Désireux de partager notre expérience et notre savoir-faire, nous avons mis en place une
@@ -99,17 +96,7 @@ Notre savoir-faire
 						</p>
 					</div>
 				</div>
-				<div class="section__side illustration savoir-faire">
-					<!--
-				<NuxtImg
-				alt="mains mobilum"
-				src="/savoir-faire.jpg"
-				center
-				width="1000px"
-				fit="cover"
-				/>
-				-->
-				</div>
+				<div class="section__side illustration savoir-faire"></div>
 			</div>
 		</div>
 
@@ -119,17 +106,7 @@ Notre savoir-faire
 
 		<div class="sub__section wide">
 			<div class="sub__section__content">
-				<div class="section__side illustration RSE">
-					<!--
-			<NuxtImg
-			alt="Angers tram"
-			src="/photospages/angers_tram.jpg"
-			center
-			width="1000px"
-			fit="cover"
-			/>
-			-->
-				</div>
+				<div class="section__side illustration RSE"></div>
 				<div class="section__side text text-rse">
 					<h2>\ Nos engagements</h2>
 					<div class="section__text">
@@ -162,12 +139,6 @@ Nos activités
 			</div>
 			<div class="sub__section">
 				<CardPlaces />
-				<!--
-				<div class="sub__section wide">
-					<div class="left texte-commerce">
-					</div>
-					<Villes />
-				</div>---->
 			</div>
 		</div>
 	</NuxtLayout>

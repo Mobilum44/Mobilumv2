@@ -15,8 +15,7 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banquette-beam-double.jpg"
 carousel:
-    - "/produits/banquette-elium-parc.jpg"
-    - "/produits/attente-showroom.jpg"
+    - "/produits/banquette-double-beam.png"
 filaire:
     - "/produits/filaires/filaire-banquette-beam-double-2.png"
 reference: BABEAM_0102

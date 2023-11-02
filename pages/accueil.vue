@@ -30,7 +30,6 @@
 				</div>
 			</section>
 		</template>
-		<b>Images header toutes trop longues à charger sur téléphone</b>
 
 		<p class="accueil_text">
 			En dix ans d'existence, Mobilum a acquis un savoir-faire unique dans la création et la fabrication de
@@ -245,11 +244,11 @@ span:nth-child(9) {
 	.quote {
 		padding: 0;
 		margin: 0;
-		width: 60%;
+		width: 75%;
 	}
 
 	.accueil_text {
-		width: 60%;
+		width: 65%;
 		padding: 1.5rem;
 		margin: 1rem 0rem;
 	}

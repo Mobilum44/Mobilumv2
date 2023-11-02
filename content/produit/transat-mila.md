@@ -13,7 +13,7 @@ motif_window:
 portes:
 bal:
 personnalisation:
-cover_image: "/produits/cover_image/transat-mila.jpg"
+cover_image: "/produits/cover_image/transat-mila-2.jpg"
 carousel:
     - "/produits/attente-showroom.jpg"
     - "/produits/attente-showroom.jpg"
