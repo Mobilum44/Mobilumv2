@@ -64,7 +64,7 @@ definePageMeta({
 });
 
 useSeoMeta({
-	title: "Les Hook",
+	title: "Hook",
 });
 
 const { data: urbanFurnitures } = await useAsyncData("produit", () =>

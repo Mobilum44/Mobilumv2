@@ -13,7 +13,7 @@ motif_window:
 portes:
 bal:
 personnalisation:
-cover_image: "/produits/cover_image/fauteuil-duchesse.jpg"
+cover_image: "/produits/cover_image/fauteuil-duchesse-2.jpg"
 carousel:
     - "/produits/focus-chaise-duchesse.jpg"
 filaire:

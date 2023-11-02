@@ -13,7 +13,7 @@ motif_window:
 portes:
 bal:
 personnalisation:
-cover_image: "/produits/cover_image/galet-2-assises.jpg"
+cover_image: "/produits/cover_image/galet-2-assises-2.jpg"
 carousel:
     - "/produits/galet-double-assises-fecamp.JPG"
 filaire:

@@ -13,7 +13,7 @@ motif_window:
 portes:
 bal:
 personnalisation:
-cover_image: "/produits/cover_image/galet-2-assises-L.jpg"
+cover_image: "/produits/cover_image/galet-2-assises-L-2.jpg"
 carousel:
     - "/produits/galet-stelag-haut-deux-assises-rouen.JPG"
 filaire:

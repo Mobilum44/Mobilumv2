@@ -13,7 +13,7 @@ motif_window:
 portes:
 bal:
 personnalisation:
-cover_image: "/produits/cover_image/banquette-beam-double.jpg"
+cover_image: "/produits/cover_image/banquette-beam-double-2.jpg"
 carousel:
     - "/produits/banquette-double-beam.png"
 filaire:

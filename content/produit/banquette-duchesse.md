@@ -12,7 +12,7 @@ motif_window:
 portes:
 bal:
 personnalisation:
-cover_image: "/produits/cover_image/banquette-duchesse.jpg"
+cover_image: "/produits/cover_image/banquette-duchesse-2.jpg"
 carousel:
     - "/produits/banquette-duchesse.jpg"
     - "/produits/banquette-duchesse-vue-haut.jpg"
