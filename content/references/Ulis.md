@@ -47,7 +47,7 @@ concept:
 texte_quotidien :
 texte_vicat :
 
-relatedProducts: ["Banc perron STOOP", "Chaise OBRAC"]
+relatedProducts: ["Banquette ELIUM", "Jardinière ASTURIAS carrée", "Corbeille VIGIPIRATE ASTURIAS", "Cendrier GOYA","Jardinière ASTURIAS ronde", "Fontaine LOËLLA", "Totem MINERAL"]
 ---
 
 ## Description

@@ -44,7 +44,7 @@ concept: "De l'intelligence embarquée pour nos étudiants cablés"
 texte_quotidien :
 texte_vicat :
 
-relatedProducts: ["Banc perron STOOP", "Chaise OBRAC"]
+relatedProducts:
 ---
 
 ## Description

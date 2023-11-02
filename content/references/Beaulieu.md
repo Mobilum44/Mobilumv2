@@ -45,7 +45,7 @@ recompense:
 texte_quotidien :
 texte_vicat :
 
-relatedProducts: ["Banc perron STOOP", "Chaise OBRAC"]
+relatedProducts: ["Tabouret ORIGAMI", "Banquette ORIGAMI", "Corbeille ORIGAMI", "Assis debout ORIGAMI", "Totem BUS", "Totem RUE"]
 ---
 
 ## Description

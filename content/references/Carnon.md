@@ -15,7 +15,6 @@ cover_text: "Un bain de soleil infini"
 
 carousel:
     - "/references/carousel/carnon-bain-soleil.jpg"
-    - "/references/carousel/page-entree.jpg"
 
 localisation:
 client: "Gauthier-Conquet / EGIS"
@@ -43,7 +42,7 @@ recompense:
 texte_quotidien :
 texte_vicat :
 
-relatedProducts: ["Banc perron STOOP", "Chaise OBRAC"]
+relatedProducts: ["Transat MILA", "Mange-debout", "Banquette CANTINE"]
 ---
 
 ## Description

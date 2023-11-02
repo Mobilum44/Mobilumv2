@@ -6,8 +6,6 @@
 				<h2>{{ doc.sub_title }}</h2>
 			</div>
 
-
-
 			<b> Faire responsive + gammes</b>
 			<ul class="reference-info">
 				<li class="reference-info-ligne">
@@ -41,9 +39,34 @@
 			</ul>
 
 			<!-- Mise en page spécial : Quotidien -->
-			<div v-if="doc.texte_quotidien" class="chapeau">{{ doc.texte_quotidien }}</div>
-			<b>Reprendre charte graphique Vicat</b>
-			<div v-if="doc.texte_vicat" class="vicat">{{ doc.texte_vicat }}</div>
+			<div v-if="doc.texte_quotidien" class="chapeau">
+				Chers clients, vous êtes tout simplement remarquables ! <br />
+				<br />
+				Grâce à votre adhésion vous avez permis le développement de cette nouvelle activité artisanale.<br />
+				Des premiers mobiliers posés en 2015 sur Trélazé (49) à aujourd'hui nous ne pouvons que vous le
+				confirmer. Vous nous avez donné cette chance de progresser en nous confiant la fabrication de plus de 10
+				000 pièces pour l'aménagement de vos lieux de vie représentant notre beau pays. <br /><br />
+				<em>Il est donc essentiel de vous remercier et de partager légitimement ce petit brin de fierté avec
+				vous.</em><br /><br />
+				Cette réussite, nous nous devons aussi de la partager avec nos fournisseurs qui au fil du temps et des
+				épreuves sont devenus de véritable partenaires.<br/>
+				Le petit mot de VICAT partenaire majeur de Mobilum :
+			</div>
+
+			<div v-if="doc.texte_vicat" class="vicat">
+				L'innovation est dans l'ADN du groupe Vicat depuis notre origine, c'est pourquoi, riches de notre
+				histoire et tournés vers l'avenir, nous poursuivons notre transformation pour nous adapter à un monde
+				qui change en accompagnant les mutations techniques, environnementales et sociétales. Pour cela, la
+				relation avec un industriel est pour Vicat une évidence et cette volonté a amené Mobilum à nous faire
+				confiance. Professionnel dans la fabrication et la distribution de mobiliers urbains en BFUP, Mobilum
+				ouvre de nouvelles perspectives pour faire face à l'évolution des espaces publics et des attentes des
+				utilisateurs. C'est ainsi que nous avons décidé d'apporter un service complet en fournissant notre BFUP
+				Smart-Up afin d'oeuvrer ensemble à la démocratisation de ce matériau dans l'espace public au travers de
+				design innovants, artistiques et audacieux dont Mobilum a le secret. Nous croyons conjointement en
+				l'avenir des BFUP dans la construction et nous sommes persuadés qu'il contribue au développement de
+				solutions plus performantes, plus faciles d'utilisation et à l'impact carbone réduit.<br />
+				Jérôme Frécon, Responsable d'activité Smart-Up.
+			</div>
 
 			<ul class="reference-info responsive">
 				<li>
@@ -86,7 +109,7 @@
 				--->
 			</ul>
 
-			<div class="reference-carousel wide">
+			<div class="reference-carousel wide" v-if="doc.carousel">
 				<Carousel :wrap-around="true" snap-align="center" :items-to-show="1">
 					<Slide v-for="(img, i) in doc.carousel" :key="i">
 						<NuxtImg
@@ -110,11 +133,24 @@
 			<div class="reference-info" v-if="relatedProducts && relatedProducts.length">
 				<h3>Produits présentés dans le projet</h3>
 				<div>
-					<ul>
-						<li v-for="product in relatedProducts" :key="product._id">
-							<p>
-								<NuxtLink :to="product._path">{{ product.title }}</NuxtLink>
-							</p>
+					<ul class="famille-produit responsive">
+						<li class="famille-card" v-for="product in relatedProducts" :key="product._id">
+							<NuxtLink :to="product._path">
+								<!----
+								<NuxtImg
+									:src="relatedProducts.cover_image"
+									:alt="relatedProducts.title"
+									width="200px"
+									height="200px"
+									fit="cover"
+									format="avif,webp"
+									placeholder
+									loading="lazy"
+								/> ---->
+								<p>
+									{{ product.title }}
+								</p>
+							</NuxtLink>
 						</li>
 					</ul>
 				</div>
@@ -142,7 +178,7 @@ const { data: relatedProducts } = await useAsyncData(
 		queryContent("/produit/")
 			.where({ title: { $in: currentProject.value?.relatedProducts || [] } })
 			.only(["_path", "title", "cover_image", "_id"])
-			.limit(5)
+			.limit(9)
 			.find() as Promise<Product[]>,
 );
 </script>
@@ -167,17 +203,19 @@ h2 {
 }
 
 .chapeau {
-	margin-top: 3rem;
-	width: 80%;
+	margin-top: 2rem;
+	width: 75%;
 	text-align: center;
+	font-size: 1rem;
 }
 
 .vicat {
-	background-color: grey;
+	background-color: #09738d;
 	color: white;
 	width: 80%;
 	padding: 1rem;
 	text-align: justify;
+	font-family: Roboto;
 }
 
 .reference {

@@ -7,7 +7,7 @@ sub_title:
 
 order: 2
 
-gamme: "?"
+gamme:
 
 cover_image: "/references/cover_image/ens-paris-saclay-mobilum.jpg"
 cover_text: "Mobilier extérieur pour les étudiants dans un cadre prestigieux"
@@ -42,6 +42,9 @@ concept: Un patio de nature
 
 texte_quotidien :
 texte_vicat :
+
+
+relatedProducts: ["Banquette VASCO DE GAMA"]
 ---
 
 ## Description

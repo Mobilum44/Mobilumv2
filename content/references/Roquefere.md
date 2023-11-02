@@ -43,7 +43,7 @@ concept:
 texte_quotidien :
 texte_vicat :
 
-relatedProducts: ["Banc perron STOOP", "Chaise OBRAC"]
+relatedProducts: ["Banquette ELIUM"]
 ---
 
 ## Description

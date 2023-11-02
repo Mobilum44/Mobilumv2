@@ -45,7 +45,7 @@ concept:
 texte_quotidien :
 texte_vicat :
 
-relatedProducts: ["Banc perron STOOP", "Chaise OBRAC"]
+relatedProducts: ["Banc OBRAC", "Chaise OBRAC", "Appui-vélos TRACK", "Corbeille VIGIPIRATE ASTURIAS", "Totem MINERAL"]
 ---
 
 ## Description
