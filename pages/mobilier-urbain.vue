@@ -5,9 +5,6 @@
 			<h1>Mobilier Urbain</h1>
 		</div>
 
-		<div class="chapeau"><b>Fiche cube à faire / Photo perron : mettre plus d'assemblages avec cube en avant</b><br/>
-		</div>
-
 		<div class="sub__section">
 			<ul class="collection_order">
 				<li v-for="urbanFurniture in urbanFurnitures" :key="urbanFurniture.title">
