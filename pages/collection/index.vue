@@ -9,8 +9,6 @@ Supprimer sav -->
 			</div>
 		</template>
 
-		<p><b> Corriger toutes les images qui explosent (. JPG) <br/></b></p>
-
 		<div class="collection">
 			<div class="sub__section">
 				<NuxtLink class="items_styling shadow" to="/mobilier-urbain">

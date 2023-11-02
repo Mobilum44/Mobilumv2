@@ -16,9 +16,7 @@
 			</div>
 
 			<p>
-				<b>Images trop longues à charger + responsive à corriger (largeur)</b>
 				<b> Cover_image : notre quotidien</b><br />
-				<b> Corriger largeur des images (responsive) : SGP MU et angers</b>
 			</p>
 		</section>
 

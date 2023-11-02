@@ -18,7 +18,7 @@ carousel:
     - "/produits/attente-showroom.jpg"
     - "/produits/attente-showroom.jpg"
 filaire:
-    - "/produits/filaires/filaire-transat-mila.png"
+    - "/produits/filaires/filaire-transat-mila-2.png"
 reference: TRMILA_0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 385

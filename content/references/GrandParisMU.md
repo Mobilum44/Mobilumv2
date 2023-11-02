@@ -9,7 +9,7 @@ order: 2
 
 gamme: "?"
 
-cover_image: "/references/cover_image/assises-societe-du-grand-paris.png"
+cover_image: "/references/cover_image/assises-societe-du-grand-paris-mu.jpg"
 cover_text: "On a refait l'intérieur des gares"
 
 carousel:

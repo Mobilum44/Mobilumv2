@@ -10,7 +10,7 @@ concept: Bancs en stations
 
 gamme: "?"
 
-cover_image: "/references/cover_image/tramway_angers_portrait.JPG"
+cover_image: "/references/cover_image/cover-angers-tram.jpg"
 cover_text:
 
 carousel:

@@ -19,6 +19,8 @@
 			</p>
 		</div>
 
+		<b>Enlever soulignement</b>
+
 		<div class="sub__section">
 			<ul class="collection-order">
 				<li v-for="urbanFurniture in urbanFurnitures" :key="urbanFurniture.title">
@@ -38,7 +40,6 @@
 						</p>
 					</NuxtLink>
 				</li>
-				<b>Enlever soulignement</b>
 			</ul>
 		</div>
 

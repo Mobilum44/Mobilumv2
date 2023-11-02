@@ -1,7 +1,7 @@
 <template>
 	<article class="CarteMarches shadow">
 		<NuxtLink :to="path">
-			<NuxtImg :src="img" :alt="alt" height="500" placeholder loading="lazy" format="avif,webp" />
+			<NuxtImg :src="img" :alt="alt" height="500" placeholder loading="lazy" quality="60" format="avif,webp" />
 			<h3>{{ title }}</h3>
 			<p>{{ cover_text }}</p>
 		</NuxtLink>
