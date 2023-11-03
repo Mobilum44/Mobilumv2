@@ -271,11 +271,6 @@
 
 		<section class="sub-section famille" v-if="relatedProducts && relatedProducts.length">
 			<h2>Dans la même gamme...</h2>
-			<p>
-				<b>
-					Pas de scrollbar ? <br />
-				</b>
-			</p>
 
 			<div class="scroll">
 				<ul class="famille-produit responsive">
