@@ -11,7 +11,7 @@ concept:
 
 gamme:
 
-cover_image: "/references/cover_image/mante-religieuse.jpg"
+cover_image: "/references/cover_image/notre-quotidien-vide.jpg"
 cover_text:
 
 carousel:

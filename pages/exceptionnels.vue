@@ -1,23 +1,13 @@
 <template>
 	<NuxtLayout name="layout-no-margin">
 		<div class="sub__section">
-			<!--<Button theme="arrow" to="/collection"> ⇦ </Button>-->
 			<h1>Nos dossiers d'exception</h1>
 		</div>
-		<section class="sub__section">
-			<div class="chapeau">
+		<section class="sub__section chapeau">
 				<p>
-					<!---Pour l'obtention de ces marchés, ce qui a fait la différence chez mobilum provient de la qualité de
-					son organisation industrielle, associées à un très fort savoir-faire technique.---->
 					La qualité de notre organisation industrielle, associée à un fort savoir-faire technique ont donné
 					confiance pour l'obtention de ces projets.
 				</p>
-				
-			</div>
-
-			<p>
-				<b> Cover_image : notre quotidien</b><br />
-			</p>
 		</section>
 
 		<section class="wide">
@@ -94,6 +84,7 @@ h2 {
 
 .chapeau {
 	width: 70%;
+	margin-bottom : 2rem;
 }
 
 .references {
