@@ -79,14 +79,16 @@ const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 /*---------------------------------------------------------
 Paramètres de la galerie - généralités
 ---------------------------------------------------------*/
+
+/*
 .collection-order {
-	/*
+	
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	flex-wrap: wrap;
-	gap: 1rem; */
-}
+	gap: 1rem; 
+}*/
 
 
 ul {

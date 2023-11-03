@@ -15,8 +15,7 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/transat-mila-2.jpg"
 carousel:
-    - "/produits/attente-showroom.jpg"
-    - "/produits/attente-showroom.jpg"
+    - "/produits/transat-mila.png"
 filaire:
     - "/produits/filaires/filaire-transat-mila-2.png"
 reference: TRMILA_0101

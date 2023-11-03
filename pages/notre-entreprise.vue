@@ -9,7 +9,7 @@
 		<section class="page_top"></section>
 
 		<div class="section_top">
-			<b>Chargement décalé de l'image sur tel</b>
+			<b>Images en-tête à resize sur téléphone</b>
 		</div>
 
 		<!-------------------------------------------------------------------
@@ -24,7 +24,7 @@
 					<h2>\ Le design selon Mobilum</h2>
 					<div class="section__text">
 						<p>
-							<strong>"Le design, on adhère !"</strong>
+							<strong>"Pour nous, la créativité stimule les sens"</strong>
 							<br /><br />
 							Mobilum se définit par sa compétence en BFUP et son design. <br />
 							Notre ambition est de concevoir des mobiliers urbains modernes et élégants qui s’intègrent
@@ -114,7 +114,6 @@ Notre savoir-faire
 							<strong
 								>"Notre devoir est de produire des mobiliers de manière durable et réfléchie."</strong
 							>
-							<b>Photo trop longue à charger sur tel</b>
 							<br /><br />
 							Repenser le mobilier urbain nécessite d’intégrer le développement durable dans nos
 							recherches, nos créations et notre croissance. <br /><br />

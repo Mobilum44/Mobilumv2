@@ -1,7 +1,7 @@
 ---
 type: Les remarquables
 cover_title: Notre quotidien
-title: Notre quotidien
+title: Dix milles mercis !
 sub_title:
 
 

@@ -17,7 +17,7 @@
     > -->
 		<div class="box">
 			<NuxtImg src="/photospages/bfup-truelle-large.jpg" width="900px" format="avif,webp" placeholder loading="lazy" />
-			<p><em>Un matériau :</em><br/> Le Béton Fibré Ultra Performant</p>
+			<p><em>Une forte </em>technicité</p>
 		</div>
 		<!-- </NuxtLink> -->
 		<NuxtLink class="box" to="/collection">

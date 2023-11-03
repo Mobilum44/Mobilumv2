@@ -64,8 +64,7 @@
 				Smart-Up afin d'oeuvrer ensemble à la démocratisation de ce matériau dans l'espace public au travers de
 				design innovants, artistiques et audacieux dont Mobilum a le secret. Nous croyons conjointement en
 				l'avenir des BFUP dans la construction et nous sommes persuadés qu'il contribue au développement de
-				solutions plus performantes, plus faciles d'utilisation et à l'impact carbone réduit.<br />
-				Jérôme Frécon, Responsable d'activité Smart-Up.
+				solutions plus performantes, plus faciles d'utilisation et à l'impact carbone réduit.
 			</div>
 
 			<ul class="reference-info responsive">
@@ -207,6 +206,7 @@ h2 {
 	width: 75%;
 	text-align: center;
 	font-size: 1rem;
+	margin-left : 0;
 }
 
 .vicat {

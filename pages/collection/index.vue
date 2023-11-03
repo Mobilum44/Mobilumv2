@@ -91,12 +91,6 @@ Supprimer sav -->
 				</NuxtLink>
 			</div>
 		</div>
-
-		<p class="referencement">
-			Découvrez notre nouvelle collection de mobilier urbain en BFUP, alliant esthétisme et durabilité. Des bancs,
-			tables et jardinières conçus en BFUP pour embellir et aménager vos espaces publics de manière moderne et
-			résistante.
-		</p>
 		<!-- <Defilant /> --->
 	</NuxtLayout>
 </template>

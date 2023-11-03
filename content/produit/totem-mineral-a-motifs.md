@@ -15,8 +15,7 @@ bal:
 personnalisation: oui
 cover_image: "/produits/cover_image/totem-mineral-directionnel.jpg"
 carousel:
-    - "/produits/banquette-elium-parc.jpg"
-    - "/produits/attente-showroom.jpg"
+    - "/produits/totem-mineral-motifs-luneau-papin.png"
 filaire:
     - "/produits/filaires/filaire-totem-mineral-trous.png"
 reference: TOMINER0102
