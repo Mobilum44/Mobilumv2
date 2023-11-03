@@ -323,23 +323,33 @@ const { data: relatedProducts } = await useAsyncData(
 );
 
 const description = () => {
-	const space = Array.from({ length: 30 }, (_) => ".").join("");
+	const space = (length: number) => Array.from({ length }, (_) => ".").join("");
 	let description = "";
 
 	if (currentProduct.value?.designer) {
-		description += `${variant.format("Designer", "bold sans")} ${space} ${currentProduct.value?.designer}\n`;
+		description += `${variant.format("Designer", "bold sans")} ${space(35 - "Designer".length)} ${
+			currentProduct.value?.designer
+		}\n`;
 	}
 	if (currentProduct.value?.collection) {
-		description += `${variant.format("Collection", "bold sans")} ${space} ${currentProduct.value?.collection}\n`;
+		description += `${variant.format("Collection", "bold sans")} ${space(35 - "Collection".length)} ${
+			currentProduct.value?.collection
+		}\n`;
 	}
 	if (currentProduct.value?.category) {
-		description += `${variant.format("Catégorie", "bold sans")} ${space} ${currentProduct.value?.category}\n`;
+		description += `${variant.format("Catégorie", "bold sans")} ${space(35 - "Catégorie".length)} ${
+			currentProduct.value?.category
+		}\n`;
 	}
 	if (currentProduct.value?.sub_category) {
-		description += `${variant.format("Sous-catégorie", "bold sans")} ${space} ${currentProduct.value?.category}\n`;
+		description += `${variant.format("Sous-catégorie", "bold sans")} ${space(31 - "Sous-catégorie".length)} ${
+			currentProduct.value?.category
+		}\n`;
 	}
 	if (currentProduct.value?.gamme) {
-		description += `${variant.format("Gamme", "bold sans")} ${space} ${currentProduct.value?.gamme}\n`;
+		description += `${variant.format("Gamme", "bold sans")} ${space(35 - "Gamme".length)} ${
+			currentProduct.value?.gamme
+		}\n`;
 	}
 	if (currentProduct.value?.materiau) {
 		description += `\n${currentProduct.value?.materiau}`;
