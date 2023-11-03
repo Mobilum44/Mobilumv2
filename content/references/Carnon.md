@@ -15,7 +15,6 @@ cover_text: "Un bain de soleil infini"
 
 carousel:
     - "/references/carousel/carnon-bain-soleil.jpg"
-    - "/references/carousel/page-entree.jpg"
 
 localisation:
 client: "Gauthier-Conquet / EGIS"
@@ -39,6 +38,11 @@ date_demarrage:
 duree_marche:
 
 recompense:
+
+texte_quotidien :
+texte_vicat :
+
+relatedProducts: ["Transat MILA", "Mange-debout", "Banquette CANTINE"]
 ---
 
 ## Description

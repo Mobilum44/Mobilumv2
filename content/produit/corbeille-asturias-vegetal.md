@@ -15,8 +15,7 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/corbeille-asturias-vegetal.jpg"
 carousel:
-    - "/produits/attente-showroom.jpg"
-    - "/produits/attente-showroom.jpg"
+    - "/produits/corbeille-asturias-interieur.jpg"
 filaire:
     - "/produits/filaires/filaire-corbeille-asturias-ronde-vegetale-2.png"
 reference: COASTUR0402

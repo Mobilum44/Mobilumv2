@@ -13,7 +13,7 @@ motif_window:
 portes:
 bal:
 personnalisation:
-cover_image: "/produits/cover_image/borne-loella.jpg"
+cover_image: "/produits/cover_image/borne-loella-2.jpg"
 carousel:
     - "/produits/borne-fontaine-loella-rouen.jpg"
 filaire:

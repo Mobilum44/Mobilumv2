@@ -41,6 +41,11 @@ recompense:
 concept:
     "Le buffet d'Astérix et Obelix a de la concurrence sur Vertou (inverser
     cover_text et concept ?)"
+
+texte_quotidien :
+texte_vicat :
+
+relatedProducts: ["Banc perron STOOP", "Chaise OBRAC"]
 ---
 
 ## Description

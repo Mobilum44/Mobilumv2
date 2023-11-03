@@ -13,7 +13,7 @@ motif_window:
 portes:
 bal:
 personnalisation:
-cover_image: "/produits/cover_image/mange-debout.jpg"
+cover_image: "/produits/cover_image/mange-debout-2.jpg"
 carousel:
     - "/produits/mange-debout-carnon.jpg"
 filaire:

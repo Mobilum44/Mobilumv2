@@ -1,5 +1,5 @@
 ---
-type: Les grands comptes
+type: Marchés au long court
 cover_title: Le Grand Paris Mobilier Urbain
 title: Le Grand Paris
 sub_title: Mobilier Urbain
@@ -9,11 +9,14 @@ order: 2
 
 gamme: "?"
 
-cover_image: "/references/cover_image/assises-societe-du-grand-paris.png"
+cover_image: "/references/cover_image/assises-societe-du-grand-paris-mu.jpg"
 cover_text: "On a refait l'intérieur des gares"
 
 carousel:
-    - "references/carousel/gros-plan-SGP.jpg"
+    - "references/carousel/sgp-mobilier-urbain-assise-2.jpg"
+    - "references/carousel/sgp-mobilier-urbain-assise.jpg"
+    - "references/carousel/sgp-mobilier-urbain-assises-rangements.jpg"
+    - "references/carousel/sgp-mobilier-urbain-detail.jpg"
 
 localisation: "Toutes les gares du Grand Paris"
 client: "SGP / Agence Patrick Jouin"
@@ -38,6 +41,11 @@ duree_marche:
 recompense:
 
 concept:
+
+texte_quotidien :
+texte_vicat :
+
+relatedProducts:
 ---
 
 ## Description

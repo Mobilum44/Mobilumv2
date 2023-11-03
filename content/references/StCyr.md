@@ -41,6 +41,11 @@ duree_marche:
 recompense: "European Architecture Awards 2020"
 
 concept:
+
+texte_quotidien :
+texte_vicat :
+
+relatedProducts: ["Banc OBRAC", "Chaise OBRAC", "Appui-vélos TRACK", "Corbeille VIGIPIRATE ASTURIAS", "Totem MINERAL"]
 ---
 
 ## Description

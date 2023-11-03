@@ -18,12 +18,8 @@
 				Possibilité d'effectuer des modules sur-mesure.
 			</p>
 		</div>
-		<b>
-			Mettre photo illustration en dessous des cartes produits : plaques HOOK coulées en usine <br />
-			Trouver solution pour avoir grille de 6 (2;3)
-			et mettre 7eme en sur-mesure : page entière à créer. <br/><br />
-			Refaire la page en décalé (comme page "nos collections")
-		</b>
+
+		<b>Enlever soulignement</b>
 
 		<div class="sub__section">
 			<ul class="collection-order">
@@ -44,8 +40,21 @@
 						</p>
 					</NuxtLink>
 				</li>
-				<b>Enlever soulignement</b>
 			</ul>
+		</div>
+
+		<div>
+
+			<NuxtImg
+						alt="photo rangement plaques hook mobilum BFUP"
+						src="/photospages/hook-illustration.jpg"
+						format="avif,webp"
+						placeholder
+						loading="lazy"
+						width="1200"
+					/>
+
+
 		</div>
 	</NuxtLayout>
 </template>
@@ -56,7 +65,7 @@ definePageMeta({
 });
 
 useSeoMeta({
-	title: "Les Hook",
+	title: "Hook",
 });
 
 const { data: urbanFurnitures } = await useAsyncData("produit", () =>
@@ -70,22 +79,28 @@ const { data: urbanFurnitures } = await useAsyncData("produit", () =>
 /*---------------------------------------------------------
 Paramètres de la galerie - généralités
 ---------------------------------------------------------*/
+
+/*
 .collection-order {
-	/*
+	
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	flex-wrap: wrap;
-	gap: 1rem; */
+	gap: 1rem; 
+}*/
 
-	display :grid;
-	grid-template-columns: 30%;
-	grid-template-rows: 1;
+
+ul {
+  width : 100%;
+  display : grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 2rem;
+  list-style-type: none;
+  align-items: center;
 }
 
-.collection-order ul {
-	padding-inline-start: 0px;
-}
 
 /*---------------------------------------------------------
 Paramètres de la galerie - position de base
@@ -96,8 +111,8 @@ Paramètres de la galerie - position de base
 
 	position: relative;
 	justify-self: center;
-	height: 400px;
-	width: 400px;
+	height: 380px;
+	width: 380px;
 
 	background-color: #1a949d;
 	/*box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -132,11 +147,8 @@ Paramètres de la galerie - position de base
 	text-align: center;
 	font-family: "Bebas Neue";
 	color: black;
-}
-
-.hook-size a {
+	font-size : 1.2rem;
 	text-decoration: none;
-	border: solid red;
 }
 /*---------------------------------------------------------
     Paramètres de la galerie - position selection

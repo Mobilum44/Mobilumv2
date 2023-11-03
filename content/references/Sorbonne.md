@@ -39,7 +39,11 @@ duree_marche:
 recompense:
 
 concept: "Amphithéatre extérieur afin d'acquérir du savoir en plein air"
-relatedProducts: ["Banc perron STOOP"]
+
+texte_quotidien :
+texte_vicat :
+
+relatedProducts: ["Banc perron STOOP", "Le cube"]
 ---
 
 ## Description

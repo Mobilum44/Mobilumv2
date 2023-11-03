@@ -16,10 +16,7 @@
 			</div>
 
 			<p>
-				<b>Corriger les mini textes (qui n'apparaissent pas)</b> <br/>
-				<b>Mettre photos illustration</b><br/>
-				<b> Cover_image : notre quotidien</b> <br />
-				<b> Corriger largeur des images (responsive)</b>
+				<b> Cover_image : notre quotidien</b><br />
 			</p>
 		</section>
 
@@ -27,7 +24,7 @@
 			<ul>
 				<li
 					class="references"
-					v-for="typ in ['Les grands comptes', 'Les remarquables', 'Les conceptuels', 'Les récompensés']"
+					v-for="typ in ['Marchés au long court', 'Les remarquables', 'Les conceptuels', 'Les récompensés']"
 					:key="typ"
 				>
 					<h2>{{ typ }}</h2>
@@ -39,6 +36,7 @@
 								:img="reference.cover_image"
 								loading="lazy"
 								placeholder
+								quality="60"
 								:alt="reference.cover_text"
 								:cover_text="reference.cover_text"
 							/>

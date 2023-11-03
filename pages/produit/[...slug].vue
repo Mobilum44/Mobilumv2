@@ -8,6 +8,8 @@
 				<p>{{ doc.designer }}</p>
 			</div>
 		</section>
+
+		<b>Responsive à faire : comment modifier le carousel ?</b>
 		<section class="sub-section">
 			<Carousel
 				:wrap-around="true"
@@ -21,7 +23,7 @@
 						:src="img"
 						width="1100"
 						height="600"
-						quality="60"
+						quality="80"
 						placeholder
 						format="avif,webp"
 						loading="lazy"
@@ -249,19 +251,17 @@
 
 		<section v-if="doc.bal" class="sub-section">
 			<h2>Option</h2>
-			<b>Enlever les ral et laisser une seule petite bal</b>
-			<p>Boites aux lettres au choix : nous consulter</p>
 			<div class="content">
 				<NuxtImg
-					src="/produits/boites-aux-lettres-RAL.png"
+					src="/produits/boite-aux-lettres-renz.png"
 					alt="Couleurs RAL des boites aux lettres Mobilum"
 					fit="cover"
-					height="250"
+					height="100"
 					format="avif,webp"
 					placeholder
 					loading="lazy"
 				/>
-				<p>Avec ou sans boite aux lettres, colori au choix</p>
+				<p>Avec ou sans boite aux lettres, colori au choix : nous consulter</p>
 			</div>
 		</section>
 
@@ -277,14 +277,6 @@
 
 		<section class="sub-section famille" v-if="relatedProducts && relatedProducts.length">
 			<h2>Dans la même gamme...</h2>
-			<p>
-				<b>
-					Lorsqu'il y en a trop, faire une scrollbar + enlever le produit en cours <br />
-					Si la catégorie est vide, juste la supprimer
-				</b>
-				<br />
-				<b> Trouver comment remettre les titres trop longs à la ligne, dans le cadre.</b>
-			</p>
 
 			<div class="scroll">
 				<ul class="famille-produit responsive">
@@ -548,12 +540,6 @@ h1 {
 
 				Pour faire le scroll : http://www.css3create.com/Slider-Galerie-photos-en-boucle-en-CSS3
 --------------------------------------------------------------------------------------------*/
-
-/* ------------------------------------------------------------------------------------------
-				Famille produit
-
-				Pour faire le scroll : http://www.css3create.com/Slider-Galerie-photos-en-boucle-en-CSS3
---------------------------------------------------------------------------------------------*/
 .famille-produit {
 	display: flex;
 	flex-direction: row;
@@ -592,7 +578,6 @@ h1 {
 }
 
 .famille-card p {
-	border: solid black;
 	white-space: normal;
 	width: 80%;
 	position: absolute;
@@ -631,15 +616,6 @@ h1 {
 @media only screen and (max-width: 950px) {
 	h2 {
 		margin-top: 1rem;
-	}
-	.return {
-		height: 2rem;
-		overflow: hidden;
-		border: solid black 1px;
-	}
-
-	.gallery {
-		margin: 0;
 	}
 
 	.responsive {

@@ -15,8 +15,7 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banquette-vertable.jpg"
 carousel:
-    - "/produits/banquette-elium-parc.jpg"
-    - "/produits/attente-showroom.jpg"
+    - "/produits/banquettes-vertable.jpg"
 filaire:
     - "/produits/filaires/filaire-banquette-vertable.png"
 reference: BAVERTA0101

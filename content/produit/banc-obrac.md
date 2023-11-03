@@ -13,7 +13,7 @@ motif_window:
 portes:
 bal:
 personnalisation:
-cover_image: "/produits/cover_image/banc-obrac.jpg"
+cover_image: "/produits/cover_image/banc-obrac-2.jpg"
 carousel:
     - "/produits/banc-obrac-la-rochelle.jpg"
     - "/produits/banc-obrac-la-roche-sur-yon.jpg"

@@ -15,7 +15,8 @@ bal: oui
 personnalisation:
 cover_image: "/produits/cover_image/cover-hook-765.jpg"
 carousel:
-    - "/produits/attente-showroom.jpg"
+    - "/produits/hook-765-simple.jpg"
+    - "/produits/hook-765-muret-bourgbarre.jpg"
 filaire:
     - "/produits/filaires/filaire-hook-765.png"
 reference:

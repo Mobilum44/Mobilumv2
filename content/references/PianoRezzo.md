@@ -7,7 +7,7 @@ sub_title:
 
 order: 2
 
-gamme: "?"
+gamme:
 
 cover_image: "/references/cover_image/ens-paris-saclay-mobilum.jpg"
 cover_text: "Mobilier extérieur pour les étudiants dans un cadre prestigieux"
@@ -17,7 +17,7 @@ carousel:
     - "/references/carousel/Piano-Rezzo-Paris-Saclay.jpg"
 
 localisation: "Ecole Normale Supérieure (ENS) / Paris Saclay"
-client: "Renzo Piano / Chercher nom installateur"
+client: "Renzo Piano / SATP"
 archi_be:
 
 prem_loc:
@@ -39,6 +39,12 @@ duree_marche:
 recompense:
 
 concept: Un patio de nature
+
+texte_quotidien :
+texte_vicat :
+
+
+relatedProducts: ["Banquette VASCO DE GAMA"]
 ---
 
 ## Description

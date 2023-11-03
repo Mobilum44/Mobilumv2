@@ -4,14 +4,13 @@ cover_title: Tramway d'Angers
 title: Tramway d'Angers
 sub_title:
 
-
 order: 5
 
 concept: Bancs en stations
 
 gamme: "?"
 
-cover_image: "/references/cover_image/tramway_angers_portrait.JPG"
+cover_image: "/references/cover_image/cover-angers-tram.jpg"
 cover_text:
 
 carousel:
@@ -41,6 +40,11 @@ date_realisation:
 date_demarrage:
 duree_marche:
 recompense:
+
+texte_quotidien :
+texte_vicat :
+
+relatedProducts: ["Banquette VASCO DE GAMA"]
 ---
 
 ## Description

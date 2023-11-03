@@ -40,11 +40,14 @@ fabricant:
 date_realisation: "2018"
 date_demarrage:
 duree_marche:
-recompense:
-    Trophées territoriaux du Funéraire - Animation cimetière & Valorisation du
-    patrimoine
+recompense: Trophées territoriaux du Funéraire - Animation cimetière & Valorisation du patrimoine
 
 concept:
+
+texte_quotidien :
+texte_vicat :
+
+relatedProducts: ["Banquette ELIUM", "Jardinière ASTURIAS carrée", "Corbeille VIGIPIRATE ASTURIAS", "Cendrier GOYA","Jardinière ASTURIAS ronde", "Fontaine LOËLLA", "Totem MINERAL"]
 ---
 
 ## Description

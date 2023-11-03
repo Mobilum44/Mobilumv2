@@ -16,7 +16,7 @@ personnalisation:
 cover_image: "/produits/cover_image/corbeille-asturias-vigipirate.jpg"
 carousel:
     - "/produits/corbeille-asturias-vigipirate-joncherolles.jpg"
-    - "/produits/attente-showroom.jpg"
+    - "/produits/corbeille-asturias-vigipirate-mobilum.jpg"
 filaire:
     - "/produits/filaires/filaire-corbeille-asturias-vigipirate.png"
 reference: COASTUR0601

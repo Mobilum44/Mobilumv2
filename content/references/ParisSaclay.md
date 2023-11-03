@@ -39,7 +39,12 @@ date_demarrage:
 duree_marche:
 recompense:
 
-concept: "De l'intelligence embarquée pour nos étudiants cablés "
+concept: "De l'intelligence embarquée pour nos étudiants cablés"
+
+texte_quotidien :
+texte_vicat :
+
+relatedProducts:
 ---
 
 ## Description

@@ -15,8 +15,8 @@ bal:
 personnalisation: oui
 cover_image: "/produits/cover_image/totem-mineral-plein.jpg"
 carousel:
+    - "/produits/totem-mineral-st-cyr.png"
     - "/produits/totem-ulis.jpg"
-    - "/produits/attente-showroom.jpg"
 filaire:
     - "/produits/filaires/filaire-totem-mineral.png"
 reference: TOMINER0101

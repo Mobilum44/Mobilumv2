@@ -15,8 +15,8 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banquette-elium.jpg"
 carousel:
+    - "/produits/banquette-elium.jpg"
     - "/produits/banquette-elium-parc.jpg"
-    - "/produits/attente-showroom.jpg"
 filaire:
     - "/produits/filaires/filaire-banquette-elium-2.png"
 reference: BAELIUM0101

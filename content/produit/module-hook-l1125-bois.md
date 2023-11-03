@@ -15,7 +15,8 @@ bal: oui
 personnalisation:
 cover_image: "/produits/cover_image/cover-hook-1125.jpg"
 carousel:
-    - "/produits/attente-showroom.jpg"
+    - "/produits/hook-1125-bois.jpg"
+    - "/produits/hook-carquefou-barriere-bois.jpg"
 filaire:
     - "/produits/filaires/filaire-hook-1125.png"
 reference:

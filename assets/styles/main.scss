@@ -1,5 +1,7 @@
 @import "eric-meyer";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Satisfy&display=swap');
+
 * {
 	box-sizing: border-box;
 	-webkit-font-smoothing: antialiased;
@@ -219,7 +221,6 @@ sup {
 		flex-direction: column;
 		gap: 0rem;
 	}
-}
 
 .chapeau,
 .referencement {
@@ -233,4 +234,12 @@ sup {
 textarea {
 	color: green;
 	font-family: "Bebas Neue", sans-serif;
+}
+
+.slot_image {
+	margin-top: 120px;
+	height: 30vh;
+}
+
+
 }

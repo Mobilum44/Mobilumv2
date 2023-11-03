@@ -15,8 +15,8 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/fontaine-loella-avec-robinet.jpg"
 carousel:
-    - "/produits/banquette-elium-parc.jpg"
-    - "/produits/attente-showroom.jpg"
+    - "/produits/fontaine-loella-avec-robinet.png"
+    - "/produits/fontaine-loella-robinet.jpg"
 filaire:
     - "/produits/filaires/filaire-fontaine-loella-1140-robinet-2.png"
 reference: FOLOELL0101

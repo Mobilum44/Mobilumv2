@@ -41,6 +41,11 @@ date_realisation:
 date_demarrage:
 duree_marche:
 recompense:
+
+texte_quotidien :
+texte_vicat :
+
+relatedProducts: ["Tabouret ORIGAMI", "Banquette ORIGAMI", "Corbeille ORIGAMI", "Assis debout ORIGAMI", "Totem BUS", "Totem RUE"]
 ---
 
 ## Description

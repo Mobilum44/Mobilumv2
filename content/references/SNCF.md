@@ -1,5 +1,5 @@
 ---
-type: Les grands comptes
+type: Marchés au long court
 cover_title: SNCF
 title: Mobiliers en gare
 sub_title:
@@ -41,6 +41,11 @@ duree_marche:
 recompense:
 
 concept:
+
+texte_quotidien :
+texte_vicat :
+
+relatedProducts: ["Banc perron STOOP", "Chaise OBRAC"]
 ---
 
 ## Description

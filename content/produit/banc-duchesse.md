@@ -13,7 +13,7 @@ motif_window:
 portes:
 bal:
 personnalisation:
-cover_image: "/produits/cover_image/banc-duchesse.jpg"
+cover_image: "/produits/cover_image/banc-duchesse-2.jpg"
 carousel:
     - "/produits/banc-duchesse-bruz.JPG"
     - "/produits/focus-banc-duchesse-bruz.jpg"

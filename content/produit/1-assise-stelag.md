@@ -13,9 +13,9 @@ motif_window:
 portes:
 bal:
 personnalisation:
-cover_image: "/produits/cover_image/galet-1-assise.jpg"
+cover_image: "/produits/cover_image/galet-1-assise-2.jpg"
 carousel:
-    - "/produits/attente-showroom.jpg"
+    - "/produits/galet-fecamp-une-assise.jpg"
 filaire:
     - "/produits/filaires/filaire-1-assise-basse.png"
 reference: AGSTELA0202

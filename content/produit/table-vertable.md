@@ -13,7 +13,7 @@ motif_window:
 portes:
 bal:
 personnalisation:
-cover_image: "/produits/cover_image/table-vertable.jpg"
+cover_image: "/produits/cover_image/table-vertable-2.jpg"
 carousel:
     - "/produits/table-vertable-loroux-jaune.jpg"
     - "/produits/table-vertable-loroux-orange.jpg"

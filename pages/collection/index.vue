@@ -9,15 +9,12 @@ Supprimer sav -->
 			</div>
 		</template>
 
-		<p><b> Corriger toutes les images qui explosent (. JPG) <br/></b>
-		Champs .md à améliorer  -> En cours<br/></p>
-
 		<div class="collection">
 			<div class="sub__section">
-				<NuxtLink class="items_styling shadow" to="/mu">
+				<NuxtLink class="items_styling shadow" to="/mobilier-urbain">
 					<NuxtImg
 						class="items__img"
-						alt="SNCF Gare Auxerre"
+						alt="mobilum mobilier urbain"
 						src="/collectioncover/fond-parc-mobilier-urbain.jpg"
 						width="800"
 						height="500"
@@ -94,12 +91,6 @@ Supprimer sav -->
 				</NuxtLink>
 			</div>
 		</div>
-
-		<p class="referencement">
-			Découvrez notre nouvelle collection de mobilier urbain en BFUP, alliant esthétisme et durabilité. Des bancs,
-			tables et jardinières conçus en BFUP pour embellir et aménager vos espaces publics de manière moderne et
-			résistante.
-		</p>
 		<!-- <Defilant /> --->
 	</NuxtLayout>
 </template>

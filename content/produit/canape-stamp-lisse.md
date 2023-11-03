@@ -15,10 +15,10 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/canape-stamp-lisse.jpg"
 carousel:
-    - "/produits/banquette-elium-parc.jpg"
-    - "/produits/attente-showroom.jpg"
+    - "/produits/canape-stamp-loroux-mobilum.jpg"
+    - "/produits/stamp-detail-accoudoir.jpg"
 filaire:
-    - "/produits/filaires/filaire-canape-stamp-lisse.png"
+    - "/produits/filaires/filaire-canape-stamp.png"
 reference: CASTAMP0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 382

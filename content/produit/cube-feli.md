@@ -13,11 +13,12 @@ motif_window:
 portes:
 bal:
 personnalisation:
-cover_image: "/produits/filaires/filaire-poteau-origami.png"
+cover_image: "/produits/cover_image/cube-feli.jpg"
 carousel:
-    - "/produits/filaires/filaire-poteau-origami-2.png"
+    - "/produits/cube-feli.jpg"
+    - "/produits/assemblage-cube-perron.jpg"
 filaire:
-    - "/produits/filaires/filaire-cube-feli.png"
+    - "/produits/filaires/filaire-cube-feli-2.png"
 reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids:
