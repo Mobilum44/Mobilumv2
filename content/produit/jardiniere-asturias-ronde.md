@@ -15,6 +15,7 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/jardiniere-asturias-ronde-vegetal.jpg"
 carousel:
+    - "/produits/jardiniere-asturias-ronde.jpg"
     - "/produits/jardiniere-ronde-lisse-asturias-grandville.jpg"
     - "/produits/jardiniere-asturias-ronde-vegetale.jpg"
 filaire:
