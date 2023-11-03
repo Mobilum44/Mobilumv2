@@ -9,7 +9,7 @@ order: 1
 gamme: "?"
 
 cover_image: "/references/cover_image/table-vertable-vertou-mobilum.jpg"
-cover_text: "Une table infinie"
+cover_text:
 
 carousel:
     - "/references/carousel/vertou-vertable.jpg"
@@ -39,8 +39,7 @@ duree_marche:
 recompense:
 
 concept:
-    "Le buffet d'Astérix et Obelix a de la concurrence sur Vertou (inverser
-    cover_text et concept ?)"
+    "La convivialité se partage à Vertou"
 
 texte_quotidien :
 texte_vicat :
