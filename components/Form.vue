@@ -1,22 +1,50 @@
 <template>
 	<div class="Form">
-		<form action="/action_page.php">
-			<label for="fname">Nom & prénom</label>
-			<input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom" />
+		<form @submit.prevent="sendEmail">
+			<label for="name">Nom & prénom</label>
+			<input type="text" id="bame" name="name" placeholder="Votre nom et prénom" v-model="form.name" />
 
 			<label for="sujet">Sujet</label>
-			<input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message" />
-
-			<label for="emailAddress">Email</label>
-			<input id="emailAddress" type="email" name="email" placeholder="Votre email" />
+			<input type="text" id="sujet" name="sujet" v-model="form.subject" placeholder="L'objet de votre message" />
 
 			<label for="subject">Message</label>
-			<textarea id="subject" name="subject" placeholder="Votre message" style="height: 200px"></textarea>
+			<textarea
+				id="subject"
+				name="subject"
+				v-model="form.message"
+				placeholder="Votre message"
+				style="height: 200px"
+			></textarea>
 
-			<input type="submit" value="Envoyer" />
+			<button type="submit">{{ btnText }}</button>
 		</form>
 	</div>
 </template>
+
+<script lang="ts" setup>
+interface Form {
+	name: string;
+	subject: string;
+	message: string;
+}
+
+const btnText = ref("Envoyer");
+const mobilumMail = "contact@mobilum-france.com";
+
+const form = reactive<Form>({
+	name: "",
+	subject: "",
+	message: "",
+});
+
+function sendEmail(): void {
+	window.open(`mailto:${mobilumMail}?subject=${form.subject}&body=${form.message}`);
+	btnText.value = "Message envoyé !";
+	form.message = "";
+	form.name = "";
+	form.subject = "";
+}
+</script>
 
 <style scoped>
 .Form {
@@ -56,7 +84,7 @@ input[type="email"] {
 	background-color: #fefcf3;
 }
 
-input[type="submit"] {
+button[type="submit"] {
 	border: 0;
 	height: 36px;
 	max-width: max-content;
@@ -74,7 +102,7 @@ input[type="submit"] {
 	padding: 0 1.3em;
 }
 
-input[type="submit"]:hover {
+button[type="submit"]:hover {
 	background-color: rgba(26, 148, 157);
 	box-shadow: none;
 }

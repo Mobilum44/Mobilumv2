@@ -24,10 +24,6 @@ definePageMeta({
 	layout: "empty",
 });
 
-useSeoMeta({
-	title: "Mobilum",
-});
-
 function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 	const imgUrl = img(thumbnail, {
 		width: 1920,
