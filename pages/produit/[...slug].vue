@@ -245,19 +245,17 @@
 
 		<section v-if="doc.bal" class="sub-section">
 			<h2>Option</h2>
-			<b>Enlever les ral et laisser une seule petite bal</b>
-			<p>Boites aux lettres au choix : nous consulter</p>
 			<div class="content">
 				<NuxtImg
-					src="/produits/boites-aux-lettres-RAL.png"
+					src="/produits/boite-aux-lettres-renz.png"
 					alt="Couleurs RAL des boites aux lettres Mobilum"
 					fit="cover"
-					height="250"
+					height="100"
 					format="avif,webp"
 					placeholder
 					loading="lazy"
 				/>
-				<p>Avec ou sans boite aux lettres, colori au choix</p>
+				<p>Avec ou sans boite aux lettres, colori au choix : nous consulter</p>
 			</div>
 		</section>
 

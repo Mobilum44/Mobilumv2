@@ -15,8 +15,7 @@ bal: oui
 personnalisation:
 cover_image: "/produits/cover_image/cover-hook-1485.jpg"
 carousel:
-    - "/produits/banquette-elium-parc.jpg"
-    - "/produits/attente-showroom.jpg"
+    - "/produits/hook-1485-poitiers.jpg"
 filaire:
     - "/produits/filaires/filaire-hook-1485.png"
 reference:
