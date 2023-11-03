@@ -22,6 +22,7 @@
 		"@unocss/reset": "^0.54.0",
 		"nuxt-simple-sitemap": "^3.2.6",
 		"sass": "^1.64.1",
+		"variant.js": "^1.0.3",
 		"vite": "^4.4.9",
 		"vue3-carousel-nuxt": "^1.1.0"
 	}

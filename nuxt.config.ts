@@ -21,4 +21,9 @@ export default defineNuxtConfig({
 		"vue3-carousel-nuxt",
 	],
 	css: ["@/assets/styles/main.scss"],
+	runtimeConfig: {
+		public: {
+			siteUrl: "https://www.mobilum-france.com/",
+		},
+	},
 });

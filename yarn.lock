@@ -7645,6 +7645,11 @@ validate-npm-package-name@^5.0.0:
   dependencies:
     builtins "^5.0.0"
 
+variant.js@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/variant.js/-/variant.js-1.0.3.tgz#3329f2d254ef7c15e85e2dc1c21f5374c3354a23"
+  integrity sha512-Frca3jY0Vy9mP3QZ1FLqjTVrMsc5uZTEYNsP+on8uMM1Epc6GYu4sghJEzzfPgCs1/oIisZJ4k86vhyUSIaOnA==
+
 vfile-location@^4.0.0:
   version "4.1.0"
   resolved "https://registry.npmjs.org/vfile-location/-/vfile-location-4.1.0.tgz"
@@ -7941,6 +7946,7 @@ widest-line@^4.0.1:
     string-width "^5.0.1"
 
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+  name wrap-ansi-cjs
   version "7.0.0"
   resolved "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==

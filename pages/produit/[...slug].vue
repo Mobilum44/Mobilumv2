@@ -9,7 +9,13 @@
 			</div>
 		</section>
 		<section class="sub-section">
-			<Carousel :wrap-around="true" snap-align="center" :items-to-show="1">
+			<Carousel
+				:wrap-around="true"
+				snap-align="center"
+				:items-to-show="1"
+				:touchDrag="doc.carousel.length > 1"
+				:mouseDrag="doc.carousel.length > 1"
+			>
 				<Slide v-for="(img, i) in doc.carousel" :key="i">
 					<NuxtImg
 						:src="img"
@@ -22,9 +28,9 @@
 					/>
 				</Slide>
 
-				<template #addons>
-					<Navigation />
-					<Pagination />
+				<template #addons="{ slidesCount }">
+					<Navigation v-if="slidesCount > 1" />
+					<Pagination v-if="slidesCount > 1" />
 				</template>
 			</Carousel>
 		</section>
@@ -305,8 +311,11 @@
 
 <script lang="ts" setup>
 import { Product } from "@/assets/types";
+import variant from "variant.js";
 
+const config = useRuntimeConfig();
 const route = useRoute();
+
 const { data: currentProduct } = await useAsyncData(
 	"currentProduct",
 	() => queryContent(route.fullPath).findOne() as Promise<Product>,
@@ -320,6 +329,47 @@ const { data: relatedProducts } = await useAsyncData(
 			.limit(5)
 			.find() as Promise<Product[]>,
 );
+
+const description = () => {
+	const space = Array.from({ length: 30 }, (_) => ".").join("");
+	let description = "";
+
+	if (currentProduct.value?.designer) {
+		description += `${variant.format("Designer", "bold sans")} ${space} ${currentProduct.value?.designer}\n`;
+	}
+	if (currentProduct.value?.collection) {
+		description += `${variant.format("Collection", "bold sans")} ${space} ${currentProduct.value?.collection}\n`;
+	}
+	if (currentProduct.value?.category) {
+		description += `${variant.format("Catégorie", "bold sans")} ${space} ${currentProduct.value?.category}\n`;
+	}
+	if (currentProduct.value?.sub_category) {
+		description += `${variant.format("Sous-catégorie", "bold sans")} ${space} ${currentProduct.value?.category}\n`;
+	}
+	if (currentProduct.value?.gamme) {
+		description += `${variant.format("Gamme", "bold sans")} ${space} ${currentProduct.value?.gamme}\n`;
+	}
+	if (currentProduct.value?.materiau) {
+		description += `\n${currentProduct.value?.materiau}`;
+	}
+	return description;
+};
+
+useSeoMeta({
+	ogUrl: `${config.public.siteUrl}${route.fullPath}`,
+	ogDescription: description(),
+	description: description(),
+	twitterDescription: description(),
+	ogImage: currentProduct.value?.cover_image,
+	twitterImage: currentProduct.value?.cover_image,
+	ogImageAlt: currentProduct.value?.title,
+	twitterImageAlt: currentProduct.value?.title,
+	ogImageHeight: "600",
+	ogImageWidth: "1100",
+	twitterImageHeight: "600",
+	twitterImageWidth: "1100",
+	twitterCard: "summary_large_image",
+});
 </script>
 
 <style scoped>
