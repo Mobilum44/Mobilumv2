@@ -2,6 +2,7 @@ export default defineNuxtConfig({
 	devtools: { enabled: true },
 	modules: [
 		"@nuxt/image",
+		"@nuxthq/studio",
 		"@nuxtjs/robots",
 		"@nuxt/content",
 		[
