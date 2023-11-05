@@ -10,7 +10,7 @@
 		</section>
 
 		<b>Responsive à faire : comment modifier le carousel ?</b>
-		<section class="sub-section">
+		<section class="sub-section-carousel">
 			<Carousel
 				:wrap-around="true"
 				snap-align="center"
@@ -21,8 +21,7 @@
 				<Slide v-for="(img, i) in doc.carousel" :key="i">
 					<NuxtImg
 						:src="img"
-						width="1100"
-						height="600"
+						sizes="100vw sm:80vw md:600px lg:800px xl:1000px xxl:1200px"
 						quality="80"
 						placeholder
 						format="avif,webp"
@@ -430,6 +429,17 @@ h1 {
 .sub-section {
 	width: 80%;
 	margin-top: 2rem;
+}
+
+.sub-section-carousel {
+	width: 90%;
+	margin-top: 2rem;
+}
+
+@media screen and (max-width: 950px) {
+	.sub-section-carousel {
+		width: 100%;
+	}
 }
 
 .sub-section > p {
