@@ -2,8 +2,8 @@
 	"name": "nuxt-app",
 	"private": true,
 	"scripts": {
-		"build": "nuxt build",
-		"dev": "nuxt dev",
+		"build": "tinacms build && nuxt build",
+		"dev": "tinacms dev -c 'nuxt dev'",
 		"generate": "nuxt generate",
 		"preview": "nuxt preview",
 		"postinstall": "nuxt prepare"
