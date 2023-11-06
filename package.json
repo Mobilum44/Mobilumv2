@@ -11,7 +11,6 @@
 	"devDependencies": {
 		"@nuxt/devtools": "^0.8.2",
 		"@nuxt/image": "^1.0.0-rc.1",
-		"@nuxthq/studio": "^1.0.3",
 		"@types/node": "^18.17.1",
 		"nuxt": "^3.7.0"
 	},
@@ -20,9 +19,11 @@
 		"@nuxtjs/google-fonts": "^3.0.2",
 		"@nuxtjs/robots": "^3.0.0",
 		"@studio-freight/lenis": "^1.0.19",
+		"@tinacms/cli": "^1.5.31",
 		"@unocss/reset": "^0.54.0",
 		"nuxt-simple-sitemap": "^3.2.6",
 		"sass": "^1.64.1",
+		"tinacms": "^1.5.22",
 		"variant.js": "^1.0.3",
 		"vite": "^4.4.9",
 		"vue3-carousel-nuxt": "^1.1.0"
