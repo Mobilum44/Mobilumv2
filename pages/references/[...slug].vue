@@ -40,7 +40,7 @@
 
 			<!-- Mise en page spécial : Quotidien -->
 			<div v-if="doc.texte_quotidien" class="chapeau">
-				Chers clients, vous êtes tout simplement remarquables ! <br />
+				Chers clients, chers agents vous êtes tout simplement remarquables ! <br />
 				<br />
 				Grâce à votre adhésion vous avez permis le développement de cette nouvelle activité artisanale.<br />
 				Des premiers mobiliers posés en 2015 sur Trélazé (49) à aujourd'hui nous ne pouvons que vous le
