@@ -3,8 +3,7 @@
 		<!--mobilier urbain, Ammenagement(hook + signaletique), grands comptes, Nos réalisations sur mesure
 Supprimer sav -->
 		<template #slot_image>
-			<div class="slot_image">
-				<!-- :style="{ backgroundImage: `url(${image})`}">-->
+			<div class="slot_image" :style="backgroundStyles('/backgroundpages/fond-collection-beam-plage.jpg')">
 				<h1>Nos collections</h1>
 			</div>
 		</template>
@@ -26,10 +25,7 @@ Supprimer sav -->
 				</NuxtLink>
 
 				<div class="left">
-					<p>
-						Nos créations de mobiliers urbains<br />
-					</p>
-					
+					<p>Nos créations de mobiliers urbains<br /></p>
 				</div>
 			</div>
 
@@ -76,7 +72,7 @@ Supprimer sav -->
 				<div class="right">
 					<p class="right-align">Une valeur sure</p>
 				</div>
-				<NuxtLink class="items_styling shadow " to="/hook">
+				<NuxtLink class="items_styling shadow" to="/hook">
 					<NuxtImg
 						class="items__img"
 						alt="SNCF Gare Auxerre"
@@ -96,6 +92,8 @@ Supprimer sav -->
 </template>
 
 <script lang="ts" setup>
+const img = useImage();
+
 definePageMeta({
 	layout: false,
 });
@@ -103,11 +101,20 @@ definePageMeta({
 useSeoMeta({
 	title: "Nos collections",
 });
+
+function backgroundStyles(thumbnail: string): { backgroundImage: string } {
+	const imgUrl = img(thumbnail, {
+		width: 1920,
+		quality: 80,
+		placeholder: true,
+		format: "avif,webp",
+	});
+	return { backgroundImage: `url('${imgUrl}') center center no-repeat` };
+}
 </script>
 
 <style scoped>
 .slot_image {
-	background: url("/backgroundpages/fond-collection-beam-plage.jpg") center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -115,13 +122,13 @@ useSeoMeta({
 .collection {
 	margin-top: 5rem;
 	width: 100%;
-	display : flex;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
 .sub__section {
-	display : flex;
+	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-end;
@@ -203,8 +210,6 @@ useSeoMeta({
 }
 
 @media only screen and (max-width: 950px) {
-
-
 	.collection {
 		display: flex;
 		flex-direction: column;
@@ -214,31 +219,30 @@ useSeoMeta({
 	}
 
 	.sub__section {
-		display : flex;
+		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width : 100%;
+		width: 100%;
 	}
 
-	.left, .right {
-		width : 100%;
-		display : flex;
-		flex-direction : column;
-		align-items : center;
+	.left,
+	.right {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		justify-content: center;
 	}
 
-	.reverse  {
+	.reverse {
 		flex-direction: column-reverse;
 	}
 
-	
-
 	.sub__section p {
-	text-align: center;
-	margin : 0;
-	padding : 0;
-	font-size: 1.5rem;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		font-size: 1.5rem;
 	}
 	.items_styling {
 		height: 20rem;
