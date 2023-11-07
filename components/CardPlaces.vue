@@ -118,7 +118,7 @@
 		<div class="card shadow">
 			<figure class="card__thumb">
 				<NuxtImg
-					src="/cards/tertiaire.jpg"
+					src="/cards/tertiaire-radiologie.jpg"
 					alt="totem en BFUP pour l'entreprise Luneau Papin par Mobilum"
 					class="card__image"
 					fit="cover"
