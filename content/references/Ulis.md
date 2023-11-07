@@ -15,7 +15,7 @@ carousel:
     - "/references/carousel/ulis-entree-jardiniere-asturias.jpg"
     - "/references/carousel/ulis-entree-cimetiere.jpg"
     - "/references/carousel/ulis-totem-orme-a-moineaux.jpg"
-    - "/references/carousel/ulis-banc-elium-corbeille-vigipirate.jpg"
+    - "/references/carousel/ulis-banc-elium-corbeille-vigipirate-nettoyé.jpg"
     - "/references/carousel/ulis-gros-plan-fontaine.jpg"
     - "/references/carousel/ulis-gros-plan-jardiniere-ronde.jpg"
     - "/references/carousel/ulis-gros-plan-jardiniere-carree.jpg"

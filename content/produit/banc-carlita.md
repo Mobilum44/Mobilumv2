@@ -24,7 +24,7 @@ filaire:
 reference: BSCARLI0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 317
-dimensions: L2000 x P698 x H469
+dimensions: L2000 x P697 x H938
 format: Multibloc
 traitement: ""
 ---

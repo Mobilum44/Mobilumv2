@@ -15,14 +15,14 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banc-duchesse-2.jpg"
 carousel:
-    - "/produits/banc-duchesse-bruz.JPG"
+    - "/produits/banc-duchesse-bruz-2.jpg"
     - "/produits/focus-banc-duchesse-bruz.jpg"
 filaire:
     - "/produits/filaires/filaire-banc-duchesse.png"
 reference: BSDUCHE0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 232
-dimensions: L2424 x P635 H800
+dimensions: L2400 x P635 x H800
 format: Multibloc
 traitement: ""
 ---

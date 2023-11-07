@@ -22,7 +22,7 @@ filaire:
 reference: BSORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 223
-dimensions: L2000 x P450 H850
+dimensions: L2000 x P450 H853
 format: Multibloc
 traitement: ""
 ---
