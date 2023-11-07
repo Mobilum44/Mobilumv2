@@ -15,7 +15,7 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/corbeille-asturias-lisse.jpg"
 carousel:
-    - "/produits/corbeille-asturias-lisse-chemille-en-anjou.jpg"
+    - "/produits/corbeille-asturias-lisse-chemille.jpg"
     - "/produits/corbeille-asturias-lisse-raismes.jpg"
 filaire:
     - "/produits/filaires/filaire-corbeille-asturias-ronde-lisse-2.png"

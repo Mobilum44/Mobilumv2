@@ -21,7 +21,7 @@ filaire:
 reference: TACANTI0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 491
-dimensions: L2500 x P900 x H750
+dimensions: L2500 x P450 x H1100
 format: Multibloc
 traitement: ""
 ---

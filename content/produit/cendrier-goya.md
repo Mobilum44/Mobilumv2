@@ -21,7 +21,7 @@ filaire:
 reference: CEGOYA_0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 30
-dimensions: L207 x P100 x H1000
+dimensions: L207 x P100 x H998
 format: Monobloc
 traitement: ""
 ---

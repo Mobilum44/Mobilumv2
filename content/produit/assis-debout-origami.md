@@ -21,7 +21,7 @@ filaire:
 reference: ADORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 75
-dimensions: L500 x P210 H1077
+dimensions: L500 x P65 H875
 format: Monobloc
 traitement: ""
 ---
