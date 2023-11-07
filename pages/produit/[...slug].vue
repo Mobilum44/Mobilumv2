@@ -9,7 +9,6 @@
 			</div>
 		</section>
 
-		<b>Responsive à faire : comment modifier le carousel ?</b>
 		<section class="sub-section-carousel">
 			<Carousel
 				:wrap-around="true"
