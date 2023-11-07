@@ -21,7 +21,7 @@ filaire:
 reference: BAVERTA0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 52
-dimensions: L1364 x P300 x H420
+dimensions: L1366 x P290 x H420
 format: Multibloc
 traitement: ""
 ---

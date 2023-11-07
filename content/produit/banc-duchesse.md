@@ -22,7 +22,7 @@ filaire:
 reference: BSDUCHE0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 232
-dimensions: L2400 x P635 x H800
+dimensions: L2400 x P496 x H800
 format: Multibloc
 traitement: ""
 ---

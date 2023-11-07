@@ -21,7 +21,7 @@ filaire:
 reference: BSELIUM0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 291
-dimensions: L1800 x P544 x H944
+dimensions: L1800 x P544 x H844
 format: Multibloc
 traitement: ""
 ---

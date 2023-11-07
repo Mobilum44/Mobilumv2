@@ -21,7 +21,7 @@ filaire:
 reference: BADUCHE0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 208
-dimensions: L2424 x P635 H450
+dimensions: L2400 x P496 H445
 format: Monobloc
 traitement: ""
 ---

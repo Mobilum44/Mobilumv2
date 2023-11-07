@@ -15,8 +15,9 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/transat-camah.jpg"
 carousel:
-    - "/produits/transat-camah-cucq.JPG"
     - "/produits/transat-camah-le-trait.jpg"
+    - "/produits/transat-camah-cucq.JPG"
+
 filaire:
     - "/produits/filaires/filaire-transat-camah-2.png"
 reference: TRCAMAH0101

@@ -22,7 +22,7 @@ filaire:
 reference: BACANTI0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 192
-dimensions: L2500 x P430 x H430
+dimensions: L2500 x P430 x H450
 format: Monobloc
 traitement: ""
 ---

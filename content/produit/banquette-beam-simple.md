@@ -21,7 +21,7 @@ filaire:
 reference: BABEAM_0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 260
-dimensions: L2000 x P400 x H457
+dimensions: L2000 x P400 x H450
 format: Monobloc
 traitement: ""
 ---

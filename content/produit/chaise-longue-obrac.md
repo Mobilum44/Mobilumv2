@@ -16,6 +16,7 @@ personnalisation:
 cover_image: "/produits/cover_image/chaise-longue-obrac.jpg"
 carousel:
     - "/produits/chaise-longues-chemille-resized.jpg"
+    - "/produits/chaise-longue-obrac.jpg"
 filaire:
     - "/produits/filaires/filaire-chaise-longue-obrac-2.png"
 reference: CLOBRAC0101
