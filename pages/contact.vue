@@ -143,6 +143,12 @@ p {
 --------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 600px) {
+
+	.slot_image {
+	background-size: contain;
+	background-attachment: local;
+}
+
 	.content {
 		display: flex;
 		flex-direction: column;

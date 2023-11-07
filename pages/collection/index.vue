@@ -208,6 +208,12 @@ function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 }
 
 @media only screen and (max-width: 950px) {
+
+	.slot_image {
+	background-size: cover;
+	background-attachment: local;
+}
+
 	.collection {
 		display: flex;
 		flex-direction: column;

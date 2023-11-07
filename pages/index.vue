@@ -50,8 +50,4 @@ function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 	justify-content: center;
 	height: 100vh;
 }
-
-.slide {
-	margin-top: 2rem;
-}
 </style>

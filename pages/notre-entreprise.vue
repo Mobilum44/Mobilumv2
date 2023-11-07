@@ -6,16 +6,6 @@
 			</div>
 		</template>
 
-		<section class="page_top"></section>
-
-		<div class="section_top">
-			<b>Images en-tête à resize sur téléphone</b>
-		</div>
-
-		<!-------------------------------------------------------------------
-    La griffe Mobilum
--------------------------------------------------------------------->
-
 		<div class="sub__section wide">
 			<div class="sub__section__content">
 				<div class="section__side illustration croquis"></div>
@@ -300,6 +290,11 @@ h3 {
 		margin: 0rem;
 		border-bottom: solid 1px;
 	}
+
+.slot_image {
+	background-size: cover;
+	background-attachment: local;
+}
 
 	.section_top {
 		margin: 0rem;

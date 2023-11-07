@@ -43,7 +43,7 @@ concept: Jardinières amovibles / BFUP vieillit et engravé comme à l'époque.
 texte_quotidien :
 texte_vicat :
 
-relatedProducts: ["Banc perron STOOP", "Chaise OBRAC"]
+relatedProducts:
 ---
 
 ## Description

@@ -100,12 +100,6 @@
 				<div v-if="doc.concept">
 					<p><em>Concept</em>: {{ doc.concept }}</p>
 				</div>
-
-				<!---
-				<div class="reference-description">
-					<ContentRenderer :value="doc" />
-				</div>
-				--->
 			</ul>
 
 			<div class="reference-carousel wide" v-if="doc.carousel">
@@ -135,17 +129,16 @@
 					<ul class="famille-produit responsive">
 						<li class="famille-card" v-for="product in relatedProducts" :key="product._id">
 							<NuxtLink :to="product._path">
-								<!----
 								<NuxtImg
-									:src="relatedProducts.cover_image"
-									:alt="relatedProducts.title"
+									:src="product.cover_image"
+									:alt="product.title"
 									width="200px"
 									height="200px"
 									fit="cover"
 									format="avif,webp"
 									placeholder
 									loading="lazy"
-								/> ---->
+								/>
 								<p>
 									{{ product.title }}
 								</p>
@@ -267,6 +260,83 @@ h2 {
 	max-width: 100%;
 	object-fit: contain;
 }
+
+
+
+
+/* ----------------------------------------------------------------------------------
+		Gammes
+-----------------------------------------------------------------------------------*/
+
+.famille-produit {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+}
+
+.scroll {
+	/*scroll qui ne marche pas*/
+	width: 80vw;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+
+.famille-card {
+	position: relative;
+	margin: 1.3rem;
+	overflow: hidden;
+
+	height: 200px;
+	width: 200px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: #1a949d;
+}
+
+.famille-card img {
+	object-fit: cover;
+	width: 100%;
+	opacity: 1;
+	z-index: 99;
+}
+
+.famille-card p {
+	white-space: normal;
+	width: 80%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+	z-index: 1;
+	opacity: 0;
+
+	font-family: "Bebas Neue";
+	font-weight: 400;
+	font-size: 1.5rem;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 1px;
+	color: white;
+}
+
+.famille-card:hover p {
+	opacity: 1;
+	transition: all 0.1s ease-in-out;
+}
+
+.famille-card:hover img {
+	opacity: 0.3;
+	transition: all 0.3s ease-in-out;
+}
+
 
 @media only screen and (max-width: 950px) {
 	.reference-header {
