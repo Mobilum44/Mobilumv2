@@ -14,9 +14,9 @@ cover_text: "Un amphi extérieur dans une université française historique"
 
 carousel:
     - "/references/carousel/st-cyr-vue-generale.jpeg"
-    - "/references/carousel/totem-st-cyr-mobilum.jpg"
-    - "/references/carousel/st-cyr-banc-chaise-obrac.jpg"
-    - "/references/carousel/appui-velo-track-st-cyr.jpg"
+    - "/references/carousel/st-cyr-totem-mobilum.jpg"
+    - "/references/carousel/st-cyr-banc-chaise-obrac-corbeille.jpg"
+    - "/references/carousel/st-cyr-appui-velo-track.jpg"
 
 localisation: Parc de Montjoie / St Cyr sur Loire
 client:
