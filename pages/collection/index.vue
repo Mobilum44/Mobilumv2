@@ -3,7 +3,6 @@
 		<template #slot_image>
 			<div class="slot_image" :style="backgroundStyles('/backgroundpages/fond-collection-beam-plage.jpg')">
 				<h1>Nos collections</h1>
-				<b>Image ne s'affiche plus</b>
 			</div>
 		</template>
 

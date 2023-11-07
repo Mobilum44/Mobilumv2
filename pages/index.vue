@@ -26,7 +26,7 @@ definePageMeta({
 
 function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 	const imgUrl = img(thumbnail, {
-		width: 1920,
+		width: 2200,
 		quality: 50,
 		placeholder: true,
 		format: "avif,webp",
