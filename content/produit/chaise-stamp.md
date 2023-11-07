@@ -15,7 +15,7 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/chaise-stamp-lisse.jpg"
 carousel:
-    - "/produits/banquette-elium-parc.jpg"
+    - "/produits/chaise-stamp.jpg"
 filaire:
     - "/produits/filaires/filaire-chaise-stamp-lisse-2.png"
 reference: CHSTAMP0101

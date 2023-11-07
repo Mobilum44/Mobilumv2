@@ -14,7 +14,7 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/appui-velo-origami.jpg"
 carousel:
-    - "/produits/rangee-appui-velo-origami.jpg"
+    - "/produits/appui-velo-origami-rangee.jpg"
 filaire:
     - "/produits/filaires/filaire-appui-velo-origami.png"
 reference: AVORIGA0101

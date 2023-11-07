@@ -22,8 +22,8 @@ filaire:
     - "/produits/filaires/filaire-jardiniere-ronde.png"
 reference: JAASTUR0402
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
-poids:
-dimensions:
+poids: 203
+dimensions: ⌀900 H900
 format: Monobloc
 traitement: ""
 ---
