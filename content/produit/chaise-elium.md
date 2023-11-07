@@ -23,7 +23,7 @@ filaire:
 reference: CHELIUM0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 109
-dimensions: L500 x P544 x H844
+dimensions: L460 x P544 x H844
 format: Multibloc
 traitement: ""
 ---
