@@ -1,10 +1,9 @@
 <template>
 	<NuxtLayout name="default">
-		<!--mobilier urbain, Ammenagement(hook + signaletique), grands comptes, Nos réalisations sur mesure
-Supprimer sav -->
 		<template #slot_image>
 			<div class="slot_image" :style="backgroundStyles('/backgroundpages/fond-collection-beam-plage.jpg')">
 				<h1>Nos collections</h1>
+
 			</div>
 		</template>
 

@@ -161,7 +161,7 @@ function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 		placeholder: true,
 		format: "avif,webp",
 	});
-	return { backgroundImage: `url('${imgUrl}')` };
+	return { backgroundImage: `url('${imgUrl}') center center no-repeat` };
 }
 </script>
 
