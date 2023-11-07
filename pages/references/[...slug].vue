@@ -6,7 +6,7 @@
 				<h2>{{ doc.sub_title }}</h2>
 			</div>
 
-			<b> Faire responsive + gammes</b>
+			<b> Faire responsive : caroussel</b>
 			<ul class="reference-info">
 				<li class="reference-info-ligne">
 					<div v-if="doc.client">{{ doc.client }}</div>
@@ -339,21 +339,37 @@ h2 {
 
 
 @media only screen and (max-width: 950px) {
+
 	.reference-header {
-		padding: 0.5rem;
+		padding: 0.8rem;
 		width: 100%;
 		text-align: center;
 	}
 
 	h1 {
+		width : 100%;
 		padding: 0;
-		text-align: center;
-		font-size: 2rem;
+		margin : 0;
+		padding-left : 1rem;
+		padding-right : 1rem;
+		font-size: 1.5rem;
+		border : none;
 	}
 
 	h2 {
 		font-size: 1.5rem;
 		margin-top: 0.5rem;
+	}
+
+	.chapeau{
+		width : 100%;
+	}
+
+	.vicat {
+		width : 100%;
+	}
+	.reference-info-ligne {
+	width: 100%;
 	}
 
 	.responsive {

@@ -213,17 +213,13 @@
 		<section class="sub-section">
 			<div v-if="doc.portes">
 				<h2>Les portes</h2>
-				<b
-					>Mettre des photos des portes en entier (rectangle) + alu compo à motifs (indiquer personnalisation
-					possible)</b
-				>
 				<div class="sub-section-content responsive">
 					<div class="content">
 						<NuxtImg
-							src="/produits/motif-vegetal.png"
-							alt="Couleurs RAL des boites aux lettres Mobilum"
+							src="/produits/porte-hook-bois.png"
+							alt="Porte hook en bois douglas"
 							fit="cover"
-							height="50"
+							height="200"
 							format="avif,webp"
 							placeholder
 							loading="lazy"
@@ -233,15 +229,22 @@
 
 					<div class="content">
 						<NuxtImg
-							src="/produits/motif-vegetal.png"
-							alt="Couleurs RAL des boites aux lettres Mobilum"
+							src="/produits/porte-hook-alu-compo.png"
+							alt="Porte hook en alu composite avec motifs"
 							fit="cover"
-							height="50"
+							height="200"
 							format="avif,webp"
 							placeholder
 							loading="lazy"
 						/>
 						<p>Alu Composite</p>
+					</div>
+
+					<div class="content">
+						<p class="strong">
+							Possibilité de personnaliser les portes en alu composite. Contactez-nous pour en savoir
+							plus.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -451,6 +454,7 @@ h1 {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	align-items: center;
 }
 
 /*-----------------------------------------------------------------

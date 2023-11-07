@@ -15,14 +15,13 @@ bal: oui
 personnalisation:
 cover_image: "/produits/cover_image/cover-hook-1675.jpg"
 carousel:
-    - "/produits/banquette-elium-parc.jpg"
-    - "/produits/attente-showroom.jpg"
+    - "/produits/hook-1675-bal-bois.png"
 filaire:
     - "/produits/filaires/filaire-hook-1675.png"
 reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
-poids: 101
-dimensions:
+poids: 147
+dimensions: L1675 x P350 x H1133
 format: Multibloc
 traitement: ""
 ---

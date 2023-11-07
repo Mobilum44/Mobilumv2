@@ -44,7 +44,7 @@ concept: Pièces évidées / Design tout en rondeur / Monobloc
 texte_quotidien :
 texte_vicat :
 
-relatedProducts: ["1 assise haute STELAG", "1 assise STELAG", "2 assises hautes STELAG", "2 assises STELAG", "Jardinière STELAG"]
+relatedProducts: ["1 assise STELAG", "2 assises STELAG","1 assise haute STELAG", "2 assises hautes STELAG", "Jardinière STELAG"]
 ---
 
 ## Description

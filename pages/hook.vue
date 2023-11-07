@@ -19,8 +19,6 @@
 			</p>
 		</div>
 
-		<b>Enlever soulignement</b>
-
 		<div class="sub__section">
 			<ul class="collection-order">
 				<li v-for="urbanFurniture in urbanFurnitures" :key="urbanFurniture.title">
@@ -36,16 +34,16 @@
 							<p>{{ urbanFurniture.gamme }}</p>
 						</article>
 						<p class="hook-size">
-							{{ urbanFurniture.cover_undertext }} <br />
+							{{ urbanFurniture.cover_undertext }}
 						</p>
 					</NuxtLink>
 				</li>
 			</ul>
 		</div>
 
-		<div>
-
+		<div class="contenu">
 			<NuxtImg
+						class="img_hook shadow"
 						alt="photo rangement plaques hook mobilum BFUP"
 						src="/photospages/hook-illustration.jpg"
 						format="avif,webp"
@@ -53,8 +51,6 @@
 						loading="lazy"
 						width="1200"
 					/>
-
-
 		</div>
 	</NuxtLayout>
 </template>
@@ -90,6 +86,9 @@ Paramètres de la galerie - généralités
 	gap: 1rem; 
 }*/
 
+a {
+	text-decoration: none;
+}
 
 ul {
   width : 100%;
@@ -148,7 +147,6 @@ Paramètres de la galerie - position de base
 	font-family: "Bebas Neue";
 	color: black;
 	font-size : 1.2rem;
-	text-decoration: none;
 }
 /*---------------------------------------------------------
     Paramètres de la galerie - position selection
@@ -180,6 +178,13 @@ Paramètres de la galerie - position de base
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.contenu {
+		margin-top : 0;
+	}
+	.img_hook {
+		width : 95%;
 	}
 }
 </style>
