@@ -88,7 +88,7 @@ useSeoMeta({
 	flex-direction: column;
 	align-items: center;
 	margin: 2rem;
-	width : 80%;
+	width : 50%;
 }
 
 .services_box {

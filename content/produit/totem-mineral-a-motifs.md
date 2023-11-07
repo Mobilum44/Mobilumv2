@@ -21,7 +21,7 @@ filaire:
 reference: TOMINER0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 206
-dimensions: L600 x P60 x H2500
+dimensions: L600 x P60 x H2200
 format: Monobloc
 traitement: ""
 ---

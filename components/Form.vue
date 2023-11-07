@@ -55,7 +55,7 @@ function sendEmail(): void {
 	padding: 1rem;
 	height: 100%;
 	max-height: 100%;
-	width: 70vw;
+	width: 80%;
 	margin: 1rem;
 }
 

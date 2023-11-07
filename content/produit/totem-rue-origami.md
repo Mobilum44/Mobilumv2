@@ -22,7 +22,7 @@ filaire:
 reference: TOORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 96
-dimensions: L300 x P97 x H2000
+dimensions: L300 x P100 x H2000
 format: Monobloc
 traitement: ""
 ---

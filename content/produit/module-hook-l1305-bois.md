@@ -20,7 +20,7 @@ filaire:
     - "/produits/filaires/filaire-hook-1305.png"
 reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
-poids: 124
+poids: 128
 dimensions: L1305 x P350 x H1133
 format: Multibloc
 traitement: ""
