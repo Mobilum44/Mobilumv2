@@ -1,6 +1,6 @@
 ---
 title: 1 assise STELAG
-
+published: TRUE
 designer:
 collection: Mobilier urbain
 category: Assise

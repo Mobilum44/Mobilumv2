@@ -1,6 +1,6 @@
 ---
 title: 1 assise haute STELAG
-
+published: TRUE
 designer:
 collection: Mobilier urbain
 category: Assise
@@ -28,3 +28,5 @@ traitement: ""
 ---
 
 ## Description
+
+

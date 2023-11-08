@@ -1,5 +1,6 @@
 ---
 title: Appui-vélos ORIGAMI
+published: TRUE
 designer:
 collection: Mobilier urbain
 category: Appui-vélos

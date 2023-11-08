@@ -1,6 +1,6 @@
 ---
 title: Assis debout ORIGAMI
-
+published: TRUE
 designer:
 collection: Mobilier urbain
 category: Assise

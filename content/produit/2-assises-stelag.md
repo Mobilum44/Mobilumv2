@@ -1,6 +1,6 @@
 ---
 title: 2 assises STELAG
-
+published: TRUE
 designer:
 collection: Mobilier urbain
 category: Assise
