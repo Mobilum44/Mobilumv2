@@ -4,7 +4,6 @@ cover_title: Les Galets
 title: Les Galets
 sub__title: "Deux projets : Rouen / Fecamp"
 
-
 order: 4
 
 gamme: STELAG
@@ -13,9 +12,9 @@ cover_image: "/references/cover_image/galets-rouen-place.jpg"
 cover_text: "Blablabla"
 
 carousel:
-    - "/references/carousel/stelag-place-fecamp-mobilum-galets.jpg"
-    - "/references/carousel/stelag-place-rouen-galets.jpg"
-    - "/references/carousel/stelag-place-fecamp-galets-mobilum.jpg"
+    - image: "/references/carousel/stelag-place-fecamp-mobilum-galets.jpg"
+    - image: "/references/carousel/stelag-place-rouen-galets.jpg"
+    - image: "/references/carousel/stelag-place-fecamp-galets-mobilum.jpg"
 
 localisation:
 client:
@@ -41,10 +40,17 @@ recompense:
 
 concept: Pièces évidées / Design tout en rondeur / Monobloc
 
-texte_quotidien :
-texte_vicat :
+texte_quotidien:
+texte_vicat:
 
-relatedProducts: ["1 assise STELAG", "2 assises STELAG","1 assise haute STELAG", "2 assises hautes STELAG", "Jardinière STELAG"]
+relatedProducts:
+    [
+        "1 assise STELAG",
+        "2 assises STELAG",
+        "1 assise haute STELAG",
+        "2 assises hautes STELAG",
+        "Jardinière STELAG",
+    ]
 ---
 
 ## Description

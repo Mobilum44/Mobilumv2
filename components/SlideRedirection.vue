@@ -1,27 +1,46 @@
 <template>
 	<div class="SlideRedirection">
 		<div class="box">
-			<NuxtImg src="/photospages/plaques-hook-coulage-usine.jpg" width="900px" format="avif,webp" placeholder loading="lazy" />
+			<NuxtImg
+				src="/photospages/plaques-hook-coulage-usine.jpg"
+				width="900px"
+				format="avif,webp"
+				placeholder
+				loading="lazy"
+			/>
 			<p>Un atelier <em>responsable</em></p>
 		</div>
 		<div class="box">
-			<NuxtImg src="/photospages/design-mobilum.jpg" width="900px" format="avif,webp" placeholder loading="lazy" />
+			<NuxtImg
+				src="/photospages/design-mobilum.jpg"
+				width="900px"
+				format="avif,webp"
+				placeholder
+				loading="lazy"
+			/>
 			<p>
 				Du design <em><br />à la réalisation</em>
 			</p>
 		</div>
-		<!--
-    <NuxtLink
-		class="box"
-		to="/materiau"
-    > -->
 		<div class="box">
-			<NuxtImg src="/photospages/bfup-truelle-large.jpg" width="900px" format="avif,webp" placeholder loading="lazy" />
+			<NuxtImg
+				src="/photospages/bfup-truelle-large.jpg"
+				width="900px"
+				format="avif,webp"
+				placeholder
+				loading="lazy"
+			/>
 			<p><em>Une forte </em>technicité</p>
 		</div>
 		<!-- </NuxtLink> -->
 		<div class="box">
-			<NuxtImg src="/photospages/showroom-mobilum-collection.jpg" width="900px" format="avif,webp" placeholder loading="lazy" />
+			<NuxtImg
+				src="/photospages/showroom-mobilum-collection.jpg"
+				width="900px"
+				format="avif,webp"
+				placeholder
+				loading="lazy"
+			/>
 			<p>
 				\ Une collection <br />
 				\ Du sur-mesure
@@ -96,7 +115,7 @@ em {
 	.box {
 		height: 200px;
 	}
-	
+
 	.box > img {
 		background-attachment: fixed;
 	}

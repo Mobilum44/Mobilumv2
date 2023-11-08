@@ -103,7 +103,7 @@ useSeoMeta({
 function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 	const imgUrl = img(thumbnail, {
 		width: 1920,
-		quality: 80,
+		quality: 60,
 		placeholder: true,
 		format: "avif,webp",
 	});
@@ -208,11 +208,10 @@ function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 }
 
 @media only screen and (max-width: 950px) {
-
 	.slot_image {
-	background-size: cover;
-	background-attachment: local;
-}
+		background-size: cover;
+		background-attachment: local;
+	}
 
 	.collection {
 		display: flex;

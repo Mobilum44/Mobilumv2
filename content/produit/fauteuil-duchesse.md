@@ -15,9 +15,9 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/fauteuil-duchesse-2.jpg"
 carousel:
-    - "/produits/focus-chaise-duchesse.jpg"
+    - image: "/produits/focus-chaise-duchesse.jpg"
 filaire:
-    - "/produits/filaires/filaire-fauteuil-duchesse-2.png"
+    - image: "/produits/filaires/filaire-fauteuil-duchesse-2.png"
 reference: FADUCHE0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 108

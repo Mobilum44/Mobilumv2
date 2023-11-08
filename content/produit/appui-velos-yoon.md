@@ -15,9 +15,9 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/appui-velo-yoon.jpg"
 carousel:
-    - "/produits/appuis-velo-yoon.jpg"
+    - image: "/produits/appuis-velo-yoon.jpg"
 filaire:
-    - "/produits/filaires/filaire-yoon.png"
+    - image: "/produits/filaires/filaire-yoon.png"
 reference: AVYOON_0101
 materiau: BFUP / Plaque inox
 poids: 28

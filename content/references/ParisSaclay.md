@@ -4,7 +4,6 @@ cover_title: Campus de Saclay
 title: Campus de Saclay
 sub_title:
 
-
 order: 3
 
 gamme: "?"
@@ -13,9 +12,9 @@ cover_image: "/references/cover_image/paris-saclay-tolerie-foreiziennev2.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
 carousel:
-    - "/references/carousel/villa-gallo-romaine-long.jpg"
-    - "/references/carousel/villa-gallo-romaine.jpg"
-    - "/references/carousel/villa-gallo-romaine-nuit.jpg"
+    - image: "/references/carousel/villa-gallo-romaine-long.jpg"
+    - image: "/references/carousel/villa-gallo-romaine.jpg"
+    - image: "/references/carousel/villa-gallo-romaine-nuit.jpg"
 
 localisation: "Villa Gallo-Romaine"
 client: "Saclay Université / Alexandre Moronnoz"
@@ -41,8 +40,8 @@ recompense:
 
 concept: "De l'intelligence embarquée pour nos étudiants cablés"
 
-texte_quotidien :
-texte_vicat :
+texte_quotidien:
+texte_vicat:
 
 relatedProducts:
 ---

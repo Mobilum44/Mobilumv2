@@ -10,14 +10,14 @@ cover_undertext: L1305
 motifs:
 motif_vegetal:
 motif_window:
-portes: oui
-bal: oui
+portes: true
+bal: true
 personnalisation:
 cover_image: "/produits/cover_image/cover-hook-1305.jpg"
 carousel:
-    - "/produits/hook-1305-gris.png"
+    - image: "/produits/hook-1305-gris.png"
 filaire:
-    - "/produits/filaires/filaire-hook-1305.png"
+    - image: "/produits/filaires/filaire-hook-1305.png"
 reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 128

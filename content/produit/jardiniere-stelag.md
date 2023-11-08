@@ -15,10 +15,10 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/jardiniere-stelag.jpg"
 carousel:
-    - "/produits/galet-jardiniere-stelag-assise.JPG"
-    - "/produits/galet-jardiniere-stelag-fecamp.JPG"
+    - image: "/produits/galet-jardiniere-stelag-assise.JPG"
+    - image: "/produits/galet-jardiniere-stelag-fecamp.JPG"
 filaire:
-    - "/produits/filaires/filaire-stelag-jardiniere.png"
+    - image: "/produits/filaires/filaire-stelag-jardiniere.png"
 reference: JASTELA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 577

@@ -15,11 +15,11 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/table-cantine-champetre-04.jpg"
 carousel:
-    - "/produits/table-cantine-04-loroux-mobilum.jpg"
-    - "/produits/table-cantine-04-st-viaud.jpg"
+    - image: "/produits/table-cantine-04-loroux-mobilum.jpg"
+    - image: "/produits/table-cantine-04-st-viaud.jpg"
 
 filaire:
-    - "/produits/filaires/filaire-table-cantine-04-2.png"
+    - image: "/produits/filaires/filaire-table-cantine-04-2.png"
 reference: TCCANTI0104
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 901

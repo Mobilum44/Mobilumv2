@@ -15,10 +15,10 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/fontaine-loella.jpg"
 carousel:
-    - "/produits/fontaine-loella-1100.jpg"
-    - "/produits/focus-loella.jpg"
+    - image: "/produits/fontaine-loella-1100.jpg"
+    - image: "/produits/focus-loella.jpg"
 filaire:
-    - "/produits/filaires/filaire-fontaine-loella-1140-2.png"
+    - image: "/produits/filaires/filaire-fontaine-loella-1140-2.png"
 reference: FOLOELL0105
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 95

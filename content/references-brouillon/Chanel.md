@@ -11,7 +11,7 @@ cover_image: "/references/cover_image/mante-religieuse.jpg"
 cover_text: "Mobilier pour le siège de Chanel"
 
 carousel:
-    - "/references/carousel/page-entree.jpg"
+    - image: "/references/carousel/page-entree.jpg"
 
 localisation: "Siège de Chanel"
 client: "Chanel"

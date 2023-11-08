@@ -4,7 +4,6 @@ cover_title: Notre quotidien
 title: Dix milles mercis !
 sub_title:
 
-
 order: 1
 
 concept:
@@ -38,8 +37,8 @@ date_demarrage:
 duree_marche:
 recompense:
 
-texte_quotidien : Oui
-texte_vicat : Oui
+texte_quotidien: true
+texte_vicat: true
 ---
 
 ## Description

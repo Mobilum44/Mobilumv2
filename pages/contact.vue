@@ -1,7 +1,7 @@
 <template>
 	<NuxtLayout name="default">
 		<template #slot_image>
-			<div class="slot_image">
+			<div class="slot_image" :style="backgroundStyles('/photospages/sav-crous.jpg')">
 				<h1>Contact</h1>
 			</div>
 		</template>
@@ -18,7 +18,7 @@
 						<p>
 							Nous vous prions de bien vouloir noter que notre service de contact est spécifiquement dédié
 							aux demandes professionnelles et institutionnelles. Nous regrettons de ne pas être en mesure
-							de répondre aux demandes des particuliers. <br/><br/>
+							de répondre aux demandes des particuliers. <br /><br />
 
 							Les coordonnées de nos différents services :
 						</p>
@@ -59,40 +59,50 @@ definePageMeta({
 useSeoMeta({
 	title: "Contact",
 });
-</script>
 
+const img = useImage();
+
+function backgroundStyles(thumbnail: string): { background: string } {
+	const imgUrl = img(thumbnail, {
+		width: 1920,
+		quality: 80,
+		placeholder: true,
+		format: "avif,webp",
+	});
+	return { background: `url('${imgUrl}') center center no-repeat` };
+}
+</script>
 
 <style scoped>
 .slot_image {
-	background: url("/photospages/sav-crous.jpg") center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 .base {
-	display : flex;
+	display: flex;
 	flex-direction: column;
 	text-align: center;
 	align-items: space-between;
 }
 
 .content {
-	display : flex;
+	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: stretch;
 }
 
 .content_box {
-	display : flex;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin: 2rem;
-	width : 50%;
+	width: 50%;
 }
 
 .services_box {
-	display : flex;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -105,7 +115,7 @@ useSeoMeta({
 	background-color: #f5ebe0;
 	width: 18rem;
 
-	display : flex;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin: 1rem;
@@ -143,11 +153,10 @@ p {
 --------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 600px) {
-
 	.slot_image {
-	background-size: contain;
-	background-attachment: local;
-}
+		background-size: contain;
+		background-attachment: local;
+	}
 
 	.content {
 		display: flex;

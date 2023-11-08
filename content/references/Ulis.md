@@ -3,7 +3,6 @@ type: Les récompensés
 cover_title: L'orme à Moineaux
 title: L'orme à Moineaux
 
-
 order: 2
 
 gamme: "?"
@@ -12,13 +11,13 @@ cover_image: "/references/cover_image/sortie-orme-a-moineaux.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
 carousel:
-    - "/references/carousel/ulis-entree-jardiniere-asturias.jpg"
-    - "/references/carousel/ulis-entree-cimetiere.jpg"
-    - "/references/carousel/ulis-totem-orme-a-moineaux.jpg"
-    - "/references/carousel/ulis-banc-elium-corbeille-vigipirate-nettoyé.jpg"
-    - "/references/carousel/ulis-gros-plan-fontaine.jpg"
-    - "/references/carousel/ulis-gros-plan-jardiniere-ronde.jpg"
-    - "/references/carousel/ulis-gros-plan-jardiniere-carree.jpg"
+    - image: "/references/carousel/ulis-entree-jardiniere-asturias.jpg"
+    - image: "/references/carousel/ulis-entree-cimetiere.jpg"
+    - image: "/references/carousel/ulis-totem-orme-a-moineaux.jpg"
+    - image: "/references/carousel/ulis-banc-elium-corbeille-vigipirate-nettoyé.jpg"
+    - image: "/references/carousel/ulis-gros-plan-fontaine.jpg"
+    - image: "/references/carousel/ulis-gros-plan-jardiniere-ronde.jpg"
+    - image: "/references/carousel/ulis-gros-plan-jardiniere-carree.jpg"
 
 localisation: L'Orme à Moineaux / Cimetière des Ulis
 client: SICOMU - Mme Gourserol
@@ -40,14 +39,25 @@ fabricant:
 date_realisation: "2018"
 date_demarrage:
 duree_marche:
-recompense: Trophées territoriaux du Funéraire - Animation cimetière & Valorisation du patrimoine
+recompense:
+    Trophées territoriaux du Funéraire - Animation cimetière & Valorisation du
+    patrimoine
 
 concept:
 
-texte_quotidien :
-texte_vicat :
+texte_quotidien:
+texte_vicat:
 
-relatedProducts: ["Banquette ELIUM", "Jardinière ASTURIAS carrée", "Corbeille VIGIPIRATE ASTURIAS", "Cendrier GOYA","Jardinière ASTURIAS ronde", "Fontaine LOËLLA", "Totem MINERAL"]
+relatedProducts:
+    [
+        "Banquette ELIUM",
+        "Jardinière ASTURIAS carrée",
+        "Corbeille VIGIPIRATE ASTURIAS",
+        "Cendrier GOYA",
+        "Jardinière ASTURIAS ronde",
+        "Fontaine LOËLLA",
+        "Totem MINERAL",
+    ]
 ---
 
 ## Description

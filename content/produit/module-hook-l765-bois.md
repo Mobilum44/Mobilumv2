@@ -10,15 +10,15 @@ cover_undertext: L765
 motifs:
 motif_vegetal:
 motif_window:
-portes: oui
-bal: oui
+portes: true
+bal: true
 personnalisation:
 cover_image: "/produits/cover_image/cover-hook-765.jpg"
 carousel:
-    - "/produits/hook-765-simple.jpg"
-    - "/produits/hook-765-muret-bourgbarre.jpg"
+    - image: "/produits/hook-765-simple.jpg"
+    - image: "/produits/hook-765-muret-bourgbarre.jpg"
 filaire:
-    - "/produits/filaires/filaire-hook-765.png"
+    - image: "/produits/filaires/filaire-hook-765.png"
 reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 86

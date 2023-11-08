@@ -15,10 +15,10 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banc-origami.jpg"
 carousel:
-    - "/produits/bancs-origami.jpeg"
-    - "/produits/rangee-banc-origami.jpeg"
+    - image: "/produits/bancs-origami.jpeg"
+    - image: "/produits/rangee-banc-origami.jpeg"
 filaire:
-    - "/produits/filaires/filaire-banc-origami-2.png"
+    - image: "/produits/filaires/filaire-banc-origami-2.png"
 reference: BSORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 223

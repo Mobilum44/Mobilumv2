@@ -12,13 +12,13 @@ motif_vegetal:
 motif_window:
 portes:
 bal:
-personnalisation: oui
+personnalisation: true
 cover_image: "/produits/cover_image/totem-mineral-plein.jpg"
 carousel:
-    - "/produits/totem-mineral-st-cyr.png"
-    - "/produits/totem-ulis.jpg"
+    - image: "/produits/totem-mineral-st-cyr.png"
+    - image: "/produits/totem-ulis.jpg"
 filaire:
-    - "/produits/filaires/filaire-totem-mineral.png"
+    - image: "/produits/filaires/filaire-totem-mineral.png"
 reference: TOMINER0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 206

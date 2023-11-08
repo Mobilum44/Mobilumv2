@@ -3,7 +3,6 @@ type: Les conceptuels
 cover_title: Crous de Nantes
 title: Crous de Nantes
 
-
 order: 6
 
 concept: "Mobilum en intérieur"
@@ -14,9 +13,9 @@ cover_image: "/references/cover_image/crous-nantes-etudiants.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
 carousel:
-    - "/references/carousel/crous-vue-generale.jpg"
-    - "/references/carousel/crous-assis-debouts.jpg"
-    - "/references/carousel/crous-tables-mobilum.jpg"
+    - image: "/references/carousel/crous-vue-generale.jpg"
+    - image: "/references/carousel/crous-assis-debouts.jpg"
+    - image: "/references/carousel/crous-tables-mobilum.jpg"
 
 localisation: "Campus du Tertre"
 client:
@@ -40,8 +39,8 @@ date_demarrage:
 duree_marche:
 recompense:
 
-texte_quotidien :
-texte_vicat :
+texte_quotidien:
+texte_vicat:
 
 relatedProducts:
 ---

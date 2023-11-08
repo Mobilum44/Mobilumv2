@@ -15,9 +15,9 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/galet-stelag.jpg"
 carousel:
-    - "/produits/galet-simple-stelag-fecamp.JPG"
+    - image: "/produits/galet-simple-stelag-fecamp.JPG"
 filaire:
-    - "/produits/filaires/filaire-galet-simple.png"
+    - image: "/produits/filaires/filaire-galet-simple.png"
 reference: GASTELA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 388

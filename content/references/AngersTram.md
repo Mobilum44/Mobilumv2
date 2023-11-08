@@ -14,10 +14,10 @@ cover_image: "/references/cover_image/cover-angers-tram.jpg"
 cover_text:
 
 carousel:
-    - "/references/carousel/angers-tram-ville.jpg"
-    - "/references/carousel/angers-tram-bancs-velo.jpg"
-    - "/references/carousel/angers-tram-face.jpg"
-    - "/references/carousel/angers-tram-bancs-seuls.jpg"
+    - image: "/references/carousel/angers-tram-ville.jpg"
+    - image: "/references/carousel/angers-tram-bancs-velo.jpg"
+    - image: "/references/carousel/angers-tram-face.jpg"
+    - image: "/references/carousel/angers-tram-bancs-seuls.jpg"
 
 localisation: "Ligne 2 / Angers"
 client: "Angers métropole"
@@ -41,8 +41,8 @@ date_demarrage:
 duree_marche:
 recompense:
 
-texte_quotidien :
-texte_vicat :
+texte_quotidien:
+texte_vicat:
 
 relatedProducts: ["Banquette VASCO DE GAMA"]
 ---

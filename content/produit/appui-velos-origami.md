@@ -14,9 +14,9 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/appui-velo-origami.jpg"
 carousel:
-    - "/produits/appui-velo-origami-rangee.jpg"
+    - image: "/produits/appui-velo-origami-rangee.jpg"
 filaire:
-    - "/produits/filaires/filaire-appui-velo-origami.png"
+    - image: "/produits/filaires/filaire-appui-velo-origami.png"
 reference: AVORIGA0101
 materiau: BFUP / Plaque inox
 poids: 39

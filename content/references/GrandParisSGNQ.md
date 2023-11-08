@@ -4,7 +4,6 @@ cover_title: Le Grand Paris Signalétique
 title: Le Grand Paris
 sub_title: Signalétique
 
-
 order: 3
 
 gamme: "?"
@@ -13,9 +12,9 @@ cover_image: "/references/cover_image/SGP-signaletique-resized.png"
 cover_text: "On a refait l'intérieur des gares"
 
 carousel:
-    - "/references/carousel/gros-plan-SGP.jpg"
-    - "/references/carousel/sgp-signaletique-brut-peints.jpg"
-    - "/references/carousel/sgp-signaletique-peints-bruts.jpg"
+    - image: "/references/carousel/gros-plan-SGP.jpg"
+    - image: "/references/carousel/sgp-signaletique-brut-peints.jpg"
+    - image: "/references/carousel/sgp-signaletique-peints-bruts.jpg"
 
 localisation: "Toutes les gares du Grand Paris"
 client: "SGP / Agence Patrick Jouin"
@@ -41,8 +40,8 @@ recompense:
 
 concept:
 
-texte_quotidien :
-texte_vicat :
+texte_quotidien:
+texte_vicat:
 
 relatedProducts:
 ---

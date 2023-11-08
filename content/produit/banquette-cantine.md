@@ -15,10 +15,10 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banquette-cantine.jpg"
 carousel:
-    - "/produits/banquette-cantine-parc-focus.jpg"
-    - "/produits/banquette-cantine-vert.jpg"
+    - image: "/produits/banquette-cantine-parc-focus.jpg"
+    - image: "/produits/banquette-cantine-vert.jpg"
 filaire:
-    - "/produits/filaires/filaire-banquette-cantine-2.png"
+    - image: "/produits/filaires/filaire-banquette-cantine-2.png"
 reference: BACANTI0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 192

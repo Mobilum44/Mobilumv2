@@ -4,7 +4,6 @@ cover_title: ENS Paris Saclay
 title: ENS Paris Saclay
 sub_title:
 
-
 order: 2
 
 gamme:
@@ -13,8 +12,8 @@ cover_image: "/references/cover_image/ens-paris-saclay-mobilum.jpg"
 cover_text: "Mobilier extérieur pour les étudiants dans un cadre prestigieux"
 
 carousel:
-    - "/references/carousel/Piano-Rezzo-ENS-Saclay.jpg"
-    - "/references/carousel/Piano-Rezzo-Paris-Saclay.jpg"
+    - image: "/references/carousel/Piano-Rezzo-ENS-Saclay.jpg"
+    - image: "/references/carousel/Piano-Rezzo-Paris-Saclay.jpg"
 
 localisation: "Ecole Normale Supérieure (ENS) / Paris Saclay"
 client: "Renzo Piano / SATP"
@@ -40,9 +39,8 @@ recompense:
 
 concept: Un patio de nature
 
-texte_quotidien :
-texte_vicat :
-
+texte_quotidien:
+texte_vicat:
 
 relatedProducts: ["Banquette VASCO DE GAMA"]
 ---

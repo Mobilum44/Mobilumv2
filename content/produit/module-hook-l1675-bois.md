@@ -10,14 +10,14 @@ cover_undertext: L1675
 motifs:
 motif_vegetal:
 motif_window:
-portes: oui
-bal: oui
+portes: true
+bal: true
 personnalisation:
 cover_image: "/produits/cover_image/cover-hook-1675.jpg"
 carousel:
-    - "/produits/hook-1675-bal-bois.png"
+    - image: "/produits/hook-1675-bal-bois.png"
 filaire:
-    - "/produits/filaires/filaire-hook-1675.png"
+    - image: "/produits/filaires/filaire-hook-1675.png"
 reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 158

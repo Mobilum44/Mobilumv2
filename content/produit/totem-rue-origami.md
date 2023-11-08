@@ -12,13 +12,13 @@ motif_vegetal:
 motif_window:
 portes:
 bal:
-personnalisation: oui
+personnalisation: true
 cover_image: "/produits/cover_image/totem-rue-origami.jpg"
 carousel:
-    - "/produits/totem-rue-origami.jpg"
-    - "/produits/totem-rue-origami-passage-pieton-flou.jpg"
+    - image: "/produits/totem-rue-origami.jpg"
+    - image: "/produits/totem-rue-origami-passage-pieton-flou.jpg"
 filaire:
-    - "/produits/filaires/filaire-totem-rue-origami.png"
+    - image: "/produits/filaires/filaire-totem-rue-origami.png"
 reference: TOORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 96

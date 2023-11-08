@@ -3,7 +3,6 @@ type: Les conceptuels
 cover_title: Roquefere
 title: Roquefere
 
-
 order: 5
 
 gamme: "?"
@@ -12,8 +11,8 @@ cover_image: "/references/cover_image/feuille-roquefere.jpg"
 cover_text:
 
 carousel:
-    - "/references/carousel/roquefere-gros-plan-feuille.jpg"
-    - "/references/carousel/roquefere-resultat-final.jpg"
+    - image: "/references/carousel/roquefere-gros-plan-feuille.jpg"
+    - image: "/references/carousel/roquefere-resultat-final.jpg"
 
 localisation:
 client: "Ville de Roquefere / Avril en Mai"
@@ -40,8 +39,8 @@ recompense:
 concept:
     "Utiliser les végétaux du lieu d'origine en les intégrant dans nos mobilier."
 
-texte_quotidien :
-texte_vicat :
+texte_quotidien:
+texte_vicat:
 
 relatedProducts: ["Banquette ELIUM"]
 ---

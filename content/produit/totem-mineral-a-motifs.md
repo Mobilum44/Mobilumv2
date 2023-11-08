@@ -12,12 +12,12 @@ motif_vegetal:
 motif_window:
 portes:
 bal:
-personnalisation: oui
+personnalisation: true
 cover_image: "/produits/cover_image/totem-mineral-directionnel.jpg"
 carousel:
-    - "/produits/totem-mineral-motifs-luneau-papin.png"
+    - image: "/produits/totem-mineral-motifs-luneau-papin.png"
 filaire:
-    - "/produits/filaires/filaire-totem-mineral-trous.png"
+    - image: "/produits/filaires/filaire-totem-mineral-trous.png"
 reference: TOMINER0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 206

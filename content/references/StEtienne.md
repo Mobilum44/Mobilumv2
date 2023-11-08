@@ -3,7 +3,6 @@ type: Les récompensés
 cover_title: Biennale du design
 title: Biennale internationnale du design de St Etienne
 
-
 order: 3
 
 gamme: "?"
@@ -12,9 +11,9 @@ cover_image: "/references/cover_image/biennale-st-etienne.jpg"
 cover_text: "Un amphi extérieur dans une université française historique"
 
 carousel:
-    - "/references/carousel/biennale-bancs-mobilum.jpg"
-    - "/references/carousel/biennale-bancs-stoop-mobilum-crop.jpg"
-    - "/references/carousel/biennale-bancs-stoop-mobilum-chien.jpg"
+    - image: "/references/carousel/biennale-bancs-mobilum.jpg"
+    - image: "/references/carousel/biennale-bancs-stoop-mobilum-crop.jpg"
+    - image: "/references/carousel/biennale-bancs-stoop-mobilum-chien.jpg"
 
 localisation: Biennale de St Etienne
 client:
@@ -41,8 +40,8 @@ recompense:
 
 concept:
 
-texte_quotidien :
-texte_vicat :
+texte_quotidien:
+texte_vicat:
 
 relatedProducts: ["Banc perron STOOP"]
 ---

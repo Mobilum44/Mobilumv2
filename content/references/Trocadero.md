@@ -4,7 +4,6 @@ cover_title: Trocadero
 title: Trocadero
 sub_title:
 
-
 order: 1
 
 gamme: YOON
@@ -13,8 +12,8 @@ cover_image: "/references/cover_image/jardinieres-trocadero-paris-mobilum.jpg"
 cover_text: "Les jardinières du Troca"
 
 carousel:
-    - "/references/carousel/trocadero-jardinieres.png"
-    - "/references/carousel/trocadero-jardinieres-cote.jpg"
+    - image: "/references/carousel/trocadero-jardinieres.png"
+    - image: "/references/carousel/trocadero-jardinieres-cote.jpg"
 
 localisation: "Place du Trocadero, Paris"
 client: "M. Bortolussi / Vinci / Pinson Paysage"
@@ -40,8 +39,8 @@ recompense:
 
 concept: Jardinières amovibles / BFUP vieillit et engravé comme à l'époque.
 
-texte_quotidien :
-texte_vicat :
+texte_quotidien:
+texte_vicat:
 
 relatedProducts:
 ---

@@ -33,13 +33,13 @@
 
 		<p class="accueil_text">
 			En dix ans d'existence, Mobilum a acquis un savoir-faire unique dans la création et la fabrication de
-			mobiliers urbains en Béton Fibré Ultra Performant (BFUP). <br/> <br/>
+			mobiliers urbains en Béton Fibré Ultra Performant (BFUP). <br />
+			<br />
 
-			Ce matériau de construction à base cimentaire est caractérisé par un dosage élevé en microfibres.
-			Il est formulé à l'échelle micrométrique pour une compacité optimisée. Il se distingue des bétons
-			traditionnels par son comportement ductile en flexion/traction, sa fluidité, ses résistances
-			mécaniques élevées et sa durabilité renforcée.
-
+			Ce matériau de construction à base cimentaire est caractérisé par un dosage élevé en microfibres. Il est
+			formulé à l'échelle micrométrique pour une compacité optimisée. Il se distingue des bétons traditionnels par
+			son comportement ductile en flexion/traction, sa fluidité, ses résistances mécaniques élevées et sa
+			durabilité renforcée.
 		</p>
 
 		<!--------------------------------
@@ -71,7 +71,7 @@ useSeoMeta({
 function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 	const imgUrl = img(thumbnail, {
 		width: 1920,
-		quality: 80,
+		quality: 50,
 		placeholder: true,
 		format: "avif,webp",
 	});

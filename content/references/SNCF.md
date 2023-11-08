@@ -4,7 +4,6 @@ cover_title: SNCF
 title: Mobiliers en gare
 sub_title:
 
-
 order: 1
 
 gamme:
@@ -13,12 +12,12 @@ cover_image: "/references/cover_image/gare-sncf-grenoble.jpg"
 cover_text: "On a refait l'intérieur des gares"
 
 carousel:
-    - "/references/carousel/gare-de-lest.jpg"
-    - "/references/carousel/gare-lille-flandres.JPG"
-    - "/references/carousel/gare-lyon-part-dieu.JPG"
-    - "/references/carousel/gare-bordeaux.JPG"
-    - "/references/carousel/sncf-stockage-exterieur.jpg"
-    - "/references/carousel/sncf-stockage-interieur.jpg"
+    - image: "/references/carousel/gare-de-lest.jpg"
+    - image: "/references/carousel/gare-lille-flandres.JPG"
+    - image: "/references/carousel/gare-lyon-part-dieu.JPG"
+    - image: "/references/carousel/gare-bordeaux.JPG"
+    - image: "/references/carousel/sncf-stockage-exterieur.jpg"
+    - image: "/references/carousel/sncf-stockage-interieur.jpg"
 
 localisation: "Sur toute la France"
 client: "SNCF / AREP"
@@ -44,8 +43,8 @@ recompense:
 
 concept:
 
-texte_quotidien :
-texte_vicat :
+texte_quotidien:
+texte_vicat:
 
 relatedProducts:
 ---

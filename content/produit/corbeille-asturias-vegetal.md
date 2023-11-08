@@ -7,17 +7,17 @@ category: Corbeille
 sub_category: 13 Corbeille
 gamme: ASTURIAS
 cover_undertext:
-motifs: oui
-motif_vegetal: oui
+motifs: true
+motif_vegetal: true
 motif_window:
 portes:
 bal:
 personnalisation:
 cover_image: "/produits/cover_image/corbeille-asturias-vegetal.jpg"
 carousel:
-    - "/produits/corbeille-asturias-interieur.jpg"
+    - image: "/produits/corbeille-asturias-interieur.jpg"
 filaire:
-    - "/produits/filaires/filaire-corbeille-asturias-ronde-vegetale-2.png"
+    - image: "/produits/filaires/filaire-corbeille-asturias-ronde-vegetale-2.png"
 reference: COASTUR0402
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 98

@@ -7,18 +7,18 @@ category: Assise
 sub_category: 06 Banc
 gamme: STAMP
 cover_undertext:
-motifs: oui
+motifs: true
 motif_vegetal:
-motif_window: oui
+motif_window: true
 portes:
 bal:
 personnalisation:
 cover_image: "/produits/cover_image/banc-stamp-lisse.jpg"
 carousel:
-    - "/produits/banc-stamp-window.jpg"
-    - "/produits/banc-stamp.jpg"
+    - image: "/produits/banc-stamp-window.jpg"
+    - image: "/produits/banc-stamp.jpg"
 filaire:
-    - "/produits/filaires/filaire-banc-stamp.png"
+    - image: "/produits/filaires/filaire-banc-stamp.png"
 reference: BSSTAMP0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 366

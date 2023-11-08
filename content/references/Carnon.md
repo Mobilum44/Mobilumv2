@@ -3,7 +3,6 @@ type: Les conceptuels
 cover_title: Port de plaisance, Ville de Carnon
 title: Carnon
 
-
 order: 4
 
 concept: "Une place assise pour toute la famille"
@@ -14,7 +13,7 @@ cover_image: "/references/cover_image/carnon-transats-mila2.jpg"
 cover_text: "Un bain de soleil infini"
 
 carousel:
-    - "/references/carousel/carnon-bain-soleil.jpg"
+    - image: "/references/carousel/carnon-bain-soleil.jpg"
 
 localisation:
 client: "Gauthier-Conquet / EGIS"
@@ -39,8 +38,8 @@ duree_marche:
 
 recompense:
 
-texte_quotidien :
-texte_vicat :
+texte_quotidien:
+texte_vicat:
 
 relatedProducts: ["Transat MILA", "Mange-debout", "Banquette CANTINE"]
 ---

@@ -7,17 +7,17 @@ category: Assise
 sub_category: 06 Sofa
 gamme: STAMP
 cover_undertext:
-motifs: oui
+motifs: true
 motif_vegetal:
-motif_window: oui
+motif_window: true
 portes:
 bal:
 personnalisation:
 cover_image: "/produits/cover_image/sofa-stamp-window.jpg"
 carousel:
-    - "/produits/sofa-stamp-window.jpg"
+    - image: "/produits/sofa-stamp-window.jpg"
 filaire:
-    - "/produits/filaires/filaire-sofa-stamp.png"
+    - image: "/produits/filaires/filaire-sofa-stamp.png"
 reference: SOSTAMP0201
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 359

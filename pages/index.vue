@@ -35,10 +35,10 @@ function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 }
 </script>
 
-<style scoped>
+<style>
 .Empty {
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
 	background-repeat: no-repeat;
 	width: 100%;
 }

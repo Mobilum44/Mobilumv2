@@ -10,15 +10,15 @@ cover_undertext: L1125
 motifs:
 motif_vegetal:
 motif_window:
-portes: oui
-bal: oui
+portes: true
+bal: true
 personnalisation:
 cover_image: "/produits/cover_image/cover-hook-1125.jpg"
 carousel:
-    - "/produits/hook-1125-bois.jpg"
-    - "/produits/hook-carquefou-barriere-bois.jpg"
+    - image: "/produits/hook-1125-bois.jpg"
+    - image: "/produits/hook-carquefou-barriere-bois.jpg"
 filaire:
-    - "/produits/filaires/filaire-hook-1125.png"
+    - image: "/produits/filaires/filaire-hook-1125.png"
 reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 111

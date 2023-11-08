@@ -7,18 +7,18 @@ category: Assise
 sub_category: 07 Canapé
 gamme: STAMP
 cover_undertext:
-motifs: oui
+motifs: true
 motif_vegetal:
-motif_window: oui
+motif_window: true
 portes:
 bal:
 personnalisation:
 cover_image: "/produits/cover_image/canape-stamp-lisse.jpg"
 carousel:
-    - "/produits/canape-stamp-loroux-mobilum.jpg"
-    - "/produits/stamp-detail-accoudoir.jpg"
+    - image: "/produits/canape-stamp-loroux-mobilum.jpg"
+    - image: "/produits/stamp-detail-accoudoir.jpg"
 filaire:
-    - "/produits/filaires/filaire-canape-stamp.png"
+    - image: "/produits/filaires/filaire-canape-stamp.png"
 reference: CASTAMP0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 382

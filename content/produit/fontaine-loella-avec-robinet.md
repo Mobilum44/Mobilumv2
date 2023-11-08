@@ -15,10 +15,10 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/fontaine-loella-avec-robinet.jpg"
 carousel:
-    - "/produits/fontaine-loella-avec-robinet.png"
-    - "/produits/fontaine-loella-robinet.jpg"
+    - image: "/produits/fontaine-loella-avec-robinet.png"
+    - image: "/produits/fontaine-loella-robinet.jpg"
 filaire:
-    - "/produits/filaires/filaire-fontaine-loella-1140-robinet-2.png"
+    - image: "/produits/filaires/filaire-fontaine-loella-1140-robinet-2.png"
 reference: FOLOELL0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 132
