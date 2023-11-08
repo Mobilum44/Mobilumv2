@@ -11,7 +11,6 @@
 					loading="lazy"
 				/>
 				<Button theme="slide" to="/accueil"> Entrer </Button>
-				<b>Fond marche touujours pas sur grand écran</b>
 			</div>
 		</div>
 	</NuxtLayout>
