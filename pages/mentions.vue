@@ -1,5 +1,5 @@
 <template>
-	<NuxtLayout>
+	<NuxtLayout name="default">
 		<template #slot_image>
 			<section class="slot_image">
 				<h1>Mentions légales</h1>
@@ -137,6 +137,10 @@
 
 
 <script setup lang="ts">
+definePageMeta({
+	layout: false,
+});
+
 useSeoMeta({
 	title: "Mentions légales",
 });
