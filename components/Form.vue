@@ -2,7 +2,8 @@
 	<div class="Form">
 		<form @submit.prevent="sendEmail">
 			<label for="name">Nom & prénom</label>
-			<input type="text" id="bame" name="name" placeholder="Votre nom et prénom" v-model="form.name" />
+			<input type="text" id="name" name="name" placeholder="Votre nom et prénom" v-model="form.name" />
+			<input type="text" id="entreprise" name="entreprise" placeholder="Votre entreprise" v-model="form.name" />
 
 			<label for="sujet">Sujet</label>
 			<input type="text" id="sujet" name="sujet" v-model="form.subject" placeholder="L'objet de votre message" />
@@ -24,6 +25,7 @@
 <script lang="ts" setup>
 interface Form {
 	name: string;
+	entreprise: string;
 	subject: string;
 	message: string;
 }
@@ -33,6 +35,7 @@ const mobilumMail = "contact@mobilum-france.com";
 
 const form = reactive<Form>({
 	name: "",
+	entreprise: "",
 	subject: "",
 	message: "",
 });
@@ -42,6 +45,7 @@ function sendEmail(): void {
 	btnText.value = "Message envoyé !";
 	form.message = "";
 	form.name = "";
+	form.entreprise = "";
 	form.subject = "";
 }
 </script>

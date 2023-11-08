@@ -2,14 +2,25 @@
 type: Les récompensés
 cover_title: L'orme à Moineaux
 title: L'orme à Moineaux
-
+sub_title:
 order: 2
-
-gamme: "?"
-
 cover_image: "/references/cover_image/sortie-orme-a-moineaux.jpg"
-cover_text: "Un amphi extérieur dans une université française historique"
-
+client: SICOMU - Mme Gourserol
+installateur: Essone TP
+fabricant:
+date_demarrage: "2018"
+localisation: L'Orme à Moineaux / Cimetière des Ulis
+agent:
+concept:
+recompense:
+    Trophées territoriaux du Funéraire - Animation cimetière & Valorisation du
+    patrimoine
+prem_loc:
+prem_client:
+prem_archi_be:
+sec_loc:
+sec_client:
+sec_archi_be:
 carousel:
     - image: "/references/carousel/ulis-entree-jardiniere-asturias.jpg"
     - image: "/references/carousel/ulis-entree-cimetiere.jpg"
@@ -18,36 +29,6 @@ carousel:
     - image: "/references/carousel/ulis-gros-plan-fontaine.jpg"
     - image: "/references/carousel/ulis-gros-plan-jardiniere-ronde.jpg"
     - image: "/references/carousel/ulis-gros-plan-jardiniere-carree.jpg"
-
-localisation: L'Orme à Moineaux / Cimetière des Ulis
-client: SICOMU - Mme Gourserol
-archi_be:
-
-prem_loc:
-prem_client:
-prem_archi_be:
-
-sec_loc:
-sec_client:
-sec_archi_be:
-
-agent:
-
-installateur: Essone TP
-fabricant:
-
-date_realisation: 
-date_demarrage: "2018"
-duree_marche:
-recompense:
-    Trophées territoriaux du Funéraire - Animation cimetière & Valorisation du
-    patrimoine
-
-concept:
-
-texte_quotidien:
-texte_vicat:
-
 relatedProducts:
     [
         "Banquette ELIUM",
@@ -58,6 +39,8 @@ relatedProducts:
         "Fontaine LOËLLA",
         "Totem MINERAL",
     ]
+texte_quotidien:
+texte_vicat:
 ---
 
 ## Description

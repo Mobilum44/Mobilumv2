@@ -1,5 +1,5 @@
 <template>
-	<NuxtLayout>
+	<NuxtLayout name="default">
 		<template #slot_image>
 			<section class="slot_image">
 				<h1>Plan du site</h1>
@@ -13,6 +13,19 @@
 		</p>
 	</NuxtLayout>
 </template>
+
+<script setup>
+
+definePageMeta({
+	layout: false,
+});
+
+useSeoMeta({
+	title: "Plan du site",
+});
+
+
+</script>
 
 <style scoped>
 .slot_image {

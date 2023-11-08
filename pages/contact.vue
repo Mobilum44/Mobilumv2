@@ -65,7 +65,7 @@ const img = useImage();
 function backgroundStyles(thumbnail: string): { background: string } {
 	const imgUrl = img(thumbnail, {
 		width: 1920,
-		quality: 80,
+		quality: 100,
 		placeholder: true,
 		format: "avif,webp",
 	});
@@ -73,8 +73,10 @@ function backgroundStyles(thumbnail: string): { background: string } {
 }
 </script>
 
+
 <style scoped>
 .slot_image {
+	opacity : 90%;
 	background-size: cover;
 	background-attachment: fixed;
 }
