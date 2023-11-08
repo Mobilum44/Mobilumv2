@@ -2,23 +2,25 @@
 type: Les conceptuels
 cover_title: Sorbonne université
 title: Sorbonne université
+sub_title:
 
 order: 2
 
-gamme: "?"
-
 cover_image: "/references/cover_image/sorbonne-universite-amphi-stoop-cube.jpg"
-cover_text: "Un amphi extérieur dans une université française historique"
 
-carousel:
-    - "/references/carousel/sorbonne-escaliers.jpg"
-    - "/references/carousel/sorbonne-detail-face.jpg"
-    - "/references/carousel/sorbonne-detail-coin.jpg"
-    - "/references/carousel/sorbonne-detail-escalier.jpg"
-
-localisation: "Campus Malesherbes"
 client: "La Sorbonne / Folius"
-archi_be:
+
+installateur:
+fabricant:
+
+date_demarrage:
+localisation: "Campus Malesherbes"
+
+agent:
+
+concept: "Amphithéatre extérieur afin d'acquérir du savoir en plein air"
+
+recompense:
 
 prem_loc:
 prem_client:
@@ -28,22 +30,16 @@ sec_loc:
 sec_client:
 sec_archi_be:
 
-agent:
+carousel:
+    - "/references/carousel/sorbonne-escaliers.jpg"
+    - "/references/carousel/sorbonne-detail-face.jpg"
+    - "/references/carousel/sorbonne-detail-coin.jpg"
+    - "/references/carousel/sorbonne-detail-escalier.jpg"
 
-installateur:
-fabricant:
-
-date_realisation:
-date_demarrage:
-duree_marche:
-recompense:
-
-concept: "Amphithéatre extérieur afin d'acquérir du savoir en plein air"
+relatedProducts: ["Banc perron STOOP", "Le cube"]
 
 texte_quotidien :
 texte_vicat :
-
-relatedProducts: ["Banc perron STOOP", "Le cube"]
 ---
 
 ## Description

@@ -6,22 +6,21 @@ sub_title:
 
 order: 5
 
+cover_image: "/references/cover_image/cover-angers-tram.jpg"
+
+client: "Angers métropole"
+
+installateur:
+fabricant:
+
+date_demarrage:
+localisation: "Ligne 2 / Angers"
+
+agent:
+
 concept: Bancs en stations
 
-gamme: "?"
-
-cover_image: "/references/cover_image/cover-angers-tram.jpg"
-cover_text:
-
-carousel:
-    - "/references/carousel/angers-tram-ville.jpg"
-    - "/references/carousel/angers-tram-bancs-velo.jpg"
-    - "/references/carousel/angers-tram-face.jpg"
-    - "/references/carousel/angers-tram-bancs-seuls.jpg"
-
-localisation: "Ligne 2 / Angers"
-client: "Angers métropole"
-archi_be:
+recompense:
 
 prem_loc:
 prem_client:
@@ -31,20 +30,17 @@ sec_loc:
 sec_client:
 sec_archi_be:
 
-agent:
+carousel:
+    - "/references/carousel/angers-tram-ville.jpg"
+    - "/references/carousel/angers-tram-bancs-velo.jpg"
+    - "/references/carousel/angers-tram-face.jpg"
+    - "/references/carousel/angers-tram-bancs-seuls.jpg"
 
-installateur:
-fabricant:
-
-date_realisation:
-date_demarrage:
-duree_marche:
-recompense:
+relatedProducts: ["Banquette VASCO DE GAMA"]
 
 texte_quotidien :
 texte_vicat :
 
-relatedProducts: ["Banquette VASCO DE GAMA"]
 ---
 
 ## Description

@@ -4,25 +4,23 @@ cover_title: SNCF
 title: Mobiliers en gare
 sub_title:
 
-
 order: 1
 
-gamme:
-
 cover_image: "/references/cover_image/gare-sncf-grenoble.jpg"
-cover_text: "On a refait l'intérieur des gares"
 
-carousel:
-    - "/references/carousel/gare-de-lest.jpg"
-    - "/references/carousel/gare-lille-flandres.JPG"
-    - "/references/carousel/gare-lyon-part-dieu.JPG"
-    - "/references/carousel/gare-bordeaux.JPG"
-    - "/references/carousel/sncf-stockage-exterieur.jpg"
-    - "/references/carousel/sncf-stockage-interieur.jpg"
-
-localisation: "Sur toute la France"
 client: "SNCF / AREP"
-archi_be:
+
+installateur:
+fabricant: "Synthèse / Mobilum"
+
+date_demarrage: "Marché en cours depuis 2019"
+localisation: "Sur toute la France"
+
+agent:
+
+concept:
+
+recompense:
 
 prem_loc:
 prem_client:
@@ -32,22 +30,20 @@ sec_loc:
 sec_client:
 sec_archi_be:
 
-agent:
+carousel:
+    - "/references/carousel/gare-de-lest.jpg"
+    - "/references/carousel/gare-lille-flandres.JPG"
+    - "/references/carousel/gare-lyon-part-dieu.JPG"
+    - "/references/carousel/gare-bordeaux.JPG"
+    - "/references/carousel/sncf-stockage-exterieur.jpg"
+    - "/references/carousel/sncf-stockage-interieur.jpg"
 
-installateur:
-fabricant: "Synthèse / Mobilum"
-
-date_realisation:
-date_demarrage: "Marché en cours depuis 2019"
-duree_marche:
-recompense:
-
-concept:
+relatedProducts:
 
 texte_quotidien :
 texte_vicat :
 
-relatedProducts:
+
 ---
 
 ## Description

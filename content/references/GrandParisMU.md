@@ -4,23 +4,23 @@ cover_title: Le Grand Paris Mobilier Urbain
 title: Le Grand Paris
 sub_title: Mobilier Urbain
 
-
 order: 2
 
-gamme: "?"
-
 cover_image: "/references/cover_image/assises-societe-du-grand-paris-mu.jpg"
-cover_text: "On a refait l'intérieur des gares"
 
-carousel:
-    - "references/carousel/sgp-mobilier-urbain-assise-2.jpg"
-    - "references/carousel/sgp-mobilier-urbain-assise.jpg"
-    - "references/carousel/sgp-mobilier-urbain-assises-rangements.jpg"
-    - "references/carousel/sgp-mobilier-urbain-detail.jpg"
-
-localisation: "Toutes les gares du Grand Paris"
 client: "SGP / Agence Patrick Jouin"
-archi_be:
+
+installateur:
+fabricant: "Mobilum / Synthèse"
+
+date_demarrage: "2023"
+localisation: "Toutes les gares du Grand Paris"
+
+agent:
+
+concept:
+
+recompense:
 
 prem_loc:
 prem_client:
@@ -30,22 +30,18 @@ sec_loc:
 sec_client:
 sec_archi_be:
 
-agent:
+carousel:
+    - "references/carousel/sgp-mobilier-urbain-assise-2.jpg"
+    - "references/carousel/sgp-mobilier-urbain-assise.jpg"
+    - "references/carousel/sgp-mobilier-urbain-assises-rangements.jpg"
+    - "references/carousel/sgp-mobilier-urbain-detail.jpg"
 
-installateur:
-fabricant: "Mobilum / Synthèse"
-
-date_realisation:
-date_demarrage: "2023"
-duree_marche:
-recompense:
-
-concept:
+relatedProducts:
 
 texte_quotidien :
 texte_vicat :
 
-relatedProducts:
+
 ---
 
 ## Description

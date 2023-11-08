@@ -4,22 +4,23 @@ cover_title: Les Galets
 title: Les Galets
 sub__title: "Deux projets : Rouen / Fecamp"
 
-
 order: 4
 
-gamme: STELAG
-
 cover_image: "/references/cover_image/galets-rouen-place.jpg"
-cover_text: "Blablabla"
 
-carousel:
-    - "/references/carousel/stelag-place-fecamp-mobilum-galets.jpg"
-    - "/references/carousel/stelag-place-rouen-galets.jpg"
-    - "/references/carousel/stelag-place-fecamp-galets-mobilum.jpg"
-
-localisation:
 client:
-archi_be:
+
+installateur:
+fabricant:
+
+date_demarrage:
+localisation:
+
+agent: "X-light"
+
+concept: Pièces évidées / Design tout en rondeur / Monobloc
+
+recompense:
 
 prem_loc: "Rouen"
 prem_client: "Ville de Rouen / Folius"
@@ -29,22 +30,16 @@ sec_loc: "Fecamp"
 sec_client: "Ville de Fecamp / Soderef"
 sec_archi_be:
 
-agent: "X-light"
+carousel:
+    - "/references/carousel/stelag-place-fecamp-mobilum-galets.jpg"
+    - "/references/carousel/stelag-place-rouen-galets.jpg"
+    - "/references/carousel/stelag-place-fecamp-galets-mobilum.jpg"
 
-installateur:
-fabricant:
-
-date_realisation:
-date_demarrage:
-duree_marche:
-recompense:
-
-concept: Pièces évidées / Design tout en rondeur / Monobloc
+relatedProducts: ["1 assise STELAG", "2 assises STELAG","1 assise haute STELAG", "2 assises hautes STELAG", "Jardinière STELAG"]
 
 texte_quotidien :
 texte_vicat :
 
-relatedProducts: ["1 assise STELAG", "2 assises STELAG","1 assise haute STELAG", "2 assises hautes STELAG", "Jardinière STELAG"]
 ---
 
 ## Description
