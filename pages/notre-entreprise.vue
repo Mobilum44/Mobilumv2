@@ -37,7 +37,7 @@
 								loading="lazy"
 							/>
 							<NuxtImg
-								alt="Table cantine réelle"
+								alt="Table cantine réelle mobilum"
 								src="/photospages/table-cantine-01-croquis.png"
 								center
 								width="200"
