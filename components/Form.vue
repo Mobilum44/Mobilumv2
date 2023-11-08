@@ -3,6 +3,7 @@
 		<form @submit.prevent="sendEmail">
 			<label for="name">Nom & prénom</label>
 			<input type="text" id="name" name="name" placeholder="Votre nom et prénom" v-model="form.name" />
+			<label for="entreprise">Entreprise</label>
 			<input type="text" id="entreprise" name="entreprise" placeholder="Votre entreprise" v-model="form.name" />
 
 			<label for="sujet">Sujet</label>
