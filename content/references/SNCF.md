@@ -17,6 +17,7 @@ carousel:
     - "/references/carousel/gare-lille-flandres.JPG"
     - "/references/carousel/gare-lyon-part-dieu.JPG"
     - "/references/carousel/gare-bordeaux.JPG"
+    - "/references/carousel/sncf-stockage-exterieur.jpg"
     - "/references/carousel/sncf-stockage-interieur.jpg"
 
 localisation: "Sur toute la France"
