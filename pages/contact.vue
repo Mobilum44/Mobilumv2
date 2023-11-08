@@ -62,14 +62,14 @@ useSeoMeta({
 
 const img = useImage();
 
-function backgroundStyles(thumbnail: string): { background: string } {
+function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 	const imgUrl = img(thumbnail, {
 		width: 1920,
 		quality: 100,
 		placeholder: true,
 		format: "avif,webp",
 	});
-	return { background: `url('${imgUrl}') center center no-repeat` };
+	return { backgroundImage: `url('${imgUrl}')` };
 }
 </script>
 
