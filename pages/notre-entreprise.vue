@@ -173,6 +173,7 @@ h2 {
 	margin: 1rem;
 	padding-top: 2rem;
 	border-bottom: solid 1px;
+	color : blue;
 }
 
 h3 {
