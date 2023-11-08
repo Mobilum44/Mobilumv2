@@ -1,6 +1,6 @@
 ---
 title: Banc ORIGAMI
-published: TRUE
+
 designer:
 collection: Mobilier urbain
 category: Assise

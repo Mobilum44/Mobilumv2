@@ -6,18 +6,21 @@ sub_title:
 
 order: 1
 
+cover_image: "/references/cover_image/notre-quotidien-vide.jpg"
+
+client:
+
+installateur:
+fabricant:
+
+date_demarrage:
+localisation:
+
+agent:
+
 concept:
 
-gamme:
-
-cover_image: "/references/cover_image/notre-quotidien-vide.jpg"
-cover_text:
-
-carousel:
-
-localisation:
-client:
-archi_be:
+recompense:
 
 prem_loc:
 prem_client:
@@ -27,15 +30,9 @@ sec_loc:
 sec_client:
 sec_archi_be:
 
-agent:
+carousel:
 
-installateur:
-fabricant:
-
-date_realisation:
-date_demarrage:
-duree_marche:
-recompense:
+relatedProducts:
 
 texte_quotidien: true
 texte_vicat: true

@@ -1,6 +1,6 @@
 ---
 title: Banc perron STOOP
-published: TRUE
+
 designer: Spritz
 collection: Mobilier urbain
 category: Assise

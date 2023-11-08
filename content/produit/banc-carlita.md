@@ -1,6 +1,6 @@
 ---
 title: Banc CARLITA
-published: TRUE
+
 designer:
 collection: Mobilier urbain
 category: Assise

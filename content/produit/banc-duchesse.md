@@ -1,6 +1,6 @@
 ---
 title: Banc DUCHESSE
-published: TRUE
+
 designer:
 collection: Mobilier urbain
 category: Assise

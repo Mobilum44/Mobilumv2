@@ -1,6 +1,6 @@
 ---
 title: Banc ELIUM
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise

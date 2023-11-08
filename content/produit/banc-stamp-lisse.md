@@ -1,6 +1,6 @@
 ---
 title: Banc STAMP
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise

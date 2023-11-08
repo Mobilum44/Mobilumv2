@@ -1,6 +1,6 @@
 ---
 title: Appui-vélos KARO
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Appui-vélos

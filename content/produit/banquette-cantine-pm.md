@@ -1,6 +1,6 @@
 ---
 title: Banquette CANTINE PM
-published: TRUE
+
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
