@@ -5,8 +5,7 @@
 				<h1>{{ doc.title }}</h1>
 				<h2>{{ doc.sub_title }}</h2>
 			</div>
-
-			<b> Faire responsive : caroussel</b>
+			
 			<ul class="reference-info">
 				<li class="reference-info-ligne">
 					<div v-if="doc.client">{{ doc.client }}</div>
