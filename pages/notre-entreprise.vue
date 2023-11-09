@@ -379,7 +379,7 @@ h3 {
 		width: 90vw;
 		padding-bottom: 2rem;
 		background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)),
-			url("/photospages/mobilum-valeurs-rse-avenirv2.png");
+			url("/photospages/mobilum-valeurs-rse-avenirv3.jpg");
 		background-size: cover;
 		box-shadow: rgba(50, 50, 93, 0.8) 0px 2px 5px -1px, rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
 	}

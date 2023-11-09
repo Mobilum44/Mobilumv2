@@ -14,7 +14,7 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/jardiniere-asturias-carree-lisse.jpg"
 carousel:
-    - image: "/produits/jardiniere-asturias-carree-vegetale.jpg"
+    - image: "/produits/jardiniere-asturias-carree-vegetale.png"
     - image: "/produits/jardiniere-carree-loroux-mobilum.jpg"
     - image: "/produits/jardiniere-asturias-carree-vegetale-gros-plan.jpg"
 filaire:

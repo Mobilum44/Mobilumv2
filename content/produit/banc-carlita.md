@@ -14,8 +14,8 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banc-carlita.jpg"
 carousel:
-    - image: "/produits/assemblages-bancs-carlita.jpg"
-    - image: "/produits/banc-carlita.jpg"
+    - image: "/produits/assemblages-bancs-carlita.png"
+    - image: "/produits/banc-carlita.png"
     - image: "/produits/banquette-carlita-place.jpg"
     - image: "/produits/banquette-carlita-face.jpg"
 filaire:

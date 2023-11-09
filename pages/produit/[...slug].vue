@@ -75,7 +75,7 @@
 						</div>
 						<div v-if="doc.motif_vegetal" class="content">
 							<NuxtImg
-								src="/produits/motif-vegetal-filaire-2.jpg"
+								src="/produits/motif-vegetal-filaire.png"
 								alt="motif mobilier BFUP mobilum"
 								fit="cover"
 								height="50"
@@ -88,7 +88,7 @@
 
 						<div v-if="doc.motif_window" class="content">
 							<NuxtImg
-								src="/produits/motif-window-filaire.jpg"
+								src="/produits/motif-window-filaire.png"
 								alt="Couleurs RAL des boites aux lettres Mobilum"
 								fit="cover"
 								height="50"
@@ -224,7 +224,7 @@
 				<div class="sub-section-content responsive">
 					<div class="content">
 						<NuxtImg
-							src="/produits/porte-hook-bois.jpg"
+							src="/produits/porte-hook-bois.png"
 							alt="Porte hook en bois douglas"
 							fit="cover"
 							height="200"
@@ -237,7 +237,7 @@
 
 					<div class="content">
 						<NuxtImg
-							src="/produits/porte-hook-alu-compo.jpg"
+							src="/produits/porte-hook-alu-compo.png"
 							alt="Porte hook en alu composite avec motifs"
 							fit="cover"
 							height="200"
