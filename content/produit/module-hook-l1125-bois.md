@@ -17,7 +17,7 @@ carousel:
     - image: "/produits/hook-1125-bois.jpg"
     - image: "/produits/hook-carquefou-barriere-bois.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-hook-1125.png"
+    - image: "/produits/filaires/filaire-hook-1125.jpg"
 reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 111

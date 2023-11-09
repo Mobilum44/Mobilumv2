@@ -17,7 +17,7 @@ carousel:
     - image: "/produits/appui-velo-karo-vicat-parc.jpg"
     - image: "/produits/appui-velo-karo-le-trait.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-appui-velo-karo-2.png"
+    - image: "/produits/filaires/filaire-appui-velo-karo-2.jpg"
 reference: AVKARO_0102
 materiau: BFUP / Plaque inox
 poids: 33

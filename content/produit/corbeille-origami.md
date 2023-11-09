@@ -16,7 +16,7 @@ cover_image: "/produits/cover_image/corbeille-origami.jpg"
 carousel:
     - image: "/produits/corbeille-origami-chemin.jpeg"
 filaire:
-    - image: "/produits/filaires/filaire-corbeille-origami-2.png"
+    - image: "/produits/filaires/filaire-corbeille-origami-2.jpg"
 reference: COORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 111

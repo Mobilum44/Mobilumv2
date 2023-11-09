@@ -16,7 +16,7 @@ cover_image: "/produits/cover_image/galet-2-assises-2.jpg"
 carousel:
     - image: "/produits/galet-double-assises-fecamp.JPG"
 filaire:
-    - image: "/produits/filaires/filaire-2-assises-basses.png"
+    - image: "/produits/filaires/filaire-2-assises-basses.jpg"
 reference: AGSTELA0202
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 411

@@ -4,7 +4,7 @@ cover_title: Le Grand Paris Signalétique
 title: Le Grand Paris
 sub_title: Signalétique
 order: 3
-cover_image: "/references/cover_image/SGP-signaletique-resized.png"
+cover_image: "/references/cover_image/SGP-signaletique-resized.jpg"
 client: "SGP / Agence Patrick Jouin"
 installateur:
 fabricant: "OSS / Mobilum"

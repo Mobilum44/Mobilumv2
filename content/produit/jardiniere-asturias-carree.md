@@ -14,11 +14,11 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/jardiniere-asturias-carree-lisse.jpg"
 carousel:
-    - image: "/produits/jardiniere-asturias-carree-vegetale.png"
+    - image: "/produits/jardiniere-asturias-carree-vegetale.jpg"
     - image: "/produits/jardiniere-carree-loroux-mobilum.jpg"
     - image: "/produits/jardiniere-asturias-carree-vegetale-gros-plan.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-jardiniere-carree-asturias.png"
+    - image: "/produits/filaires/filaire-jardiniere-carree-asturias.jpg"
 reference: JAASTUR0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 330

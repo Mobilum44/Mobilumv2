@@ -18,7 +18,7 @@ carousel:
     - image: "/produits/table-cantine-04-st-viaud.jpg"
 
 filaire:
-    - image: "/produits/filaires/filaire-table-cantine-04-2.png"
+    - image: "/produits/filaires/filaire-table-cantine-04-2.jpg"
 reference: TCCANTI0104
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 901

@@ -17,7 +17,7 @@ carousel:
     - image: "/produits/table-cantine-01-neuville-de-poitou.jpg"
     - image: "/produits/table-cantine-01-parc.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-table-cantine-01-2.png"
+    - image: "/produits/filaires/filaire-table-cantine-01-2.jpg"
 reference: TUCANTI0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 423

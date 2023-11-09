@@ -17,7 +17,7 @@ carousel:
     - image: "/produits/appuis-velo-track-st-cyr.jpg"
     - image: "/produits/focus-appui-velo-track-saint-cyr.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-appui-velo-track.png"
+    - image: "/produits/filaires/filaire-appui-velo-track.jpg"
 reference: AVTRACK0101
 materiau: BFUP / Plaque inox
 poids: 28

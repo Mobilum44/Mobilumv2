@@ -16,7 +16,7 @@ cover_image: "/produits/cover_image/tabouret-elium.jpg"
 carousel:
     - image: "/produits/tabouret-et-banquette-elium.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-tabouret-elium-2.png"
+    - image: "/produits/filaires/filaire-tabouret-elium-2.jpg"
 reference: TAELIUM0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 94

@@ -17,7 +17,7 @@ carousel:
     - image: "/produits/banc-duchesse-bruz-2.jpg"
     - image: "/produits/focus-banc-duchesse-bruz.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-banc-duchesse.png"
+    - image: "/produits/filaires/filaire-banc-duchesse.jpg"
 reference: BSDUCHE0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 232

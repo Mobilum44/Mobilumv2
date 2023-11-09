@@ -14,9 +14,9 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banquette-beam-double-2.jpg"
 carousel:
-    - image: "/produits/banquette-double-beam.png"
+    - image: "/produits/banquette-double-beam.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-banquette-beam-double-3.png"
+    - image: "/produits/filaires/filaire-banquette-beam-double-3.jpg"
 reference: BABEAM_0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 527

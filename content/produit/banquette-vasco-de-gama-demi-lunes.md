@@ -17,7 +17,7 @@ carousel:
     - image: "/produits/banc-vasco-de-gama-a-angers.JPG"
     - image: "/produits/vasco-de-gama-demi-lunes-bleus.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-vasco-de-gama-demi-lune.png"
+    - image: "/produits/filaires/filaire-vasco-de-gama-demi-lune.jpg"
 reference: BAVASCO0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 183
