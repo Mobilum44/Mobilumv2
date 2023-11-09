@@ -68,7 +68,7 @@
 
 			<div class="sub__section reverse">
 				<div class="right">
-					<p class="right-align">Une valeur sure</p>
+					<p class="right-align">Une valeur sûre</p>
 				</div>
 				<NuxtLink class="items_styling shadow" to="/hook">
 					<NuxtImg

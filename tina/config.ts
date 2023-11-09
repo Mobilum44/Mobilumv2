@@ -149,7 +149,7 @@ export default defineConfig({
 					},
 					{
 						name: "carousel",
-						type: "object",
+						type: "string",
 						label: "Galerie d'images",
 						list: true,
 						ui: {
