@@ -4,7 +4,7 @@
 			<NuxtImg
 				class="logo_header"
 				alt="Logo mobilum"
-				src="\logos\Blue_logo.png"
+				src="/logos/Blue_logo.png"
 				format="avif,webp"
 				width="80"
 				placeholder

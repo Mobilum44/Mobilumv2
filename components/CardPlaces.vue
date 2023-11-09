@@ -99,7 +99,7 @@
 		<div class="card shadow">
 			<figure class="card__thumb">
 				<NuxtImg
-					src="/cards/lycée-nord-sur-erdre-mobilum.jpg"
+					src="/cards/lycee-nord-sur-erdre-mobilum.jpg"
 					alt="Vue du ciel Lycée Nord sur Erdre à Nantes Mobilum"
 					class="card__image"
 					fit="cover"
@@ -152,7 +152,7 @@
 				</figcaption>
 			</figure>
 		</div>
-		
+
 		<div class="card shadow">
 			<figure class="card__thumb">
 				<!-- Parcs, Bords de mer, Gare, Lycée, ...-->
@@ -213,9 +213,7 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 
-	text-shadow:
-		rgba(0, 0, 0, 0.19) 0px 10px 20px,
-		rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
 	z-index: 1;
 	opacity: 1;

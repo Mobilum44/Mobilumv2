@@ -5,7 +5,7 @@
 				<NuxtImg
 					alt="Logo mobilum"
 					width="200"
-					src="\logos\logo_transparent.png"
+					src="/logos/logo_transparent.png"
 					format="avif,webp"
 					placeholder
 					loading="lazy"
