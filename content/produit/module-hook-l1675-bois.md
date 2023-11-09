@@ -14,7 +14,7 @@ bal: true
 personnalisation:
 cover_image: "/produits/cover_image/cover-hook-1675.jpg"
 carousel:
-    - "/produits/hook-1675-bal-bois.jpg"
+    - "/produits/hook-1675-bal-bois.png"
 filaire:
     - "/produits/filaires/filaire-hook-1675.png"
 reference:

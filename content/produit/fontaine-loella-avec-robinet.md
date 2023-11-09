@@ -14,8 +14,7 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/fontaine-loella-avec-robinet.jpg"
 carousel:
-    - "/produits/fontaine-loella-avec-robinet.jpg"
-    - "/produits/fontaine-loella-robinet.jpg"
+    - "/produits/fontaine-loella-avec-robinet.png"
 filaire:
     - "/produits/filaires/filaire-fontaine-loella-1140-robinet-2.png"
 reference: FOLOELL0101

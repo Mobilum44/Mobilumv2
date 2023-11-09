@@ -14,7 +14,7 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banquette-beam-double-2.jpg"
 carousel:
-    - "/produits/banquette-double-beam.jpg"
+    - "/produits/banquette-double-beam.png"
 filaire:
     - "/produits/filaires/filaire-banquette-beam-double-3.png"
 reference: BABEAM_0102

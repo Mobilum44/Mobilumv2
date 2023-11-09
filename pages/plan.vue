@@ -1,21 +1,18 @@
 <template>
-	<NuxtLayout name="default">
-		<template #slot_image>
-			<section class="slot_image">
-				<h1>Plan du site</h1>
-			</section>
-		</template>
+	<NuxtLayout name="layout-no-margin">
+		<h1>Plan du site</h1>
 
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a
-			voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit
-			maxime! Iusto.
-		</p>
+		<div class="sub__section">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a
+				voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste
+				reprehenderit maxime! Iusto.
+			</p>
+		</div>
 	</NuxtLayout>
 </template>
 
 <script setup>
-
 definePageMeta({
 	layout: false,
 });
@@ -23,14 +20,10 @@ definePageMeta({
 useSeoMeta({
 	title: "Plan du site",
 });
-
-
 </script>
 
 <style scoped>
-.slot_image {
-	background: url("/photospages/fond_entreprise.jpg") center center no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+h1 {
+	color : black;
 }
 </style>
