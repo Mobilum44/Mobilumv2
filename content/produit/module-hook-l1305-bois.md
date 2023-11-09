@@ -14,7 +14,7 @@ bal: true
 personnalisation:
 cover_image: "/produits/cover_image/cover-hook-1305.jpg"
 carousel:
-    - image: "/produits/hook-1305-gris.jpg"
+    - image: "/produits/hook-1305-gris.png"
 filaire:
     - image: "/produits/filaires/filaire-hook-1305.png"
 reference:

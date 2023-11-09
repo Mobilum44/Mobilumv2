@@ -262,7 +262,7 @@
 			<h2>Option</h2>
 			<div class="content">
 				<NuxtImg
-					src="/produits/boite-aux-lettres-renz.jpg"
+					src="/produits/boite-aux-lettres-renz.png"
 					alt="Couleurs RAL des boites aux lettres Mobilum"
 					fit="cover"
 					height="100"
