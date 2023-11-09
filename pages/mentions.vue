@@ -1,10 +1,6 @@
 <template>
-	<NuxtLayout name="default">
-		<template #slot_image>
-			<section class="slot_image">
+	<NuxtLayout name="layout-no-margin">
 				<h1>Mentions légales</h1>
-			</section>
-		</template>
 
 		<div class="sub__section">
 			<p class="chapeau">
@@ -147,10 +143,8 @@ useSeoMeta({
 </script>
 
 <style scoped>
-.slot_image {
-	background: url("/photospages/fond_entreprise.jpg") center center no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+h1 {
+	color : black;
 }
 
 li::before {
