@@ -1,6 +1,5 @@
 ---
 title: Banquette VERTABLE PM
-
 designer:
 collection: Mobilier urbain
 category: Assise
@@ -23,7 +22,7 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 52
 dimensions: L1366 x P290 x H420
 format: Multibloc
-traitement: ""
+traitement:
 ---
 
 ## Description

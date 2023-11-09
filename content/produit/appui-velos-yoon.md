@@ -1,6 +1,5 @@
 ---
 title: Appui-vélos YOON
-
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Appui-vélos
@@ -23,7 +22,7 @@ materiau: BFUP / Plaque inox
 poids: 28
 dimensions: L600 x P75 x H850
 format: Monobloc
-traitement: ""
+traitement:
 ---
 
 ## Description

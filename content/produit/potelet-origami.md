@@ -1,6 +1,5 @@
 ---
 title: Potelet fixe ORIGAMI
-
 designer:
 collection: Mobilier urbain
 category: Potelet
@@ -23,7 +22,7 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 14
 dimensions: L80 x P80 x H900
 format: Monobloc
-traitement: ""
+traitement:
 ---
 
 ## Description

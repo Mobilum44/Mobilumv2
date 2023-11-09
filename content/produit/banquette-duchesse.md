@@ -23,7 +23,7 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 208
 dimensions: L2400 x P496 H445
 format: Monobloc
-traitement: ""
+traitement:
 ---
 
 ## Description

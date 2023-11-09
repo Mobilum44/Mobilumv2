@@ -20,6 +20,7 @@
 				<Slide v-for="(img, i) in doc.carousel" :key="i">
 					<NuxtImg
 						:src="img.image"
+						:alt="img.title || doc.title"
 						sizes="100vw sm:80vw md:600px lg:800px xl:1000px xxl:1200px"
 						quality="80"
 						placeholder
@@ -39,7 +40,7 @@
 			<div class="general-filaire" v-for="(img, i) in doc.filaire" :key="i">
 				<NuxtImg
 					:src="img.image"
-					:alt="img.image_title || 'Filaire produit Mobilum'"
+					:alt="img.image_title || doc.title"
 					placeholder
 					format="avif,webp"
 					loading="lazy"
@@ -62,7 +63,7 @@
 					<div class="general-content responsive-row">
 						<div class="content">
 							<NuxtImg
-								src="/produits/motif-lisse.png"
+								src="/produits/motif-lisse.jpg"
 								alt="surface lisse mobilier BFUP Mobilum"
 								fit="cover"
 								height="50"
@@ -74,7 +75,7 @@
 						</div>
 						<div v-if="doc.motif_vegetal" class="content">
 							<NuxtImg
-								src="/produits/motif-vegetal-filaire-2.png"
+								src="/produits/motif-vegetal-filaire-2.jpg"
 								alt="motif mobilier BFUP mobilum"
 								fit="cover"
 								height="50"
@@ -87,7 +88,7 @@
 
 						<div v-if="doc.motif_window" class="content">
 							<NuxtImg
-								src="/produits/motif-window-filaire.png"
+								src="/produits/motif-window-filaire.jpg"
 								alt="Couleurs RAL des boites aux lettres Mobilum"
 								fit="cover"
 								height="50"
@@ -223,7 +224,7 @@
 				<div class="sub-section-content responsive">
 					<div class="content">
 						<NuxtImg
-							src="/produits/porte-hook-bois.png"
+							src="/produits/porte-hook-bois.jpg"
 							alt="Porte hook en bois douglas"
 							fit="cover"
 							height="200"
@@ -236,7 +237,7 @@
 
 					<div class="content">
 						<NuxtImg
-							src="/produits/porte-hook-alu-compo.png"
+							src="/produits/porte-hook-alu-compo.jpg"
 							alt="Porte hook en alu composite avec motifs"
 							fit="cover"
 							height="200"
@@ -261,7 +262,7 @@
 			<h2>Option</h2>
 			<div class="content">
 				<NuxtImg
-					src="/produits/boite-aux-lettres-renz.png"
+					src="/produits/boite-aux-lettres-renz.jpg"
 					alt="Couleurs RAL des boites aux lettres Mobilum"
 					fit="cover"
 					height="100"

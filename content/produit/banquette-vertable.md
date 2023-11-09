@@ -1,6 +1,5 @@
 ---
 title: Banquette VERTABLE
-
 designer: Phytolab
 collection: Mobilier urbain
 category: Assise
@@ -23,7 +22,7 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 130
 dimensions: L2700 x P290 x H420
 format: Multibloc
-traitement: ""
+traitement:
 ---
 
 ## Description

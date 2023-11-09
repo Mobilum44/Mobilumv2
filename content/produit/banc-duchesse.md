@@ -1,6 +1,5 @@
 ---
 title: Banc DUCHESSE
-
 designer:
 collection: Mobilier urbain
 category: Assise
@@ -24,7 +23,7 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 232
 dimensions: L2400 x P496 x H800
 format: Multibloc
-traitement: ""
+traitement:
 ---
 
 ## Description

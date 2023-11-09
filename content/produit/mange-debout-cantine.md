@@ -1,6 +1,5 @@
 ---
 title: Mange-debout
-
 designer:
 collection: Mobilier urbain
 category: Table
@@ -23,7 +22,7 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 491
 dimensions: L2500 x P450 x H1100
 format: Multibloc
-traitement: ""
+traitement:
 ---
 
 ## Description

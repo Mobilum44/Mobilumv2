@@ -1,6 +1,5 @@
 ---
 title: Jardinière ASTURIAS ronde
-
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Jardinière
@@ -25,7 +24,7 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 203
 dimensions: ⌀900 H900
 format: Monobloc
-traitement: ""
+traitement:
 ---
 
 ## Description

@@ -1,6 +1,5 @@
 ---
 title: Banquette CANTINE
-
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -24,7 +23,7 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 192
 dimensions: L2500 x P430 x H450
 format: Monobloc
-traitement: ""
+traitement:
 ---
 
 ## Description

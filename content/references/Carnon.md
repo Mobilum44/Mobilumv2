@@ -25,3 +25,5 @@ relatedProducts: ["Transat MILA", "Mange-debout", "Banquette CANTINE"]
 texte_quotidien:
 texte_vicat:
 ---
+
+## Description

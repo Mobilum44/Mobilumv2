@@ -16,11 +16,12 @@
 <style>
 .contenu {
 	padding: 0;
+	min-height: calc(100dvh - 300px);
 }
 
 @media only screen and (max-width: 950px) {
 	.contenu {
-		width : 100%;
+		width: 100%;
 	}
 }
 </style>

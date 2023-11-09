@@ -28,3 +28,5 @@ relatedProducts:
 texte_quotidien:
 texte_vicat:
 ---
+
+## Description

@@ -1,6 +1,5 @@
 ---
 title: Banc CARLITA
-
 designer:
 collection: Mobilier urbain
 category: Assise
@@ -15,8 +14,8 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banc-carlita.jpg"
 carousel:
-    - image: "/produits/assemblages-bancs-carlita.png"
-    - image: "/produits/banc-carlita.png"
+    - image: "/produits/assemblages-bancs-carlita.jpg"
+    - image: "/produits/banc-carlita.jpg"
     - image: "/produits/banquette-carlita-place.jpg"
     - image: "/produits/banquette-carlita-face.jpg"
 filaire:
@@ -26,7 +25,7 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 317
 dimensions: L2000 x P697 x H938
 format: Multibloc
-traitement: ""
+traitement:
 ---
 
 ## Description

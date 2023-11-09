@@ -1,6 +1,5 @@
 ---
 title: Canapé STAMP
-
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -24,7 +23,7 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 382
 dimensions: L1800 x P550 x H830
 format: Multibloc
-traitement: ""
+traitement:
 ---
 
 ## Description

@@ -1,6 +1,5 @@
 ---
 title: Fontaine LOËLLA
-
 designer: Cecile Planchais
 collection: Mobilier urbain
 category: Fontaine
@@ -24,7 +23,7 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 95
 dimensions: L395 x P433 x H1105
 format: Multibloc
-traitement: ""
+traitement:
 ---
 
 ## Description

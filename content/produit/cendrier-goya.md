@@ -1,6 +1,5 @@
 ---
 title: Cendrier GOYA
-
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Cendrier
@@ -23,7 +22,7 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 30
 dimensions: L207 x P100 x H998
 format: Monobloc
-traitement: ""
+traitement:
 ---
 
 ## Description

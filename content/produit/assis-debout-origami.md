@@ -1,6 +1,5 @@
 ---
 title: Assis debout ORIGAMI
-
 designer:
 collection: Mobilier urbain
 category: Assise
@@ -23,7 +22,7 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 75
 dimensions: L500 x P65 H875
 format: Monobloc
-traitement: ""
+traitement:
 ---
 
 ## Description

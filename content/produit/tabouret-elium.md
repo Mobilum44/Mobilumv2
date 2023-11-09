@@ -1,6 +1,5 @@
 ---
 title: Tabouret ELIUM
-
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -23,7 +22,7 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 94
 dimensions: L500 x P500 x H540
 format: Multibloc
-traitement: ""
+traitement:
 ---
 
 ## Description
