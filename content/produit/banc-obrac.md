@@ -14,11 +14,11 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banc-obrac-2.jpg"
 carousel:
-    - image: "/produits/banc-obrac-la-rochelle.jpg"
-    - image: "/produits/banc-obrac-la-roche-sur-yon.jpg"
-    - image: "/produits/deux-banc-obrac-la-roche-sur-yon.jpg"
+    - "/produits/banc-obrac-la-rochelle.jpg"
+    - "/produits/banc-obrac-la-roche-sur-yon.jpg"
+    - "/produits/deux-banc-obrac-la-roche-sur-yon.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-banc-obrac-2.png"
+    - "/produits/filaires/filaire-banc-obrac-2.png"
 reference: BSOBRAC0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 441

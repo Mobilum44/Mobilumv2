@@ -15,12 +15,12 @@ concept: "Une place assise pour toute la famille"
 recompense:
 prem_loc:
 prem_client:
-
+prem_archi_be:
 sec_loc:
 sec_client:
 sec_archi_be:
 carousel:
-    - image: "/references/carousel/carnon-bain-soleil.jpg"
+    - "/references/carousel/carnon-bain-soleil.jpg"
 relatedProducts: ["Transat MILA", "Mange-debout", "Banquette CANTINE"]
 texte_quotidien:
 texte_vicat:

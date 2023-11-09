@@ -15,17 +15,17 @@ concept:
 recompense:
 prem_loc:
 prem_client:
-
+prem_archi_be:
 sec_loc:
 sec_client:
 sec_archi_be:
 carousel:
-    - image: "/references/carousel/gare-de-lest.jpg"
-    - image: "/references/carousel/gare-lille-flandres.JPG"
-    - image: "/references/carousel/gare-lyon-part-dieu.JPG"
-    - image: "/references/carousel/gare-bordeaux.JPG"
-    - image: "/references/carousel/sncf-stockage-exterieur.jpg"
-    - image: "/references/carousel/sncf-stockage-interieur.jpg"
+    - "/references/carousel/gare-de-lest.jpg"
+    - "/references/carousel/gare-lille-flandres.JPG"
+    - "/references/carousel/gare-lyon-part-dieu.JPG"
+    - "/references/carousel/gare-bordeaux.JPG"
+    - "/references/carousel/sncf-stockage-exterieur.jpg"
+    - "/references/carousel/sncf-stockage-interieur.jpg"
 relatedProducts:
 texte_quotidien:
 texte_vicat:

@@ -16,14 +16,14 @@ recompense:
     Exposition du perron Stoop lors de l'appel à projet Banc d'Essais 2017
 prem_loc:
 prem_client:
-
+prem_archi_be:
 sec_loc:
 sec_client:
 sec_archi_be:
 carousel:
-    - image: "/references/carousel/biennale-bancs-mobilum.jpg"
-    - image: "/references/carousel/biennale-bancs-stoop-mobilum-crop.jpg"
-    - image: "/references/carousel/biennale-bancs-stoop-mobilum-chien.jpg"
+    - "/references/carousel/biennale-bancs-mobilum.jpg"
+    - "/references/carousel/biennale-bancs-stoop-mobilum-crop.jpg"
+    - "/references/carousel/biennale-bancs-stoop-mobilum-chien.jpg"
 relatedProducts: ["Banc perron STOOP"]
 texte_quotidien:
 texte_vicat:

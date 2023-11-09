@@ -15,14 +15,14 @@ concept: "Mobilum en intérieur"
 recompense:
 prem_loc:
 prem_client:
-
+prem_archi_be:
 sec_loc:
 sec_client:
 sec_archi_be:
 carousel:
-    - image: "/references/carousel/crous-vue-generale.jpg"
-    - image: "/references/carousel/crous-assis-debouts.jpg"
-    - image: "/references/carousel/crous-tables-mobilum.jpg"
+    - "/references/carousel/crous-vue-generale.jpg"
+    - "/references/carousel/crous-assis-debouts.jpg"
+    - "/references/carousel/crous-tables-mobilum.jpg"
 relatedProducts:
 texte_quotidien:
 texte_vicat:

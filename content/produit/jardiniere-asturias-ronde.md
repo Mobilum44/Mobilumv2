@@ -14,11 +14,11 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/jardiniere-asturias-ronde-vegetal.jpg"
 carousel:
-    - image: "/produits/jardiniere-asturias-ronde.jpg"
-    - image: "/produits/jardiniere-ronde-lisse-asturias-grandville.jpg"
-    - image: "/produits/jardiniere-asturias-ronde-vegetale.jpg"
+    - "/produits/jardiniere-asturias-ronde.jpg"
+    - "/produits/jardiniere-ronde-lisse-asturias-grandville.jpg"
+    - "/produits/jardiniere-asturias-ronde-vegetale.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-jardiniere-ronde.png"
+    - "/produits/filaires/filaire-jardiniere-ronde.png"
 reference: JAASTUR0402
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 203

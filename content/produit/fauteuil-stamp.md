@@ -14,9 +14,9 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/fauteuil-stamp-window.jpg"
 carousel:
-    - image: "/produits/fauteuils-stamp-lisse-vire.jpg"
+    - "/produits/fauteuils-stamp-lisse-vire.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-fauteuil-stamp-window-2.png"
+    - "/produits/filaires/filaire-fauteuil-stamp-window-2.png"
 reference: FASTAMP0201
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 137

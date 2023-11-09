@@ -14,9 +14,9 @@ bal: true
 personnalisation:
 cover_image: "/produits/cover_image/cover-hook-535.jpg"
 carousel:
-    - image: "/produits/hook-535-blanc.jpg"
+    - "/produits/hook-535-blanc.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-hook-535.png"
+    - "/produits/filaires/filaire-hook-535.png"
 reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 69

@@ -14,11 +14,11 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/table-urbaine-cantine-02.jpg"
 carousel:
-    #- image: "/produits/table-cantine-02-le-trait.jpg"
-    - image: "/produits/table-cantine-02-le-trait-v2.jpg"
-    - image: "/produits/table-cantine-02-vernon.jpg"
+    #- "/produits/table-cantine-02-le-trait.jpg"
+    - "/produits/table-cantine-02-le-trait-v2.jpg"
+    - "/produits/table-cantine-02-vernon.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-table-cantine-02-2.png"
+    - "/produits/filaires/filaire-table-cantine-02-2.png"
 reference: TACANTI0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 491

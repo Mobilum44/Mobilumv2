@@ -14,10 +14,10 @@ bal: true
 personnalisation:
 cover_image: "/produits/cover_image/cover-hook-765.jpg"
 carousel:
-    - image: "/produits/hook-765-simple.jpg"
-    - image: "/produits/hook-765-muret-bourgbarre.jpg"
+    - "/produits/hook-765-simple.jpg"
+    - "/produits/hook-765-muret-bourgbarre.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-hook-765.png"
+    - "/produits/filaires/filaire-hook-765.png"
 reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 86

@@ -16,13 +16,13 @@ concept:
 recompense:
 prem_loc:
 prem_client:
-
+prem_archi_be:
 sec_loc:
 sec_client:
 sec_archi_be:
 carousel:
-    - image: "/references/carousel/roquefere-gros-plan-feuille.jpg"
-    - image: "/references/carousel/roquefere-resultat-final.jpg"
+    - "/references/carousel/roquefere-gros-plan-feuille.jpg"
+    - "/references/carousel/roquefere-resultat-final.jpg"
 relatedProducts: ["Banquette ELIUM"]
 texte_quotidien:
 texte_vicat:

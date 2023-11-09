@@ -15,13 +15,13 @@ concept: Un patio de nature
 recompense:
 prem_loc:
 prem_client:
-
+prem_archi_be:
 sec_loc:
 sec_client:
 sec_archi_be:
 carousel:
-    - image: "/references/carousel/Piano-Rezzo-ENS-Saclay.jpg"
-    - image: "/references/carousel/Piano-Rezzo-Paris-Saclay.jpg"
+    - "/references/carousel/Piano-Rezzo-ENS-Saclay.jpg"
+    - "/references/carousel/Piano-Rezzo-Paris-Saclay.jpg"
 relatedProducts: ["Banquette VASCO DE GAMA"]
 texte_quotidien:
 texte_vicat:

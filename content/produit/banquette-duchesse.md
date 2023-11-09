@@ -14,10 +14,10 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banquette-duchesse-2.jpg"
 carousel:
-    - image: "/produits/banquette-duchesse.jpg"
-    - image: "/produits/banquette-duchesse-vue-haut.jpg"
+    - "/produits/banquette-duchesse.jpg"
+    - "/produits/banquette-duchesse-vue-haut.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-banquette-duchesse.png"
+    - "/produits/filaires/filaire-banquette-duchesse.png"
 reference: BADUCHE0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 208

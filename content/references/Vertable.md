@@ -15,14 +15,14 @@ concept: "La convivialité se partage à Vertou"
 recompense:
 prem_loc:
 prem_client:
-
+prem_archi_be:
 sec_loc:
 sec_client:
 sec_archi_be:
 carousel:
-    - image: "/references/carousel/vertou-vertable.jpg"
-    - image: "/references/carousel/vertable-deux-tables.jpg"
-    - image: "/references/carousel/vertou-sous-le-soleil.jpg"
+    - "/references/carousel/vertou-vertable.jpg"
+    - "/references/carousel/vertable-deux-tables.jpg"
+    - "/references/carousel/vertou-sous-le-soleil.jpg"
 relatedProducts:
     ["Table VERTABLE", "Banquette VERTABLE", "Banquette VERTABLE PM"]
 texte_quotidien:

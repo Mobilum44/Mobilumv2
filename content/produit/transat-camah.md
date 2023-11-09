@@ -14,11 +14,11 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/transat-camah.jpg"
 carousel:
-    - image: "/produits/transat-camah-le-trait.jpg"
-    - image: "/produits/transat-camah-cucq.JPG"
+    - "/produits/transat-camah-le-trait.jpg"
+    - "/produits/transat-camah-cucq.JPG"
 
 filaire:
-    - image: "/produits/filaires/filaire-transat-camah-2.png"
+    - "/produits/filaires/filaire-transat-camah-2.png"
 reference: TRCAMAH0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 181

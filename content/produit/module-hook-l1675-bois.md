@@ -14,9 +14,9 @@ bal: true
 personnalisation:
 cover_image: "/produits/cover_image/cover-hook-1675.jpg"
 carousel:
-    - image: "/produits/hook-1675-bal-bois.jpg"
+    - "/produits/hook-1675-bal-bois.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-hook-1675.png"
+    - "/produits/filaires/filaire-hook-1675.png"
 reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 158

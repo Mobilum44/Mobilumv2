@@ -19,8 +19,8 @@
 			>
 				<Slide v-for="(img, i) in doc.carousel" :key="i">
 					<NuxtImg
-						:src="img.image"
-						:alt="img.title || doc.title"
+						:src="img"
+						:alt="doc.title"
 						sizes="100vw sm:80vw md:600px lg:800px xl:1000px xxl:1200px"
 						quality="80"
 						placeholder
@@ -38,14 +38,7 @@
 
 		<div class="sub-section general responsive">
 			<div class="general-filaire" v-for="(img, i) in doc.filaire" :key="i">
-				<NuxtImg
-					:src="img.image"
-					:alt="img.image_title || doc.title"
-					placeholder
-					format="avif,webp"
-					loading="lazy"
-					height="300"
-				/>
+				<NuxtImg :src="img" :alt="doc.title" placeholder format="avif,webp" loading="lazy" height="300" />
 			</div>
 
 			<div class="general-infos">

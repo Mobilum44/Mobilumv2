@@ -14,9 +14,9 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banquette-cantine-pm.jpg"
 carousel:
-    - image: "/produits/banquette-cantine-pm.jpg"
+    - "/produits/banquette-cantine-pm.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-banquette-cantine-pm-2.png"
+    - "/produits/filaires/filaire-banquette-cantine-pm-2.png"
 reference: BACANTI0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 156

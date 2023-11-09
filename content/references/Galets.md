@@ -15,14 +15,14 @@ concept: Pièces évidées / Design tout en rondeur / Monobloc
 recompense:
 prem_loc: "Rouen"
 prem_client: "Ville de Rouen / Folius"
-
+prem_archi_be:
 sec_loc: "Fecamp"
 sec_client: "Ville de Fecamp / Soderef"
 sec_archi_be:
 carousel:
-    - image: "/references/carousel/stelag-place-fecamp-mobilum-galets.jpg"
-    - image: "/references/carousel/stelag-place-rouen-galets.jpg"
-    - image: "/references/carousel/stelag-place-fecamp-galets-mobilum.jpg"
+    - "/references/carousel/stelag-place-fecamp-mobilum-galets.jpg"
+    - "/references/carousel/stelag-place-rouen-galets.jpg"
+    - "/references/carousel/stelag-place-fecamp-galets-mobilum.jpg"
 relatedProducts:
     [
         "1 assise STELAG",

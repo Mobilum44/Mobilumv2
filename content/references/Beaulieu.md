@@ -15,24 +15,22 @@ concept: Une gamme complète de mobiliers urbains et de signalétique
 recompense:
 prem_loc:
 prem_client:
-
+prem_archi_be:
 sec_loc:
 sec_client:
 sec_archi_be:
 carousel:
-    - image: "/references/carousel/puilboreau-beaulieu-corbeille-bancs.jpeg"
-    - image: "/references/carousel/puilboreau-beaulieu-totem-hook.jpeg"
-    - image: "/references/carousel/puilboreau-beaulieu-tabourets-nuit.jpeg"
-    - image: "/references/carousel/puilboreau-beaulieu-corbeille-assis-debout.jpeg"
+    - "/references/carousel/puilboreau-beaulieu-corbeille-bancs.jpeg"
+    - "/references/carousel/puilboreau-beaulieu-totem-hook.jpeg"
+    - "/references/carousel/puilboreau-beaulieu-tabourets-nuit.jpeg"
+    - "/references/carousel/puilboreau-beaulieu-corbeille-assis-debout.jpeg"
 relatedProducts:
-    [
-        "Tabouret ORIGAMI",
-        "Banquette ORIGAMI",
-        "Corbeille ORIGAMI",
-        "Assis debout ORIGAMI",
-        "Totem BUS",
-        "Totem RUE",
-    ]
+    - "Tabouret ORIGAMI"
+    - "Banquette ORIGAMI"
+    - "Corbeille ORIGAMI"
+    - "Assis debout ORIGAMI"
+    - "Totem BUS"
+    - "Totem RUE"
 texte_quotidien:
 texte_vicat:
 ---

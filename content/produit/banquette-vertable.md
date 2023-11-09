@@ -14,9 +14,9 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banquette-vertable.jpg"
 carousel:
-    - image: "/produits/banquettes-vertable.jpg"
+    - "/produits/banquettes-vertable.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-banquette-vertable.png"
+    - "/produits/filaires/filaire-banquette-vertable.png"
 reference: BAVERTA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 130

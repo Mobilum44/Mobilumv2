@@ -15,15 +15,15 @@ concept:
 recompense:
 prem_loc:
 prem_client:
-
+prem_archi_be:
 sec_loc:
 sec_client:
 sec_archi_be:
 carousel:
-    - image: "references/carousel/sgp-mobilier-urbain-assise-2.jpg"
-    - image: "references/carousel/sgp-mobilier-urbain-assise.jpg"
-    - image: "references/carousel/sgp-mobilier-urbain-assises-rangements.jpg"
-    - image: "references/carousel/sgp-mobilier-urbain-detail.jpg"
+    - "references/carousel/sgp-mobilier-urbain-assise-2.jpg"
+    - "references/carousel/sgp-mobilier-urbain-assise.jpg"
+    - "references/carousel/sgp-mobilier-urbain-assises-rangements.jpg"
+    - "references/carousel/sgp-mobilier-urbain-detail.jpg"
 relatedProducts:
 texte_quotidien:
 texte_vicat:

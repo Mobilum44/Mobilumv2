@@ -14,9 +14,9 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banquette-vasco-de-gamma.jpg"
 carousel:
-    - image: "/produits/banquette-vasco-de-gama-angers.jpg"
+    - "/produits/banquette-vasco-de-gama-angers.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-vasco-de-gama.png"
+    - "/produits/filaires/filaire-vasco-de-gama.png"
 reference: BAVASCO0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 198

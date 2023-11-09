@@ -14,9 +14,9 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banc-elium-3-dossiers.jpg"
 carousel:
-    - image: "/produits/banc-elium-loroux-mobilum.jpg"
+    - "/produits/banc-elium-loroux-mobilum.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-banc-elium-3-dossiers-2.png"
+    - "/produits/filaires/filaire-banc-elium-3-dossiers-2.png"
 reference: BSELIUM0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 291

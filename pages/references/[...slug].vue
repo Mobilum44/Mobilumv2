@@ -108,8 +108,8 @@
 				<Carousel :wrap-around="true" snap-align="center" :items-to-show="1">
 					<Slide v-for="(img, i) in doc.carousel" :key="i">
 						<NuxtImg
-							:src="img.image"
-							:alt="img.title || doc.title"
+							:src="img"
+							:alt="doc.title"
 							width="1050"
 							height="700"
 							quality="100"

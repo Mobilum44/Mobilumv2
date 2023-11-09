@@ -14,9 +14,9 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/transat-mila-2.jpg"
 carousel:
-    - image: "/produits/transat-mila-2.png"
+    - "/produits/transat-mila-2.png"
 filaire:
-    - image: "/produits/filaires/filaire-transat-mila-2.png"
+    - "/produits/filaires/filaire-transat-mila-2.png"
 reference: TRMILA_0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 385

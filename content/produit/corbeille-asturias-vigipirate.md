@@ -14,10 +14,10 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/corbeille-asturias-vigipirate.jpg"
 carousel:
-    - image: "/produits/corbeille-asturias-vigipirate-joncherolles.jpg"
-    - image: "/produits/corbeille-asturias-vigipirate-mobilum.jpg"
+    - "/produits/corbeille-asturias-vigipirate-joncherolles.jpg"
+    - "/produits/corbeille-asturias-vigipirate-mobilum.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-corbeille-asturias-vigipirate.png"
+    - "/produits/filaires/filaire-corbeille-asturias-vigipirate.png"
 reference: COASTUR0601
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 54

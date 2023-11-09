@@ -14,10 +14,10 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banc-stamp-lisse.jpg"
 carousel:
-    - image: "/produits/banc-stamp-window.jpg"
-    - image: "/produits/banc-stamp.jpg"
+    - "/produits/banc-stamp-window.jpg"
+    - "/produits/banc-stamp.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-banc-stamp.png"
+    - "/produits/filaires/filaire-banc-stamp.png"
 reference: BSSTAMP0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 366

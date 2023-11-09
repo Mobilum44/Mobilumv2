@@ -14,10 +14,10 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/chaise-longue-obrac.jpg"
 carousel:
-    - image: "/produits/chaise-longues-chemille-resized.jpg"
-    - image: "/produits/chaise-longue-obrac.jpg"
+    - "/produits/chaise-longues-chemille-resized.jpg"
+    - "/produits/chaise-longue-obrac.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-chaise-longue-obrac-2.png"
+    - "/produits/filaires/filaire-chaise-longue-obrac-2.png"
 reference: CLOBRAC0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 161

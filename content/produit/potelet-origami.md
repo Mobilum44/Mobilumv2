@@ -14,9 +14,9 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/potelet-fixe-origami.jpg"
 carousel:
-    - image: "/produits/passage-pieton-poteau-origami.jpeg"
+    - "/produits/passage-pieton-poteau-origami.jpeg"
 filaire:
-    - image: "/produits/filaires/filaire-poteau-origami-2.png"
+    - "/produits/filaires/filaire-poteau-origami-2.png"
 reference: POORIGA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 14

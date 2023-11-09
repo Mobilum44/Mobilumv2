@@ -14,12 +14,12 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/banc-carlita.jpg"
 carousel:
-    - image: "/produits/assemblages-bancs-carlita.png"
-    - image: "/produits/banc-carlita.png"
-    - image: "/produits/banquette-carlita-place.jpg"
-    - image: "/produits/banquette-carlita-face.jpg"
+    - "/produits/assemblages-bancs-carlita.png"
+    - "/produits/banc-carlita.png"
+    - "/produits/banquette-carlita-place.jpg"
+    - "/produits/banquette-carlita-face.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-banc-carlita-2.png"
+    - "/produits/filaires/filaire-banc-carlita-2.png"
 reference: BSCARLI0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 317

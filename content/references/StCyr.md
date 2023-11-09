@@ -15,15 +15,15 @@ concept:
 recompense: "European Architecture Awards 2020"
 prem_loc:
 prem_client:
-
+prem_archi_be:
 sec_loc:
 sec_client:
 sec_archi_be:
 carousel:
-    - image: "/references/carousel/st-cyr-vue-generale.jpeg"
-    - image: "/references/carousel/st-cyr-totem-mobilum.jpg"
-    - image: "/references/carousel/st-cyr-banc-chaise-obrac-corbeille.jpg"
-    - image: "/references/carousel/st-cyr-appui-velo-track.jpg"
+    - "/references/carousel/st-cyr-vue-generale.jpeg"
+    - "/references/carousel/st-cyr-totem-mobilum.jpg"
+    - "/references/carousel/st-cyr-banc-chaise-obrac-corbeille.jpg"
+    - "/references/carousel/st-cyr-appui-velo-track.jpg"
 relatedProducts:
     [
         "Banc OBRAC",

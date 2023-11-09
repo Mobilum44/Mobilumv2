@@ -14,10 +14,10 @@ bal:
 personnalisation:
 cover_image: "/produits/cover_image/cube-feli.jpg"
 carousel:
-    - image: "/produits/cube-feli.jpg"
-    - image: "/produits/assemblage-cube-perron.jpg"
+    - "/produits/cube-feli.jpg"
+    - "/produits/assemblage-cube-perron.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-cube-feli-2.png"
+    - "/produits/filaires/filaire-cube-feli-2.png"
 reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids:

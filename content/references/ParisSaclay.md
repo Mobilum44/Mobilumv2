@@ -15,14 +15,14 @@ concept: "De l'intelligence embarquée pour nos étudiants cablés"
 recompense:
 prem_loc:
 prem_client:
-
+prem_archi_be:
 sec_loc:
 sec_client:
 sec_archi_be:
 carousel:
-    - image: "/references/carousel/villa-gallo-romaine-long.jpg"
-    - image: "/references/carousel/villa-gallo-romaine.jpg"
-    - image: "/references/carousel/villa-gallo-romaine-nuit.jpg"
+    - "/references/carousel/villa-gallo-romaine-long.jpg"
+    - "/references/carousel/villa-gallo-romaine.jpg"
+    - "/references/carousel/villa-gallo-romaine-nuit.jpg"
 texte_quotidien:
 texte_vicat:
 relatedProducts:
