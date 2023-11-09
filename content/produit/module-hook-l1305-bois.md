@@ -1,6 +1,5 @@
 ---
 title: Module HOOK L1305
-
 designer: Spritz
 collection: HOOK
 category: Module
@@ -23,7 +22,7 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 128
 dimensions: L1305 x P350 x H1133
 format: Multibloc
-traitement: ""
+traitement:
 ---
 
 ## Description

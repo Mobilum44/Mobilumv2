@@ -1,6 +1,5 @@
 ---
 title: Jardinière STELAG
-
 designer:
 collection: Mobilier urbain
 category: Jardinière
@@ -24,7 +23,5 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 577
 dimensions: L1950 x P1395 H682
 format: Monobloc
-traitement: ""
+traitement:
 ---
-
-## Description

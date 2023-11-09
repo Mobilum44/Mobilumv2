@@ -1,6 +1,5 @@
 ---
 title: Table urbaine CANTINE 01
-
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Table
@@ -24,7 +23,5 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 423
 dimensions: L2500 x P900 x H750
 format: Multibloc
-traitement: ""
+traitement:
 ---
-
-## Description

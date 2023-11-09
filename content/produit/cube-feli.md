@@ -1,6 +1,5 @@
 ---
 title: Le cube
-
 designer:
 collection: Mobilier urbain
 category: Assises
@@ -24,7 +23,5 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids:
 dimensions: L1000 x P1000 x H508
 format: Monobloc
-traitement: ""
+traitement:
 ---
-
-## Description

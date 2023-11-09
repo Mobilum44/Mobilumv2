@@ -1,6 +1,5 @@
 ---
 title: Borne LOËLLA
-
 designer: Cecile Planchais
 collection: Mobilier urbain
 category: Borne
@@ -23,7 +22,5 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 117
 dimensions: L397 x P640 x H1110
 format: Multibloc
-traitement: ""
+traitement:
 ---
-
-## Description

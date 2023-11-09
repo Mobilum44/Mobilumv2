@@ -1,6 +1,5 @@
 ---
 title: Corbeille ORIGAMI
-
 designer:
 collection: Mobilier urbain
 category: Corbeille
@@ -23,7 +22,5 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 111
 dimensions: L500 x P445 H1024
 format: Monobloc
-traitement: ""
+traitement:
 ---
-
-## Description

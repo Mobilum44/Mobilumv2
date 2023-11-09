@@ -1,6 +1,5 @@
 ---
 title: Banc ORIGAMI
-
 designer:
 collection: Mobilier urbain
 category: Assise
@@ -24,7 +23,5 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 223
 dimensions: L2000 x P450 H853
 format: Multibloc
-traitement: ""
+traitement:
 ---
-
-## Description

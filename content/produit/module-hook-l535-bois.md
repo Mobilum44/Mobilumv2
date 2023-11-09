@@ -1,6 +1,5 @@
 ---
 title: Module HOOK L535
-
 designer: Spritz
 collection: HOOK
 category: Assise
@@ -23,7 +22,7 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 69
 dimensions: L535 x P350 x H1133
 format: Multibloc
-traitement: ""
+traitement:
 ---
 
 ## Description

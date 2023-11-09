@@ -1,6 +1,5 @@
 ---
 title: Banquette double BEAM
-
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -23,7 +22,5 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 527
 dimensions: L2000 x P820 x H450 + changer filaire
 format: Multibloc
-traitement: ""
+traitement:
 ---
-
-## Description

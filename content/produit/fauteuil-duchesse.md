@@ -1,6 +1,5 @@
 ---
 title: Fauteuil DUCHESSE
-
 designer:
 collection: Mobilier urbain
 category: Assise
@@ -23,7 +22,5 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 108
 dimensions: L635 x P500 H846
 format: Multibloc
-traitement: ""
+traitement:
 ---
-
-## Description

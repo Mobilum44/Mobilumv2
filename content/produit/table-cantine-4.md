@@ -1,6 +1,5 @@
 ---
 title: Table champêtre CANTINE 04
-
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Table
@@ -25,7 +24,5 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 901
 dimensions: L2500 x P1650 x H770
 format: Multibloc
-traitement: ""
+traitement:
 ---
-
-## Description

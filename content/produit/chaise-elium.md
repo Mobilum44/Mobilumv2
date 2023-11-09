@@ -1,6 +1,5 @@
 ---
 title: Chaise ELIUM
-
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -25,7 +24,5 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 109
 dimensions: L460 x P544 x H844
 format: Multibloc
-traitement: ""
+traitement:
 ---
-
-## Description

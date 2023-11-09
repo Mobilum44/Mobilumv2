@@ -1,6 +1,5 @@
 ---
 title: 2 assises hautes STELAG
-
 designer:
 collection: Mobilier urbain
 category: Assise
@@ -23,7 +22,5 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 411
 dimensions: L1805 x P1260 H762
 format: Monobloc
-traitement: ""
+traitement:
 ---
-
-## Description

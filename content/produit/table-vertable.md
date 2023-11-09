@@ -1,6 +1,5 @@
 ---
 title: Table VERTABLE
-
 designer:
 collection: Mobilier urbain
 category: Table
@@ -24,7 +23,5 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 688
 dimensions: L2700 x P1500 x H770
 format: Multibloc
-traitement: ""
+traitement:
 ---
-
-## Description

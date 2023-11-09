@@ -1,6 +1,5 @@
 ---
 title: Banquette ELIUM
-
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -24,7 +23,5 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 201
 dimensions: L1800 x P500 x H440
 format: Multibloc
-traitement: ""
+traitement:
 ---
-
-## Description

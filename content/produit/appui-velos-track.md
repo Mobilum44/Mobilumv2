@@ -1,6 +1,5 @@
 ---
 title: Appui-vélos TRACK
-
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Appui-vélos
@@ -24,7 +23,7 @@ materiau: BFUP / Plaque inox
 poids: 28
 dimensions: L217 x P72 x H900
 format: Monobloc
-traitement: ""
+traitement:
 ---
 
 ## Description

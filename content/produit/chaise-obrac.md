@@ -1,6 +1,5 @@
 ---
 title: Chaise OBRAC
-
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Assise
@@ -24,7 +23,5 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 134
 dimensions: L550 x P725 x H930
 format: Monobloc
-traitement: ""
+traitement:
 ---
-
-## Description

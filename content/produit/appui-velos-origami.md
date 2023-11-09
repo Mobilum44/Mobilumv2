@@ -1,6 +1,5 @@
 ---
 title: Appui-vélos ORIGAMI
-
 designer:
 collection: Mobilier urbain
 category: Appui-vélos
@@ -23,7 +22,5 @@ materiau: BFUP / Plaque inox
 poids: 39
 dimensions: L900 x P80 x H900
 format: Monobloc
-traitement: ""
+traitement:
 ---
-
-## Description

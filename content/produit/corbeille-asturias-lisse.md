@@ -1,6 +1,5 @@
 ---
 title: Corbeille ASTURIAS lisse
-
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Corbeille
@@ -24,7 +23,5 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 98
 dimensions: ⌀493 H826
 format: Monobloc
-traitement: ""
+traitement:
 ---
-
-## Description

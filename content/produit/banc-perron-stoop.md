@@ -1,6 +1,5 @@
 ---
 title: Banc perron STOOP
-
 designer: Spritz
 collection: Mobilier urbain
 category: Assise
@@ -24,7 +23,5 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 192
 dimensions: L1000 x P1000 x H510
 format: Monobloc
-traitement: ""
+traitement:
 ---
-
-## Description

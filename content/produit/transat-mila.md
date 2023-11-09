@@ -1,6 +1,5 @@
 ---
 title: Transat MILA
-
 designer: Gautier & Conquet
 collection: Mobilier urbain
 category: Transat
@@ -23,7 +22,5 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 385
 dimensions: L750 x P2230 x H1100
 format: Monobloc
-traitement: ""
+traitement:
 ---
-
-## Description

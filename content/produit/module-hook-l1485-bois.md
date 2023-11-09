@@ -1,6 +1,5 @@
 ---
 title: Module HOOK L1485
-
 designer: Spritz
 collection: HOOK
 category: Module
@@ -24,7 +23,7 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 144
 dimensions: L1485 x P350 x H1133
 format: Multibloc
-traitement: ""
+traitement:
 ---
 
 ## Description

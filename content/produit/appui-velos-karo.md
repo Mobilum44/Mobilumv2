@@ -1,6 +1,5 @@
 ---
 title: Appui-vélos KARO
-
 designer: Sovann Kim
 collection: Mobilier urbain
 category: Appui-vélos
@@ -24,7 +23,5 @@ materiau: BFUP / Plaque inox
 poids: 33
 dimensions: L550 x P80 x H950
 format: Monobloc
-traitement: ""
+traitement:
 ---
-
-## Description

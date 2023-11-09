@@ -1,6 +1,5 @@
 ---
 title: Module HOOK L765
-
 designer: Spritz
 collection: HOOK
 category: Assise
@@ -24,7 +23,7 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 86
 dimensions: L765 x P350 x H1133
 format: Multibloc
-traitement: ""
+traitement:
 ---
 
 ## Description

@@ -1,6 +1,5 @@
 ---
 title: Fontaine avec robinet LOËLLA
-
 designer: Cecile Planchais
 collection: Mobilier urbain
 category: Fontaine
@@ -24,7 +23,5 @@ materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 132
 dimensions: L397 x P640 x H1110
 format: Multibloc
-traitement: ""
+traitement:
 ---
-
-## Description
