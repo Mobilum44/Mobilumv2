@@ -17,13 +17,13 @@ export interface Reference extends ParsedContent {
 	recompense: string;
 	prem_loc: string;
 	prem_client: string;
-	prem_archi_be: string;
+	string;
 	sec_loc: string;
 	sec_client: string;
 	sec_archi_be: string;
 	carousel: string[];
-	texte_quotidien :string;
-	texte_vicat : string;
+	texte_quotidien: string;
+	texte_vicat: string;
 }
 
 export interface Product extends ParsedContent {

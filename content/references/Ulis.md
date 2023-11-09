@@ -17,7 +17,7 @@ recompense:
     patrimoine
 prem_loc:
 prem_client:
-prem_archi_be:
+
 sec_loc:
 sec_client:
 sec_archi_be:

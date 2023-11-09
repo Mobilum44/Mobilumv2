@@ -15,7 +15,7 @@ concept:
 recompense: "European Architecture Awards 2020"
 prem_loc:
 prem_client:
-prem_archi_be:
+
 sec_loc:
 sec_client:
 sec_archi_be:

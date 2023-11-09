@@ -15,7 +15,7 @@ concept: Pièces évidées / Design tout en rondeur / Monobloc
 recompense:
 prem_loc: "Rouen"
 prem_client: "Ville de Rouen / Folius"
-prem_archi_be:
+
 sec_loc: "Fecamp"
 sec_client: "Ville de Fecamp / Soderef"
 sec_archi_be:
