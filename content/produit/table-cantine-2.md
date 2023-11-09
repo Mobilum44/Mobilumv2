@@ -18,7 +18,7 @@ carousel:
     - image: "/produits/table-cantine-02-le-trait-v2.jpg"
     - image: "/produits/table-cantine-02-vernon.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-table-cantine-02-2.jpg"
+    - image: "/produits/filaires/filaire-table-cantine-02-2.png"
 reference: TACANTI0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 491
@@ -26,3 +26,5 @@ dimensions: L2500 x P900 x H750
 format: Multibloc
 traitement:
 ---
+
+## Description

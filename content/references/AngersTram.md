@@ -28,3 +28,5 @@ relatedProducts: ["Banquette VASCO DE GAMA"]
 texte_quotidien:
 texte_vicat:
 ---
+
+## Description

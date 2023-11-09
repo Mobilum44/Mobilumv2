@@ -17,7 +17,7 @@ carousel:
     - image: "/produits/canape-stamp-loroux-mobilum.jpg"
     - image: "/produits/stamp-detail-accoudoir.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-canape-stamp.jpg"
+    - image: "/produits/filaires/filaire-canape-stamp.png"
 reference: CASTAMP0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 382

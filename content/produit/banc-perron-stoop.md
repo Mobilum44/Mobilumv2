@@ -17,7 +17,7 @@ carousel:
     - image: "/produits/banc-perron-stoop-ecouflant.jpg"
     - image: "/produits/stoop-sorbonne.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-banc-perron-stoop-2.jpg"
+    - image: "/produits/filaires/filaire-banc-perron-stoop-2.png"
 reference: BPSTOOP0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 192
@@ -25,3 +25,5 @@ dimensions: L1000 x P1000 x H510
 format: Monobloc
 traitement:
 ---
+
+## Description

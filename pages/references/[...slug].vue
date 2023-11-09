@@ -46,10 +46,12 @@
 				Des premiers mobiliers posés en 2015 sur Trélazé (49) à aujourd'hui nous ne pouvons que vous le
 				confirmer. Vous nous avez donné cette chance de progresser en nous confiant la fabrication de plus de 10
 				000 pièces pour l'aménagement de vos lieux de vie représentant notre beau pays. <br /><br />
-				<em>Il est donc essentiel de vous remercier et de partager légitimement ce petit brin de fierté avec
-				vous.</em><br /><br />
+				<em
+					>Il est donc essentiel de vous remercier et de partager légitimement ce petit brin de fierté avec
+					vous.</em
+				><br /><br />
 				Cette réussite, nous nous devons aussi de la partager avec nos fournisseurs qui au fil du temps et des
-				épreuves sont devenus de véritable partenaires.<br/>
+				épreuves sont devenus de véritable partenaires.<br />
 				Le petit mot de VICAT partenaire majeur de Mobilum :
 			</div>
 
@@ -106,7 +108,8 @@
 				<Carousel :wrap-around="true" snap-align="center" :items-to-show="1">
 					<Slide v-for="(img, i) in doc.carousel" :key="i">
 						<NuxtImg
-							:src="img"
+							:src="img.image"
+							:alt="img.title || doc.title"
 							width="1050"
 							height="700"
 							quality="100"
@@ -199,7 +202,7 @@ h2 {
 	width: 75%;
 	text-align: center;
 	font-size: 1rem;
-	margin-left : 0;
+	margin-left: 0;
 }
 
 .vicat {
@@ -260,9 +263,6 @@ h2 {
 	max-width: 100%;
 	object-fit: contain;
 }
-
-
-
 
 /* ----------------------------------------------------------------------------------
 		Gammes
@@ -337,9 +337,7 @@ h2 {
 	transition: all 0.3s ease-in-out;
 }
 
-
 @media only screen and (max-width: 950px) {
-
 	.reference-header {
 		padding: 0.8rem;
 		width: 100%;
@@ -347,13 +345,13 @@ h2 {
 	}
 
 	h1 {
-		width : 100%;
+		width: 100%;
 		padding: 0;
-		margin : 0;
-		padding-left : 1rem;
-		padding-right : 1rem;
+		margin: 0;
+		padding-left: 1rem;
+		padding-right: 1rem;
 		font-size: 1.5rem;
-		border : none;
+		border: none;
 	}
 
 	h2 {
@@ -361,15 +359,15 @@ h2 {
 		margin-top: 0.5rem;
 	}
 
-	.chapeau{
-		width : 100%;
+	.chapeau {
+		width: 100%;
 	}
 
 	.vicat {
-		width : 100%;
+		width: 100%;
 	}
 	.reference-info-ligne {
-	width: 100%;
+		width: 100%;
 	}
 
 	.responsive {

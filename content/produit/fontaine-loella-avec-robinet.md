@@ -17,7 +17,7 @@ carousel:
     - image: "/produits/fontaine-loella-avec-robinet.jpg"
     - image: "/produits/fontaine-loella-robinet.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-fontaine-loella-1140-robinet-2.jpg"
+    - image: "/produits/filaires/filaire-fontaine-loella-1140-robinet-2.png"
 reference: FOLOELL0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 132
@@ -25,3 +25,5 @@ dimensions: L397 x P640 x H1110
 format: Multibloc
 traitement:
 ---
+
+## Description

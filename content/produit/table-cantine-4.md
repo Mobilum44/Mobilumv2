@@ -18,7 +18,7 @@ carousel:
     - image: "/produits/table-cantine-04-st-viaud.jpg"
 
 filaire:
-    - image: "/produits/filaires/filaire-table-cantine-04-2.jpg"
+    - image: "/produits/filaires/filaire-table-cantine-04-2.png"
 reference: TCCANTI0104
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 901
@@ -26,3 +26,5 @@ dimensions: L2500 x P1650 x H770
 format: Multibloc
 traitement:
 ---
+
+## Description

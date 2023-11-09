@@ -28,3 +28,5 @@ relatedProducts: ["Banc perron STOOP"]
 texte_quotidien:
 texte_vicat:
 ---
+
+## Description

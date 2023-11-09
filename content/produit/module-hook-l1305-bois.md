@@ -16,7 +16,7 @@ cover_image: "/produits/cover_image/cover-hook-1305.jpg"
 carousel:
     - image: "/produits/hook-1305-gris.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-hook-1305.jpg"
+    - image: "/produits/filaires/filaire-hook-1305.png"
 reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 128

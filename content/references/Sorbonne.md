@@ -28,3 +28,5 @@ relatedProducts: ["Banc perron STOOP", "Le cube"]
 texte_quotidien:
 texte_vicat:
 ---
+
+## Description

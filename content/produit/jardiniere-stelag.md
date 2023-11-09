@@ -17,7 +17,7 @@ carousel:
     - image: "/produits/galet-jardiniere-stelag-assise.JPG"
     - image: "/produits/galet-jardiniere-stelag-fecamp.JPG"
 filaire:
-    - image: "/produits/filaires/filaire-stelag-jardiniere.jpg"
+    - image: "/produits/filaires/filaire-stelag-jardiniere.png"
 reference: JASTELA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 577
@@ -25,3 +25,5 @@ dimensions: L1950 x P1395 H682
 format: Monobloc
 traitement:
 ---
+
+## Description

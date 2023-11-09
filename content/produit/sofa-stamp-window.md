@@ -16,7 +16,7 @@ cover_image: "/produits/cover_image/sofa-stamp-window.jpg"
 carousel:
     - image: "/produits/sofa-stamp-window.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-sofa-stamp.jpg"
+    - image: "/produits/filaires/filaire-sofa-stamp.png"
 reference: SOSTAMP0201
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 359

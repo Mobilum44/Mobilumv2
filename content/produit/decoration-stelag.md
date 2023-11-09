@@ -16,7 +16,7 @@ cover_image: "/produits/cover_image/galet-stelag.jpg"
 carousel:
     - image: "/produits/galet-simple-stelag-fecamp.JPG"
 filaire:
-    - image: "/produits/filaires/filaire-galet-simple.jpg"
+    - image: "/produits/filaires/filaire-galet-simple.png"
 reference: GASTELA0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 388
@@ -24,3 +24,5 @@ dimensions: L1805 x P1260 H593
 format: Monobloc
 traitement:
 ---
+
+## Description

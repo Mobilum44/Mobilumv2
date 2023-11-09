@@ -28,5 +28,3 @@ texte_vicat:
 ---
 
 ## Description
-
-""

@@ -17,7 +17,7 @@ carousel:
     - image: "/produits/banquette-elium.jpg"
     - image: "/produits/banquette-elium-parc.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-banquette-elium-2.jpg"
+    - image: "/produits/filaires/filaire-banquette-elium-2.png"
 reference: BAELIUM0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 201
@@ -25,3 +25,5 @@ dimensions: L1800 x P500 x H440
 format: Multibloc
 traitement:
 ---
+
+## Description

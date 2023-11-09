@@ -17,7 +17,7 @@ carousel:
     - image: "/produits/chaise-longues-chemille-resized.jpg"
     - image: "/produits/chaise-longue-obrac.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-chaise-longue-obrac-2.jpg"
+    - image: "/produits/filaires/filaire-chaise-longue-obrac-2.png"
 reference: CLOBRAC0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 161
@@ -25,3 +25,5 @@ dimensions: L600 x P1000 x H900
 format: Monobloc
 traitement:
 ---
+
+## Description

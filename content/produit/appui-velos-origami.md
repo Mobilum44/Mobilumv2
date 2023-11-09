@@ -16,7 +16,7 @@ cover_image: "/produits/cover_image/appui-velo-origami.jpg"
 carousel:
     - image: "/produits/appui-velo-origami-rangee.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-appui-velo-origami.jpg"
+    - image: "/produits/filaires/filaire-appui-velo-origami.png"
 reference: AVORIGA0101
 materiau: BFUP / Plaque inox
 poids: 39
@@ -24,3 +24,5 @@ dimensions: L900 x P80 x H900
 format: Monobloc
 traitement:
 ---
+
+## Description

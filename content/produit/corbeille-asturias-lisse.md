@@ -17,7 +17,7 @@ carousel:
     - image: "/produits/corbeille-asturias-lisse-chemille.jpg"
     - image: "/produits/corbeille-asturias-lisse-raismes.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-corbeille-asturias-ronde-lisse-2.jpg"
+    - image: "/produits/filaires/filaire-corbeille-asturias-ronde-lisse-2.png"
 reference: COASTUR0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et inox
 poids: 98
@@ -25,3 +25,5 @@ dimensions: ⌀493 H826
 format: Monobloc
 traitement:
 ---
+
+## Description

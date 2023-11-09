@@ -16,7 +16,7 @@ cover_image: "/produits/cover_image/banquette-beam-double-2.jpg"
 carousel:
     - image: "/produits/banquette-double-beam.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-banquette-beam-double-3.jpg"
+    - image: "/produits/filaires/filaire-banquette-beam-double-3.png"
 reference: BABEAM_0102
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 527
@@ -24,3 +24,5 @@ dimensions: L2000 x P820 x H450 + changer filaire
 format: Multibloc
 traitement:
 ---
+
+## Description

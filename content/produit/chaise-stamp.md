@@ -16,7 +16,7 @@ cover_image: "/produits/cover_image/chaise-stamp-lisse.jpg"
 carousel:
     - image: "/produits/chaise-stamp.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-chaise-stamp-lisse-2.jpg"
+    - image: "/produits/filaires/filaire-chaise-stamp-lisse-2.png"
 reference: CHSTAMP0101
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP)
 poids: 132

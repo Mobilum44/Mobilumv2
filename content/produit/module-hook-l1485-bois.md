@@ -17,7 +17,7 @@ carousel:
     - image: "/produits/hook-1485-poitiers.jpg"
     - image: "/produits/hook-bois-1485-poitiers.jpg"
 filaire:
-    - image: "/produits/filaires/filaire-hook-1485.jpg"
+    - image: "/produits/filaires/filaire-hook-1485.png"
 reference:
 materiau: Béton Fibré à Ultra-hautes Performances (BFUP) et bois
 poids: 144
