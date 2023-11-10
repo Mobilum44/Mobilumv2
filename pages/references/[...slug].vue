@@ -50,7 +50,7 @@
 					vous.</em
 				><br /><br />
 				Cette réussite, nous nous devons aussi de la partager avec nos fournisseurs qui au fil du temps et des
-				épreuves sont devenus de véritable partenaires.<br />
+				épreuves sont devenus de véritables partenaires.<br />
 				Le petit mot de VICAT partenaire majeur de Mobilum :
 			</div>
 

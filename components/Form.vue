@@ -2,26 +2,13 @@
 	<div class="Form">
 		<form @submit.prevent="sendMail" ref="formElement">
 			<div>
-				<label for="firstname">Votre prénom <sup>*</sup></label>
+				<label for="name">Votre nom et prénom <sup>*</sup></label>
 				<input
 					type="text"
-					id="firstname"
-					name="firstname"
-					v-model="form.firstname"
+					id="name"
+					name="name"
+					v-model="form.name"
 					placeholder="Votre prénom"
-					required
-					minlength="2"
-					maxlength="64"
-				/>
-			</div>
-			<div>
-				<label for="lastname">Votre nom <sup>*</sup></label>
-				<input
-					type="text"
-					id="lastname"
-					name="lastname"
-					v-model="form.lastname"
-					placeholder="Votre nom"
 					required
 					minlength="2"
 					maxlength="64"
@@ -45,11 +32,7 @@
 				<input type="email" id="email" name="email" v-model="form.email" placeholder="Votre email" required />
 			</div>
 			<div>
-				<label for="phone">Votre téléphone</label>
-				<input type="tel" id="phone" name="phone" v-model="form.phone" placeholder="+33(0)2 51 72 90 22" />
-			</div>
-			<div>
-				<label for="subject">Votre requête <sup>*</sup></label>
+				<label for="subject">Votre demande <sup>*</sup></label>
 				<input
 					type="text"
 					id="subject"
@@ -85,10 +68,8 @@
 const config = useRuntimeConfig();
 
 interface Form {
-	firstname: string;
-	lastname: string;
+	name: string;
 	company: string;
-	phone: string;
 	email: string;
 	subject: string;
 	message: string;
@@ -97,16 +78,14 @@ interface Form {
 const btnText = ref("Envoyer");
 const formElement = ref<HTMLFormElement>();
 const form = reactive<Form>({
-	firstname: "",
-	lastname: "",
-	phone: "",
-	email: "",
+	name: "",
 	company: "",
+	email: "",
 	subject: "",
 	message: "",
 });
 const isDisabled = computed(() => {
-	return !form.firstname || !form.lastname || !form.company || !form.subject || !form.message;
+	return !form.name || !form.company || !form.email || !form.subject || !form.message;
 });
 
 useHead({
@@ -142,9 +121,7 @@ async function sendMail(): Promise<void> {
 	} finally {
 		console.log("Mail sent");
 		form.company = "";
-		form.firstname = "";
-		form.lastname = "";
-		form.phone = "";
+		form.name = "";
 		form.email = "";
 		form.subject = "";
 		form.message = "";

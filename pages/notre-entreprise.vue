@@ -112,7 +112,7 @@ Notre savoir-faire
 							Pérennité du matériau, faible entretien et réponse aux exigences climatiques ont été
 							essentiels dans notre choix du BFUP.<br /><br />
 							Mobilum a engagé une démarche RSE globale qui commence par la réalisation de son bilan
-							carbone, indispensable à la définitions d'objectifs justes et précis. <br /><br />
+							carbone, indispensable à la définition d'objectifs justes et précis. <br /><br />
 						</p>
 					</div>
 				</div>

@@ -1,7 +1,7 @@
 ---
 type: Les remarquables
 cover_title: Notre quotidien
-title: Dix milles mercis !
+title: Dix mille mercis !
 sub_title:
 order: 1
 cover_image: "/references/cover_image/notre-quotidien-vide.jpg"
