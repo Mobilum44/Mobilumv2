@@ -1,7 +1,7 @@
 <template>
 	<NuxtLayout name="default">
 		<template #slot_image>
-			<div class="slot_image" :style="backgroundStyles('/backgroundpages/fond-collection-beam-plage.jpg')">
+			<div class="slot_image" :style="backgroundStyles('/backgroundpages/fond-collection-beam-plage-resized.jpg')">
 				<h1>Nos collections</h1>
 			</div>
 		</template>
