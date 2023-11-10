@@ -1,7 +1,7 @@
 <template>
 	<NuxtLayout name="default">
 		<template #slot_image>
-			<div class="slot_image" :style="backgroundStyles('/backgroundpages/fond-entreprise-loroux-bottereau.jpg')">
+			<div class="slot_image" :style="backgroundStyles('/backgroundpages/fond-entreprise-loroux-bottereau-sandrine.jpg')">
 				<h1>Notre entreprise</h1>
 			</div>
 		</template>
@@ -147,7 +147,7 @@ useSeoMeta({
 function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 	const imgUrl = img(thumbnail, {
 		width: 1920,
-		quality: 80,
+		quality: 70,
 		placeholder: true,
 		format: "avif,webp",
 	});
@@ -263,7 +263,7 @@ h3 {
 	background-size: cover;
 }
 .savoir-faire {
-	background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #f5ebe0), url("/photospages/savoir-faire.jpg");
+	background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #f5ebe0), url("/photospages/savoir-faire-mains.jpg");
 	background-size: cover;
 }
 .RSE {
