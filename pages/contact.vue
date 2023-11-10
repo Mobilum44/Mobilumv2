@@ -165,5 +165,9 @@ p {
 		display: flex;
 		flex-direction: column;
 	}
+
+	.content_box {
+	width: 85%;
+}
 }
 </style>
