@@ -73,10 +73,9 @@ function backgroundStyles(thumbnail: string): { backgroundImage: string } {
 }
 </script>
 
-
 <style scoped>
 .slot_image {
-	opacity : 90%;
+	opacity: 90%;
 	background-size: cover;
 	background-attachment: fixed;
 }
