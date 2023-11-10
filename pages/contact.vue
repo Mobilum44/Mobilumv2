@@ -9,6 +9,7 @@
 		<div class="sub__section base">
 			<div class="content">
 				<div class="content_box">
+					<b> Bonjour, le formulaire de contact est en construction, il arrive dans la journée :)</b>
 					<Form />
 				</div>
 
