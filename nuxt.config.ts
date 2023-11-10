@@ -19,17 +19,18 @@ export default defineNuxtConfig({
 		],
 		"nuxt-simple-sitemap",
 		"vue3-carousel-nuxt",
-		'nuxt-gtag',
+		"nuxt-gtag",
 	],
 
 	gtag: {
-		id: 'G-386609275'
-	  },
-  
+		id: "G-386609275",
+	},
+
 	css: ["@/assets/styles/main.scss"],
 	runtimeConfig: {
 		public: {
 			siteUrl: "https://www.mobilum-france.com/",
+			formToken: "a493b551-6709-4239-a5d0-22886b29442e",
 		},
 	},
 });
