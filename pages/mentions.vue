@@ -30,11 +30,13 @@
 			<p>
 				Directeur de la publication : MOBILUM <br />
 				Développement : Elise Hallet, Léo Olivier <br />
-				Photographies : Mobilum, Pascal Guiraud, Elise Hallet, Nautilus, .................
+				Textes : 
+				Photographies : Mobilum, Pascal Guiraud, Nautilus
 			</p>
 
 			<h3>Hébergeur</h3>
-			<p><b> Mettre le nom et l'adresse de l'Hébergeur</b></p>
+			<p>Vercel<br/>
+				https://vercel.com/</p>
 
 			<h3>Conditions d’utilisation</h3>
 			<p>
