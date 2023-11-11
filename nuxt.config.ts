@@ -23,7 +23,7 @@ export default defineNuxtConfig({
 	],
 
 	gtag: {
-		id: "G-386609275",
+		id: "G-QRKPE667BJ",
 	},
 
 	css: ["@/assets/styles/main.scss"],
