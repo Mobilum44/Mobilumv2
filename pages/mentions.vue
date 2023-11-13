@@ -36,7 +36,7 @@
 
 			<h3>Hébergeur</h3>
 			<p>Vercel<br/>
-				https://vercel.com/</p>
+				<a href="https://vercel.com/" target="_blank">https://vercel.com/</a></p>
 
 			<h3>Conditions d’utilisation</h3>
 			<p>

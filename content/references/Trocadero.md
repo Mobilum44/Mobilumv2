@@ -20,7 +20,7 @@ sec_loc:
 sec_client:
 sec_archi_be:
 carousel:
-    - "/references/carousel/trocadero-jardinieres.jpg"
+    - "/references/carousel/trocadero-jardinieres.png"
     - "/references/carousel/trocadero-jardinieres-cote.jpg"
 relatedProducts:
 texte_quotidien:
