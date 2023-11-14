@@ -30,7 +30,7 @@ export default defineNuxtConfig({
 	runtimeConfig: {
 		public: {
 			siteUrl: "https://www.mobilum-france.com/",
-			formToken: "a493b551-6709-4239-a5d0-22886b29442e",
+			formToken: "d28b4532-34cc-42fa-b97e-1b15769c0b13",
 		},
 	},
 });
