@@ -1,6 +1,6 @@
 ---
 title: Mange-debout
-designer:
+designer: Sovann Kim
 collection: Mobilier urbain
 category: Table
 sub_category: 12 Mange debout
