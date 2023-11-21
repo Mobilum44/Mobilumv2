@@ -31,14 +31,6 @@
 								+33(0)2 51 72 90 22
 							</p>
 						</div>
-
-						<div class="service">
-							<h3>Facturation</h3>
-							<p>
-								fournisseurs@mobilum-france.com <br />
-								+33(0)2 52 59 58 77
-							</p>
-						</div>
 					</div>
 				</div>
 			</div>
