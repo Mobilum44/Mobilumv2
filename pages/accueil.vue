@@ -32,7 +32,7 @@
 		</template>
 
 		<p class="accueil_text">
-			En neuf ans d'existence, Mobilum a acquis un savoir-faire unique dans la création et la fabrication de
+			En dix ans d'existence, Mobilum a acquis un savoir-faire unique dans la création et la fabrication de
 			mobiliers urbains en Béton Fibré Ultra Performant (BFUP). <br />
 			<br />
 
