@@ -13,8 +13,8 @@ defineProps<{
 	title: string;
 	path?: string;
 	img: string;
-	cover_text: string;
-	alt: string;
+	cover_text?: string;
+	alt?: string;
 }>();
 </script>
 

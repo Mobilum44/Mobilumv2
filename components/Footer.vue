@@ -34,11 +34,17 @@
 
 		<div class="legal">
 			<p class="coordonnées">
-				&copy; Mobilum 2023. Tous droits réservés.
+				&copy; Mobilum {{currentYear}}. Tous droits réservés.
 			</p>
 		</div>
 	</footer>
 </template>
+
+<script setup lang="ts">
+import { ref } from 'vue';
+
+const currentYear = ref(new Date().getFullYear());
+</script>
 
 <style>
 *,

@@ -17,13 +17,24 @@ export interface Reference extends ParsedContent {
 	recompense: string;
 	prem_loc: string;
 	prem_client: string;
-	string;
 	sec_loc: string;
 	sec_client: string;
 	sec_archi_be: string;
 	carousel: string[];
 	texte_quotidien: string;
 	texte_vicat: string;
+}
+
+export interface Article extends ParsedContent {
+	type: string;
+	cover_title: string;
+	title: string;
+	sub_title: string;
+	order: string;
+	cover_image: string;
+	date: string;
+	carousel: string[];
+	text: string;
 }
 
 export interface Product extends ParsedContent {

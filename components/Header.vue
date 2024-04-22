@@ -14,6 +14,9 @@
 				<NuxtLink class="nav__link" to="/collection"> Nos collections </NuxtLink>
 			</li>
 			<li>
+				<NuxtLink class="nav__link" to="/actualites"> Actualités </NuxtLink>
+			</li>
+			<li>
 				<NuxtLink class="nav__link" to="/contact"> Contact </NuxtLink>
 			</li>
 			<li>
