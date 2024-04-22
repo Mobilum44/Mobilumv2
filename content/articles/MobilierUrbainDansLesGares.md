@@ -1,7 +1,7 @@
 ---
 type: 
 cover_title: "Dans les gares"
-title: "Mobilier urbain"
+title: "Mobilier urbain dans les gares"
 sub_title: "Grand Paris Express"
 order: 1
 cover_image: "/references/cover_image/image-article-test.png"
