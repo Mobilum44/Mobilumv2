@@ -4,7 +4,7 @@ cover_title: "Dans les gares"
 title: "Mobilier urbain dans les gares"
 sub_title: "Grand Paris Express"
 order: 1
-cover_image: "/references/cover_image/image-article-test.png"
+cover_image: "/references/cover_image/image-article-test.jpeg"
 date: "22/04/2024"
 carousel:
     - "https://www.youtube.com/watch?v=9E0_16bq9vc"
