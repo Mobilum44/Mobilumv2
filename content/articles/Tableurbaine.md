@@ -12,7 +12,7 @@ carousel:
 text: "
 <h2>Immersion dans l'Univers de MOBILUM pour Léa</h2>
 \n\n
-Léa, directrice artistique chez<a href='https://phenix-studio.fr/'>Phenix Studio</a>, notre agence de communication, a récemment franchi les portes de notre showroom d'usine avec un objectif précis : capturer l'essence des produits de la collection CANTINE, une ligne de mobilier urbain conçue par Sovann Kim, lauréat du Janus de la Cité décerné par l'Institut Français du Design.
+Léa, directrice artistique chez <a href='https://phenix-studio.fr/'>Phenix Studio</a>, notre agence de communication, a récemment franchi les portes de notre showroom d'usine avec un objectif précis : capturer l'essence des produits de la collection CANTINE, une ligne de mobilier urbain conçue par Sovann Kim, lauréat du Janus de la Cité décerné par l'Institut Français du Design.
 \n\n
 Léa s'est installée, a savouré un repas, pris un verre, puis s'est laissée porter par la contemplation. Entre deux instants de réflexion, elle a échangé avec elle-même. Et finalement, elle s'est appuyée une dernière fois sur la table, absorbée par la quête de la pièce parfaite à mettre en lumière dans sa prochaine publication.
 \n\n
@@ -26,7 +26,7 @@ Un second point fort de la gamme est sa facilité d'entretien : grâce à sa sur
 \n\n
 <a href='https://mobilum-france.com/mobilier-urbain'> Pour découvrir l’intégralité de la collection CANTINE</a> 
 \n\n
-Pour rester informé des dernières actualités de MOBILUM et ne rien manquer des nouveautés à venir, n'hésitez pas à nous suivre sur LinkedIn !
+Pour rester informé des dernières actualités de MOBILUM et ne rien manquer des nouveautés à venir, n'hésitez pas à nous suivre sur <a href='https://www.linkedin.com/company/mobilum-france/'>LinkedIn</a> !
 
 "
 
