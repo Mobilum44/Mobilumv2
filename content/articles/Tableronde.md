@@ -4,10 +4,10 @@ cover_title: "Table Ronde"
 title: "Société des Grands Projets"
 sub_title: "Table Ronde"
 order: 1
-cover_image: "/photos/tableronde.png"
+cover_image: "/references/cover_image/tableronde.png"
 date: "31/05/2024"
 carousel:
-    - "/photos/tableronde.png"
+    - "/references/carousel/tableronde.png"
 text: " Quand une maîtrise d'ouvrage décide de mettre autour de la table les différents acteurs d'un projet ambitieux pour expliquer le choix d'un matériau, cela donne un contenu lisible sur l'ensemble de la chaine de partenaires... et ça c'est top !
 
 Merci au super trio de la SGP (Société des grands projets) Stéphanie Navarro, Responsable Pôle Design, Thierry Huyghues-beaufond, Responsable de l'Unité Infrastructures et des Méthodes Constructives et Reda B. Belmajdoub, Chef de projet Innovation - Responsable Mission Béton Bas Carbone, pour votre invitation. Cela exige d'être bien précis dans les réponses.
