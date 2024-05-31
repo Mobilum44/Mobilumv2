@@ -12,7 +12,7 @@ carousel:
 text: "
 <h2>Immersion dans l'Univers de MOBILUM pour Léa</h2>
 \n\n
-Léa, directrice artistique chez Phenix Studio, notre agence de communication, a récemment franchi les portes de notre showroom d'usine avec un objectif précis : capturer l'essence des produits de la collection CANTINE, une ligne de mobilier urbain conçue par Sovann Kim, lauréat du Janus de la Cité décerné par l'Institut Français du Design.
+Léa, directrice artistique chez<a href='https://phenix-studio.fr/'>Phenix Studio</a>, notre agence de communication, a récemment franchi les portes de notre showroom d'usine avec un objectif précis : capturer l'essence des produits de la collection CANTINE, une ligne de mobilier urbain conçue par Sovann Kim, lauréat du Janus de la Cité décerné par l'Institut Français du Design.
 \n\n
 Léa s'est installée, a savouré un repas, pris un verre, puis s'est laissée porter par la contemplation. Entre deux instants de réflexion, elle a échangé avec elle-même. Et finalement, elle s'est appuyée une dernière fois sur la table, absorbée par la quête de la pièce parfaite à mettre en lumière dans sa prochaine publication.
 \n\n
