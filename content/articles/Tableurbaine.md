@@ -11,24 +11,22 @@ carousel:
     - "/references/cover_image/tableurbaine-2.png"
 text: "
 <h2>Immersion dans l'Univers de MOBILUM pour Léa</h2>
-\n
+\n\n
 Léa, directrice artistique chez Phenix Studio, notre agence de communication, a récemment franchi les portes de notre showroom d'usine avec un objectif précis : capturer l'essence des produits de la collection CANTINE, une ligne de mobilier urbain conçue par Sovann Kim, lauréat du Janus de la Cité décerné par l'Institut Français du Design.
-\n
+\n\n
 Léa s'est installée, a savouré un repas, pris un verre, puis s'est laissée porter par la contemplation. Entre deux instants de réflexion, elle a échangé avec elle-même. Et finalement, elle s'est appuyée une dernière fois sur la table, absorbée par la quête de la pièce parfaite à mettre en lumière dans sa prochaine publication.
-\n
+\n\n
 <h2>Coup de coeur pour la Table Urbaine de la collection CANTINE</h2>
-\n
+\n\n
 Son principal atout est sa grande envergure, offrant un espace généreux pensé comme un lieu de rassemblement et de détente.
-\n
+\n\n
 Un second point fort de la gamme est sa facilité d'entretien : grâce à sa surface lisse et fermée, un simple rinçage à l'eau claire suffit pour la nettoyer, garantissant ainsi un environnement urbain propre et accueillant dans le temps.
-\n
+\n\n
 À vos marques, prêts, festoyés !
-\n
-Pour découvrir l’intégralité de la collection CANTINE : 
-
-<NuxtLink> 
-<p to "https://mobilum-france.com/mobilier-urbain"><em>Cliquez ici</em></p>
-</NuxtLink>
+\n\n
+Pour découvrir l’intégralité de la collection CANTINE : https://mobilum-france.com/mobilier-urbain
+\n\n
+Pour rester informé des dernières actualités de MOBILUM et ne rien manquer des nouveautés à venir, n'hésitez pas à nous suivre sur LinkedIn !
 
 "
 
