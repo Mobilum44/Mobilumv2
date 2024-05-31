@@ -22,7 +22,7 @@ Un second point fort de la gamme est sa facilité d'entretien : grâce à sa sur
 
 À vos marques, prêts, festoyés !
 
-Pour découvrir l’intégralité de la collection CANTINE : <NuxtLink> to="https://mobilum-france.com/mobilier-urbain" Cliquer ici</NuxtLink> "
+Pour découvrir l’intégralité de la collection CANTINE : https://mobilum-france.com/mobilier-urbain "
 
 ---
 <!-- Dans le champ texte, \n pour faire un retour à la ligne, \n\n pour faire un nouveau paragraphe -->
