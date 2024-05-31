@@ -28,10 +28,12 @@ defineProps<{
 	margin-left: 1.5%;
 	margin-bottom: 1.5%;
 }
+
 .CarteMarches img {
-	object-fit: contain;
-	height : 100%;
-	object-position: 50% 50%;
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	object-position: center;
 }
 
 .CarteMarches p {
