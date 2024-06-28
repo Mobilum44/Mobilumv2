@@ -3,7 +3,7 @@ type:
 cover_title: "Table Ronde"
 title: "Société des Grands Projets"
 sub_title: "Table Ronde"
-order: 1
+order: 3
 cover_image: "/references/cover_image/tableronde.png"
 date: "31/05/2024"
 carousel:
