@@ -3,7 +3,7 @@ type:
 cover_title: "La Table Urbaine"
 title: "COLLECTION CANTINE"
 sub_title: "Zoom sur le Table Urbaine"
-order: 2
+order: "2"
 cover_image: "/references/cover_image/tableurbaine-2.png"
 date: "31/05/2024"
 carousel:

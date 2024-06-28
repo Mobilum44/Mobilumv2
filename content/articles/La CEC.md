@@ -3,7 +3,7 @@ type:
 cover_title: "La Convention pour le Climat"
 title: "La Convention pour le Climat"
 sub_title: "Acte I : Mobilum a embarqué !"
-order: 1
+order: "1"
 cover_image: "/references/carousel/cec-photo4.png"
 date: "28/06/2024"
 carousel:
