@@ -1,30 +1,32 @@
 ---
 type: 
-cover_title: "La Table Urbaine"
-title: "COLLECTION CANTINE"
-sub_title: "Zoom sur le Table Urbaine"
-order: "2"
-cover_image: "/references/cover_image/tableurbaine-2.png"
-date: "31/05/2024"
+cover_title: "La Convention des Entreprises pour le Climat"
+title: "La Convention des Entreprises pour le Climat"
+sub_title: "Acte I : Mobilum a embarqué !"
+order: "1"
+cover_image: "/references/carousel/cec-photo5.png"
+date: "08/07/2024"
 carousel:
-    - "/references/carousel/tableurbaine-1.png"
-    - "/references/cover_image/tableurbaine-2.png"
+    - "/references/carousel/cec-photo5.png"
+    - "/references/carousel/cec-photo1.png"
+    - "/references/carousel/cec-photo2.png"
+    - "/references/carousel/cec-photo3.png"
+    - "/references/carousel/cec-photo4.png"
 text: "
-<h2>Immersion dans l'Univers de MOBILUM pour Léa</h2>
+<h2>Comment Envisagez-vous l'Avenir ?</h2>
 \n\n
-Léa, directrice artistique chez <a href='https://phenix-studio.fr/'>Phenix Studio</a>, notre agence de communication, a récemment franchi les portes de notre showroom d'usine avec un objectif précis : capturer l'essence des produits de la collection CANTINE, une ligne de mobilier urbain conçue par Sovann Kim, lauréat du Janus de la Cité décerné par l'Institut Français du Design.
+Chez MOBILUM, nous croyons fermement que la transition de nos entreprises est essentielle pour assurer l’avenir de la vie sur notre planète. Cette conviction nous a conduits à rejoindre La CEC Industries, un collectif regroupant 56 entreprises issues de divers secteurs industriels et représentant plus de 585 000 salariés.
 \n\n
-Léa s'est installée, a savouré un repas, pris un verre, puis s'est laissée porter par la contemplation. Entre deux instants de réflexion, elle a échangé avec elle-même. Et finalement, elle s'est appuyée une dernière fois sur la table, absorbée par la quête de la pièce parfaite à mettre en lumière dans sa prochaine publication.
+<h2>Un Constat Qui Nous Oblige À Repenser Nos Modèles</h2>
 \n\n
-<h2>Coup de coeur pour la Table Urbaine de la collection CANTINE</h2>
+Pour comprendre les raisons et les méthodes nécessaires pour repenser nos modèles, nous avons fait confiance aux experts présents. Ils ont posé un état des lieux basé sur des constats scientifiques, permettant de sensibiliser sur les enjeux environnementaux et sociaux à la fois à l'échelle mondiale et territoriale. 
+Les interventions de Yannick Servant, Charlène Descollonges, Emmanuel Cappellin et Arthur Keller ont été particulièrement bouleversantes, enrichissantes et instructives. Merci à eux !
 \n\n
-Son principal atout est sa grande envergure, offrant un espace généreux pensé comme un lieu de rassemblement et de détente.
+<h2>Un Effort Collectif Nécessaire</h2>
 \n\n
-Un second point fort de la gamme est sa facilité d'entretien : grâce à sa surface lisse et fermée, un simple rinçage à l'eau claire suffit pour la nettoyer, garantissant ainsi un environnement urbain propre et accueillant dans le temps.
+Nous tenons à remercier chaleureusement l’équipe de la CEC des communs, les Co-leads, et les COFAC Colette Gevers et Yoann ROUILLAC pour leur organisation sans faille. Ce rassemblement a permis de rencontrer de nombreux entrepreneurs et « Planet Champions » engagés. Nous sommes convaincus que la coopération sera l'une des clés de la réussite de cette transformation.
 \n\n
-À vos marques, prêts, festoyés !
-\n\n
-<a href='https://mobilum-france.com/mobilier-urbain'> Pour découvrir l’intégralité de la collection CANTINE</a> 
+Si vous souhaitez faire partie de ce mouvement et contribuer à un avenir durable, rejoignez-nous sur le site de la <a href='https://cec-impact.org/'>CEC Accueil</a>.
 \n\n
 Pour rester informé des dernières actualités de MOBILUM et ne rien manquer des nouveautés à venir, n'hésitez pas à nous suivre sur <a href='https://www.linkedin.com/company/mobilum-france/'>LinkedIn</a> !
 
