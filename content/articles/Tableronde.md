@@ -5,7 +5,7 @@ title: "Société des Grands Projets"
 sub_title: "Table Ronde"
 order: "3"
 cover_image: "/references/cover_image/tableronde.png"
-date: "31/05/2024"
+date: "28/05/2024"
 carousel:
     - "/references/carousel/tableronde.png"
 text: " Quand une maîtrise d'ouvrage décide de mettre autour de la table les différents acteurs d'un projet ambitieux pour expliquer le choix d'un matériau, cela donne un contenu lisible sur l'ensemble de la chaine de partenaires... et ça c'est top !
