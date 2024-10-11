@@ -4,7 +4,7 @@ cover_title: "Communauté de communes"
 title: "Mobilier urbain dans les gares"
 sub_title: "Grand Paris Express"
 order: "5"
-cover_image: "/references/cover_image/image-article-test.jpeg"
+cover_image: "/references/cover_image/video-communaute-de-communes.jpg.jpeg"
 date: "11/10/2024"
 carousel:
     - "https://www.youtube.com/watch?v=m3u0KFAbgps&feature=youtu.be"
