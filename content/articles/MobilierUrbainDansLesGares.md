@@ -3,52 +3,28 @@ type:
 cover_title: "Dans les gares"
 title: "Mobilier urbain dans les gares"
 sub_title: "Grand Paris Express"
-order: "4"
+order: "5"
 cover_image: "/references/cover_image/image-article-test.jpeg"
 date: "22/04/2024"
 carousel:
-    - "https://www.youtube.com/watch?v=9E0_16bq9vc"
-text: " 🎙️ Nous prenons (enfin) la parole en 2024 pour partager avec vous de grandes idées, de grands projets et de belles références. MOBILUM avance, invente et se réinvente et nous souhaitons aujourd’hui le partager avec vous.
+    - "https://www.youtube.com/watch?v=m3u0KFAbgps&feature=youtu.be"
+text: " 
 
- 
+Un grand Merci à la ville du Loroux-Bottereau
 
-Nous sommes fiers de vous annoncer que la Société des grands projets a retenu MOBILUM pour la fabrication du mobilier de repos et du soubassement de la signalétique du Grand Paris Express.
+Chez MOBILUM, nous tenons à exprimer notre profonde gratitude à Monsieur Rivery, Maire de la Ville du Loroux-Bottereau, ainsi qu’à l’ensemble des élus et à Monsieur Thomas, Directeur des Services Techniques, pour nous avoir permis de participer à divers aménagements au sein de la commune.
 
- 
+Une région de richesse et de dynamisme
 
-Nous souhaitons remercier Stéphanie Navarro et Stéphanie Brabant de Grand Paris Express de nous avoir accordé leur confiance sur ces marchés.
+Bien que notre région soit mondialement connue pour son muscadet, elle brille également par le dynamisme de ses industries. En tant qu’acteurs locaux, nous avons à cœur de contribuer à ce rayonnement. 
 
- 
+Chers élus et donneurs d’ordres locaux, nous serions ravis de vous accueillir dans nos locaux pour vous offrir une présentation encore plus détaillée de notre savoir-faire. Nos portes vous sont grandes ouvertes !
 
-Merci à l'Agence Patrick Jouin iD - Jouin Manku et plus particulièrement à Henry Gagnaire et Jacques LOCKHART pour la qualité de nos échanges sur toute la phase de développement.
+Un soutien inestimable
 
- 
+Nous souhaitons également remercier chaleureusement la Communauté de communes Sèvre & Loire, et tout particulièrement Mme Vanessa Duguy du Service Développement Économique, pour son accompagnement tout au long de ces années. Grâce à cet engagement, nous avons pu évoluer et nous impliquer davantage dans le développement local.
 
-Merci à dupont pascal, B-TON DESIGN, pour son travail d’étude et de mise en relation. 
-
- 
-
-Merci à nos partenaires de nous avoir permis de répondre présent sur ce dossier d'exception :
-
-- Synthèse : Cédric JANIN et David Costenoble (lot mobilier urbain)
-
-- OUEST SIGNALETIQUE SERVICES : Franck JEANNOT et Martial POURTAUD (lot signalétique)
-
-- Groupe Vicat et SmartUP-VICAT : Anaïs Aymont, Jérôme Frécon et Damien ROGAT
-
- 
-
-Enfin, Merci à Alexia Decarme et ses équipes pour cette mise en lumière.
-
- 
-
-📺 On vous laisse profiter du spot et le partager.
-
-Posez-nous vos questions en commentaires si vous en avez ! Nous vous répondrons rapidement 👍
-
- 
-
-> Notre prochain rdv sur le sujet : mercredi 27 mars pour la table ronde sur le BFUP, ses qualités exceptionnelles en terme mécanique, de durabilité et d’esthétisme.
+Chez MOBILUM, nous sommes fiers de participer au dynamisme de notre région et de contribuer à son développement à travers nos projets. Nous restons à disposition pour continuer cette belle collaboration avec les acteurs locaux, toujours dans un esprit de proximité et de qualité.
 
 Plus d'informations : https://lnkd.in/eafYHkvP"
 ---
