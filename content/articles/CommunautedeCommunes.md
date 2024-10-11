@@ -4,7 +4,7 @@ cover_title: "Communauté de communes"
 title: "Communauté de communes Sèvre et Loire"
 sub_title: "À la Découverte de Mobilum"
 order: "5"
-cover_image: "/references/cover_image/video-communaute-de-communes.jpg.jpeg"
+cover_image: "/references/cover_image/video-communaute-de-communes.jpg"
 date: "11/10/2024"
 carousel:
     - "https://www.youtube.com/watch?v=m3u0KFAbgps&feature=youtu.be"
