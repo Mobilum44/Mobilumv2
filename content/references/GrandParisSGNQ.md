@@ -20,8 +20,12 @@ sec_loc:
 sec_client:
 sec_archi_be:
 carousel:
+    - "/references/carousel/sgp-signaletique-1.jpg"
+    - "/references/carousel/sgp-signaletique-2.jpg"
+    - "/references/carousel/sgp-signaletique-3.jpg"
+    - "/references/carousel/sgp-signaletique-4.jpg"
+    - "/references/carousel/sgp-signaletique-5.jpg"
     - "/references/carousel/gros-plan-SGP.jpg"
-    - "/references/carousel/sgp-signaletique-brut-peints.jpg"
     - "/references/carousel/sgp-signaletique-peints-bruts.jpg"
 relatedProducts:
 texte_quotidien:
