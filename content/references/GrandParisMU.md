@@ -20,8 +20,14 @@ sec_loc:
 sec_client:
 sec_archi_be:
 carousel:
+    - "references/carousel/sgp-mobilier-urbain-assise-1.jpg"
     - "references/carousel/sgp-mobilier-urbain-assise-2.jpg"
-    - "references/carousel/sgp-mobilier-urbain-assise.jpg"
+    - "references/carousel/sgp-mobilier-urbain-assise-3.jpg"
+    - "references/carousel/sgp-mobilier-urbain-assise-4.jpg"
+    - "references/carousel/sgp-mobilier-urbain-assise-5.jpg"
+    - "references/carousel/sgp-mobilier-urbain-assise-6.jpg"
+    - "references/carousel/sgp-mobilier-urbain-assise-7.jpg"
+    - "references/carousel/sgp-mobilier-urbain-assise-8.jpg"
     - "references/carousel/sgp-mobilier-urbain-assises-rangements.jpg"
     - "references/carousel/sgp-mobilier-urbain-detail.jpg"
 relatedProducts:
