@@ -19,12 +19,14 @@ Dans un contexte de croissance continue en 2022 et 2023, et face à des départs
 <h2>MOBILUM ne cesse de se réinventer</h2>
 \n\n
 C’est ici qu’intervient notre partenaire, OPCO 2i, représenté par Yohann Blez. Depuis cinq ans, l’OPCO 2i nous soutient dans nos projets de développement des compétences, et face à notre défi de formation, ils ont proposé une solution : le contrat de professionnalisation accompagné.
-Les avantages :
+\n\n
+<b>Les avantages :</b>
+\n\n
 <ul>
-<li>Une qualification reconnue dans la convention collective de l’entreprise</li>
-<li>Un contrat de professionnalisation à temps complet pour l’apprenant</li>
-<li>Une formation adaptée aux besoins de l’entreprise par la mobilisation des compétences internes (tuteur et collègues), qui permet le transfert des savoir-faire.</li>
-<li>L’accompagnement d’un organisme architecte tout au long du processus qui aide à la contractualisation, structuration du programme de formation et à l’animation des rendez-vous tuteurs.</li>
+<li> ● Une qualification reconnue dans la convention collective de l’entreprise</li>
+<li> ● Un contrat de professionnalisation à temps complet pour l’apprenant</li>
+<li> ● Une formation adaptée aux besoins de l’entreprise par la mobilisation des compétences internes (tuteur et collègues), qui permet le transfert des savoir-faire.</li>
+<li> ● L’accompagnement d’un organisme architecte tout au long du processus qui aide à la contractualisation, structuration du programme de formation et à l’animation des rendez-vous tuteurs.</li>
 </ul>
 \n\n
 <h2>Une collaboration réussie !</h2>
