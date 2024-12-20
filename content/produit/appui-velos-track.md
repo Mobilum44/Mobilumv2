@@ -1,6 +1,6 @@
 ---
 title: Appui-vélos TRACK
-designer: Sovann Kim
+designer: SPRITZ
 collection: Mobilier urbain
 category: Appui-vélos
 sub_category: 18 Appui-vélos

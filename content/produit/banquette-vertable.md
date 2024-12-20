@@ -1,6 +1,6 @@
 ---
 title: Banquette VERTABLE
-designer: Phytolab
+designer: 
 collection: Mobilier urbain
 category: Assise
 sub_category: 05.11 Banquette
