@@ -1,6 +1,6 @@
 ---
 title: Banquette simple BEAM
-designer: Sovann Kim
+designer: SPRITZ
 collection: Mobilier urbain
 category: Assise
 sub_category: 05.01 Banquette

@@ -1,6 +1,6 @@
 ---
 title: Banquette double BEAM
-designer: Sovann Kim
+designer: SPRITZ
 collection: Mobilier urbain
 category: Assise
 sub_category: 05.02 Banquette
