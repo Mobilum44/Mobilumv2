@@ -21,9 +21,9 @@ Chez MOBILUM, nous sommes connus pour :
   <li>Notre engagement à travers le parcours CEC Industrie</li>
 </ul>
 \n\n
-Mais saviez-vous que nous avons également *un réseau de 9 agences commerciales régionales* engagées à nos côtés ? Ce réseau de proximité est l’un de nos atouts majeurs, car il nous permet de vous accompagner localement, avec expertise, réactivité et passion.
+Mais saviez-vous que nous avons également <b>un réseau de 9 agences commerciales régionales</b> engagées à nos côtés ? Ce réseau de proximité est l’un de nos atouts majeurs, car il nous permet de vous accompagner localement, avec expertise, réactivité et passion.
 \n\n
-Notre objectif commun - *vous conseiller au plus près de vos projets.*
+Notre objectif commun - <b>vous conseiller au plus près de vos projets.</b>
 \n\n
 <h2>Nos agences partenaires par région</h2>
 \n\n
