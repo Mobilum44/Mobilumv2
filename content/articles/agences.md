@@ -79,7 +79,7 @@ Notre objectif commun - <b>vous conseiller au plus près de vos projets.</b>
 \n\n
 Et pour clôturer ce beau tour de France, bienvenue dans le vignoble nantais, pays du muscadet, dans l’atelier <strong>MOBILUM</strong>, là où tout est fabriqué à la main par notre équipe de 14 personnes.
 \n\n
-Vous pouvez joindre Sandrine par téléphone, par mail ou même venir visiter notre usine. Nous aimons recevoir du monde. Avec elle, il y a Christophe,son assistant (et aussi le gérant).
+Vous pouvez joindre Sandrine par téléphone, par mail ou même venir visiter notre usine. Nous aimons recevoir du monde. Avec elle, il y a aussi Christophe, le gérant.
 \n\n
 02 51 72 90 22 / contact@mobilum-france.com
 \n\n
