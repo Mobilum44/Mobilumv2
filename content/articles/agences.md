@@ -12,12 +12,14 @@ carousel:
 text: "
 Chez MOBILUM, nous sommes connus pour :
 \n\n
-Notre design
-Notre méthode artisanale
-Notre expertise en béton fibré ultra haute performance (BFUP)
-Notre agrément de formation
-Nos marchés nationaux Grands Comptes (SNCF, SGP)
-Notre engagement à travers le parcours CEC Industrie
+<ul>
+  <li>Notre design</li>
+  <li>Notre méthode artisanale</li>
+  <li>Notre expertise en béton fibré ultra haute performance (BFUP)</li>
+  <li>Notre agrément de formation</li>
+  <li>Nos marchés nationaux Grands Comptes (SNCF, SGP)</li>
+  <li>Notre engagement à travers le parcours CEC Industrie</li>
+</ul>
 \n\n
 Mais saviez-vous que nous avons également un réseau de 9 agences commerciales régionales engagées à nos côtés ? Ce réseau de proximité est l’un de nos atouts majeurs, car il nous permet de vous accompagner localement, avec expertise, réactivité et passion.
 \n\n
@@ -29,8 +31,7 @@ Notre objectif commun - vous conseiller au plus près de vos projets.
 \n\n
 XLIGHT Aménagement urbain - À jamais les premiers ! 1ère référence Mobilum réalisée par un agent sur son secteur en 2016.
 \n\n
-02 32 95 88 87
-contact@xlightfrance.fr
+02 32 95 88 87 / contact@xlightfrance.fr
 \n\n
 <h3>CENTRE LOIRE</h3>
 \n\n
