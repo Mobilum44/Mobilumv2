@@ -1,7 +1,7 @@
 ---
 type: 
-cover_title: "Tour de France des Agences Commerciales partenaires de Mobilum"
-title: "Tour de France des Agences"
+cover_title: "Tour de France des Agences"
+title: "Tour de France des Agences Commerciales partenaires de Mobilum"
 sub_title: "Un réseau régional au service du mobilier urbain français"
 order: "7"
 cover_image: "/references/cover_image/agences_0.jpg"
